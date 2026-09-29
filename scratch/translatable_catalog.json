@@ -1,0 +1,2918 @@
+[
+  {
+    "key": "txt_national_weather_analytics_national",
+    "tag": "title",
+    "text": "National Weather Analytics | National Weather Big Data Analytics Platform",
+    "count": 1
+  },
+  {
+    "key": "hdr_nwa",
+    "tag": "h1",
+    "text": "NWA",
+    "count": 1
+  },
+  {
+    "key": "txt_english",
+    "tag": "span",
+    "text": "English",
+    "count": 3
+  },
+  {
+    "key": "txt_regional_languages",
+    "tag": "span",
+    "text": "Regional Languages",
+    "count": 1
+  },
+  {
+    "key": "txt_6_languages",
+    "tag": "span",
+    "text": "6 Languages",
+    "count": 1
+  },
+  {
+    "key": "txt_global_default",
+    "tag": "span",
+    "text": "Global Default",
+    "count": 1
+  },
+  {
+    "key": "txt_hindi",
+    "tag": "span",
+    "text": "Hindi",
+    "count": 1
+  },
+  {
+    "key": "txt_marathi",
+    "tag": "span",
+    "text": "Marathi",
+    "count": 1
+  },
+  {
+    "key": "txt_bengali",
+    "tag": "span",
+    "text": "Bengali",
+    "count": 1
+  },
+  {
+    "key": "txt_tamil",
+    "tag": "span",
+    "text": "Tamil",
+    "count": 1
+  },
+  {
+    "key": "txt_telugu",
+    "tag": "span",
+    "text": "Telugu",
+    "count": 1
+  },
+  {
+    "key": "txt_new_delhi",
+    "tag": "span",
+    "text": "New Delhi",
+    "count": 1
+  },
+  {
+    "key": "txt_cached",
+    "tag": "span",
+    "text": "Cached",
+    "count": 1
+  },
+  {
+    "key": "txt_delhi_india",
+    "tag": "div",
+    "text": "Delhi, India",
+    "count": 1
+  },
+  {
+    "key": "txt_ist",
+    "tag": "span",
+    "text": "IST",
+    "count": 1
+  },
+  {
+    "key": "txt_loading_weather",
+    "tag": "div",
+    "text": "Loading Weather...",
+    "count": 1
+  },
+  {
+    "key": "txt_imd_radar_feed",
+    "tag": "span",
+    "text": "IMD Radar Feed",
+    "count": 1
+  },
+  {
+    "key": "txt_now",
+    "tag": "span",
+    "text": "Now",
+    "count": 1
+  },
+  {
+    "key": "txt_01_00_am",
+    "tag": "span",
+    "text": "01:00 AM",
+    "count": 1
+  },
+  {
+    "key": "txt_02_00_am",
+    "tag": "span",
+    "text": "02:00 AM",
+    "count": 1
+  },
+  {
+    "key": "txt_03_00_am",
+    "tag": "span",
+    "text": "03:00 AM",
+    "count": 1
+  },
+  {
+    "key": "txt_04_00_am",
+    "tag": "span",
+    "text": "04:00 AM",
+    "count": 1
+  },
+  {
+    "key": "txt_mm",
+    "tag": "div",
+    "text": "-- mm",
+    "count": 1
+  },
+  {
+    "key": "txt_current_precip",
+    "tag": "div",
+    "text": "Current precip",
+    "count": 1
+  },
+  {
+    "key": "txt_rel_moisture",
+    "tag": "div",
+    "text": "Rel moisture",
+    "count": 1
+  },
+  {
+    "key": "txt_km_h",
+    "tag": "div",
+    "text": "-- km/h",
+    "count": 1
+  },
+  {
+    "key": "txt_hpa",
+    "tag": "div",
+    "text": "-- hPa",
+    "count": 1
+  },
+  {
+    "key": "txt_barometric",
+    "tag": "div",
+    "text": "Barometric",
+    "count": 1
+  },
+  {
+    "key": "txt_moderate",
+    "tag": "span",
+    "text": "Moderate",
+    "count": 1
+  },
+  {
+    "key": "txt_10_km",
+    "tag": "div",
+    "text": "10 km",
+    "count": 1
+  },
+  {
+    "key": "txt_clarity",
+    "tag": "div",
+    "text": "Clarity",
+    "count": 1
+  },
+  {
+    "key": "txt_dawn_ist",
+    "tag": "div",
+    "text": "Dawn (IST)",
+    "count": 1
+  },
+  {
+    "key": "txt_dusk_ist",
+    "tag": "div",
+    "text": "Dusk (IST)",
+    "count": 1
+  },
+  {
+    "key": "txt_tip",
+    "tag": "strong",
+    "text": "Tip:",
+    "count": 1
+  },
+  {
+    "key": "txt_india",
+    "tag": "span",
+    "text": "India",
+    "count": 1
+  },
+  {
+    "key": "txt_lat_22_8000_n",
+    "tag": "span",
+    "text": "Lat: 22.8000° N,",
+    "count": 1
+  },
+  {
+    "key": "txt_lng_82_5000_e",
+    "tag": "span",
+    "text": "Lng: 82.5000° E",
+    "count": 1
+  },
+  {
+    "key": "txt_today_s_24_hour_report",
+    "tag": "span",
+    "text": "Today's 24-Hour Report",
+    "count": 1
+  },
+  {
+    "key": "txt_click_any_hour_for_detailed_conditi",
+    "tag": "span",
+    "text": "Click any hour for detailed conditions",
+    "count": 1
+  },
+  {
+    "key": "txt_retrieving_meteorological_telemetry",
+    "tag": "span",
+    "text": "Retrieving meteorological telemetry for selected date...",
+    "count": 1
+  },
+  {
+    "key": "btn_today_24h",
+    "tag": "button",
+    "text": "Today (24h)",
+    "count": 2
+  },
+  {
+    "key": "btn_3_days",
+    "tag": "button",
+    "text": "3 Days",
+    "count": 1
+  },
+  {
+    "key": "btn_7_days",
+    "tag": "button",
+    "text": "7 Days",
+    "count": 2
+  },
+  {
+    "key": "btn_10_days",
+    "tag": "button",
+    "text": "10 Days",
+    "count": 1
+  },
+  {
+    "key": "txt_10_day_forecast_table_view",
+    "tag": "span",
+    "text": "10-Day Forecast Table View",
+    "count": 1
+  },
+  {
+    "key": "txt_delhi",
+    "tag": "span",
+    "text": "Delhi",
+    "count": 1
+  },
+  {
+    "key": "txt_state_overview",
+    "tag": "span",
+    "text": "State Overview",
+    "count": 1
+  },
+  {
+    "key": "txt_10_day_extended_weather_forecast",
+    "tag": "span",
+    "text": "10-Day Extended Weather Forecast",
+    "count": 1
+  },
+  {
+    "key": "p_daily_meteorological_forecast_expec",
+    "tag": "p",
+    "text": "Daily meteorological forecast, expected temperature ranges, and rain probabilities",
+    "count": 1
+  },
+  {
+    "key": "txt_download_csv",
+    "tag": "span",
+    "text": "Download CSV",
+    "count": 1
+  },
+  {
+    "key": "txt_10_day_temperature_rain_forecast_tr",
+    "tag": "span",
+    "text": "10-Day Temperature & Rain Forecast Trend",
+    "count": 1
+  },
+  {
+    "key": "txt_max_temp_c",
+    "tag": "span",
+    "text": "Max Temp (°C)",
+    "count": 1
+  },
+  {
+    "key": "txt_min_temp_c",
+    "tag": "span",
+    "text": "Min Temp (°C)",
+    "count": 1
+  },
+  {
+    "key": "txt_ml_trend_c",
+    "tag": "span",
+    "text": "ML Trend (°C)",
+    "count": 1
+  },
+  {
+    "key": "txt_rain_probability",
+    "tag": "span",
+    "text": "Rain Probability (%)",
+    "count": 1
+  },
+  {
+    "key": "th_date_day",
+    "tag": "th",
+    "text": "DATE & DAY",
+    "count": 1
+  },
+  {
+    "key": "th_condition",
+    "tag": "th",
+    "text": "CONDITION",
+    "count": 1
+  },
+  {
+    "key": "th_max_temp",
+    "tag": "th",
+    "text": "MAX TEMP",
+    "count": 1
+  },
+  {
+    "key": "th_min_temp",
+    "tag": "th",
+    "text": "MIN TEMP",
+    "count": 1
+  },
+  {
+    "key": "th_feels_like",
+    "tag": "th",
+    "text": "FEELS LIKE",
+    "count": 1
+  },
+  {
+    "key": "th_humidity",
+    "tag": "th",
+    "text": "HUMIDITY",
+    "count": 1
+  },
+  {
+    "key": "th_wind_speed",
+    "tag": "th",
+    "text": "WIND SPEED",
+    "count": 1
+  },
+  {
+    "key": "th_wind_dir",
+    "tag": "th",
+    "text": "WIND DIR",
+    "count": 1
+  },
+  {
+    "key": "th_rain_probability",
+    "tag": "th",
+    "text": "RAIN PROBABILITY",
+    "count": 1
+  },
+  {
+    "key": "th_temp_range",
+    "tag": "th",
+    "text": "TEMP RANGE",
+    "count": 1
+  },
+  {
+    "key": "txt_4_day_extended_forecast_outlook",
+    "tag": "span",
+    "text": "4-Day Extended Forecast Outlook",
+    "count": 1
+  },
+  {
+    "key": "hdr_download_weather_intelligence_repor",
+    "tag": "h4",
+    "text": "Download Weather Intelligence Report",
+    "count": 1
+  },
+  {
+    "key": "p_export_current_meteorological_obser",
+    "tag": "p",
+    "text": "Export current meteorological observations, 4-day forecast data, and station records.",
+    "count": 1
+  },
+  {
+    "key": "hdr_set_personal_weather_alert",
+    "tag": "h3",
+    "text": "Set Personal Weather Alert",
+    "count": 1
+  },
+  {
+    "key": "txt_automated_monitor",
+    "tag": "span",
+    "text": "Automated Monitor",
+    "count": 1
+  },
+  {
+    "key": "p_configure_an_automated_trigger_for_",
+    "tag": "p",
+    "text": "Configure an automated trigger for your area. The platform monitors real-time telemetry and sends instant browser notifications and audio sirens when dangerous weather thresholds are reached.",
+    "count": 1
+  },
+  {
+    "key": "opt_torrential_heavy_rain_mm_h",
+    "tag": "option",
+    "text": "Torrential / Heavy Rain (mm/h)",
+    "count": 1
+  },
+  {
+    "key": "opt_extreme_heatwave_c",
+    "tag": "option",
+    "text": "Extreme Heatwave (°C)",
+    "count": 1
+  },
+  {
+    "key": "opt_severe_thunderstorm_gale_km_h",
+    "tag": "option",
+    "text": "Severe Thunderstorm / Gale (km/h)",
+    "count": 1
+  },
+  {
+    "key": "opt_severe_cold_wave_c",
+    "tag": "option",
+    "text": "Severe Cold Wave (°C)",
+    "count": 1
+  },
+  {
+    "key": "txt_mm_h",
+    "tag": "span",
+    "text": "mm/h",
+    "count": 1
+  },
+  {
+    "key": "txt_imd_criterion_moderate_5_15mm_h_hea",
+    "tag": "div",
+    "text": "IMD criterion: Moderate (5-15mm/h), Heavy (15-64mm/h), Very Heavy (>64mm/h)",
+    "count": 1
+  },
+  {
+    "key": "opt_emergency_broadcast_siren_eas_853_9",
+    "tag": "option",
+    "text": "Emergency Broadcast Siren (EAS 853/960Hz)",
+    "count": 1
+  },
+  {
+    "key": "opt_municipal_disaster_alarm_wailing_si",
+    "tag": "option",
+    "text": "Municipal Disaster Alarm (Wailing Siren)",
+    "count": 1
+  },
+  {
+    "key": "opt_high_alert_pulse_staccato",
+    "tag": "option",
+    "text": "High-Alert Pulse Staccato",
+    "count": 1
+  },
+  {
+    "key": "opt_radar_sonar_ping",
+    "tag": "option",
+    "text": "Radar Sonar Ping",
+    "count": 1
+  },
+  {
+    "key": "opt_melodic_advisory_bell",
+    "tag": "option",
+    "text": "Melodic Advisory Bell",
+    "count": 1
+  },
+  {
+    "key": "txt_notification_channels",
+    "tag": "div",
+    "text": "Notification Channels:",
+    "count": 1
+  },
+  {
+    "key": "hdr_my_active_alerts",
+    "tag": "h3",
+    "text": "My Active Alerts",
+    "count": 1
+  },
+  {
+    "key": "p_your_active_early_warning_subscript",
+    "tag": "p",
+    "text": "Your active early-warning subscriptions. Alerts are continuously cross-checked against incoming Open-Meteo satellite feeds and numerical prediction models.",
+    "count": 1
+  },
+  {
+    "key": "p_real_time_radar_tracking_of_regions",
+    "tag": "p",
+    "text": "Real-time radar tracking of regions currently under Red Warnings, Orange Alerts, or Yellow Watches for heavy rain, heatwaves, cyclones, or floods.",
+    "count": 1
+  },
+  {
+    "key": "txt_hazard",
+    "tag": "span",
+    "text": "Hazard:",
+    "count": 1
+  },
+  {
+    "key": "btn_all",
+    "tag": "button",
+    "text": "All",
+    "count": 3
+  },
+  {
+    "key": "txt_severity",
+    "tag": "span",
+    "text": "Severity:",
+    "count": 1
+  },
+  {
+    "key": "btn_red_warning",
+    "tag": "button",
+    "text": "Red (Warning)",
+    "count": 1
+  },
+  {
+    "key": "btn_orange_alert",
+    "tag": "button",
+    "text": "Orange (Alert)",
+    "count": 1
+  },
+  {
+    "key": "btn_yellow_watch",
+    "tag": "button",
+    "text": "Yellow (Watch)",
+    "count": 1
+  },
+  {
+    "key": "txt_national_disaster_guidelines",
+    "tag": "span",
+    "text": "National Disaster Guidelines",
+    "count": 1
+  },
+  {
+    "key": "txt_red_warning",
+    "tag": "div",
+    "text": "RED WARNING",
+    "count": 1
+  },
+  {
+    "key": "txt_take_action",
+    "tag": "strong",
+    "text": "Take Action:",
+    "count": 1
+  },
+  {
+    "key": "txt_orange_alert",
+    "tag": "div",
+    "text": "ORANGE ALERT",
+    "count": 1
+  },
+  {
+    "key": "txt_be_prepared",
+    "tag": "strong",
+    "text": "Be Prepared:",
+    "count": 1
+  },
+  {
+    "key": "txt_yellow_watch",
+    "tag": "div",
+    "text": "YELLOW WATCH",
+    "count": 1
+  },
+  {
+    "key": "txt_be_updated",
+    "tag": "strong",
+    "text": "Be Updated:",
+    "count": 1
+  },
+  {
+    "key": "txt_green_status",
+    "tag": "div",
+    "text": "GREEN STATUS",
+    "count": 1
+  },
+  {
+    "key": "txt_no_warning",
+    "tag": "strong",
+    "text": "No Warning:",
+    "count": 1
+  },
+  {
+    "key": "txt_ndrf_national_disaster_helpline",
+    "tag": "strong",
+    "text": "NDRF National Disaster Helpline:",
+    "count": 1
+  },
+  {
+    "key": "txt_national_all_emergency_helpline",
+    "tag": "strong",
+    "text": "National All-Emergency Helpline:",
+    "count": 1
+  },
+  {
+    "key": "txt_imd_weather_service_cell",
+    "tag": "strong",
+    "text": "IMD Weather Service Cell:",
+    "count": 1
+  },
+  {
+    "key": "txt_registered_community_incident_repor",
+    "tag": "span",
+    "text": "Registered Community Incident Reports & Ground Bulletins",
+    "count": 1
+  },
+  {
+    "key": "p_real_time_ground_incident_reports_r",
+    "tag": "p",
+    "text": "Real-time ground incident reports registered by citizens nationwide. Synchronized across all users in real time.",
+    "count": 1
+  },
+  {
+    "key": "btn_verified",
+    "tag": "button",
+    "text": "Verified",
+    "count": 3
+  },
+  {
+    "key": "btn_pending",
+    "tag": "button",
+    "text": "Pending",
+    "count": 1
+  },
+  {
+    "key": "btn_all_reports",
+    "tag": "button",
+    "text": "All Reports",
+    "count": 2
+  },
+  {
+    "key": "btn_pending_verification",
+    "tag": "button",
+    "text": "Pending Verification",
+    "count": 3
+  },
+  {
+    "key": "txt_un_gdacs_disaster_alerting",
+    "tag": "strong",
+    "text": "UN GDACS Disaster Alerting",
+    "count": 1
+  },
+  {
+    "key": "txt_google_news_rss",
+    "tag": "strong",
+    "text": "Google News RSS",
+    "count": 1
+  },
+  {
+    "key": "txt_x_twitter_api_v2",
+    "tag": "strong",
+    "text": "X / Twitter (API v2)",
+    "count": 1
+  },
+  {
+    "key": "txt_instagram_graph_api",
+    "tag": "strong",
+    "text": "Instagram (Graph API)",
+    "count": 1
+  },
+  {
+    "key": "txt_imd_feeds",
+    "tag": "strong",
+    "text": "IMD Feeds",
+    "count": 1
+  },
+  {
+    "key": "txt_imd",
+    "tag": "span",
+    "text": "#IMD",
+    "count": 1
+  },
+  {
+    "key": "txt_cyclonealert",
+    "tag": "span",
+    "text": "#CycloneAlert",
+    "count": 1
+  },
+  {
+    "key": "txt_mumbairains",
+    "tag": "span",
+    "text": "#MumbaiRains",
+    "count": 1
+  },
+  {
+    "key": "txt_delhiweather",
+    "tag": "span",
+    "text": "#DelhiWeather",
+    "count": 1
+  },
+  {
+    "key": "txt_fogalert",
+    "tag": "span",
+    "text": "#FogAlert",
+    "count": 1
+  },
+  {
+    "key": "txt_duststorm",
+    "tag": "span",
+    "text": "#DustStorm",
+    "count": 1
+  },
+  {
+    "key": "txt_highwinds",
+    "tag": "span",
+    "text": "#HighWinds",
+    "count": 1
+  },
+  {
+    "key": "txt_chennairains",
+    "tag": "span",
+    "text": "#ChennaiRains",
+    "count": 1
+  },
+  {
+    "key": "txt_monsoon",
+    "tag": "span",
+    "text": "#Monsoon",
+    "count": 1
+  },
+  {
+    "key": "txt_show_all",
+    "tag": "span",
+    "text": "Show All",
+    "count": 1
+  },
+  {
+    "key": "txt_sources",
+    "tag": "strong",
+    "text": "Sources:",
+    "count": 1
+  },
+  {
+    "key": "txt_classification",
+    "tag": "strong",
+    "text": "Classification:",
+    "count": 1
+  },
+  {
+    "key": "txt_geotargeting",
+    "tag": "strong",
+    "text": "Geotargeting:",
+    "count": 1
+  },
+  {
+    "key": "txt_update_cadence",
+    "tag": "strong",
+    "text": "Update Cadence:",
+    "count": 1
+  },
+  {
+    "key": "lnk_privacy_policy",
+    "tag": "a",
+    "text": "Privacy Policy",
+    "count": 2
+  },
+  {
+    "key": "lnk_terms_conditions",
+    "tag": "a",
+    "text": "Terms & Conditions",
+    "count": 1
+  },
+  {
+    "key": "p_real_time_meteorological_intelligen",
+    "tag": "p",
+    "text": "Real-time meteorological intelligence from citizen reports, social streams & national stations",
+    "count": 1
+  },
+  {
+    "key": "txt_total_monitored_events",
+    "tag": "div",
+    "text": "Total Monitored Events",
+    "count": 1
+  },
+  {
+    "key": "txt_citizen_field_reports",
+    "tag": "div",
+    "text": "Citizen Field Reports",
+    "count": 1
+  },
+  {
+    "key": "txt_social_advisory_signals",
+    "tag": "div",
+    "text": "Social Advisory Signals",
+    "count": 1
+  },
+  {
+    "key": "txt_data_verification_rate",
+    "tag": "div",
+    "text": "Data Verification Rate",
+    "count": 1
+  },
+  {
+    "key": "p_verified_atmospheric_snapshot_4_day",
+    "tag": "p",
+    "text": "Verified atmospheric snapshot, 4-day predictive window, and station telemetry formatted for administrative documentation, engineering, and civil preparedness.",
+    "count": 1
+  },
+  {
+    "key": "txt_new_delhi_delhi",
+    "tag": "div",
+    "text": "New Delhi, Delhi",
+    "count": 1
+  },
+  {
+    "key": "txt_coordinates_lat_28_6139_lon_77_2090",
+    "tag": "div",
+    "text": "Coordinates: Lat 28.6139, Lon 77.2090 | Sync: Live Open-Meteo & IMD Models",
+    "count": 1
+  },
+  {
+    "key": "txt_1_current_surface_meteorological_ob",
+    "tag": "span",
+    "text": "1. Current Surface Meteorological Observations",
+    "count": 1
+  },
+  {
+    "key": "th_meteorological_parameter",
+    "tag": "th",
+    "text": "Meteorological Parameter",
+    "count": 1
+  },
+  {
+    "key": "th_sensor_observation_remarks",
+    "tag": "th",
+    "text": "Sensor & Observation Remarks",
+    "count": 1
+  },
+  {
+    "key": "txt_2_4_day_forward_forecast_outlook",
+    "tag": "span",
+    "text": "2. 4-Day Forward Forecast Outlook",
+    "count": 1
+  },
+  {
+    "key": "th_high_low_temp",
+    "tag": "th",
+    "text": "High / Low Temp",
+    "count": 1
+  },
+  {
+    "key": "th_rainfall_mm",
+    "tag": "th",
+    "text": "Rainfall (mm)",
+    "count": 1
+  },
+  {
+    "key": "th_peak_wind_km_h",
+    "tag": "th",
+    "text": "Peak Wind (km/h)",
+    "count": 1
+  },
+  {
+    "key": "th_max_uv_index",
+    "tag": "th",
+    "text": "Max UV Index",
+    "count": 1
+  },
+  {
+    "key": "p_this_report_compiles_sensor_feeds_c",
+    "tag": "p",
+    "text": "This report compiles sensor feeds calibrated against standard World Meteorological Organization (WMO) benchmarks. Numerical forecasts are synthesized from open observational models. Data is provided for public interest and situational awareness.",
+    "count": 1
+  },
+  {
+    "key": "txt_official_distribution_national_weat",
+    "tag": "span",
+    "text": "Official Distribution • National Weather Analytics",
+    "count": 1
+  },
+  {
+    "key": "lnk_terms_of_use",
+    "tag": "a",
+    "text": "Terms of Use",
+    "count": 1
+  },
+  {
+    "key": "txt_log_in_to_admin_portal",
+    "tag": "span",
+    "text": "Log In to Admin Portal",
+    "count": 1
+  },
+  {
+    "key": "txt_admin_portal",
+    "tag": "span",
+    "text": "Admin Portal",
+    "count": 1
+  },
+  {
+    "key": "txt_weather_intelligence_incident_moder",
+    "tag": "span",
+    "text": "| Weather Intelligence & Incident Moderation",
+    "count": 1
+  },
+  {
+    "key": "p_central_operational_dashboard_to_re",
+    "tag": "p",
+    "text": "Central operational dashboard to review incoming citizen weather reports, analyze AI credibility scores, resolve duplicate clusters, and verify official meteorological observations.",
+    "count": 1
+  },
+  {
+    "key": "txt_master_admin",
+    "tag": "span",
+    "text": "Master Admin",
+    "count": 1
+  },
+  {
+    "key": "txt_logout",
+    "tag": "span",
+    "text": "Logout",
+    "count": 1
+  },
+  {
+    "key": "txt_live_sync_active",
+    "tag": "span",
+    "text": "LIVE SYNC ACTIVE",
+    "count": 1
+  },
+  {
+    "key": "txt_big_data_pipeline",
+    "tag": "span",
+    "text": "Big Data Pipeline",
+    "count": 1
+  },
+  {
+    "key": "txt_refresh_queue",
+    "tag": "span",
+    "text": "Refresh Queue",
+    "count": 1
+  },
+  {
+    "key": "txt_across_all_states_uts",
+    "tag": "div",
+    "text": "Across All States & UTs",
+    "count": 1
+  },
+  {
+    "key": "txt_verified_observations",
+    "tag": "div",
+    "text": "Verified Observations",
+    "count": 2
+  },
+  {
+    "key": "txt_credibility_flags_discrepancies",
+    "tag": "div",
+    "text": "Credibility Flags & Discrepancies",
+    "count": 1
+  },
+  {
+    "key": "txt_location_time_clusters",
+    "tag": "div",
+    "text": "Location & Time Clusters",
+    "count": 1
+  },
+  {
+    "key": "txt_incident_filters_spatial_search",
+    "tag": "span",
+    "text": "Incident Filters & Spatial Search",
+    "count": 1
+  },
+  {
+    "key": "txt_to",
+    "tag": "span",
+    "text": "to",
+    "count": 1
+  },
+  {
+    "key": "btn_all_time",
+    "tag": "button",
+    "text": "All Time",
+    "count": 1
+  },
+  {
+    "key": "btn_30_days",
+    "tag": "button",
+    "text": "30 Days",
+    "count": 1
+  },
+  {
+    "key": "opt_all_weather_event_types",
+    "tag": "option",
+    "text": "All Weather Event Types",
+    "count": 1
+  },
+  {
+    "key": "opt_heavy_rain_downpour",
+    "tag": "option",
+    "text": "Heavy Rain / Downpour",
+    "count": 2
+  },
+  {
+    "key": "opt_thunderstorm_lightning",
+    "tag": "option",
+    "text": "Thunderstorm & Lightning",
+    "count": 2
+  },
+  {
+    "key": "opt_flash_flood_waterlogging",
+    "tag": "option",
+    "text": "Flash Flood / Waterlogging",
+    "count": 2
+  },
+  {
+    "key": "opt_heatwave_extreme_heat",
+    "tag": "option",
+    "text": "Heatwave / Extreme Heat",
+    "count": 2
+  },
+  {
+    "key": "opt_dense_fog_low_visibility",
+    "tag": "option",
+    "text": "Dense Fog / Low Visibility",
+    "count": 2
+  },
+  {
+    "key": "opt_dust_storm_sandstorm",
+    "tag": "option",
+    "text": "Dust Storm / Sandstorm",
+    "count": 2
+  },
+  {
+    "key": "opt_strong_winds_gale",
+    "tag": "option",
+    "text": "Strong Winds / Gale",
+    "count": 2
+  },
+  {
+    "key": "opt_hailstorm",
+    "tag": "option",
+    "text": "Hailstorm",
+    "count": 2
+  },
+  {
+    "key": "opt_cyclone_deep_depression",
+    "tag": "option",
+    "text": "Cyclone / Deep Depression",
+    "count": 2
+  },
+  {
+    "key": "opt_other_severe_phenomenon",
+    "tag": "option",
+    "text": "Other Severe Phenomenon",
+    "count": 2
+  },
+  {
+    "key": "opt_all_states_union_territories",
+    "tag": "option",
+    "text": "All States & Union Territories",
+    "count": 1
+  },
+  {
+    "key": "opt_all_statuses",
+    "tag": "option",
+    "text": "All Statuses",
+    "count": 1
+  },
+  {
+    "key": "opt_flagged_fake_misleading",
+    "tag": "option",
+    "text": "Flagged Fake / Misleading",
+    "count": 1
+  },
+  {
+    "key": "opt_duplicate_detected",
+    "tag": "option",
+    "text": "Duplicate Detected",
+    "count": 1
+  },
+  {
+    "key": "opt_rejected_submissions",
+    "tag": "option",
+    "text": "Rejected Submissions",
+    "count": 1
+  },
+  {
+    "key": "opt_all_ai_risk_levels",
+    "tag": "option",
+    "text": "All AI Risk Levels",
+    "count": 1
+  },
+  {
+    "key": "opt_low_risk_credible",
+    "tag": "option",
+    "text": "Low Risk (Credible)",
+    "count": 1
+  },
+  {
+    "key": "opt_medium_risk_review_needed",
+    "tag": "option",
+    "text": "Medium Risk (Review Needed)",
+    "count": 1
+  },
+  {
+    "key": "opt_high_risk_discrepancy",
+    "tag": "option",
+    "text": "High Risk (Discrepancy)",
+    "count": 1
+  },
+  {
+    "key": "txt_flagged_fake",
+    "tag": "span",
+    "text": "Flagged Fake",
+    "count": 1
+  },
+  {
+    "key": "txt_0_records",
+    "tag": "span",
+    "text": "0 Records",
+    "count": 1
+  },
+  {
+    "key": "th_timestamp_ist",
+    "tag": "th",
+    "text": "Timestamp (IST)",
+    "count": 1
+  },
+  {
+    "key": "th_source_trust",
+    "tag": "th",
+    "text": "Source & Trust",
+    "count": 1
+  },
+  {
+    "key": "th_event_category",
+    "tag": "th",
+    "text": "Event Category",
+    "count": 1
+  },
+  {
+    "key": "th_location_gps",
+    "tag": "th",
+    "text": "Location & GPS",
+    "count": 1
+  },
+  {
+    "key": "th_observation_evidence",
+    "tag": "th",
+    "text": "Observation & Evidence",
+    "count": 1
+  },
+  {
+    "key": "th_credibility_score",
+    "tag": "th",
+    "text": "Credibility Score",
+    "count": 1
+  },
+  {
+    "key": "th_verification_status",
+    "tag": "th",
+    "text": "Verification Status",
+    "count": 1
+  },
+  {
+    "key": "th_actions",
+    "tag": "th",
+    "text": "Actions",
+    "count": 2
+  },
+  {
+    "key": "txt_monitored_hazard_zones",
+    "tag": "div",
+    "text": "Monitored Hazard Zones",
+    "count": 1
+  },
+  {
+    "key": "txt_highest_hazard_priority",
+    "tag": "div",
+    "text": "Highest Hazard Priority",
+    "count": 1
+  },
+  {
+    "key": "txt_preparedness_horizon",
+    "tag": "div",
+    "text": "Preparedness Horizon",
+    "count": 1
+  },
+  {
+    "key": "txt_active_subscriptions",
+    "tag": "div",
+    "text": "Active Subscriptions",
+    "count": 1
+  },
+  {
+    "key": "txt_broadcast_official_emergency_weathe",
+    "tag": "span",
+    "text": "Broadcast Official Emergency Weather Warning",
+    "count": 1
+  },
+  {
+    "key": "p_dispatches_an_immediate_authoritati",
+    "tag": "p",
+    "text": "Dispatches an immediate authoritative warning across the national alerts network and alerts all connected users.",
+    "count": 1
+  },
+  {
+    "key": "txt_detect_device_gps",
+    "tag": "span",
+    "text": "Detect Device GPS",
+    "count": 1
+  },
+  {
+    "key": "lbl_latitude",
+    "tag": "label",
+    "text": "Latitude",
+    "count": 1
+  },
+  {
+    "key": "lbl_longitude",
+    "tag": "label",
+    "text": "Longitude",
+    "count": 1
+  },
+  {
+    "key": "lbl_hazard_category",
+    "tag": "label",
+    "text": "Hazard Category *",
+    "count": 1
+  },
+  {
+    "key": "opt_heavy_rain_inundation",
+    "tag": "option",
+    "text": "Heavy Rain / Inundation",
+    "count": 1
+  },
+  {
+    "key": "opt_extreme_heatwave",
+    "tag": "option",
+    "text": "Extreme Heatwave",
+    "count": 1
+  },
+  {
+    "key": "opt_cyclone_storm",
+    "tag": "option",
+    "text": "Cyclone / Storm",
+    "count": 1
+  },
+  {
+    "key": "opt_flash_flood",
+    "tag": "option",
+    "text": "Flash Flood",
+    "count": 1
+  },
+  {
+    "key": "opt_severe_thunderstorm_gale",
+    "tag": "option",
+    "text": "Severe Thunderstorm & Gale",
+    "count": 2
+  },
+  {
+    "key": "opt_severe_cold_wave",
+    "tag": "option",
+    "text": "Severe Cold Wave",
+    "count": 1
+  },
+  {
+    "key": "lbl_warning_level",
+    "tag": "label",
+    "text": "Warning Level *",
+    "count": 1
+  },
+  {
+    "key": "opt_red_take_action",
+    "tag": "option",
+    "text": "RED (Take Action)",
+    "count": 1
+  },
+  {
+    "key": "opt_orange_be_prepared",
+    "tag": "option",
+    "text": "ORANGE (Be Prepared)",
+    "count": 1
+  },
+  {
+    "key": "opt_yellow_be_updated",
+    "tag": "option",
+    "text": "YELLOW (Be Updated)",
+    "count": 1
+  },
+  {
+    "key": "lbl_warning_headline",
+    "tag": "label",
+    "text": "Warning Headline *",
+    "count": 1
+  },
+  {
+    "key": "lbl_public_safety_advisory",
+    "tag": "label",
+    "text": "Public Safety Advisory",
+    "count": 1
+  },
+  {
+    "key": "lbl_validity_horizon",
+    "tag": "label",
+    "text": "Validity Horizon",
+    "count": 1
+  },
+  {
+    "key": "opt_next_12_hours",
+    "tag": "option",
+    "text": "Next 12 Hours",
+    "count": 1
+  },
+  {
+    "key": "opt_next_24_hours",
+    "tag": "option",
+    "text": "Next 24 Hours",
+    "count": 1
+  },
+  {
+    "key": "opt_next_48_hours",
+    "tag": "option",
+    "text": "Next 48 Hours",
+    "count": 1
+  },
+  {
+    "key": "opt_next_72_hours",
+    "tag": "option",
+    "text": "Next 72 Hours",
+    "count": 1
+  },
+  {
+    "key": "hdr_active_national_severe_weather_aler",
+    "tag": "h4",
+    "text": "Active National Severe Weather Alerts",
+    "count": 1
+  },
+  {
+    "key": "txt_refresh_alerts",
+    "tag": "span",
+    "text": "Refresh Alerts",
+    "count": 1
+  },
+  {
+    "key": "th_location_gps_2",
+    "tag": "th",
+    "text": "Location / GPS",
+    "count": 1
+  },
+  {
+    "key": "th_hazard",
+    "tag": "th",
+    "text": "Hazard",
+    "count": 1
+  },
+  {
+    "key": "th_severity",
+    "tag": "th",
+    "text": "Severity",
+    "count": 1
+  },
+  {
+    "key": "th_headline_advisory",
+    "tag": "th",
+    "text": "Headline & Advisory",
+    "count": 1
+  },
+  {
+    "key": "th_validity",
+    "tag": "th",
+    "text": "Validity",
+    "count": 1
+  },
+  {
+    "key": "th_authority",
+    "tag": "th",
+    "text": "Authority",
+    "count": 1
+  },
+  {
+    "key": "txt_rec_s",
+    "tag": "div",
+    "text": "-- rec/s",
+    "count": 1
+  },
+  {
+    "key": "txt_engine_apache_kafka_partition_buffe",
+    "tag": "div",
+    "text": "Engine: Apache Kafka Partition Buffer",
+    "count": 1
+  },
+  {
+    "key": "txt_capacity_10_000_in_memory",
+    "tag": "div",
+    "text": "Capacity: 10,000 in-memory",
+    "count": 1
+  },
+  {
+    "key": "txt_0_dropped_packets_100_qos",
+    "tag": "div",
+    "text": "0 Dropped Packets (100% QoS)",
+    "count": 1
+  },
+  {
+    "key": "txt_lt_15_ms",
+    "tag": "div",
+    "text": "&lt; 15 ms",
+    "count": 1
+  },
+  {
+    "key": "txt_ai_feature_vectorization_db_sync",
+    "tag": "div",
+    "text": "AI Feature Vectorization + DB Sync",
+    "count": 1
+  },
+  {
+    "key": "hdr_live_streaming_pipeline_architectur",
+    "tag": "h4",
+    "text": "Live Streaming Pipeline Architecture Topology",
+    "count": 1
+  },
+  {
+    "key": "lbl_active_ingestion_engine",
+    "tag": "label",
+    "text": "Active Ingestion Engine:",
+    "count": 1
+  },
+  {
+    "key": "opt_apache_kafka_4_partitions",
+    "tag": "option",
+    "text": "Apache Kafka (4 Partitions)",
+    "count": 1
+  },
+  {
+    "key": "opt_clickhouse_columnar_buffer",
+    "tag": "option",
+    "text": "ClickHouse Columnar Buffer",
+    "count": 1
+  },
+  {
+    "key": "opt_apache_spark_structured_streaming",
+    "tag": "option",
+    "text": "Apache Spark Structured Streaming",
+    "count": 1
+  },
+  {
+    "key": "opt_google_bigquery_real_time_stream",
+    "tag": "option",
+    "text": "Google BigQuery Real-Time Stream",
+    "count": 1
+  },
+  {
+    "key": "txt_edge_ingestion",
+    "tag": "div",
+    "text": "Edge Ingestion",
+    "count": 1
+  },
+  {
+    "key": "txt_imd_radars_bull_citizen_web_bull_so",
+    "tag": "div",
+    "text": "IMD Radars &bull; Citizen Web &bull; Social RSS",
+    "count": 1
+  },
+  {
+    "key": "txt_http_sse_rest",
+    "tag": "div",
+    "text": "HTTP / SSE / REST",
+    "count": 1
+  },
+  {
+    "key": "txt_kafka_buffer",
+    "tag": "div",
+    "text": "Kafka Buffer",
+    "count": 1
+  },
+  {
+    "key": "txt_4_ingestion_partitions_snappy_comp",
+    "tag": "div",
+    "text": "4 Ingestion Partitions (Snappy Comp.)",
+    "count": 1
+  },
+  {
+    "key": "txt_nwa_meteorological_stream",
+    "tag": "div",
+    "text": "nwa-meteorological-stream",
+    "count": 1
+  },
+  {
+    "key": "txt_ai_nlp_amp_cv_worker",
+    "tag": "div",
+    "text": "AI NLP &amp; CV Worker",
+    "count": 1
+  },
+  {
+    "key": "txt_tf_idf_vectorizer_bull_naive_bayes_",
+    "tag": "div",
+    "text": "TF-IDF Vectorizer &bull; Naive Bayes &bull; EXIF Forensics",
+    "count": 1
+  },
+  {
+    "key": "txt_multiprocess_async",
+    "tag": "div",
+    "text": "Multiprocess Async",
+    "count": 1
+  },
+  {
+    "key": "txt_storage_warehouse",
+    "tag": "div",
+    "text": "Storage Warehouse",
+    "count": 1
+  },
+  {
+    "key": "txt_sqlite_wal_partitioned_gis_analytic",
+    "tag": "div",
+    "text": "SQLite WAL + Partitioned GIS Analytics",
+    "count": 1
+  },
+  {
+    "key": "txt_acid_wal_high_qos",
+    "tag": "div",
+    "text": "ACID WAL High-QoS",
+    "count": 1
+  },
+  {
+    "key": "txt_partition_0_north",
+    "tag": "span",
+    "text": "Partition 0 (North)",
+    "count": 1
+  },
+  {
+    "key": "txt_lag_4ms",
+    "tag": "span",
+    "text": "Lag: 4ms",
+    "count": 1
+  },
+  {
+    "key": "txt_partition_1_south",
+    "tag": "span",
+    "text": "Partition 1 (South)",
+    "count": 1
+  },
+  {
+    "key": "txt_lag_6ms",
+    "tag": "span",
+    "text": "Lag: 6ms",
+    "count": 1
+  },
+  {
+    "key": "txt_partition_2_east",
+    "tag": "span",
+    "text": "Partition 2 (East)",
+    "count": 1
+  },
+  {
+    "key": "txt_lag_5ms",
+    "tag": "span",
+    "text": "Lag: 5ms",
+    "count": 1
+  },
+  {
+    "key": "txt_partition_3_west",
+    "tag": "span",
+    "text": "Partition 3 (West)",
+    "count": 1
+  },
+  {
+    "key": "txt_lag_3ms",
+    "tag": "span",
+    "text": "Lag: 3ms",
+    "count": 1
+  },
+  {
+    "key": "hdr_high_volume_stream_ingestion_scalab",
+    "tag": "h4",
+    "text": "High-Volume Stream Ingestion Scalability Benchmark",
+    "count": 1
+  },
+  {
+    "key": "p_simulate_high_velocity_severe_meteo",
+    "tag": "p",
+    "text": "Simulate high-velocity severe meteorological storm telemetry by blasting 1,000 continuous synthetic weather stream records across 4 message buffer partitions in under 2 seconds. Demonstrates asynchronous queuing, zero dropped packets, and real-time database batch commit.",
+    "count": 1
+  },
+  {
+    "key": "txt_ingesting_synthetic_meteorological_",
+    "tag": "span",
+    "text": "Ingesting Synthetic Meteorological Stream...",
+    "count": 1
+  },
+  {
+    "key": "txt_806_records_sec",
+    "tag": "strong",
+    "text": "806 records/sec",
+    "count": 1
+  },
+  {
+    "key": "txt_4_4_nodes",
+    "tag": "div",
+    "text": "4 / 4 Nodes",
+    "count": 1
+  },
+  {
+    "key": "txt_supervisor_self_healing_active",
+    "tag": "div",
+    "text": "Supervisor: Self-Healing Active",
+    "count": 1
+  },
+  {
+    "key": "txt_cores",
+    "tag": "div",
+    "text": "-- Cores",
+    "count": 1
+  },
+  {
+    "key": "txt_cpu_load_nominal",
+    "tag": "div",
+    "text": "CPU Load: Nominal",
+    "count": 1
+  },
+  {
+    "key": "txt_3_rarr_50_pods",
+    "tag": "div",
+    "text": "3 &rarr; 50 Pods",
+    "count": 2
+  },
+  {
+    "key": "txt_target_70_cpu_80_mem",
+    "tag": "div",
+    "text": "Target: 70% CPU / 80% Mem",
+    "count": 1
+  },
+  {
+    "key": "txt_nginx_least_conn",
+    "tag": "div",
+    "text": "NGINX Least-Conn",
+    "count": 2
+  },
+  {
+    "key": "txt_zero_downtime_rolling_reload",
+    "tag": "div",
+    "text": "Zero-Downtime Rolling Reload",
+    "count": 1
+  },
+  {
+    "key": "txt_simulate_worker_crash_and_observe_i",
+    "tag": "div",
+    "text": "Simulate worker crash and observe instant zero-downtime revival",
+    "count": 1
+  },
+  {
+    "key": "txt_v2_4_0_cloud_native",
+    "tag": "span",
+    "text": "v2.4.0-cloud-native",
+    "count": 1
+  },
+  {
+    "key": "txt_execute_parallel_stress_traffic_acr",
+    "tag": "div",
+    "text": "Execute parallel stress traffic across worker pool and verify horizontal speedup vs single-node architecture",
+    "count": 1
+  },
+  {
+    "key": "lbl_concurrency_load",
+    "tag": "label",
+    "text": "Concurrency Load:",
+    "count": 1
+  },
+  {
+    "key": "opt_500_concurrent_requests",
+    "tag": "option",
+    "text": "500 Concurrent Requests",
+    "count": 1
+  },
+  {
+    "key": "opt_1_000_concurrent_requests_standard",
+    "tag": "option",
+    "text": "1,000 Concurrent Requests (Standard)",
+    "count": 1
+  },
+  {
+    "key": "opt_2_500_concurrent_requests_heavy_loa",
+    "tag": "option",
+    "text": "2,500 Concurrent Requests (Heavy Load)",
+    "count": 1
+  },
+  {
+    "key": "opt_5_000_concurrent_requests_national_",
+    "tag": "option",
+    "text": "5,000 Concurrent Requests (National Surge)",
+    "count": 1
+  },
+  {
+    "key": "txt_processed_1_000_concurrent_requests",
+    "tag": "div",
+    "text": "Processed 1,000 concurrent requests across 4 workers in 74ms",
+    "count": 1
+  },
+  {
+    "key": "txt_throughput",
+    "tag": "div",
+    "text": "Throughput",
+    "count": 1
+  },
+  {
+    "key": "txt_req_s",
+    "tag": "div",
+    "text": "-- req/s",
+    "count": 1
+  },
+  {
+    "key": "txt_p50_median_latency",
+    "tag": "div",
+    "text": "P50 Median Latency",
+    "count": 1
+  },
+  {
+    "key": "txt_ms",
+    "tag": "div",
+    "text": "-- ms",
+    "count": 3
+  },
+  {
+    "key": "txt_sub_10ms_response",
+    "tag": "div",
+    "text": "Sub-10ms response",
+    "count": 1
+  },
+  {
+    "key": "txt_p95_latency_sla",
+    "tag": "div",
+    "text": "P95 Latency (SLA)",
+    "count": 1
+  },
+  {
+    "key": "txt_p99_tail_latency",
+    "tag": "div",
+    "text": "P99 Tail Latency",
+    "count": 1
+  },
+  {
+    "key": "txt_zero_queue_starvation",
+    "tag": "div",
+    "text": "Zero queue starvation",
+    "count": 1
+  },
+  {
+    "key": "txt_100_operational",
+    "tag": "strong",
+    "text": "100% Operational",
+    "count": 1
+  },
+  {
+    "key": "txt_70_cpu_15s_window",
+    "tag": "strong",
+    "text": "70% CPU / 15s window",
+    "count": 1
+  },
+  {
+    "key": "txt_scalability_stress_testing_engine_r",
+    "tag": "div",
+    "text": "Scalability Stress Testing Engine Ready",
+    "count": 1
+  },
+  {
+    "key": "txt_run_scalability_benchmark",
+    "tag": "strong",
+    "text": "Run Scalability Benchmark",
+    "count": 1
+  },
+  {
+    "key": "txt_weatheranalytics_in",
+    "tag": "strong",
+    "text": "weatheranalytics.in",
+    "count": 1
+  },
+  {
+    "key": "txt_report_local_weather_event",
+    "tag": "span",
+    "text": "Report Local Weather Event",
+    "count": 1
+  },
+  {
+    "key": "txt_auto_fill_from_active_location_gps",
+    "tag": "span",
+    "text": "Auto-Fill from Active Location / GPS",
+    "count": 1
+  },
+  {
+    "key": "lbl_event_category",
+    "tag": "label",
+    "text": "Event Category *",
+    "count": 1
+  },
+  {
+    "key": "lbl_state_ut",
+    "tag": "label",
+    "text": "State / UT *",
+    "count": 1
+  },
+  {
+    "key": "opt_select_state",
+    "tag": "option",
+    "text": "Select State",
+    "count": 1
+  },
+  {
+    "key": "lbl_city_district",
+    "tag": "label",
+    "text": "City / District",
+    "count": 1
+  },
+  {
+    "key": "opt_select_city_district",
+    "tag": "option",
+    "text": "Select City / District",
+    "count": 1
+  },
+  {
+    "key": "lbl_location_landmark",
+    "tag": "label",
+    "text": "Location / Landmark *",
+    "count": 1
+  },
+  {
+    "key": "lbl_latitude_2",
+    "tag": "label",
+    "text": "Latitude *",
+    "count": 1
+  },
+  {
+    "key": "lbl_longitude_2",
+    "tag": "label",
+    "text": "Longitude *",
+    "count": 1
+  },
+  {
+    "key": "lbl_description_impact",
+    "tag": "label",
+    "text": "Description & Impact",
+    "count": 1
+  },
+  {
+    "key": "lbl_your_name_organization",
+    "tag": "label",
+    "text": "Your Name / Organization",
+    "count": 1
+  },
+  {
+    "key": "lbl_attach_photo_optional",
+    "tag": "label",
+    "text": "Attach Photo (Optional)",
+    "count": 1
+  },
+  {
+    "key": "txt_click_or_drag_image_to_attach_photo",
+    "tag": "div",
+    "text": "Click or drag image to attach photo",
+    "count": 1
+  },
+  {
+    "key": "txt_supports_jpg_png_webp_max_4mb",
+    "tag": "div",
+    "text": "Supports JPG, PNG, WebP (Max 4MB)",
+    "count": 1
+  },
+  {
+    "key": "txt_photo_attached",
+    "tag": "div",
+    "text": "Photo Attached",
+    "count": 1
+  },
+  {
+    "key": "txt_ai_multi_modal_credibility_amp_fore",
+    "tag": "span",
+    "text": "AI Multi-Modal Credibility &amp; Forensics Inspector",
+    "count": 1
+  },
+  {
+    "key": "txt_grade_a",
+    "tag": "span",
+    "text": "Grade A",
+    "count": 1
+  },
+  {
+    "key": "txt_tf_idf_nlp_vectorizer_gis_boundary_",
+    "tag": "div",
+    "text": "TF-IDF NLP Vectorizer · GIS Boundary Corroboration · Visual Forensics v2.5",
+    "count": 1
+  },
+  {
+    "key": "txt_observation_telemetry_amp_location",
+    "tag": "div",
+    "text": "Observation Telemetry &amp; Location",
+    "count": 1
+  },
+  {
+    "key": "txt_marine_drive_mumbai_maharashtra",
+    "tag": "div",
+    "text": "Marine Drive, Mumbai (Maharashtra)",
+    "count": 1
+  },
+  {
+    "key": "txt_waterlogging_up_to_1_5_ft_near_chur",
+    "tag": "div",
+    "text": "\"Waterlogging up to 1.5 ft near Churchgate station.\"",
+    "count": 1
+  },
+  {
+    "key": "txt_composite_trust_score",
+    "tag": "div",
+    "text": "Composite Trust Score",
+    "count": 1
+  },
+  {
+    "key": "txt_low_false_positive_risk",
+    "tag": "div",
+    "text": "Low False-Positive Risk",
+    "count": 1
+  },
+  {
+    "key": "txt_tf_idf_term_frequency_matched_again",
+    "tag": "div",
+    "text": "TF-IDF Term Frequency matched against official IMD meteorological taxonomy. Anti-spam cosine distance verified.",
+    "count": 1
+  },
+  {
+    "key": "txt_gps_coordinates_verified_inside_ind",
+    "tag": "div",
+    "text": "GPS coordinates verified inside Indian sovereign land boundaries. Anomaly check: Inland cyclone probability cleared.",
+    "count": 1
+  },
+  {
+    "key": "txt_visual_scene_corroboration_confirme",
+    "tag": "div",
+    "text": "Visual scene corroboration confirmed weather phenomenon (convective cloud / waterlogging). Deepfake &amp; stock photo manipulation test passed.",
+    "count": 1
+  },
+  {
+    "key": "txt_corroborated_with_active_imd_dopple",
+    "tag": "div",
+    "text": "Corroborated with active IMD Doppler weather radar &amp; regional automated weather stations (AWS) telemetry.",
+    "count": 1
+  },
+  {
+    "key": "txt_ai_verification_reasoning_amp_decis",
+    "tag": "span",
+    "text": "AI Verification Reasoning &amp; Decision Trail (Explainable AI):",
+    "count": 1
+  },
+  {
+    "key": "txt_emergency_weather_desk_warning_disp",
+    "tag": "div",
+    "text": "Emergency Weather Desk: Warning Dispatcher",
+    "count": 1
+  },
+  {
+    "key": "txt_national_early_warning_network_mult",
+    "tag": "div",
+    "text": "National Early Warning Network · Multi-Agency Broadcast",
+    "count": 1
+  },
+  {
+    "key": "lbl_emergency_warning_headline",
+    "tag": "label",
+    "text": "Emergency Warning Headline",
+    "count": 1
+  },
+  {
+    "key": "lbl_hazard_event",
+    "tag": "label",
+    "text": "Hazard Event",
+    "count": 1
+  },
+  {
+    "key": "opt_tropical_cyclone",
+    "tag": "option",
+    "text": "Tropical Cyclone",
+    "count": 1
+  },
+  {
+    "key": "opt_severe_monsoon_downpour",
+    "tag": "option",
+    "text": "Severe Monsoon Downpour",
+    "count": 1
+  },
+  {
+    "key": "opt_flash_flood_inundation",
+    "tag": "option",
+    "text": "Flash Flood / Inundation",
+    "count": 2
+  },
+  {
+    "key": "opt_extreme_heatwave_loo",
+    "tag": "option",
+    "text": "Extreme Heatwave (Loo)",
+    "count": 1
+  },
+  {
+    "key": "opt_thunderstorm_amp_lightning",
+    "tag": "option",
+    "text": "Thunderstorm &amp; Lightning",
+    "count": 1
+  },
+  {
+    "key": "lbl_severity_tier",
+    "tag": "label",
+    "text": "Severity Tier",
+    "count": 1
+  },
+  {
+    "key": "opt_red_alert_take_action",
+    "tag": "option",
+    "text": "Red Alert (Take Action)",
+    "count": 1
+  },
+  {
+    "key": "opt_orange_alert_be_prepared",
+    "tag": "option",
+    "text": "Orange Alert (Be Prepared)",
+    "count": 2
+  },
+  {
+    "key": "opt_yellow_warning_be_aware",
+    "tag": "option",
+    "text": "Yellow Warning (Be Aware)",
+    "count": 1
+  },
+  {
+    "key": "lbl_target_district_coastal_belt",
+    "tag": "label",
+    "text": "Target District / Coastal Belt",
+    "count": 1
+  },
+  {
+    "key": "lbl_advisory_amp_protective_action_inst",
+    "tag": "label",
+    "text": "Advisory &amp; Protective Action Instructions",
+    "count": 1
+  },
+  {
+    "key": "txt_automated_emergency_broadcast_chann",
+    "tag": "div",
+    "text": "Automated Emergency Broadcast Channels:",
+    "count": 1
+  },
+  {
+    "key": "txt_state_disaster_management_authority",
+    "tag": "span",
+    "text": "State Disaster Management Authority (SDMA) Emergency Desk",
+    "count": 1
+  },
+  {
+    "key": "txt_national_disaster_response_force_nd",
+    "tag": "span",
+    "text": "National Disaster Response Force (NDRF) Quick Reaction Cell",
+    "count": 1
+  },
+  {
+    "key": "txt_citizen_emergency_sms_gateway_amp_c",
+    "tag": "span",
+    "text": "Citizen Emergency SMS Gateway &amp; Cell Broadcast Simulation",
+    "count": 1
+  },
+  {
+    "key": "txt_live_nwa_operational_stream_broadca",
+    "tag": "span",
+    "text": "Live NWA Operational Stream Broadcast (SSE Push)",
+    "count": 1
+  },
+  {
+    "key": "txt_big_data_pipeline_amp_oss_architect",
+    "tag": "div",
+    "text": "Big Data Pipeline &amp; OSS Architecture",
+    "count": 1
+  },
+  {
+    "key": "txt_live_sqlite_wal_engine_streaming_in",
+    "tag": "div",
+    "text": "Live SQLite WAL Engine | Streaming Ingestion | Open-Source Toolchain",
+    "count": 1
+  },
+  {
+    "key": "txt_sqlite_3_wal",
+    "tag": "div",
+    "text": "SQLite 3 WAL",
+    "count": 1
+  },
+  {
+    "key": "txt_wal",
+    "tag": "div",
+    "text": "WAL",
+    "count": 1
+  },
+  {
+    "key": "txt_atomicity",
+    "tag": "strong",
+    "text": "Atomicity",
+    "count": 1
+  },
+  {
+    "key": "txt_consistency",
+    "tag": "strong",
+    "text": "Consistency",
+    "count": 1
+  },
+  {
+    "key": "txt_isolation",
+    "tag": "strong",
+    "text": "Isolation",
+    "count": 1
+  },
+  {
+    "key": "txt_durability",
+    "tag": "strong",
+    "text": "Durability",
+    "count": 1
+  },
+  {
+    "key": "txt_nominal_streaming",
+    "tag": "div",
+    "text": "NOMINAL_STREAMING",
+    "count": 1
+  },
+  {
+    "key": "txt_events_min",
+    "tag": "div",
+    "text": "-- events/min",
+    "count": 1
+  },
+  {
+    "key": "txt_5_000_events",
+    "tag": "strong",
+    "text": "5,000 events",
+    "count": 1
+  },
+  {
+    "key": "txt_4_seconds",
+    "tag": "strong",
+    "text": "4 seconds",
+    "count": 1
+  },
+  {
+    "key": "txt_25_events",
+    "tag": "strong",
+    "text": "25 events",
+    "count": 1
+  },
+  {
+    "key": "txt_unlimited_reads",
+    "tag": "strong",
+    "text": "Unlimited reads",
+    "count": 1
+  },
+  {
+    "key": "txt_runtime",
+    "tag": "span",
+    "text": "RUNTIME",
+    "count": 1
+  },
+  {
+    "key": "txt_node_js_24_lts",
+    "tag": "strong",
+    "text": "Node.js 24 (LTS)",
+    "count": 1
+  },
+  {
+    "key": "txt_database",
+    "tag": "span",
+    "text": "DATABASE",
+    "count": 1
+  },
+  {
+    "key": "txt_sqlite_3_wal_mode",
+    "tag": "strong",
+    "text": "SQLite 3 (WAL Mode)",
+    "count": 1
+  },
+  {
+    "key": "txt_acid_compliant_embedded_relational_",
+    "tag": "div",
+    "text": "ACID-compliant embedded relational database with Write-Ahead Logging for concurrent reads and atomic write transactions.",
+    "count": 1
+  },
+  {
+    "key": "txt_weather_api",
+    "tag": "span",
+    "text": "WEATHER API",
+    "count": 1
+  },
+  {
+    "key": "txt_open_meteo",
+    "tag": "strong",
+    "text": "Open-Meteo",
+    "count": 1
+  },
+  {
+    "key": "txt_free_open_source_wmo_standard_weath",
+    "tag": "div",
+    "text": "Free, open-source, WMO-standard weather API. 16-day forecasts, hourly models, historical archive. No API key required.",
+    "count": 1
+  },
+  {
+    "key": "txt_maps",
+    "tag": "span",
+    "text": "MAPS",
+    "count": 1
+  },
+  {
+    "key": "txt_leaflet_js_1_9",
+    "tag": "strong",
+    "text": "Leaflet.js 1.9",
+    "count": 1
+  },
+  {
+    "key": "txt_open_source_interactive_mapping_lib",
+    "tag": "div",
+    "text": "Open-source interactive mapping library. Tile layers from OpenStreetMap (ODbL). Used for real-time geolocation and station markers.",
+    "count": 1
+  },
+  {
+    "key": "txt_disaster_api",
+    "tag": "span",
+    "text": "DISASTER API",
+    "count": 1
+  },
+  {
+    "key": "txt_un_gdacs",
+    "tag": "strong",
+    "text": "UN GDACS",
+    "count": 1
+  },
+  {
+    "key": "txt_global_disaster_alert_and_coordinat",
+    "tag": "div",
+    "text": "Global Disaster Alert and Coordination System by the United Nations and European Commission. Real-time cyclone, flood, and storm RSS feeds.",
+    "count": 1
+  },
+  {
+    "key": "txt_charts",
+    "tag": "span",
+    "text": "CHARTS",
+    "count": 1
+  },
+  {
+    "key": "txt_chart_js_4",
+    "tag": "strong",
+    "text": "Chart.js 4",
+    "count": 1
+  },
+  {
+    "key": "txt_mit_licensed_responsive_chart_libra",
+    "tag": "div",
+    "text": "MIT-licensed responsive chart library used for category distribution, trend analysis, and state-wise event frequency plots.",
+    "count": 1
+  },
+  {
+    "key": "txt_export",
+    "tag": "span",
+    "text": "EXPORT",
+    "count": 1
+  },
+  {
+    "key": "txt_sheetjs_xlsx_jspdf",
+    "tag": "strong",
+    "text": "SheetJS (xlsx) + jsPDF",
+    "count": 1
+  },
+  {
+    "key": "txt_open_source_spreadsheet_sheetjs_and",
+    "tag": "div",
+    "text": "Open-source spreadsheet (SheetJS) and PDF generation (jsPDF) for downloadable official meteorological reports.",
+    "count": 1
+  },
+  {
+    "key": "txt_ai_nlp",
+    "tag": "span",
+    "text": "AI/NLP",
+    "count": 1
+  },
+  {
+    "key": "txt_tf_idf_naive_bayes",
+    "tag": "strong",
+    "text": "TF-IDF + Naive Bayes",
+    "count": 1
+  },
+  {
+    "key": "txt_custom_nlp_credibility_engine_built",
+    "tag": "div",
+    "text": "Custom NLP credibility engine built in pure Node.js. TF-IDF vectorization + Multinomial Naive Bayes classifier for report authenticity scoring.",
+    "count": 1
+  },
+  {
+    "key": "txt_standard",
+    "tag": "span",
+    "text": "STANDARD",
+    "count": 1
+  },
+  {
+    "key": "txt_wmo_bufr_synop",
+    "tag": "strong",
+    "text": "WMO BUFR/SYNOP",
+    "count": 1
+  },
+  {
+    "key": "txt_world_meteorological_organization_c",
+    "tag": "div",
+    "text": "World Meteorological Organization code standards. Open-Meteo weather codes mapped to WMO BUFR present weather descriptions.",
+    "count": 1
+  },
+  {
+    "key": "txt_this_benchmark_fires_10_concurrent_",
+    "tag": "div",
+    "text": "This benchmark fires 10 concurrent HTTP requests to the SQLite database stats endpoint, measuring the total round-trip latency and demonstrating WAL-mode concurrent read throughput.",
+    "count": 1
+  },
+  {
+    "key": "txt_unlimited_concurrent_readers",
+    "tag": "strong",
+    "text": "unlimited concurrent readers",
+    "count": 1
+  },
+  {
+    "key": "txt_4_active_workers",
+    "tag": "div",
+    "text": "4 Active Workers",
+    "count": 1
+  },
+  {
+    "key": "txt_zero_downtime",
+    "tag": "div",
+    "text": "Zero Downtime",
+    "count": 1
+  },
+  {
+    "key": "txt_dockerfile_multi_stage",
+    "tag": "span",
+    "text": "Dockerfile Multi-Stage",
+    "count": 1
+  },
+  {
+    "key": "txt_docker_compose_yml_5_services",
+    "tag": "span",
+    "text": "docker-compose.yml (5 Services)",
+    "count": 1
+  },
+  {
+    "key": "txt_k8s_deployment_yaml",
+    "tag": "span",
+    "text": "k8s/deployment.yaml",
+    "count": 1
+  },
+  {
+    "key": "txt_k8s_hpa_yaml_autoscaler",
+    "tag": "span",
+    "text": "k8s/hpa.yaml (Autoscaler)",
+    "count": 1
+  },
+  {
+    "key": "hdr_emergency_agency_weather_dispatch",
+    "tag": "h3",
+    "text": "Emergency Agency Weather Dispatch",
+    "count": 1
+  },
+  {
+    "key": "opt_heavy_rainfall",
+    "tag": "option",
+    "text": "Heavy Rainfall",
+    "count": 1
+  },
+  {
+    "key": "opt_cyclonic_storm",
+    "tag": "option",
+    "text": "Cyclonic Storm",
+    "count": 1
+  },
+  {
+    "key": "opt_severe_heatwave",
+    "tag": "option",
+    "text": "Severe Heatwave",
+    "count": 1
+  },
+  {
+    "key": "opt_extreme_cold_wave",
+    "tag": "option",
+    "text": "Extreme Cold Wave",
+    "count": 1
+  },
+  {
+    "key": "opt_red_warning_take_action",
+    "tag": "option",
+    "text": "Red Warning (Take Action)",
+    "count": 1
+  },
+  {
+    "key": "opt_yellow_watch_be_updated",
+    "tag": "option",
+    "text": "Yellow Watch (Be Updated)",
+    "count": 1
+  },
+  {
+    "key": "btn_cancel",
+    "tag": "button",
+    "text": "Cancel",
+    "count": 1
+  },
+  {
+    "key": "ph_search_city_district_or_indian_stat",
+    "tag": "input",
+    "text": "Search city, district, or Indian state...",
+    "count": 1
+  },
+  {
+    "key": "ph_searchplaceholder",
+    "tag": "input",
+    "text": "searchPlaceholder",
+    "count": 1
+  },
+  {
+    "key": "ph_e_g_mumbai_new_delhi_kolkata",
+    "tag": "input",
+    "text": "e.g., Mumbai, New Delhi, Kolkata...",
+    "count": 1
+  },
+  {
+    "key": "ph_your_email_example_com_optional",
+    "tag": "input",
+    "text": "your.email@example.com (optional)",
+    "count": 1
+  },
+  {
+    "key": "ph_enter_password_default_admin_imd202",
+    "tag": "input",
+    "text": "Enter password (default: admin@imd2026)",
+    "count": 1
+  },
+  {
+    "key": "ph_adminpasswordph",
+    "tag": "input",
+    "text": "adminPasswordPh",
+    "count": 1
+  },
+  {
+    "key": "ph_filter_by_city_or_landmark",
+    "tag": "input",
+    "text": "Filter by City or Landmark...",
+    "count": 1
+  },
+  {
+    "key": "ph_search_report_text_reporter_name_id",
+    "tag": "input",
+    "text": "Search report text, reporter name, ID, or coordinates...",
+    "count": 1
+  },
+  {
+    "key": "ph_e_g_chennai_coastal_tamil_nadu",
+    "tag": "input",
+    "text": "e.g., Chennai, Coastal Tamil Nadu",
+    "count": 1
+  },
+  {
+    "key": "ph_e_g_tamil_nadu",
+    "tag": "input",
+    "text": "e.g., Tamil Nadu",
+    "count": 1
+  },
+  {
+    "key": "ph_e_g_extremely_intense_rainfall_exce",
+    "tag": "input",
+    "text": "e.g., Extremely intense rainfall exceeding 150mm forecast in next 18 hours",
+    "count": 1
+  },
+  {
+    "key": "ph_e_g_avoid_waterlogged_underpasses_k",
+    "tag": "input",
+    "text": "e.g., Avoid waterlogged underpasses, keep emergency numbers active, follow civil instructions.",
+    "count": 1
+  },
+  {
+    "key": "ph_e_g_marine_drive_churchgate",
+    "tag": "input",
+    "text": "e.g., Marine Drive, Churchgate",
+    "count": 1
+  },
+  {
+    "key": "ph_locationph",
+    "tag": "input",
+    "text": "locationPh",
+    "count": 1
+  },
+  {
+    "key": "ph_describe_water_levels_road_blocks_t",
+    "tag": "input",
+    "text": "Describe water levels, road blocks, tree falls, wind damage, or severe conditions...",
+    "count": 1
+  },
+  {
+    "key": "ph_descph",
+    "tag": "input",
+    "text": "descPh",
+    "count": 1
+  },
+  {
+    "key": "ph_e_g_rohit_verma",
+    "tag": "input",
+    "text": "e.g., Rohit Verma",
+    "count": 1
+  },
+  {
+    "key": "ph_reporternameph",
+    "tag": "input",
+    "text": "reporterNamePh",
+    "count": 1
+  },
+  {
+    "key": "ph_e_g_https_youtu_be_or_video_stream_",
+    "tag": "input",
+    "text": "e.g., https://youtu.be/... or video stream URL",
+    "count": 1
+  },
+  {
+    "key": "ph_videourlph",
+    "tag": "input",
+    "text": "videoUrlPh",
+    "count": 1
+  },
+  {
+    "key": "ph_e_g_red_alert_severe_flash_flood_am",
+    "tag": "input",
+    "text": "e.g., RED ALERT: Severe Flash Flood &amp; Cloudburst Inundation Warning",
+    "count": 1
+  },
+  {
+    "key": "ph_e_g_coastal_odisha_puri_jagatsinghp",
+    "tag": "input",
+    "text": "e.g., Coastal Odisha (Puri, Jagatsinghpur) or Greater Mumbai",
+    "count": 1
+  },
+  {
+    "key": "ph_evacuation_shelters_opened_fisherme",
+    "tag": "input",
+    "text": "Evacuation shelters opened. Fishermen advised not to venture into sea. Avoid low-lying subways.",
+    "count": 1
+  },
+  {
+    "key": "ph_e_g_red_alert_severe_monsoon_inunda",
+    "tag": "input",
+    "text": "e.g., Red Alert: Severe Monsoon Inundation & Flash Flood Risk",
+    "count": 1
+  },
+  {
+    "key": "ph_e_g_coastal_konkan_mumbai_metropoli",
+    "tag": "input",
+    "text": "e.g., Coastal Konkan & Mumbai Metropolitan Region",
+    "count": 1
+  },
+  {
+    "key": "ph_specify_evacuations_shelter_guideli",
+    "tag": "input",
+    "text": "Specify evacuations, shelter guidelines, road closures, or safety steps...",
+    "count": 1
+  },
+  {
+    "key": "ph_advisoryph",
+    "tag": "input",
+    "text": "advisoryPh",
+    "count": 1
+  },
+  {
+    "key": "title_national_weather_big_data_analytics",
+    "tag": "attr",
+    "text": "National Weather Big Data Analytics Platform",
+    "count": 1
+  },
+  {
+    "key": "title_expand_sidebar",
+    "tag": "attr",
+    "text": "Expand Sidebar",
+    "count": 1
+  },
+  {
+    "key": "title_close_navigation_menu",
+    "tag": "attr",
+    "text": "Close Navigation Menu",
+    "count": 1
+  },
+  {
+    "key": "title_live_forecast_map",
+    "tag": "attr",
+    "text": "Live Forecast & Map",
+    "count": 1
+  },
+  {
+    "key": "title_early_warning_severe_weather_alerts",
+    "tag": "attr",
+    "text": "Early Warning & Severe Weather Alerts",
+    "count": 1
+  },
+  {
+    "key": "title_citizen_reports",
+    "tag": "attr",
+    "text": "Citizen Reports",
+    "count": 1
+  },
+  {
+    "key": "title_social_intelligence",
+    "tag": "attr",
+    "text": "Social Intelligence",
+    "count": 1
+  },
+  {
+    "key": "title_analytics_trends",
+    "tag": "attr",
+    "text": "Analytics & Trends",
+    "count": 1
+  },
+  {
+    "key": "title_supervisory_admin_ai_moderation_pan",
+    "tag": "attr",
+    "text": "Supervisory Admin & AI Moderation Panel",
+    "count": 1
+  },
+  {
+    "key": "title_report_severe_event",
+    "tag": "attr",
+    "text": "Report Severe Event",
+    "count": 1
+  },
+  {
+    "key": "title_download_official_reports",
+    "tag": "attr",
+    "text": "Download Official Reports",
+    "count": 1
+  },
+  {
+    "key": "title_open_navigation_menu",
+    "tag": "attr",
+    "text": "Open Navigation Menu",
+    "count": 1
+  },
+  {
+    "key": "title_use_current_gps_location",
+    "tag": "attr",
+    "text": "Use current GPS location",
+    "count": 1
+  },
+  {
+    "key": "title_select_state_ut",
+    "tag": "attr",
+    "text": "Select State / UT",
+    "count": 1
+  },
+  {
+    "key": "title_select_district_city",
+    "tag": "attr",
+    "text": "Select District / City",
+    "count": 1
+  },
+  {
+    "key": "title_select_platform_language",
+    "tag": "attr",
+    "text": "Select Platform Language",
+    "count": 1
+  },
+  {
+    "key": "title_fetch_fresh_weather_data",
+    "tag": "attr",
+    "text": "Fetch fresh weather data",
+    "count": 1
+  },
+  {
+    "key": "title_submit_citizen_weather_report",
+    "tag": "attr",
+    "text": "Submit Citizen Weather Report",
+    "count": 1
+  },
+  {
+    "key": "title_open_admin_portal",
+    "tag": "attr",
+    "text": "Open Admin Portal",
+    "count": 1
+  },
+  {
+    "key": "title_indian_standard_time_utc_05_30",
+    "tag": "attr",
+    "text": "Indian Standard Time (UTC+05:30)",
+    "count": 1
+  },
+  {
+    "key": "title_listen_to_weather_summary",
+    "tag": "attr",
+    "text": "Listen to weather summary",
+    "count": 1
+  },
+  {
+    "key": "title_atmospheric_dew_point",
+    "tag": "attr",
+    "text": "Atmospheric Dew Point",
+    "count": 1
+  },
+  {
+    "key": "title_precipitation_probability",
+    "tag": "attr",
+    "text": "Precipitation Probability",
+    "count": 1
+  },
+  {
+    "key": "title_air_quality_index_status",
+    "tag": "attr",
+    "text": "Air Quality Index Status",
+    "count": 1
+  },
+  {
+    "key": "title_observational_data_feed",
+    "tag": "attr",
+    "text": "Observational Data Feed",
+    "count": 1
+  },
+  {
+    "key": "title_big_data_spatial_deduplication_clus",
+    "tag": "attr",
+    "text": "Big Data Spatial Deduplication Clusters",
+    "count": 1
+  },
+  {
+    "key": "title_toggle_severe_weather_density_heatm",
+    "tag": "attr",
+    "text": "Toggle Severe Weather Density Heatmap",
+    "count": 1
+  },
+  {
+    "key": "title_toggle_fullscreen",
+    "tag": "attr",
+    "text": "Toggle Fullscreen",
+    "count": 1
+  },
+  {
+    "key": "title_view_today_s_24_hour_forecast",
+    "tag": "attr",
+    "text": "View Today's 24-Hour Forecast",
+    "count": 1
+  },
+  {
+    "key": "title_view_tomorrow_s_24_hour_forecast",
+    "tag": "attr",
+    "text": "View Tomorrow's 24-Hour Forecast",
+    "count": 1
+  },
+  {
+    "key": "title_view_day_after_tomorrow_s_24_hour_f",
+    "tag": "attr",
+    "text": "View Day After Tomorrow's 24-Hour Forecast",
+    "count": 1
+  },
+  {
+    "key": "title_choose_date_within_16_day_forecast_",
+    "tag": "attr",
+    "text": "Choose date within 16-day forecast or observational range",
+    "count": 1
+  },
+  {
+    "key": "title_export_forecast_data_to_csv",
+    "tag": "attr",
+    "text": "Export forecast data to CSV",
+    "count": 1
+  },
+  {
+    "key": "title_nwa_machine_learning_nwp_mos_model_",
+    "tag": "attr",
+    "text": "NWA Machine Learning NWP-MOS Model calibrated with localized station telemetry",
+    "count": 1
+  },
+  {
+    "key": "title_emergency_weather_desk_dispatch_nat",
+    "tag": "attr",
+    "text": "Emergency Weather Desk: Dispatch National Weather Warning",
+    "count": 1
+  },
+  {
+    "key": "title_simulate_alert_with_sound_siren_and",
+    "tag": "attr",
+    "text": "Simulate alert with sound siren and push notification",
+    "count": 1
+  },
+  {
+    "key": "title_refresh_national_weather_warnings",
+    "tag": "attr",
+    "text": "Refresh national weather warnings",
+    "count": 1
+  },
+  {
+    "key": "title_use_current_device_gps_location",
+    "tag": "attr",
+    "text": "Use Current Device GPS Location",
+    "count": 1
+  },
+  {
+    "key": "title_preview_selected_audio_tone",
+    "tag": "attr",
+    "text": "Preview selected audio tone",
+    "count": 1
+  },
+  {
+    "key": "title_test_alert_audio_and_system_notific",
+    "tag": "attr",
+    "text": "Test Alert Audio and System Notification",
+    "count": 1
+  },
+  {
+    "key": "title_trigger_live_ingestion_from_google_",
+    "tag": "attr",
+    "text": "Trigger Live Ingestion from Google News, GDACS & Social API",
+    "count": 1
+  },
+  {
+    "key": "title_refresh_analytics_data",
+    "tag": "attr",
+    "text": "Refresh analytics data",
+    "count": 1
+  },
+  {
+    "key": "title_show_hide_password",
+    "tag": "attr",
+    "text": "Show/Hide Password",
+    "count": 1
+  },
+  {
+    "key": "title_log_out_from_admin_session",
+    "tag": "attr",
+    "text": "Log out from admin session",
+    "count": 1
+  },
+  {
+    "key": "title_scan_and_consolidate_duplicate_even",
+    "tag": "attr",
+    "text": "Scan and consolidate duplicate event clusters",
+    "count": 1
+  },
+  {
+    "key": "title_export_filtered_audit_table_as_csv",
+    "tag": "attr",
+    "text": "Export filtered audit table as CSV",
+    "count": 1
+  },
+  {
+    "key": "title_real_time_server_sent_events_push_s",
+    "tag": "attr",
+    "text": "Real-Time Server-Sent Events Push Stream Connected",
+    "count": 1
+  },
+  {
+    "key": "title_open_big_data_pipeline_oss_architec",
+    "tag": "attr",
+    "text": "Open Big Data Pipeline & OSS Architecture",
+    "count": 1
+  },
+  {
+    "key": "title_refresh_admin_queue",
+    "tag": "attr",
+    "text": "Refresh admin queue",
+    "count": 1
+  },
+  {
+    "key": "title_from_date",
+    "tag": "attr",
+    "text": "From Date",
+    "count": 1
+  },
+  {
+    "key": "title_to_date",
+    "tag": "attr",
+    "text": "To Date",
+    "count": 1
+  },
+  {
+    "key": "title_detect_current_device_gps_and_auto_",
+    "tag": "attr",
+    "text": "Detect Current Device GPS and Auto-fill Form",
+    "count": 1
+  },
+  {
+    "key": "title_fill_from_device_gps",
+    "tag": "attr",
+    "text": "Fill from Device GPS",
+    "count": 1
+  },
+  {
+    "key": "title_refresh_alerts_list",
+    "tag": "attr",
+    "text": "Refresh alerts list",
+    "count": 1
+  },
+  {
+    "key": "title_remove_photo",
+    "tag": "attr",
+    "text": "Remove photo",
+    "count": 1
+  },
+  {
+    "key": "title_close",
+    "tag": "attr",
+    "text": "Close",
+    "count": 1
+  }
+]

@@ -437,7 +437,9 @@
         timeZone: 'Asia/Kolkata'
       });
 
-      const catLabel = categoryLabels[r.category] || r.category || 'Weather Event';
+      const catLabel = window.NWAI18n ? window.NWAI18n.translateCategory(r.category) : (categoryLabels[r.category] || r.category || 'Weather Event');
+      const locName = window.NWAI18n ? window.NWAI18n.translateLocation(r.location || '') : (r.location || '');
+      const stateName = window.NWAI18n ? window.NWAI18n.translateLocation(r.state || '') : (r.state || '');
       const trustScore = r.source_trust?.trust_score ?? 70;
       const credScore = r.ai_analysis?.credibility_score ?? 85;
       const fakeRiskLevel = r.ai_analysis?.fake_risk_level || 'low';
@@ -494,8 +496,8 @@
             <span class="cached-tag" style="font-size: 0.75rem;">${catLabel}</span>
           </td>
           <td>
-            <div style="font-weight: 600; font-size: 0.82rem;">${escapeHtml(r.location || '')}</div>
-            <div style="font-size: 0.72rem; color: var(--text-muted);">${escapeHtml(r.state || '')} (${Number(r.lat).toFixed(3)}, ${Number(r.lon).toFixed(3)})</div>
+            <div style="font-weight: 600; font-size: 0.82rem;">${escapeHtml(locName)}</div>
+            <div style="font-size: 0.72rem; color: var(--text-muted);">${escapeHtml(stateName)} (${Number(r.lat).toFixed(3)}, ${Number(r.lon).toFixed(3)})</div>
           </td>
           <td style="max-width: 260px;">
             <div style="font-size: 0.8rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" title="${escapeHtml(r.description || '')}">
@@ -1681,6 +1683,15 @@
     runIngestionBenchmark,
     loadClusterTelemetry,
     runClusterBenchmark,
-    simulateClusterFailover
+    simulateClusterFailover,
+    loadAdminReports: loadAdminData
   };
 })();
+
+
+// Re-render admin panels on language change
+window.addEventListener('nwa_language_changed', () => {
+  if (typeof renderAdminTable === 'function' && cachedAdminReports && cachedAdminReports.length > 0) {
+    renderAdminTable(cachedAdminReports);
+  }
+});

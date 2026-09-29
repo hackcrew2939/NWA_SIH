@@ -103,6 +103,10 @@ function saveReportsToLocalStorage(reports) {
 async function loadCitizenReports() {
   const base = window.NWAWeather ? window.NWAWeather.getApiBaseUrl() : '';
 
+  if (!cachedReports || cachedReports.length === 0) {
+    renderReportsSkeleton();
+  }
+
   try {
     let url = `${base}/api/v1/reports`;
     if (currentFilter !== 'all') {
@@ -208,6 +212,23 @@ function detectAndMarkDuplicates(reports) {
   });
 }
 
+function renderReportsSkeleton() {
+  const container = document.getElementById('reportsListContainer');
+  if (!container) return;
+  container.innerHTML = Array(4).fill(0).map(() => `
+    <div class="report-item skeleton-report-card">
+      <div class="report-item-header" style="margin-bottom: 0.75rem;">
+        <div class="skeleton-shimmer" style="height: 24px; width: 120px; border-radius: 4px;"></div>
+        <div class="skeleton-shimmer" style="height: 24px; width: 110px; border-radius: 999px;"></div>
+      </div>
+      <div class="skeleton-shimmer" style="height: 16px; width: 60%; border-radius: 4px; margin-bottom: 0.75rem;"></div>
+      <div class="skeleton-shimmer" style="height: 14px; width: 95%; border-radius: 4px; margin-bottom: 0.5rem;"></div>
+      <div class="skeleton-shimmer" style="height: 14px; width: 80%; border-radius: 4px; margin-bottom: 1rem;"></div>
+      <div class="skeleton-shimmer" style="height: 32px; width: 100%; border-radius: 6px;"></div>
+    </div>
+  `).join('');
+}
+
 function renderReportsList(reports) {
   const container = document.getElementById('reportsListContainer');
   if (!container) return;
@@ -229,34 +250,34 @@ function renderReportsList(reports) {
   }
 
   const catLabels = {
-    heavy_rain: 'Heavy Rain',
-    flood: 'Flash Flood',
-    cyclone: 'Cyclone',
-    heatwave: 'Heatwave',
-    fog: 'Dense Fog',
-    dust_storm: 'Dust Storm',
-    strong_winds: 'Strong Winds',
-    hailstorm: 'Hailstorm',
-    thunderstorm: 'Thunderstorm',
-    other: 'Severe Weather'
+    heavy_rain: window.NWAI18n ? window.NWAI18n.t('optCatHeavyRain', 'Heavy Rain') : 'Heavy Rain',
+    flood: window.NWAI18n ? window.NWAI18n.t('optFlashFlood', 'Flash Flood') : 'Flash Flood',
+    cyclone: window.NWAI18n ? window.NWAI18n.t('optCatCyclone', 'Cyclone') : 'Cyclone',
+    heatwave: window.NWAI18n ? window.NWAI18n.t('optCatHeatwave', 'Heatwave') : 'Heatwave',
+    fog: window.NWAI18n ? window.NWAI18n.t('optDenseFog', 'Dense Fog') : 'Dense Fog',
+    dust_storm: window.NWAI18n ? window.NWAI18n.t('optCatThunderstorm', 'Dust Storm') : 'Dust Storm',
+    strong_winds: window.NWAI18n ? window.NWAI18n.t('optCyclone', 'Strong Winds') : 'Strong Winds',
+    hailstorm: window.NWAI18n ? window.NWAI18n.t('optCatHailstorm', 'Hailstorm') : 'Hailstorm',
+    thunderstorm: window.NWAI18n ? window.NWAI18n.t('optCatThunderstorm', 'Thunderstorm') : 'Thunderstorm',
+    other: window.NWAI18n ? window.NWAI18n.t('navWeatherAlerts', 'Severe Weather') : 'Severe Weather'
   };
 
   container.innerHTML = reports.map(r => {
     const isUnverified = r.verified_status === 'unverified';
     let statusClass = 'status-unverified';
-    let statusText = 'PENDING VERIFICATION';
+    let statusText = window.NWAI18n ? window.NWAI18n.t('tabPendingVerif', 'PENDING VERIFICATION') : 'PENDING VERIFICATION';
     if (r.verified_status === 'verified') {
       statusClass = 'status-verified';
-      statusText = 'VERIFIED';
+      statusText = window.NWAI18n ? window.NWAI18n.t('tabVerified', 'VERIFIED') : 'VERIFIED';
     } else if (r.verified_status === 'flagged_fake') {
       statusClass = 'status-rejected';
-      statusText = 'FLAGGED FAKE (AI)';
+      statusText = window.NWAI18n ? window.NWAI18n.t('tabFlaggedFake', 'FLAGGED FAKE (AI)') : 'FLAGGED FAKE (AI)';
     } else if (r.verified_status === 'rejected') {
       statusClass = 'status-rejected';
-      statusText = 'REJECTED';
+      statusText = window.NWAI18n ? window.NWAI18n.t('toastReportRejected', 'REJECTED') : 'REJECTED';
     } else if (r.verified_status === 'duplicate') {
       statusClass = 'status-unverified';
-      statusText = 'DUPLICATE';
+      statusText = window.NWAI18n ? window.NWAI18n.t('btnDedup', 'DUPLICATE') : 'DUPLICATE';
     }
 
     const timeAgo = formatTimeAgo(r.timestamp);
@@ -282,15 +303,37 @@ function renderReportsList(reports) {
     const compPct = Math.round((compVal || 0.85) * 100);
     const grade = isFake ? 'F' : (trust.authenticity_grade || 'A');
 
+    // High / Medium / Low AI Trust Score Badge (Color-Coded: Green / Yellow / Red)
+    let trustLevelClass = 'trust-badge-high';
+    let trustLevelLabel = 'High Trust';
+    let trustIcon = 'fa-shield-check';
+
+    if (isFake || compPct < 45 || grade === 'F') {
+      trustLevelClass = 'trust-badge-low';
+      trustLevelLabel = 'Low Trust';
+      trustIcon = 'fa-shield-xmark';
+    } else if (compPct < 75 || grade === 'C') {
+      trustLevelClass = 'trust-badge-med';
+      trustLevelLabel = 'Medium Trust';
+      trustIcon = 'fa-shield-halved';
+    }
+
     return `
       <div class="report-item" id="report-${r.id}">
         <div class="report-item-header">
-          <span class="category-tag cat-${r.category}">
-            <i class="fa-solid fa-triangle-exclamation"></i>
-            ${catLabels[r.category] || r.category || 'Weather Incident'}
-          </span>
-          <span class="status-badge ${statusClass}">
-            ${statusText}
+          <div class="report-header-left" style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+            <span class="category-tag cat-${r.category}">
+              <i class="fa-solid fa-triangle-exclamation"></i>
+              ${catLabels[r.category] || r.category || 'Weather Incident'}
+            </span>
+            <span class="status-badge ${statusClass}">
+              ${statusText}
+            </span>
+          </div>
+          <!-- Visible AI Trust Score Badge (Color-coded Green/Yellow/Red) -->
+          <span class="report-trust-badge ${trustLevelClass}" title="AI Confidence & Trust: ${compPct}% composite score (${trustLevelLabel})" onclick="window.NWAReports && window.NWAReports.showAITrustModal('${r.id}')">
+            <i class="fa-solid ${trustIcon}"></i>
+            <span><strong>${compPct}%</strong> ${trustLevelLabel}</span>
           </span>
         </div>
         <div class="report-location">
@@ -701,6 +744,7 @@ window.NWAReports = {
   closeAITrustModal,
   handlePhotoUpload,
   clearPhotoAttachment,
+  renderReports: () => renderReportsList(cachedReports),
   getCachedReports: () => (cachedReports && cachedReports.length > 0 ? cachedReports : getReportsFromLocalStorage())
 };
 
@@ -709,3 +753,11 @@ setInterval(() => {
   loadCitizenReports();
 }, 15000);
 
+
+
+// Re-render citizen reports list when language changes
+window.addEventListener('nwa_language_changed', () => {
+  if (typeof renderReportsList === 'function') {
+    renderReportsList();
+  }
+});

@@ -1,0 +1,212 @@
+[
+  {
+    "tag": "h1",
+    "attrs": " class=\"brand-name\"",
+    "text": "NWA",
+    "full": "<h1 class=\"brand-name\">NWA</h1>"
+  },
+  {
+    "tag": "span",
+    "attrs": "",
+    "text": "•",
+    "full": "<span>•</span>"
+  },
+  {
+    "tag": "span",
+    "attrs": "",
+    "text": "•",
+    "full": "<span>•</span>"
+  },
+  {
+    "tag": "span",
+    "attrs": " class=\"opt-name\"",
+    "text": "हिन्दी",
+    "full": "<span class=\"opt-name\">हिन्दी</span>"
+  },
+  {
+    "tag": "span",
+    "attrs": " class=\"opt-name\"",
+    "text": "मराठी",
+    "full": "<span class=\"opt-name\">मराठी</span>"
+  },
+  {
+    "tag": "span",
+    "attrs": " class=\"opt-name\"",
+    "text": "বাংলা",
+    "full": "<span class=\"opt-name\">বাংলা</span>"
+  },
+  {
+    "tag": "span",
+    "attrs": " class=\"opt-name\"",
+    "text": "தமிழ்",
+    "full": "<span class=\"opt-name\">தமிழ்</span>"
+  },
+  {
+    "tag": "span",
+    "attrs": " class=\"opt-name\"",
+    "text": "తెలుగు",
+    "full": "<span class=\"opt-name\">తెలుగు</span>"
+  },
+  {
+    "tag": "option",
+    "attrs": " value=\"hi\"",
+    "text": "हिन्दी",
+    "full": "<option value=\"hi\">हिन्दी</option>"
+  },
+  {
+    "tag": "option",
+    "attrs": " value=\"mr\"",
+    "text": "मराठी",
+    "full": "<option value=\"mr\">मराठी</option>"
+  },
+  {
+    "tag": "option",
+    "attrs": " value=\"bn\"",
+    "text": "বাংলা",
+    "full": "<option value=\"bn\">বাংলা</option>"
+  },
+  {
+    "tag": "option",
+    "attrs": " value=\"ta\"",
+    "text": "தமிழ்",
+    "full": "<option value=\"ta\">தமிழ்</option>"
+  },
+  {
+    "tag": "option",
+    "attrs": " value=\"te\"",
+    "text": "తెలుగు",
+    "full": "<option value=\"te\">తెలుగు</option>"
+  },
+  {
+    "tag": "span",
+    "attrs": " id=\"istClockText\"",
+    "text": "--:--:-- IST",
+    "full": "<span id=\"istClockText\">--:--:-- IST</span>"
+  },
+  {
+    "tag": "span",
+    "attrs": " class=\"ist-tag\"",
+    "text": "IST",
+    "full": "<span class=\"ist-tag\">IST</span>"
+  },
+  {
+    "tag": "span",
+    "attrs": " class=\"hero-temp-unit\"",
+    "text": "°C",
+    "full": "<span class=\"hero-temp-unit\">°C</span>"
+  },
+  {
+    "tag": "span",
+    "attrs": " id=\"heroFeelsLike\"",
+    "text": "--°C",
+    "full": "<span id=\"heroFeelsLike\">--°C</span>"
+  },
+  {
+    "tag": "strong",
+    "attrs": " id=\"heroDewPoint\"",
+    "text": "23°C",
+    "full": "<strong id=\"heroDewPoint\">23°C</strong>"
+  },
+  {
+    "tag": "span",
+    "attrs": " class=\"hourly-mini-time\"",
+    "text": "01:00 AM",
+    "full": "<span class=\"hourly-mini-time\">01:00 AM</span>"
+  },
+  {
+    "tag": "span",
+    "attrs": " class=\"hourly-mini-time\"",
+    "text": "02:00 AM",
+    "full": "<span class=\"hourly-mini-time\">02:00 AM</span>"
+  },
+  {
+    "tag": "span",
+    "attrs": " class=\"hourly-mini-time\"",
+    "text": "03:00 AM",
+    "full": "<span class=\"hourly-mini-time\">03:00 AM</span>"
+  },
+  {
+    "tag": "span",
+    "attrs": " class=\"hourly-mini-time\"",
+    "text": "04:00 AM",
+    "full": "<span class=\"hourly-mini-time\">04:00 AM</span>"
+  },
+  {
+    "tag": "div",
+    "attrs": " id=\"metricPrecipitation\" class=\"metric-value\"",
+    "text": "-- mm",
+    "full": "<div id=\"metricPrecipitation\" class=\"metric-value\">-- mm</div>"
+  },
+  {
+    "tag": "div",
+    "attrs": " id=\"metricPressure\" class=\"metric-value\"",
+    "text": "-- hPa",
+    "full": "<div id=\"metricPressure\" class=\"metric-value\">-- hPa</div>"
+  },
+  {
+    "tag": "span",
+    "attrs": " class=\"forecast-badge forecast-badge-coords\" id=\"forecastContextCoords\"",
+    "text": "28.6139° N, 77.2090° E",
+    "full": "<span class=\"forecast-badge forecast-badge-coords\" id=\"forecastContextCoords\">28.6139° N, 77.2090° E</span>"
+  },
+  {
+    "tag": "span",
+    "attrs": "",
+    "text": "|",
+    "full": "<span>|</span>"
+  },
+  {
+    "tag": "span",
+    "attrs": "",
+    "text": "•",
+    "full": "<span>•</span>"
+  },
+  {
+    "tag": "div",
+    "attrs": " class=\"admin-stat-card-val\" id=\"clusterHostCoresVal\" style=\"color: #38bdf8;\"",
+    "text": "-- Cores",
+    "full": "<div class=\"admin-stat-card-val\" id=\"clusterHostCoresVal\" style=\"color: #38bdf8;\">-- Cores</div>"
+  },
+  {
+    "tag": "div",
+    "attrs": " id=\"clusterBenchP50Val\" style=\"font-size: 1.3rem; font-weight: 700; color: #10b981; margin-top: 0.2rem;\"",
+    "text": "-- ms",
+    "full": "<div id=\"clusterBenchP50Val\" style=\"font-size: 1.3rem; font-weight: 700; color: #10b981; margin-top: 0.2rem;\">-- ms</div>"
+  },
+  {
+    "tag": "div",
+    "attrs": " id=\"clusterBenchP95Val\" style=\"font-size: 1.3rem; font-weight: 700; color: #f59e0b; margin-top: 0.2rem;\"",
+    "text": "-- ms",
+    "full": "<div id=\"clusterBenchP95Val\" style=\"font-size: 1.3rem; font-weight: 700; color: #f59e0b; margin-top: 0.2rem;\">-- ms</div>"
+  },
+  {
+    "tag": "div",
+    "attrs": " id=\"clusterBenchP99Val\" style=\"font-size: 1.3rem; font-weight: 700; color: #a78bfa; margin-top: 0.2rem;\"",
+    "text": "-- ms",
+    "full": "<div id=\"clusterBenchP99Val\" style=\"font-size: 1.3rem; font-weight: 700; color: #a78bfa; margin-top: 0.2rem;\">-- ms</div>"
+  },
+  {
+    "tag": "span",
+    "attrs": "",
+    "text": "•",
+    "full": "<span>•</span>"
+  },
+  {
+    "tag": "span",
+    "attrs": "",
+    "text": "•",
+    "full": "<span>•</span>"
+  },
+  {
+    "tag": "button",
+    "attrs": " id=\"closeReportModalBtn\" class=\"close-btn\" aria-label=\"Close modal\"",
+    "text": "&times;",
+    "full": "<button id=\"closeReportModalBtn\" class=\"close-btn\" aria-label=\"Close modal\">&times;</button>"
+  },
+  {
+    "tag": "button",
+    "attrs": " type=\"button\" class=\"close-btn\" onclick=\"NWAAlerts.closeDispatchModal()\" style=\"background: none; border: none; font-size: 1.4rem; color: var(--text-secondary, #94a3b8); cursor: pointer;\"",
+    "text": "&times;",
+    "full": "<button type=\"button\" class=\"close-btn\" onclick=\"NWAAlerts.closeDispatchModal()\" style=\"background: none; border: none; font-size: 1.4rem; color: var(--text-secondary, #94a3b8); cursor: pointer;\">&times;</button>"
+  }
+]

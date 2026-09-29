@@ -1,0 +1,3794 @@
+{
+  "textNodes": [
+    {
+      "text": "National Weather Analytics | National Weather Big Data Analytics Platform",
+      "index": 165,
+      "raw": "National Weather Analytics | National Weather Big Data Analytics Platform"
+    },
+    {
+      "text": "NWA",
+      "index": 1652,
+      "raw": "NWA"
+    },
+    {
+      "text": "National Weather Big Data Platform",
+      "index": 1723,
+      "raw": "National Weather Big Data Platform"
+    },
+    {
+      "text": "METEOROLOGY",
+      "index": 2389,
+      "raw": "METEOROLOGY"
+    },
+    {
+      "text": "Live Forecast & Map",
+      "index": 2696,
+      "raw": "Live Forecast & Map"
+    },
+    {
+      "text": "Weather Alerts",
+      "index": 3068,
+      "raw": "Weather Alerts"
+    },
+    {
+      "text": "Citizen Reports",
+      "index": 3352,
+      "raw": "Citizen Reports"
+    },
+    {
+      "text": "Social Intelligence",
+      "index": 3638,
+      "raw": "Social Intelligence"
+    },
+    {
+      "text": "Analytics & Trends",
+      "index": 3918,
+      "raw": "Analytics & Trends"
+    },
+    {
+      "text": "Admin Panel",
+      "index": 4270,
+      "raw": "Admin Panel"
+    },
+    {
+      "text": "QUICK ACTIONS",
+      "index": 4461,
+      "raw": "QUICK ACTIONS"
+    },
+    {
+      "text": "Report Severe Event",
+      "index": 4895,
+      "raw": "Report Severe Event"
+    },
+    {
+      "text": "Download Official Reports",
+      "index": 5207,
+      "raw": "Download Official Reports"
+    },
+    {
+      "text": "Privacy",
+      "index": 5627,
+      "raw": "Privacy"
+    },
+    {
+      "text": "•",
+      "index": 5657,
+      "raw": "•"
+    },
+    {
+      "text": "Terms",
+      "index": 5783,
+      "raw": "Terms"
+    },
+    {
+      "text": "•",
+      "index": 5811,
+      "raw": "•"
+    },
+    {
+      "text": "Archive",
+      "index": 5939,
+      "raw": "Archive"
+    },
+    {
+      "text": "State / UT",
+      "index": 7681,
+      "raw": "State / UT"
+    },
+    {
+      "text": "City",
+      "index": 7910,
+      "raw": "City"
+    },
+    {
+      "text": "English",
+      "index": 8609,
+      "raw": "English"
+    },
+    {
+      "text": "Regional Languages",
+      "index": 9026,
+      "raw": "Regional Languages"
+    },
+    {
+      "text": "6 Languages",
+      "index": 9126,
+      "raw": "6 Languages"
+    },
+    {
+      "text": "English",
+      "index": 9537,
+      "raw": "English"
+    },
+    {
+      "text": "Global Default",
+      "index": 9596,
+      "raw": "Global Default"
+    },
+    {
+      "text": "हिन्दी",
+      "index": 10047,
+      "raw": "हिन्दी"
+    },
+    {
+      "text": "Hindi",
+      "index": 10105,
+      "raw": "Hindi"
+    },
+    {
+      "text": "मराठी",
+      "index": 10547,
+      "raw": "मराठी"
+    },
+    {
+      "text": "Marathi",
+      "index": 10604,
+      "raw": "Marathi"
+    },
+    {
+      "text": "বাংলা",
+      "index": 11048,
+      "raw": "বাংলা"
+    },
+    {
+      "text": "Bengali",
+      "index": 11105,
+      "raw": "Bengali"
+    },
+    {
+      "text": "தமிழ்",
+      "index": 11549,
+      "raw": "தமிழ்"
+    },
+    {
+      "text": "Tamil",
+      "index": 11606,
+      "raw": "Tamil"
+    },
+    {
+      "text": "తెలుగు",
+      "index": 12048,
+      "raw": "తెలుగు"
+    },
+    {
+      "text": "Telugu",
+      "index": 12106,
+      "raw": "Telugu"
+    },
+    {
+      "text": "English",
+      "index": 12523,
+      "raw": "English"
+    },
+    {
+      "text": "हिन्दी",
+      "index": 12575,
+      "raw": "हिन्दी"
+    },
+    {
+      "text": "मराठी",
+      "index": 12626,
+      "raw": "मराठी"
+    },
+    {
+      "text": "বাংলা",
+      "index": 12676,
+      "raw": "বাংলা"
+    },
+    {
+      "text": "தமிழ்",
+      "index": 12726,
+      "raw": "தமிழ்"
+    },
+    {
+      "text": "తెలుగు",
+      "index": 12776,
+      "raw": "తెలుగు"
+    },
+    {
+      "text": "Refresh",
+      "index": 13035,
+      "raw": "Refresh"
+    },
+    {
+      "text": "Report Incident",
+      "index": 13280,
+      "raw": "Report Incident"
+    },
+    {
+      "text": "Admin Portal",
+      "index": 13661,
+      "raw": "Admin Portal"
+    },
+    {
+      "text": "New Delhi",
+      "index": 14422,
+      "raw": "New Delhi"
+    },
+    {
+      "text": "Cached",
+      "index": 14524,
+      "raw": "Cached"
+    },
+    {
+      "text": "Delhi, India",
+      "index": 14623,
+      "raw": "Delhi, India"
+    },
+    {
+      "text": "--:--:-- IST",
+      "index": 14965,
+      "raw": "--:--:-- IST"
+    },
+    {
+      "text": "IST",
+      "index": 15019,
+      "raw": "IST"
+    },
+    {
+      "text": "Audio Summary",
+      "index": 15381,
+      "raw": "Audio Summary"
+    },
+    {
+      "text": "Updated Just Now",
+      "index": 15532,
+      "raw": " Updated Just Now\n          "
+    },
+    {
+      "text": "°C",
+      "index": 16430,
+      "raw": "°C"
+    },
+    {
+      "text": "Feels like",
+      "index": 16503,
+      "raw": "\n                  Feels like "
+    },
+    {
+      "text": "--°C",
+      "index": 16558,
+      "raw": "--°C"
+    },
+    {
+      "text": "Loading Weather...",
+      "index": 16951,
+      "raw": "Loading Weather..."
+    },
+    {
+      "text": "Max:",
+      "index": 17104,
+      "raw": " Max: "
+    },
+    {
+      "text": "Min:",
+      "index": 17242,
+      "raw": " Min: "
+    },
+    {
+      "text": "Dew Point:",
+      "index": 17717,
+      "raw": "Dew Point: "
+    },
+    {
+      "text": "23°C",
+      "index": 17754,
+      "raw": "23°C"
+    },
+    {
+      "text": "Rain Chance:",
+      "index": 17973,
+      "raw": "Rain Chance: "
+    },
+    {
+      "text": "AQI:",
+      "index": 18242,
+      "raw": "AQI: "
+    },
+    {
+      "text": "IMD Radar Feed",
+      "index": 18496,
+      "raw": "IMD Radar Feed"
+    },
+    {
+      "text": "Now",
+      "index": 18782,
+      "raw": "Now"
+    },
+    {
+      "text": "01:00 AM",
+      "index": 19059,
+      "raw": "01:00 AM"
+    },
+    {
+      "text": "02:00 AM",
+      "index": 19337,
+      "raw": "02:00 AM"
+    },
+    {
+      "text": "03:00 AM",
+      "index": 19620,
+      "raw": "03:00 AM"
+    },
+    {
+      "text": "04:00 AM",
+      "index": 19898,
+      "raw": "04:00 AM"
+    },
+    {
+      "text": "Rainfall",
+      "index": 20371,
+      "raw": "Rainfall"
+    },
+    {
+      "text": "-- mm",
+      "index": 20617,
+      "raw": "-- mm"
+    },
+    {
+      "text": "Current precip",
+      "index": 20667,
+      "raw": "Current precip"
+    },
+    {
+      "text": "Humidity",
+      "index": 20867,
+      "raw": "Humidity"
+    },
+    {
+      "text": "Rel moisture",
+      "index": 21158,
+      "raw": "Rel moisture"
+    },
+    {
+      "text": "Wind",
+      "index": 21366,
+      "raw": "Wind"
+    },
+    {
+      "text": "-- km/h",
+      "index": 21593,
+      "raw": "-- km/h"
+    },
+    {
+      "text": "N/A",
+      "index": 21736,
+      "raw": " N/A\n              "
+    },
+    {
+      "text": "Pressure",
+      "index": 21949,
+      "raw": "Pressure"
+    },
+    {
+      "text": "-- hPa",
+      "index": 22194,
+      "raw": "-- hPa"
+    },
+    {
+      "text": "Barometric",
+      "index": 22245,
+      "raw": "Barometric"
+    },
+    {
+      "text": "UV Index",
+      "index": 22440,
+      "raw": "UV Index"
+    },
+    {
+      "text": "Moderate",
+      "index": 22777,
+      "raw": "Moderate"
+    },
+    {
+      "text": "Visibility",
+      "index": 22997,
+      "raw": "Visibility"
+    },
+    {
+      "text": "10 km",
+      "index": 23241,
+      "raw": "10 km"
+    },
+    {
+      "text": "Clarity",
+      "index": 23291,
+      "raw": "Clarity"
+    },
+    {
+      "text": "Sunrise",
+      "index": 23482,
+      "raw": "Sunrise"
+    },
+    {
+      "text": "Dawn (IST)",
+      "index": 23776,
+      "raw": "Dawn (IST)"
+    },
+    {
+      "text": "Sunset",
+      "index": 23968,
+      "raw": "Sunset"
+    },
+    {
+      "text": "Dusk (IST)",
+      "index": 24251,
+      "raw": "Dusk (IST)"
+    },
+    {
+      "text": "Interactive Weather Map",
+      "index": 24661,
+      "raw": "Interactive Weather Map"
+    },
+    {
+      "text": "Weather Stations",
+      "index": 24868,
+      "raw": "Weather Stations"
+    },
+    {
+      "text": "Citizen Reports",
+      "index": 24992,
+      "raw": "Citizen Reports"
+    },
+    {
+      "text": "Public Notices",
+      "index": 25110,
+      "raw": "Public Notices"
+    },
+    {
+      "text": "Dedup. Clusters",
+      "index": 25344,
+      "raw": "Dedup. Clusters"
+    },
+    {
+      "text": "Heatmap",
+      "index": 25603,
+      "raw": "Heatmap"
+    },
+    {
+      "text": "Tip:",
+      "index": 26395,
+      "raw": "Tip:"
+    },
+    {
+      "text": "Click any state to zoom in; click a district to view live weather telemetry.",
+      "index": 26408,
+      "raw": " Click any state to zoom in; click a district to view live weather telemetry.\n            "
+    },
+    {
+      "text": "India",
+      "index": 26810,
+      "raw": "India"
+    },
+    {
+      "text": "Lat: 22.8000° N,",
+      "index": 26932,
+      "raw": "Lat: 22.8000° N,"
+    },
+    {
+      "text": "Lng: 82.5000° E",
+      "index": 26995,
+      "raw": "Lng: 82.5000° E"
+    },
+    {
+      "text": "24-Hour Diurnal Progression",
+      "index": 27467,
+      "raw": "24-Hour Diurnal Progression"
+    },
+    {
+      "text": "Today's 24-Hour Report",
+      "index": 27740,
+      "raw": "Today's 24-Hour Report"
+    },
+    {
+      "text": "Today",
+      "index": 28256,
+      "raw": "Today"
+    },
+    {
+      "text": "Tomorrow",
+      "index": 28578,
+      "raw": "Tomorrow"
+    },
+    {
+      "text": "Day After Tomorrow",
+      "index": 28916,
+      "raw": "Day After Tomorrow"
+    },
+    {
+      "text": "Pick Custom Date",
+      "index": 29439,
+      "raw": "Pick Custom Date"
+    },
+    {
+      "text": "Click any hour for detailed conditions",
+      "index": 29958,
+      "raw": "Click any hour for detailed conditions"
+    },
+    {
+      "text": "Retrieving meteorological telemetry for selected date...",
+      "index": 30275,
+      "raw": "Retrieving meteorological telemetry for selected date..."
+    },
+    {
+      "text": "Today (24h)",
+      "index": 31330,
+      "raw": "Today (24h)"
+    },
+    {
+      "text": "3 Days",
+      "index": 31450,
+      "raw": "3 Days"
+    },
+    {
+      "text": "7 Days",
+      "index": 31565,
+      "raw": "7 Days"
+    },
+    {
+      "text": "10 Days",
+      "index": 31689,
+      "raw": "10 Days"
+    },
+    {
+      "text": "10-Day Forecast Table View",
+      "index": 31882,
+      "raw": "10-Day Forecast Table View"
+    },
+    {
+      "text": "Delhi",
+      "index": 32176,
+      "raw": "Delhi"
+    },
+    {
+      "text": "State Overview",
+      "index": 32279,
+      "raw": "State Overview"
+    },
+    {
+      "text": "28.6139° N, 77.2090° E",
+      "index": 32391,
+      "raw": "28.6139° N, 77.2090° E"
+    },
+    {
+      "text": "Station Data • Updated Just Now",
+      "index": 32562,
+      "raw": " Station Data • Updated Just Now\n          "
+    },
+    {
+      "text": "10-Day Extended Weather Forecast",
+      "index": 32943,
+      "raw": "10-Day Extended Weather Forecast"
+    },
+    {
+      "text": "Daily meteorological forecast, expected temperature ranges, and rain probabilities",
+      "index": 33048,
+      "raw": "Daily meteorological forecast, expected temperature ranges, and rain probabilities"
+    },
+    {
+      "text": "Download CSV",
+      "index": 33400,
+      "raw": "Download CSV"
+    },
+    {
+      "text": "10-Day Temperature & Rain Forecast Trend",
+      "index": 33826,
+      "raw": "10-Day Temperature & Rain Forecast Trend"
+    },
+    {
+      "text": "ML Calibrated",
+      "index": 34082,
+      "raw": " ML Calibrated\n              "
+    },
+    {
+      "text": "Max Temp (°C)",
+      "index": 34339,
+      "raw": "Max Temp (°C)"
+    },
+    {
+      "text": "Min Temp (°C)",
+      "index": 34498,
+      "raw": "Min Temp (°C)"
+    },
+    {
+      "text": "ML Trend (°C)",
+      "index": 34659,
+      "raw": "ML Trend (°C)"
+    },
+    {
+      "text": "Rain Probability (%)",
+      "index": 34814,
+      "raw": "Rain Probability (%)"
+    },
+    {
+      "text": "DATE & DAY",
+      "index": 35339,
+      "raw": "DATE & DAY"
+    },
+    {
+      "text": "CONDITION",
+      "index": 35375,
+      "raw": "CONDITION"
+    },
+    {
+      "text": "MAX TEMP",
+      "index": 35410,
+      "raw": "MAX TEMP"
+    },
+    {
+      "text": "MIN TEMP",
+      "index": 35444,
+      "raw": "MIN TEMP"
+    },
+    {
+      "text": "FEELS LIKE",
+      "index": 35478,
+      "raw": "FEELS LIKE"
+    },
+    {
+      "text": "HUMIDITY",
+      "index": 35514,
+      "raw": "HUMIDITY"
+    },
+    {
+      "text": "WIND SPEED",
+      "index": 35548,
+      "raw": "WIND SPEED"
+    },
+    {
+      "text": "WIND DIR",
+      "index": 35584,
+      "raw": "WIND DIR"
+    },
+    {
+      "text": "RAIN PROBABILITY",
+      "index": 35618,
+      "raw": "RAIN PROBABILITY"
+    },
+    {
+      "text": "TEMP RANGE",
+      "index": 35660,
+      "raw": "TEMP RANGE"
+    },
+    {
+      "text": "4-Day Extended Forecast Outlook",
+      "index": 36149,
+      "raw": "4-Day Extended Forecast Outlook"
+    },
+    {
+      "text": "Download Weather Intelligence Report",
+      "index": 36560,
+      "raw": "Download Weather Intelligence Report"
+    },
+    {
+      "text": "Export current meteorological observations, 4-day forecast data, and station records.",
+      "index": 36617,
+      "raw": "Export current meteorological observations, 4-day forecast data, and station records."
+    },
+    {
+      "text": "Download Excel (.xlsx)",
+      "index": 36929,
+      "raw": " Download Excel (.xlsx)\n          "
+    },
+    {
+      "text": "Download PDF (.pdf)",
+      "index": 37119,
+      "raw": " Download PDF (.pdf)\n          "
+    },
+    {
+      "text": "NATIONAL WEATHER SURVEILLANCE & EARLY WARNING",
+      "index": 37739,
+      "raw": "NATIONAL WEATHER SURVEILLANCE & EARLY WARNING"
+    },
+    {
+      "text": "Active Severe Weather Warnings & Personal Alert Hub",
+      "index": 37873,
+      "raw": "Active Severe Weather Warnings & Personal Alert Hub"
+    },
+    {
+      "text": "Surveillance of all geographical areas highly affected by intense monsoon downpours, severe heatwaves, cyclonic depressions, and flash floods across India. Set personalized early-warning alerts for your region.",
+      "index": 37989,
+      "raw": "\n            Surveillance of all geographical areas highly affected by intense monsoon downpours, severe heatwaves, cyclonic depressions, and flash floods across India. Set personalized early-warning alerts for your region.\n          "
+    },
+    {
+      "text": "Dispatch Agency Alert",
+      "index": 38598,
+      "raw": " Dispatch Agency Alert\n          "
+    },
+    {
+      "text": "Test Alert Audio & Push",
+      "index": 38855,
+      "raw": " Test Alert Audio & Push\n          "
+    },
+    {
+      "text": "Refresh Warnings",
+      "index": 39092,
+      "raw": " Refresh Warnings\n          "
+    },
+    {
+      "text": "Set Personal Weather Alert",
+      "index": 39748,
+      "raw": "Set Personal Weather Alert"
+    },
+    {
+      "text": "Automated Monitor",
+      "index": 39844,
+      "raw": "Automated Monitor"
+    },
+    {
+      "text": "Configure an automated trigger for your area. The platform monitors real-time telemetry and sends instant browser notifications and audio sirens when dangerous weather thresholds are reached.",
+      "index": 39925,
+      "raw": "\n            Configure an automated trigger for your area. The platform monitors real-time telemetry and sends instant browser notifications and audio sirens when dangerous weather thresholds are reached.\n          "
+    },
+    {
+      "text": "Monitored Location / City",
+      "index": 40580,
+      "raw": " Monitored Location / City\n              "
+    },
+    {
+      "text": "Current GPS",
+      "index": 41158,
+      "raw": " Current GPS\n                "
+    },
+    {
+      "text": "Weather Hazard Trigger",
+      "index": 41462,
+      "raw": " Weather Hazard Trigger\n                "
+    },
+    {
+      "text": "Torrential / Heavy Rain (mm/h)",
+      "index": 41678,
+      "raw": "Torrential / Heavy Rain (mm/h)"
+    },
+    {
+      "text": "Extreme Heatwave (°C)",
+      "index": 41761,
+      "raw": "Extreme Heatwave (°C)"
+    },
+    {
+      "text": "Severe Thunderstorm / Gale (km/h)",
+      "index": 41839,
+      "raw": "Severe Thunderstorm / Gale (km/h)"
+    },
+    {
+      "text": "Severe Cold Wave (°C)",
+      "index": 41926,
+      "raw": "Severe Cold Wave (°C)"
+    },
+    {
+      "text": "Alert Threshold (",
+      "index": 42193,
+      "raw": " Alert Threshold ("
+    },
+    {
+      "text": "mm/h",
+      "index": 42246,
+      "raw": "mm/h"
+    },
+    {
+      "text": "IMD criterion: Moderate (5-15mm/h), Heavy (15-64mm/h), Very Heavy (>64mm/h)",
+      "index": 42797,
+      "raw": "\n              IMD criterion: Moderate (5-15mm/h), Heavy (15-64mm/h), Very Heavy (>64mm/h)\n            "
+    },
+    {
+      "text": "Alert Audio Tone",
+      "index": 43147,
+      "raw": " Alert Audio Tone\n              "
+    },
+    {
+      "text": "Emergency Broadcast Siren (EAS 853/960Hz)",
+      "index": 43410,
+      "raw": "Emergency Broadcast Siren (EAS 853/960Hz)"
+    },
+    {
+      "text": "Municipal Disaster Alarm (Wailing Siren)",
+      "index": 43510,
+      "raw": "Municipal Disaster Alarm (Wailing Siren)"
+    },
+    {
+      "text": "High-Alert Pulse Staccato",
+      "index": 43609,
+      "raw": "High-Alert Pulse Staccato"
+    },
+    {
+      "text": "Radar Sonar Ping",
+      "index": 43689,
+      "raw": "Radar Sonar Ping"
+    },
+    {
+      "text": "Melodic Advisory Bell",
+      "index": 43763,
+      "raw": "Melodic Advisory Bell"
+    },
+    {
+      "text": "Preview",
+      "index": 44010,
+      "raw": " Preview\n                "
+    },
+    {
+      "text": "Notification Channels:",
+      "index": 44218,
+      "raw": "Notification Channels:"
+    },
+    {
+      "text": "Browser Push Notification",
+      "index": 44478,
+      "raw": " Browser Push Notification"
+    },
+    {
+      "text": "Acoustic Siren / Chime",
+      "index": 44727,
+      "raw": " Acoustic Siren / Chime"
+    },
+    {
+      "text": "Email Alert Dispatch (Optional)",
+      "index": 44992,
+      "raw": " Email Alert Dispatch (Optional)\n              "
+    },
+    {
+      "text": "Activate Weather Alert",
+      "index": 45504,
+      "raw": " Activate Weather Alert\n              "
+    },
+    {
+      "text": "Test Notification",
+      "index": 45756,
+      "raw": " Test Notification\n              "
+    },
+    {
+      "text": "My Active Alerts",
+      "index": 46141,
+      "raw": "My Active Alerts"
+    },
+    {
+      "text": "Active Guard",
+      "index": 46268,
+      "raw": " Active Guard"
+    },
+    {
+      "text": "Your active early-warning subscriptions. Alerts are continuously cross-checked against incoming Open-Meteo satellite feeds and numerical prediction models.",
+      "index": 46345,
+      "raw": "\n            Your active early-warning subscriptions. Alerts are continuously cross-checked against incoming Open-Meteo satellite feeds and numerical prediction models.\n          "
+    },
+    {
+      "text": "Areas Highly Affected by Extreme Weather",
+      "index": 47027,
+      "raw": "\n              Areas Highly Affected by Extreme Weather\n            "
+    },
+    {
+      "text": "Real-time radar tracking of regions currently under Red Warnings, Orange Alerts, or Yellow Watches for heavy rain, heatwaves, cyclones, or floods.",
+      "index": 47140,
+      "raw": "\n              Real-time radar tracking of regions currently under Red Warnings, Orange Alerts, or Yellow Watches for heavy rain, heatwaves, cyclones, or floods.\n            "
+    },
+    {
+      "text": "Hazard:",
+      "index": 47494,
+      "raw": "Hazard:"
+    },
+    {
+      "text": "All",
+      "index": 47642,
+      "raw": "All"
+    },
+    {
+      "text": "Heavy Rain",
+      "index": 47859,
+      "raw": " Heavy Rain\n              "
+    },
+    {
+      "text": "Heatwave",
+      "index": 48096,
+      "raw": " Heatwave\n              "
+    },
+    {
+      "text": "Cyclone/Wind",
+      "index": 48318,
+      "raw": " Cyclone/Wind\n              "
+    },
+    {
+      "text": "Flood",
+      "index": 48548,
+      "raw": " Flood\n              "
+    },
+    {
+      "text": "Severity:",
+      "index": 48679,
+      "raw": "Severity:"
+    },
+    {
+      "text": "All",
+      "index": 48833,
+      "raw": "All"
+    },
+    {
+      "text": "Red (Warning)",
+      "index": 48989,
+      "raw": "Red (Warning)"
+    },
+    {
+      "text": "Orange (Alert)",
+      "index": 49164,
+      "raw": "Orange (Alert)"
+    },
+    {
+      "text": "Yellow (Watch)",
+      "index": 49340,
+      "raw": "Yellow (Watch)"
+    },
+    {
+      "text": "Authoritative Warning Standards & Emergency Helplines",
+      "index": 49870,
+      "raw": " Authoritative Warning Standards & Emergency Helplines"
+    },
+    {
+      "text": "National Disaster Guidelines",
+      "index": 49968,
+      "raw": "National Disaster Guidelines"
+    },
+    {
+      "text": "RED WARNING",
+      "index": 50142,
+      "raw": "RED WARNING"
+    },
+    {
+      "text": "Take Action:",
+      "index": 50207,
+      "raw": "Take Action:"
+    },
+    {
+      "text": "Extreme weather imminent. Life & property hazard. Cease non-essential travel and follow local administration orders.",
+      "index": 50228,
+      "raw": " Extreme weather imminent. Life & property hazard. Cease non-essential travel and follow local administration orders."
+    },
+    {
+      "text": "ORANGE ALERT",
+      "index": 50461,
+      "raw": "ORANGE ALERT"
+    },
+    {
+      "text": "Be Prepared:",
+      "index": 50527,
+      "raw": "Be Prepared:"
+    },
+    {
+      "text": "Severe weather likely. Significant transport, waterlogging, or heat exhaustion disruptions expected.",
+      "index": 50548,
+      "raw": " Severe weather likely. Significant transport, waterlogging, or heat exhaustion disruptions expected."
+    },
+    {
+      "text": "YELLOW WATCH",
+      "index": 50765,
+      "raw": "YELLOW WATCH"
+    },
+    {
+      "text": "Be Updated:",
+      "index": 50831,
+      "raw": "Be Updated:"
+    },
+    {
+      "text": "Changing meteorological conditions. Keep track of daily weather advisories.",
+      "index": 50851,
+      "raw": " Changing meteorological conditions. Keep track of daily weather advisories."
+    },
+    {
+      "text": "GREEN STATUS",
+      "index": 51041,
+      "raw": "GREEN STATUS"
+    },
+    {
+      "text": "No Warning:",
+      "index": 51107,
+      "raw": "No Warning:"
+    },
+    {
+      "text": "Atmospheric conditions remain well within seasonal safe parameters.",
+      "index": 51127,
+      "raw": " Atmospheric conditions remain well within seasonal safe parameters."
+    },
+    {
+      "text": "NDRF National Disaster Helpline:",
+      "index": 51403,
+      "raw": "NDRF National Disaster Helpline:"
+    },
+    {
+      "text": "National All-Emergency Helpline:",
+      "index": 51632,
+      "raw": "National All-Emergency Helpline:"
+    },
+    {
+      "text": "IMD Weather Service Cell:",
+      "index": 51849,
+      "raw": "IMD Weather Service Cell:"
+    },
+    {
+      "text": "Registered Community Incident Reports & Ground Bulletins",
+      "index": 52600,
+      "raw": "Registered Community Incident Reports & Ground Bulletins"
+    },
+    {
+      "text": "Real-time ground incident reports registered by citizens nationwide. Synchronized across all users in real time.",
+      "index": 52766,
+      "raw": "\n              Real-time ground incident reports registered by citizens nationwide. Synchronized across all users in real time.\n            "
+    },
+    {
+      "text": "Submit Ground Report",
+      "index": 53299,
+      "raw": " Submit Ground Report\n            "
+    },
+    {
+      "text": "All",
+      "index": 53535,
+      "raw": "All"
+    },
+    {
+      "text": "Verified",
+      "index": 53692,
+      "raw": "Verified"
+    },
+    {
+      "text": "Pending",
+      "index": 53858,
+      "raw": "Pending"
+    },
+    {
+      "text": "Citizen Weather Reports",
+      "index": 54946,
+      "raw": "Citizen Weather Reports"
+    },
+    {
+      "text": "Report Severe Event",
+      "index": 55307,
+      "raw": "Report Severe Event"
+    },
+    {
+      "text": "All Reports",
+      "index": 55512,
+      "raw": "All Reports"
+    },
+    {
+      "text": "Pending Verification",
+      "index": 55651,
+      "raw": "Pending Verification"
+    },
+    {
+      "text": "Verified",
+      "index": 55795,
+      "raw": "Verified"
+    },
+    {
+      "text": "Social Intelligence Feed",
+      "index": 56924,
+      "raw": "Social Intelligence Feed"
+    },
+    {
+      "text": "Real-time signals aggregated live from",
+      "index": 57055,
+      "raw": "\n                  Real-time signals aggregated live from "
+    },
+    {
+      "text": "UN GDACS Disaster Alerting",
+      "index": 57121,
+      "raw": "UN GDACS Disaster Alerting"
+    },
+    {
+      "text": "Google News RSS",
+      "index": 57166,
+      "raw": "Google News RSS"
+    },
+    {
+      "text": "X / Twitter (API v2)",
+      "index": 57200,
+      "raw": "X / Twitter (API v2)"
+    },
+    {
+      "text": "Instagram (Graph API)",
+      "index": 57239,
+      "raw": "Instagram (Graph API)"
+    },
+    {
+      "text": ", and",
+      "index": 57269,
+      "raw": ", and "
+    },
+    {
+      "text": "IMD Feeds",
+      "index": 57283,
+      "raw": "IMD Feeds"
+    },
+    {
+      "text": "Fetch Live Signals",
+      "index": 57662,
+      "raw": " Fetch Live Signals\n                "
+    },
+    {
+      "text": "MULTI-SOURCE INGESTION ACTIVE",
+      "index": 57932,
+      "raw": " MULTI-SOURCE INGESTION ACTIVE\n                "
+    },
+    {
+      "text": "All Platforms",
+      "index": 58375,
+      "raw": " All Platforms\n              "
+    },
+    {
+      "text": "UN GDACS Disaster Alerts",
+      "index": 58612,
+      "raw": " UN GDACS Disaster Alerts\n              "
+    },
+    {
+      "text": "Google News RSS",
+      "index": 58856,
+      "raw": " Google News RSS\n              "
+    },
+    {
+      "text": "X / Twitter (API v2)",
+      "index": 59072,
+      "raw": " X / Twitter (API v2)\n              "
+    },
+    {
+      "text": "IMD Official",
+      "index": 59313,
+      "raw": " IMD Official\n              "
+    },
+    {
+      "text": "Instagram",
+      "index": 59554,
+      "raw": " Instagram\n              "
+    },
+    {
+      "text": "Monitored Weather Tags",
+      "index": 59991,
+      "raw": " Monitored Weather Tags"
+    },
+    {
+      "text": "#IMD",
+      "index": 60172,
+      "raw": "#IMD"
+    },
+    {
+      "text": "#CycloneAlert",
+      "index": 60309,
+      "raw": "#CycloneAlert"
+    },
+    {
+      "text": "#MumbaiRains",
+      "index": 60453,
+      "raw": "#MumbaiRains"
+    },
+    {
+      "text": "#DelhiWeather",
+      "index": 60598,
+      "raw": "#DelhiWeather"
+    },
+    {
+      "text": "#FogAlert",
+      "index": 60736,
+      "raw": "#FogAlert"
+    },
+    {
+      "text": "#DustStorm",
+      "index": 60872,
+      "raw": "#DustStorm"
+    },
+    {
+      "text": "#HighWinds",
+      "index": 61009,
+      "raw": "#HighWinds"
+    },
+    {
+      "text": "#ChennaiRains",
+      "index": 61152,
+      "raw": "#ChennaiRains"
+    },
+    {
+      "text": "#Monsoon",
+      "index": 61288,
+      "raw": "#Monsoon"
+    },
+    {
+      "text": "Show All",
+      "index": 61409,
+      "raw": "Show All"
+    },
+    {
+      "text": "Ingestion Overview",
+      "index": 61592,
+      "raw": " Ingestion Overview"
+    },
+    {
+      "text": "•",
+      "index": 61728,
+      "raw": "• "
+    },
+    {
+      "text": "Sources:",
+      "index": 61738,
+      "raw": "Sources:"
+    },
+    {
+      "text": "Official IMD notices & public weather accounts",
+      "index": 61755,
+      "raw": " Official IMD notices & public weather accounts"
+    },
+    {
+      "text": "•",
+      "index": 61824,
+      "raw": "• "
+    },
+    {
+      "text": "Classification:",
+      "index": 61834,
+      "raw": "Classification:"
+    },
+    {
+      "text": "Rainfall, storms, heatwaves, and flooding",
+      "index": 61858,
+      "raw": " Rainfall, storms, heatwaves, and flooding"
+    },
+    {
+      "text": "•",
+      "index": 61922,
+      "raw": "• "
+    },
+    {
+      "text": "Geotargeting:",
+      "index": 61932,
+      "raw": "Geotargeting:"
+    },
+    {
+      "text": "Station & district proximity matching",
+      "index": 61954,
+      "raw": " Station & district proximity matching"
+    },
+    {
+      "text": "•",
+      "index": 62014,
+      "raw": "• "
+    },
+    {
+      "text": "Update Cadence:",
+      "index": 62024,
+      "raw": "Update Cadence:"
+    },
+    {
+      "text": "Continuous streaming telemetry",
+      "index": 62048,
+      "raw": " Continuous streaming telemetry"
+    },
+    {
+      "text": "Privacy Notice",
+      "index": 62253,
+      "raw": " Privacy Notice"
+    },
+    {
+      "text": "Public feed contents are aggregated for meteorological situational awareness. Handles and identifiers are anonymized.",
+      "index": 62363,
+      "raw": "\n              Public feed contents are aggregated for meteorological situational awareness. Handles and identifiers are anonymized.\n              "
+    },
+    {
+      "text": "Privacy Policy",
+      "index": 62691,
+      "raw": "Privacy Policy"
+    },
+    {
+      "text": "|",
+      "index": 62732,
+      "raw": "|"
+    },
+    {
+      "text": "Terms & Conditions",
+      "index": 62858,
+      "raw": "Terms & Conditions"
+    },
+    {
+      "text": "National Weather Analytics",
+      "index": 63672,
+      "raw": " National Weather Analytics\n          "
+    },
+    {
+      "text": "Real-time meteorological intelligence from citizen reports, social streams & national stations",
+      "index": 63798,
+      "raw": "Real-time meteorological intelligence from citizen reports, social streams & national stations"
+    },
+    {
+      "text": "Refresh Data",
+      "index": 64448,
+      "raw": " Refresh Data\n          "
+    },
+    {
+      "text": "Total Monitored Events",
+      "index": 64842,
+      "raw": "Total Monitored Events"
+    },
+    {
+      "text": "Citizen Field Reports",
+      "index": 65163,
+      "raw": "Citizen Field Reports"
+    },
+    {
+      "text": "Social Advisory Signals",
+      "index": 65481,
+      "raw": "Social Advisory Signals"
+    },
+    {
+      "text": "Data Verification Rate",
+      "index": 65802,
+      "raw": "Data Verification Rate"
+    },
+    {
+      "text": "Weather Event Breakdown by Category",
+      "index": 66100,
+      "raw": "\n            Weather Event Breakdown by Category\n          "
+    },
+    {
+      "text": "Event Frequency by Indian State",
+      "index": 66442,
+      "raw": "\n            Event Frequency by Indian State\n          "
+    },
+    {
+      "text": "Regional Weather Station Observations",
+      "index": 67067,
+      "raw": "\n            Regional Weather Station Observations\n          "
+    },
+    {
+      "text": "Live Meteorological Feed",
+      "index": 67328,
+      "raw": " Live Meteorological Feed\n          "
+    },
+    {
+      "text": "Official Meteorological Intelligence Report",
+      "index": 68083,
+      "raw": "Official Meteorological Intelligence Report"
+    },
+    {
+      "text": "Verified atmospheric snapshot, 4-day predictive window, and station telemetry formatted for administrative documentation, engineering, and civil preparedness.",
+      "index": 68152,
+      "raw": "Verified atmospheric snapshot, 4-day predictive window, and station telemetry formatted for administrative documentation, engineering, and civil preparedness."
+    },
+    {
+      "text": "Download Excel (.xlsx)",
+      "index": 68527,
+      "raw": " Download Excel (.xlsx)\n          "
+    },
+    {
+      "text": "Download PDF (.pdf)",
+      "index": 68717,
+      "raw": " Download PDF (.pdf)\n          "
+    },
+    {
+      "text": "Print Report",
+      "index": 68905,
+      "raw": "Print Report"
+    },
+    {
+      "text": "New Delhi, Delhi",
+      "index": 69304,
+      "raw": "New Delhi, Delhi"
+    },
+    {
+      "text": "Coordinates: Lat 28.6139, Lon 77.2090 | Sync: Live Open-Meteo & IMD Models",
+      "index": 69391,
+      "raw": "Coordinates: Lat 28.6139, Lon 77.2090 | Sync: Live Open-Meteo & IMD Models"
+    },
+    {
+      "text": "Document Ready",
+      "index": 69779,
+      "raw": " Document Ready\n          "
+    },
+    {
+      "text": "1. Current Surface Meteorological Observations",
+      "index": 70076,
+      "raw": "1. Current Surface Meteorological Observations"
+    },
+    {
+      "text": "Meteorological Parameter",
+      "index": 70311,
+      "raw": "Meteorological Parameter"
+    },
+    {
+      "text": "Recorded Value",
+      "index": 70401,
+      "raw": "Recorded Value"
+    },
+    {
+      "text": "Sensor & Observation Remarks",
+      "index": 70461,
+      "raw": "Sensor & Observation Remarks"
+    },
+    {
+      "text": "2. 4-Day Forward Forecast Outlook",
+      "index": 70972,
+      "raw": "2. 4-Day Forward Forecast Outlook"
+    },
+    {
+      "text": "Day / Date",
+      "index": 71196,
+      "raw": "Day / Date"
+    },
+    {
+      "text": "Forecast Condition",
+      "index": 71256,
+      "raw": "Forecast Condition"
+    },
+    {
+      "text": "High / Low Temp",
+      "index": 71300,
+      "raw": "High / Low Temp"
+    },
+    {
+      "text": "Rainfall (mm)",
+      "index": 71341,
+      "raw": "Rainfall (mm)"
+    },
+    {
+      "text": "Peak Wind (km/h)",
+      "index": 71380,
+      "raw": "Peak Wind (km/h)"
+    },
+    {
+      "text": "Max UV Index",
+      "index": 71422,
+      "raw": "Max UV Index"
+    },
+    {
+      "text": "Data Provenance & Accreditation",
+      "index": 71867,
+      "raw": " Data Provenance & Accreditation"
+    },
+    {
+      "text": "This report compiles sensor feeds calibrated against standard World Meteorological Organization (WMO) benchmarks. Numerical forecasts are synthesized from open observational models. Data is provided for public interest and situational awareness.",
+      "index": 71916,
+      "raw": "This report compiles sensor feeds calibrated against standard World Meteorological Organization (WMO) benchmarks. Numerical forecasts are synthesized from open observational models. Data is provided for public interest and situational awareness."
+    },
+    {
+      "text": "Official Distribution • National Weather Analytics",
+      "index": 72229,
+      "raw": "Official Distribution • National Weather Analytics"
+    },
+    {
+      "text": "Privacy Policy",
+      "index": 72454,
+      "raw": "Privacy Policy"
+    },
+    {
+      "text": "•",
+      "index": 72491,
+      "raw": "•"
+    },
+    {
+      "text": "Terms of Use",
+      "index": 72613,
+      "raw": "Terms of Use"
+    },
+    {
+      "text": "NWA SECURITY ACCESS",
+      "index": 73292,
+      "raw": "NWA SECURITY ACCESS"
+    },
+    {
+      "text": "Admin Portal Login",
+      "index": 73485,
+      "raw": "Admin Portal Login"
+    },
+    {
+      "text": "Please enter your administrative credentials to access the moderation queue, verification controls, and AI audit telemetry.",
+      "index": 73550,
+      "raw": "Please enter your administrative credentials to access the moderation queue, verification controls, and AI audit telemetry."
+    },
+    {
+      "text": "Admin Password",
+      "index": 74009,
+      "raw": " Admin Password\n                "
+    },
+    {
+      "text": "Log In to Admin Portal",
+      "index": 74963,
+      "raw": "Log In to Admin Portal"
+    },
+    {
+      "text": "Authorized Console",
+      "index": 75496,
+      "raw": " Authorized Console"
+    },
+    {
+      "text": "Live Moderation Active",
+      "index": 75603,
+      "raw": " Live Moderation Active"
+    },
+    {
+      "text": "Admin Portal",
+      "index": 75798,
+      "raw": "Admin Portal"
+    },
+    {
+      "text": "| Weather Intelligence & Incident Moderation",
+      "index": 75866,
+      "raw": "| Weather Intelligence & Incident Moderation"
+    },
+    {
+      "text": "Central operational dashboard to review incoming citizen weather reports, analyze AI credibility scores, resolve duplicate clusters, and verify official meteorological observations.",
+      "index": 75959,
+      "raw": "\n                  Central operational dashboard to review incoming citizen weather reports, analyze AI credibility scores, resolve duplicate clusters, and verify official meteorological observations.\n                "
+    },
+    {
+      "text": "Master Admin",
+      "index": 76486,
+      "raw": "Master Admin"
+    },
+    {
+      "text": "Logout",
+      "index": 76768,
+      "raw": "Logout"
+    },
+    {
+      "text": "Tools:",
+      "index": 77084,
+      "raw": " Tools:"
+    },
+    {
+      "text": "Deduplicate Reports",
+      "index": 77347,
+      "raw": " Deduplicate Reports\n                "
+    },
+    {
+      "text": "Export CSV",
+      "index": 77637,
+      "raw": " Export CSV\n                "
+    },
+    {
+      "text": "LIVE SYNC ACTIVE",
+      "index": 78023,
+      "raw": "LIVE SYNC ACTIVE"
+    },
+    {
+      "text": "Big Data Pipeline",
+      "index": 78420,
+      "raw": "Big Data Pipeline"
+    },
+    {
+      "text": "Refresh Queue",
+      "index": 78788,
+      "raw": "Refresh Queue"
+    },
+    {
+      "text": "Citizen Incident Moderation",
+      "index": 79180,
+      "raw": " Citizen Incident Moderation\n            "
+    },
+    {
+      "text": "Weather Alerts & Warnings Management",
+      "index": 79439,
+      "raw": " Weather Alerts & Warnings Management\n            "
+    },
+    {
+      "text": "Big Data Pipeline & Ingestion Architecture",
+      "index": 79728,
+      "raw": " Big Data Pipeline & Ingestion Architecture\n            "
+    },
+    {
+      "text": "Horizontal Cluster &amp; K8s Scalability",
+      "index": 80022,
+      "raw": " Horizontal Cluster &amp; K8s Scalability\n            "
+    },
+    {
+      "text": "Total Reports",
+      "index": 80487,
+      "raw": " Total Reports\n              "
+    },
+    {
+      "text": "Across All States & UTs",
+      "index": 80669,
+      "raw": "Across All States & UTs"
+    },
+    {
+      "text": "Verification Rate",
+      "index": 80912,
+      "raw": " Verification Rate\n              "
+    },
+    {
+      "text": "Verified Observations",
+      "index": 81135,
+      "raw": "Verified Observations"
+    },
+    {
+      "text": "Flagged Reports",
+      "index": 81380,
+      "raw": " Flagged Reports\n              "
+    },
+    {
+      "text": "Credibility Flags & Discrepancies",
+      "index": 81564,
+      "raw": "Credibility Flags & Discrepancies"
+    },
+    {
+      "text": "Duplicate Clusters",
+      "index": 81809,
+      "raw": " Duplicate Clusters\n              "
+    },
+    {
+      "text": "Location & Time Clusters",
+      "index": 82002,
+      "raw": "Location & Time Clusters"
+    },
+    {
+      "text": "Incident Filters & Spatial Search",
+      "index": 82388,
+      "raw": "Incident Filters & Spatial Search"
+    },
+    {
+      "text": "Reset Filters",
+      "index": 82593,
+      "raw": " Reset Filters\n              "
+    },
+    {
+      "text": "Date Range",
+      "index": 82863,
+      "raw": " Date Range"
+    },
+    {
+      "text": "to",
+      "index": 83111,
+      "raw": "to"
+    },
+    {
+      "text": "All Time",
+      "index": 83461,
+      "raw": "All Time"
+    },
+    {
+      "text": "Today (24h)",
+      "index": 83615,
+      "raw": "Today (24h)"
+    },
+    {
+      "text": "7 Days",
+      "index": 83772,
+      "raw": "7 Days"
+    },
+    {
+      "text": "30 Days",
+      "index": 83926,
+      "raw": "30 Days"
+    },
+    {
+      "text": "Event Category",
+      "index": 84169,
+      "raw": " Event Category"
+    },
+    {
+      "text": "All Weather Event Types",
+      "index": 84354,
+      "raw": "All Weather Event Types"
+    },
+    {
+      "text": "Heavy Rain / Downpour",
+      "index": 84432,
+      "raw": "Heavy Rain / Downpour"
+    },
+    {
+      "text": "Thunderstorm & Lightning",
+      "index": 84510,
+      "raw": "Thunderstorm & Lightning"
+    },
+    {
+      "text": "Flash Flood / Waterlogging",
+      "index": 84584,
+      "raw": "Flash Flood / Waterlogging"
+    },
+    {
+      "text": "Heatwave / Extreme Heat",
+      "index": 84663,
+      "raw": "Heatwave / Extreme Heat"
+    },
+    {
+      "text": "Dense Fog / Low Visibility",
+      "index": 84734,
+      "raw": "Dense Fog / Low Visibility"
+    },
+    {
+      "text": "Dust Storm / Sandstorm",
+      "index": 84815,
+      "raw": "Dust Storm / Sandstorm"
+    },
+    {
+      "text": "Strong Winds / Gale",
+      "index": 84894,
+      "raw": "Strong Winds / Gale"
+    },
+    {
+      "text": "Hailstorm",
+      "index": 84967,
+      "raw": "Hailstorm"
+    },
+    {
+      "text": "Cyclone / Deep Depression",
+      "index": 85028,
+      "raw": "Cyclone / Deep Depression"
+    },
+    {
+      "text": "Other Severe Phenomenon",
+      "index": 85103,
+      "raw": "Other Severe Phenomenon"
+    },
+    {
+      "text": "State / UT",
+      "index": 85355,
+      "raw": " State / UT"
+    },
+    {
+      "text": "All States & Union Territories",
+      "index": 85533,
+      "raw": "All States & Union Territories"
+    },
+    {
+      "text": "City / Landmark",
+      "index": 85793,
+      "raw": " City / Landmark"
+    },
+    {
+      "text": "Verification Status",
+      "index": 86353,
+      "raw": " Verification Status"
+    },
+    {
+      "text": "All Statuses",
+      "index": 86557,
+      "raw": "All Statuses"
+    },
+    {
+      "text": "Pending Verification",
+      "index": 86624,
+      "raw": "Pending Verification"
+    },
+    {
+      "text": "Verified Observations",
+      "index": 86697,
+      "raw": "Verified Observations"
+    },
+    {
+      "text": "Flagged Fake / Misleading",
+      "index": 86775,
+      "raw": "Flagged Fake / Misleading"
+    },
+    {
+      "text": "Duplicate Detected",
+      "index": 86854,
+      "raw": "Duplicate Detected"
+    },
+    {
+      "text": "Rejected Submissions",
+      "index": 86925,
+      "raw": "Rejected Submissions"
+    },
+    {
+      "text": "AI Credibility Risk",
+      "index": 87178,
+      "raw": " AI Credibility Risk"
+    },
+    {
+      "text": "All AI Risk Levels",
+      "index": 87368,
+      "raw": "All AI Risk Levels"
+    },
+    {
+      "text": "Low Risk (Credible)",
+      "index": 87434,
+      "raw": "Low Risk (Credible)"
+    },
+    {
+      "text": "Medium Risk (Review Needed)",
+      "index": 87504,
+      "raw": "Medium Risk (Review Needed)"
+    },
+    {
+      "text": "High Risk (Discrepancy)",
+      "index": 87580,
+      "raw": "High Risk (Discrepancy)"
+    },
+    {
+      "text": "Search Reports",
+      "index": 87870,
+      "raw": " Search Reports"
+    },
+    {
+      "text": "All Reports",
+      "index": 88894,
+      "raw": "All Reports"
+    },
+    {
+      "text": "Pending Verification",
+      "index": 89266,
+      "raw": "Pending Verification"
+    },
+    {
+      "text": "Verified",
+      "index": 89659,
+      "raw": "Verified"
+    },
+    {
+      "text": "Flagged Fake",
+      "index": 90058,
+      "raw": "Flagged Fake"
+    },
+    {
+      "text": "0 Records",
+      "index": 90412,
+      "raw": "0 Records"
+    },
+    {
+      "text": "Timestamp (IST)",
+      "index": 90636,
+      "raw": "Timestamp (IST)"
+    },
+    {
+      "text": "Source & Trust",
+      "index": 90681,
+      "raw": "Source & Trust"
+    },
+    {
+      "text": "Event Category",
+      "index": 90725,
+      "raw": "Event Category"
+    },
+    {
+      "text": "Location & GPS",
+      "index": 90769,
+      "raw": "Location & GPS"
+    },
+    {
+      "text": "Observation & Evidence",
+      "index": 90813,
+      "raw": "Observation & Evidence"
+    },
+    {
+      "text": "Credibility Score",
+      "index": 90865,
+      "raw": "Credibility Score"
+    },
+    {
+      "text": "Verification Status",
+      "index": 90912,
+      "raw": "Verification Status"
+    },
+    {
+      "text": "Actions",
+      "index": 90988,
+      "raw": "Actions"
+    },
+    {
+      "text": "Active Weather Warnings",
+      "index": 91736,
+      "raw": " Active Weather Warnings\n                "
+    },
+    {
+      "text": "Monitored Hazard Zones",
+      "index": 91913,
+      "raw": "Monitored Hazard Zones"
+    },
+    {
+      "text": "Red Severe Warnings",
+      "index": 92156,
+      "raw": " Red Severe Warnings\n                "
+    },
+    {
+      "text": "Highest Hazard Priority",
+      "index": 92351,
+      "raw": "Highest Hazard Priority"
+    },
+    {
+      "text": "Orange Alerts",
+      "index": 92642,
+      "raw": " Orange Alerts\n                "
+    },
+    {
+      "text": "Preparedness Horizon",
+      "index": 92834,
+      "raw": "Preparedness Horizon"
+    },
+    {
+      "text": "User Early-Warning Alerts",
+      "index": 93103,
+      "raw": " User Early-Warning Alerts\n                "
+    },
+    {
+      "text": "Active Subscriptions",
+      "index": 93305,
+      "raw": "Active Subscriptions"
+    },
+    {
+      "text": "Broadcast Official Emergency Weather Warning",
+      "index": 93904,
+      "raw": "Broadcast Official Emergency Weather Warning"
+    },
+    {
+      "text": "Dispatches an immediate authoritative warning across the national alerts network and alerts all connected users.",
+      "index": 94080,
+      "raw": "\n                    Dispatches an immediate authoritative warning across the national alerts network and alerts all connected users.\n                  "
+    },
+    {
+      "text": "Detect Device GPS",
+      "index": 94714,
+      "raw": "Detect Device GPS"
+    },
+    {
+      "text": "City / Region *",
+      "index": 95333,
+      "raw": " City / Region *"
+    },
+    {
+      "text": "Use GPS",
+      "index": 95623,
+      "raw": " Use GPS\n                      "
+    },
+    {
+      "text": "State / UT *",
+      "index": 96017,
+      "raw": " State / UT *"
+    },
+    {
+      "text": "Latitude",
+      "index": 96460,
+      "raw": "Latitude"
+    },
+    {
+      "text": "Longitude",
+      "index": 96766,
+      "raw": "Longitude"
+    },
+    {
+      "text": "Hazard Category *",
+      "index": 97076,
+      "raw": "Hazard Category *"
+    },
+    {
+      "text": "Heavy Rain / Inundation",
+      "index": 97241,
+      "raw": "Heavy Rain / Inundation"
+    },
+    {
+      "text": "Extreme Heatwave",
+      "index": 97321,
+      "raw": "Extreme Heatwave"
+    },
+    {
+      "text": "Cyclone / Storm",
+      "index": 97393,
+      "raw": "Cyclone / Storm"
+    },
+    {
+      "text": "Flash Flood",
+      "index": 97462,
+      "raw": "Flash Flood"
+    },
+    {
+      "text": "Severe Thunderstorm & Gale",
+      "index": 97534,
+      "raw": "Severe Thunderstorm & Gale"
+    },
+    {
+      "text": "Severe Cold Wave",
+      "index": 97618,
+      "raw": "Severe Cold Wave"
+    },
+    {
+      "text": "Warning Level *",
+      "index": 97832,
+      "raw": "Warning Level *"
+    },
+    {
+      "text": "RED (Take Action)",
+      "index": 97990,
+      "raw": "RED (Take Action)"
+    },
+    {
+      "text": "ORANGE (Be Prepared)",
+      "index": 98062,
+      "raw": "ORANGE (Be Prepared)"
+    },
+    {
+      "text": "YELLOW (Be Updated)",
+      "index": 98137,
+      "raw": "YELLOW (Be Updated)"
+    },
+    {
+      "text": "Warning Headline *",
+      "index": 98384,
+      "raw": "Warning Headline *"
+    },
+    {
+      "text": "Public Safety Advisory",
+      "index": 98863,
+      "raw": "Public Safety Advisory"
+    },
+    {
+      "text": "Validity Horizon",
+      "index": 99245,
+      "raw": "Validity Horizon"
+    },
+    {
+      "text": "Next 12 Hours",
+      "index": 99393,
+      "raw": "Next 12 Hours"
+    },
+    {
+      "text": "Next 24 Hours",
+      "index": 99477,
+      "raw": "Next 24 Hours"
+    },
+    {
+      "text": "Next 48 Hours",
+      "index": 99552,
+      "raw": "Next 48 Hours"
+    },
+    {
+      "text": "Next 72 Hours",
+      "index": 99627,
+      "raw": "Next 72 Hours"
+    },
+    {
+      "text": "Broadcast Emergency Warning",
+      "index": 99991,
+      "raw": " Broadcast Emergency Warning\n                  "
+    },
+    {
+      "text": "Active National Severe Weather Alerts",
+      "index": 100439,
+      "raw": "Active National Severe Weather Alerts"
+    },
+    {
+      "text": "Refresh Alerts",
+      "index": 100786,
+      "raw": "Refresh Alerts"
+    },
+    {
+      "text": "Location / GPS",
+      "index": 101032,
+      "raw": "Location / GPS"
+    },
+    {
+      "text": "Hazard",
+      "index": 101078,
+      "raw": "Hazard"
+    },
+    {
+      "text": "Severity",
+      "index": 101116,
+      "raw": "Severity"
+    },
+    {
+      "text": "Headline & Advisory",
+      "index": 101156,
+      "raw": "Headline & Advisory"
+    },
+    {
+      "text": "Validity",
+      "index": 101207,
+      "raw": "Validity"
+    },
+    {
+      "text": "Authority",
+      "index": 101247,
+      "raw": "Authority"
+    },
+    {
+      "text": "Actions",
+      "index": 101315,
+      "raw": "Actions"
+    },
+    {
+      "text": "Stream Throughput",
+      "index": 102110,
+      "raw": " Stream Throughput\n                "
+    },
+    {
+      "text": "-- rec/s",
+      "index": 102251,
+      "raw": "-- rec/s"
+    },
+    {
+      "text": "Engine: Apache Kafka Partition Buffer",
+      "index": 102341,
+      "raw": "Engine: Apache Kafka Partition Buffer"
+    },
+    {
+      "text": "Buffer Queue Depth",
+      "index": 102584,
+      "raw": " Buffer Queue Depth\n                "
+    },
+    {
+      "text": "Capacity: 10,000 in-memory",
+      "index": 102808,
+      "raw": "Capacity: 10,000 in-memory"
+    },
+    {
+      "text": "Total Stream Ingested",
+      "index": 103035,
+      "raw": " Total Stream Ingested\n                "
+    },
+    {
+      "text": "0 Dropped Packets (100% QoS)",
+      "index": 103266,
+      "raw": "0 Dropped Packets (100% QoS)"
+    },
+    {
+      "text": "End-to-End Latency",
+      "index": 103493,
+      "raw": " End-to-End Latency\n                "
+    },
+    {
+      "text": "&lt; 15 ms",
+      "index": 103632,
+      "raw": "&lt; 15 ms"
+    },
+    {
+      "text": "AI Feature Vectorization + DB Sync",
+      "index": 103698,
+      "raw": "AI Feature Vectorization + DB Sync"
+    },
+    {
+      "text": "Live Streaming Pipeline Architecture Topology",
+      "index": 104136,
+      "raw": "Live Streaming Pipeline Architecture Topology"
+    },
+    {
+      "text": "Active Ingestion Engine:",
+      "index": 104415,
+      "raw": "Active Ingestion Engine:"
+    },
+    {
+      "text": "Apache Kafka (4 Partitions)",
+      "index": 104692,
+      "raw": "Apache Kafka (4 Partitions)"
+    },
+    {
+      "text": "ClickHouse Columnar Buffer",
+      "index": 104776,
+      "raw": "ClickHouse Columnar Buffer"
+    },
+    {
+      "text": "Apache Spark Structured Streaming",
+      "index": 104854,
+      "raw": "Apache Spark Structured Streaming"
+    },
+    {
+      "text": "Google BigQuery Real-Time Stream",
+      "index": 104942,
+      "raw": "Google BigQuery Real-Time Stream"
+    },
+    {
+      "text": "Edge Ingestion",
+      "index": 105425,
+      "raw": "Edge Ingestion"
+    },
+    {
+      "text": "IMD Radars &bull; Citizen Web &bull; Social RSS",
+      "index": 105489,
+      "raw": "IMD Radars &bull; Citizen Web &bull; Social RSS"
+    },
+    {
+      "text": "HTTP / SSE / REST",
+      "index": 105587,
+      "raw": "HTTP / SSE / REST"
+    },
+    {
+      "text": "Kafka Buffer",
+      "index": 105957,
+      "raw": "Kafka Buffer"
+    },
+    {
+      "text": "4 Ingestion Partitions (Snappy Comp.)",
+      "index": 106019,
+      "raw": "4 Ingestion Partitions (Snappy Comp.)"
+    },
+    {
+      "text": "nwa-meteorological-stream",
+      "index": 106132,
+      "raw": "nwa-meteorological-stream"
+    },
+    {
+      "text": "AI NLP &amp; CV Worker",
+      "index": 106471,
+      "raw": "AI NLP &amp; CV Worker"
+    },
+    {
+      "text": "TF-IDF Vectorizer &bull; Naive Bayes &bull; EXIF Forensics",
+      "index": 106543,
+      "raw": "TF-IDF Vectorizer &bull; Naive Bayes &bull; EXIF Forensics"
+    },
+    {
+      "text": "Multiprocess Async",
+      "index": 106652,
+      "raw": "Multiprocess Async"
+    },
+    {
+      "text": "Storage Warehouse",
+      "index": 106990,
+      "raw": "Storage Warehouse"
+    },
+    {
+      "text": "SQLite WAL + Partitioned GIS Analytics",
+      "index": 107057,
+      "raw": "SQLite WAL + Partitioned GIS Analytics"
+    },
+    {
+      "text": "ACID WAL High-QoS",
+      "index": 107146,
+      "raw": "ACID WAL High-QoS"
+    },
+    {
+      "text": "Partition 0 (North)",
+      "index": 107471,
+      "raw": "Partition 0 (North)"
+    },
+    {
+      "text": "Lag: 4ms",
+      "index": 107520,
+      "raw": "Lag: 4ms"
+    },
+    {
+      "text": "Partition 1 (South)",
+      "index": 107778,
+      "raw": "Partition 1 (South)"
+    },
+    {
+      "text": "Lag: 6ms",
+      "index": 107827,
+      "raw": "Lag: 6ms"
+    },
+    {
+      "text": "Partition 2 (East)",
+      "index": 108085,
+      "raw": "Partition 2 (East)"
+    },
+    {
+      "text": "Lag: 5ms",
+      "index": 108133,
+      "raw": "Lag: 5ms"
+    },
+    {
+      "text": "Partition 3 (West)",
+      "index": 108391,
+      "raw": "Partition 3 (West)"
+    },
+    {
+      "text": "Lag: 3ms",
+      "index": 108439,
+      "raw": "Lag: 3ms"
+    },
+    {
+      "text": "High-Volume Stream Ingestion Scalability Benchmark",
+      "index": 108981,
+      "raw": "High-Volume Stream Ingestion Scalability Benchmark"
+    },
+    {
+      "text": "Trigger 1,000 Event Benchmark",
+      "index": 109297,
+      "raw": " Trigger 1,000 Event Benchmark\n                  "
+    },
+    {
+      "text": "Simulate high-velocity severe meteorological storm telemetry by blasting 1,000 continuous synthetic weather stream records across 4 message buffer partitions in under 2 seconds. Demonstrates asynchronous queuing, zero dropped packets, and real-time database batch commit.",
+      "index": 109548,
+      "raw": "\n                  Simulate high-velocity severe meteorological storm telemetry by blasting 1,000 continuous synthetic weather stream records across 4 message buffer partitions in under 2 seconds. Demonstrates asynchronous queuing, zero dropped packets, and real-time database batch commit.\n                "
+    },
+    {
+      "text": "Ingesting Synthetic Meteorological Stream...",
+      "index": 110203,
+      "raw": "Ingesting Synthetic Meteorological Stream..."
+    },
+    {
+      "text": "Benchmark Ingestion Test Passed",
+      "index": 111250,
+      "raw": " Benchmark Ingestion Test Passed\n                      "
+    },
+    {
+      "text": "Ingested 1,000 records in 1,240 ms &bull;",
+      "index": 111420,
+      "raw": "\n                        Ingested 1,000 records in 1,240 ms &bull; "
+    },
+    {
+      "text": "806 records/sec",
+      "index": 111495,
+      "raw": "806 records/sec"
+    },
+    {
+      "text": "Buffer: 100% QoS",
+      "index": 111770,
+      "raw": " Buffer: 100% QoS"
+    },
+    {
+      "text": "SQLite WAL Synchronized",
+      "index": 111882,
+      "raw": " SQLite WAL Synchronized"
+    },
+    {
+      "text": "Active Cluster Nodes",
+      "index": 112614,
+      "raw": " Active Cluster Nodes\n                "
+    },
+    {
+      "text": "4 / 4 Nodes",
+      "index": 112759,
+      "raw": "4 / 4 Nodes"
+    },
+    {
+      "text": "Supervisor: Self-Healing Active",
+      "index": 112854,
+      "raw": "Supervisor: Self-Healing Active"
+    },
+    {
+      "text": "Host CPU Topology",
+      "index": 113129,
+      "raw": " Host CPU Topology\n                "
+    },
+    {
+      "text": "-- Cores",
+      "index": 113269,
+      "raw": "-- Cores"
+    },
+    {
+      "text": "CPU Load: Nominal",
+      "index": 113358,
+      "raw": "CPU Load: Nominal"
+    },
+    {
+      "text": "Kubernetes HPA",
+      "index": 113615,
+      "raw": " Kubernetes HPA\n                "
+    },
+    {
+      "text": "3 &rarr; 50 Pods",
+      "index": 113749,
+      "raw": "3 &rarr; 50 Pods"
+    },
+    {
+      "text": "Target: 70% CPU / 80% Mem",
+      "index": 113843,
+      "raw": "Target: 70% CPU / 80% Mem"
+    },
+    {
+      "text": "Layer-7 Load Balancer",
+      "index": 114116,
+      "raw": " Layer-7 Load Balancer\n                "
+    },
+    {
+      "text": "NGINX Least-Conn",
+      "index": 114262,
+      "raw": "NGINX Least-Conn"
+    },
+    {
+      "text": "Zero-Downtime Rolling Reload",
+      "index": 114334,
+      "raw": "Zero-Downtime Rolling Reload"
+    },
+    {
+      "text": "Multi-Worker Node Pool (IPC Mesh)",
+      "index": 115055,
+      "raw": "\n                    Multi-Worker Node Pool (IPC Mesh)\n                  "
+    },
+    {
+      "text": "Refresh",
+      "index": 115347,
+      "raw": " Refresh\n                  "
+    },
+    {
+      "text": "Discovering cluster worker nodes...",
+      "index": 115843,
+      "raw": " Discovering cluster worker nodes...\n                    "
+    },
+    {
+      "text": "Fault-Tolerance & Self-Healing",
+      "index": 116462,
+      "raw": " Fault-Tolerance & Self-Healing"
+    },
+    {
+      "text": "Simulate worker crash and observe instant zero-downtime revival",
+      "index": 116583,
+      "raw": "Simulate worker crash and observe instant zero-downtime revival"
+    },
+    {
+      "text": "Test Self-Healing",
+      "index": 116970,
+      "raw": " Test Self-Healing\n                      "
+    },
+    {
+      "text": "Microservices Architecture & Gateway Mesh",
+      "index": 117794,
+      "raw": "\n                    Microservices Architecture & Gateway Mesh\n                  "
+    },
+    {
+      "text": "Polling microservice registry...",
+      "index": 118324,
+      "raw": " Polling microservice registry...\n                    "
+    },
+    {
+      "text": "Container & K8s Manifests Ready",
+      "index": 118903,
+      "raw": " Container & K8s Manifests Ready"
+    },
+    {
+      "text": "v2.4.0-cloud-native",
+      "index": 119076,
+      "raw": "v2.4.0-cloud-native"
+    },
+    {
+      "text": "Production",
+      "index": 119227,
+      "raw": "\n                      Production "
+    },
+    {
+      "text": "Dockerfile",
+      "index": 119267,
+      "raw": "Dockerfile"
+    },
+    {
+      "text": "docker-compose.yml",
+      "index": 119292,
+      "raw": "docker-compose.yml"
+    },
+    {
+      "text": "(NGINX LB + 3 Nodes + Redis + Kafka + ClickHouse), and Kubernetes",
+      "index": 119317,
+      "raw": " (NGINX LB + 3 Nodes + Redis + Kafka + ClickHouse), and Kubernetes "
+    },
+    {
+      "text": "k8s/hpa.yaml",
+      "index": 119390,
+      "raw": "k8s/hpa.yaml"
+    },
+    {
+      "text": "autoscaler enabled.",
+      "index": 119409,
+      "raw": " autoscaler enabled.\n                    "
+    },
+    {
+      "text": "High-Concurrency Multi-Node Scalability Benchmark",
+      "index": 120079,
+      "raw": "\n                    High-Concurrency Multi-Node Scalability Benchmark\n                  "
+    },
+    {
+      "text": "Execute parallel stress traffic across worker pool and verify horizontal speedup vs single-node architecture",
+      "index": 120271,
+      "raw": "\n                    Execute parallel stress traffic across worker pool and verify horizontal speedup vs single-node architecture\n                  "
+    },
+    {
+      "text": "Concurrency Load:",
+      "index": 120662,
+      "raw": "Concurrency Load:"
+    },
+    {
+      "text": "500 Concurrent Requests",
+      "index": 120889,
+      "raw": "500 Concurrent Requests"
+    },
+    {
+      "text": "1,000 Concurrent Requests (Standard)",
+      "index": 120972,
+      "raw": "1,000 Concurrent Requests (Standard)"
+    },
+    {
+      "text": "2,500 Concurrent Requests (Heavy Load)",
+      "index": 121059,
+      "raw": "2,500 Concurrent Requests (Heavy Load)"
+    },
+    {
+      "text": "5,000 Concurrent Requests (National Surge)",
+      "index": 121148,
+      "raw": "5,000 Concurrent Requests (National Surge)"
+    },
+    {
+      "text": "Run Scalability Benchmark",
+      "index": 121572,
+      "raw": " Run Scalability Benchmark\n                  "
+    },
+    {
+      "text": "Scalability Benchmark Succeeded",
+      "index": 122514,
+      "raw": " Scalability Benchmark Succeeded\n                        "
+    },
+    {
+      "text": "Processed 1,000 concurrent requests across 4 workers in 74ms",
+      "index": 122708,
+      "raw": "\n                          Processed 1,000 concurrent requests across 4 workers in 74ms\n                        "
+    },
+    {
+      "text": "3.28x vs Single Node",
+      "index": 123171,
+      "raw": " 3.28x vs Single Node\n                      "
+    },
+    {
+      "text": "Throughput",
+      "index": 123727,
+      "raw": "Throughput"
+    },
+    {
+      "text": "-- req/s",
+      "index": 123885,
+      "raw": "-- req/s"
+    },
+    {
+      "text": "High Concurrency",
+      "index": 124026,
+      "raw": " High Concurrency"
+    },
+    {
+      "text": "P50 Median Latency",
+      "index": 124361,
+      "raw": "P50 Median Latency"
+    },
+    {
+      "text": "-- ms",
+      "index": 124520,
+      "raw": "-- ms"
+    },
+    {
+      "text": "Sub-10ms response",
+      "index": 124635,
+      "raw": "Sub-10ms response"
+    },
+    {
+      "text": "P95 Latency (SLA)",
+      "index": 124970,
+      "raw": "P95 Latency (SLA)"
+    },
+    {
+      "text": "-- ms",
+      "index": 125128,
+      "raw": "-- ms"
+    },
+    {
+      "text": "100% SLA Compliant",
+      "index": 125266,
+      "raw": " 100% SLA Compliant"
+    },
+    {
+      "text": "P99 Tail Latency",
+      "index": 125603,
+      "raw": "P99 Tail Latency"
+    },
+    {
+      "text": "-- ms",
+      "index": 125760,
+      "raw": "-- ms"
+    },
+    {
+      "text": "Zero queue starvation",
+      "index": 125875,
+      "raw": "Zero queue starvation"
+    },
+    {
+      "text": "Worker Traffic Distribution",
+      "index": 126488,
+      "raw": " Worker Traffic Distribution\n                        "
+    },
+    {
+      "text": "Kubernetes HPA Forecast",
+      "index": 127170,
+      "raw": " Kubernetes HPA Forecast\n                        "
+    },
+    {
+      "text": "Current Cluster Capacity:",
+      "index": 127388,
+      "raw": "Current Cluster Capacity: "
+    },
+    {
+      "text": "100% Operational",
+      "index": 127422,
+      "raw": "100% Operational"
+    },
+    {
+      "text": "Autoscaling Threshold:",
+      "index": 127485,
+      "raw": "Autoscaling Threshold: "
+    },
+    {
+      "text": "70% CPU / 15s window",
+      "index": 127516,
+      "raw": "70% CPU / 15s window"
+    },
+    {
+      "text": "Pod autoscaling scale-up triggered automatically for &gt; 5,000 req/s national emergency alerts.",
+      "index": 127667,
+      "raw": " Pod autoscaling scale-up triggered automatically for &gt; 5,000 req/s national emergency alerts."
+    },
+    {
+      "text": "Scalability Stress Testing Engine Ready",
+      "index": 128379,
+      "raw": "Scalability Stress Testing Engine Ready"
+    },
+    {
+      "text": "Select the concurrency level above and click",
+      "index": 128522,
+      "raw": "\n                    Select the concurrency level above and click "
+    },
+    {
+      "text": "Run Scalability Benchmark",
+      "index": 128596,
+      "raw": "Run Scalability Benchmark"
+    },
+    {
+      "text": "to test parallel horizontal request throughput, response latency percentiles, and multi-core speedup.",
+      "index": 128630,
+      "raw": " to test parallel horizontal request throughput, response latency percentiles, and multi-core speedup.\n                  "
+    },
+    {
+      "text": "National Weather Analytics",
+      "index": 129188,
+      "raw": "National Weather Analytics"
+    },
+    {
+      "text": "Authoritative meteorological monitoring, real-time severe weather intelligence, and community incident verification across Indian states and union territories.",
+      "index": 129295,
+      "raw": "Authoritative meteorological monitoring, real-time severe weather intelligence, and community incident verification across Indian states and union territories."
+    },
+    {
+      "text": "Connected Domain:",
+      "index": 129576,
+      "raw": "Connected Domain:"
+    },
+    {
+      "text": "weatheranalytics.in",
+      "index": 129609,
+      "raw": "weatheranalytics.in"
+    },
+    {
+      "text": "Emergency & Meteorological Desk",
+      "index": 129759,
+      "raw": "Emergency & Meteorological Desk"
+    },
+    {
+      "text": "+91 11 2461 1792 (Control Room)",
+      "index": 129961,
+      "raw": " +91 11 2461 1792 (Control Room)\n              "
+    },
+    {
+      "text": "support@weatheranalytics.in",
+      "index": 130180,
+      "raw": " support@weatheranalytics.in\n              "
+    },
+    {
+      "text": "Lodhi Road Meteorological Complex, New Delhi 110003",
+      "index": 130343,
+      "raw": " Lodhi Road Meteorological Complex, New Delhi 110003"
+    },
+    {
+      "text": "Legal & Operational Policies",
+      "index": 130556,
+      "raw": "Legal & Operational Policies"
+    },
+    {
+      "text": "Privacy Policy",
+      "index": 130727,
+      "raw": " Privacy Policy"
+    },
+    {
+      "text": "Terms of Service",
+      "index": 130852,
+      "raw": " Terms of Service"
+    },
+    {
+      "text": "Historical Observation Archive",
+      "index": 130973,
+      "raw": " Historical Observation Archive"
+    },
+    {
+      "text": "System Telemetry & Health Status",
+      "index": 131125,
+      "raw": " System Telemetry & Health Status"
+    },
+    {
+      "text": "&copy; 2026 National Weather Analytics (NWA). All rights reserved. Operating under WMO open observational data standards.",
+      "index": 131292,
+      "raw": "&copy; 2026 National Weather Analytics (NWA). All rights reserved. Operating under WMO open observational data standards."
+    },
+    {
+      "text": "Privacy Policy",
+      "index": 131516,
+      "raw": "Privacy Policy"
+    },
+    {
+      "text": "•",
+      "index": 131551,
+      "raw": "•"
+    },
+    {
+      "text": "Terms of Use",
+      "index": 131610,
+      "raw": "Terms of Use"
+    },
+    {
+      "text": "•",
+      "index": 131643,
+      "raw": "•"
+    },
+    {
+      "text": "Help Desk",
+      "index": 131734,
+      "raw": "Help Desk"
+    },
+    {
+      "text": "Report Local Weather Event",
+      "index": 132404,
+      "raw": "Report Local Weather Event"
+    },
+    {
+      "text": "&times;",
+      "index": 132536,
+      "raw": "&times;"
+    },
+    {
+      "text": "Auto-Fill from Active Location / GPS",
+      "index": 133096,
+      "raw": "Auto-Fill from Active Location / GPS"
+    },
+    {
+      "text": "Event Category *",
+      "index": 133306,
+      "raw": "Event Category *"
+    },
+    {
+      "text": "Heavy Rain / Downpour",
+      "index": 133443,
+      "raw": "Heavy Rain / Downpour"
+    },
+    {
+      "text": "Thunderstorm & Lightning",
+      "index": 133517,
+      "raw": "Thunderstorm & Lightning"
+    },
+    {
+      "text": "Flash Flood / Waterlogging",
+      "index": 133587,
+      "raw": "Flash Flood / Waterlogging"
+    },
+    {
+      "text": "Heatwave / Extreme Heat",
+      "index": 133662,
+      "raw": "Heatwave / Extreme Heat"
+    },
+    {
+      "text": "Dense Fog / Low Visibility",
+      "index": 133729,
+      "raw": "Dense Fog / Low Visibility"
+    },
+    {
+      "text": "Dust Storm / Sandstorm",
+      "index": 133806,
+      "raw": "Dust Storm / Sandstorm"
+    },
+    {
+      "text": "Strong Winds / Gale",
+      "index": 133881,
+      "raw": "Strong Winds / Gale"
+    },
+    {
+      "text": "Hailstorm",
+      "index": 133950,
+      "raw": "Hailstorm"
+    },
+    {
+      "text": "Cyclone / Deep Depression",
+      "index": 134007,
+      "raw": "Cyclone / Deep Depression"
+    },
+    {
+      "text": "Other Severe Phenomenon",
+      "index": 134078,
+      "raw": "Other Severe Phenomenon"
+    },
+    {
+      "text": "State / UT *",
+      "index": 134381,
+      "raw": "State / UT *"
+    },
+    {
+      "text": "Select State",
+      "index": 134505,
+      "raw": "Select State"
+    },
+    {
+      "text": "City / District",
+      "index": 134696,
+      "raw": "City / District"
+    },
+    {
+      "text": "Select City / District",
+      "index": 134819,
+      "raw": "Select City / District"
+    },
+    {
+      "text": "Location / Landmark *",
+      "index": 135038,
+      "raw": "Location / Landmark *"
+    },
+    {
+      "text": "Latitude *",
+      "index": 135478,
+      "raw": "Latitude *"
+    },
+    {
+      "text": "Longitude *",
+      "index": 135754,
+      "raw": "Longitude *"
+    },
+    {
+      "text": "Description & Impact",
+      "index": 136059,
+      "raw": "Description & Impact"
+    },
+    {
+      "text": "Your Name / Organization",
+      "index": 136453,
+      "raw": "Your Name / Organization"
+    },
+    {
+      "text": "Video Telemetry Link (Optional)",
+      "index": 136863,
+      "raw": " Video Telemetry Link (Optional)\n            "
+    },
+    {
+      "text": "Attach Photo (Optional)",
+      "index": 137244,
+      "raw": "Attach Photo (Optional)"
+    },
+    {
+      "text": "Click or drag image to attach photo",
+      "index": 137727,
+      "raw": "Click or drag image to attach photo"
+    },
+    {
+      "text": "Supports JPG, PNG, WebP (Max 4MB)",
+      "index": 137816,
+      "raw": "Supports JPG, PNG, WebP (Max 4MB)"
+    },
+    {
+      "text": "Browse Photo",
+      "index": 137980,
+      "raw": " Browse Photo\n                "
+    },
+    {
+      "text": "Photo Attached",
+      "index": 138359,
+      "raw": "Photo Attached"
+    },
+    {
+      "text": "Ready for submission",
+      "index": 138490,
+      "raw": " Ready for submission"
+    },
+    {
+      "text": "Submit Weather Report",
+      "index": 139057,
+      "raw": " Submit Weather Report\n          "
+    },
+    {
+      "text": "AI Multi-Modal Credibility &amp; Forensics Inspector",
+      "index": 140753,
+      "raw": "AI Multi-Modal Credibility &amp; Forensics Inspector"
+    },
+    {
+      "text": "Grade A",
+      "index": 140889,
+      "raw": "Grade A"
+    },
+    {
+      "text": "TF-IDF NLP Vectorizer · GIS Boundary Corroboration · Visual Forensics v2.5",
+      "index": 140984,
+      "raw": "TF-IDF NLP Vectorizer · GIS Boundary Corroboration · Visual Forensics v2.5"
+    },
+    {
+      "text": "Observation Telemetry &amp; Location",
+      "index": 141914,
+      "raw": "Observation Telemetry &amp; Location"
+    },
+    {
+      "text": "Marine Drive, Mumbai (Maharashtra)",
+      "index": 142057,
+      "raw": "Marine Drive, Mumbai (Maharashtra)"
+    },
+    {
+      "text": "\"Waterlogging up to 1.5 ft near Churchgate station.\"",
+      "index": 142221,
+      "raw": "\"Waterlogging up to 1.5 ft near Churchgate station.\""
+    },
+    {
+      "text": "Composite Trust Score",
+      "index": 142428,
+      "raw": "Composite Trust Score"
+    },
+    {
+      "text": "Low False-Positive Risk",
+      "index": 142648,
+      "raw": "Low False-Positive Risk"
+    },
+    {
+      "text": "1. NLP &amp; Sentiment",
+      "index": 143010,
+      "raw": " 1. NLP &amp; Sentiment"
+    },
+    {
+      "text": "TF-IDF Term Frequency matched against official IMD meteorological taxonomy. Anti-spam cosine distance verified.",
+      "index": 143532,
+      "raw": "\n              TF-IDF Term Frequency matched against official IMD meteorological taxonomy. Anti-spam cosine distance verified.\n            "
+    },
+    {
+      "text": "2. Geospatial Validation",
+      "index": 143909,
+      "raw": " 2. Geospatial Validation"
+    },
+    {
+      "text": "GPS coordinates verified inside Indian sovereign land boundaries. Anomaly check: Inland cyclone probability cleared.",
+      "index": 144433,
+      "raw": "\n              GPS coordinates verified inside Indian sovereign land boundaries. Anomaly check: Inland cyclone probability cleared.\n            "
+    },
+    {
+      "text": "3. Visual Media Forensic",
+      "index": 144808,
+      "raw": " 3. Visual Media Forensic"
+    },
+    {
+      "text": "Visual scene corroboration confirmed weather phenomenon (convective cloud / waterlogging). Deepfake &amp; stock photo manipulation test passed.",
+      "index": 145332,
+      "raw": "\n              Visual scene corroboration confirmed weather phenomenon (convective cloud / waterlogging). Deepfake &amp; stock photo manipulation test passed.\n            "
+    },
+    {
+      "text": "4. Ground Station Match",
+      "index": 145748,
+      "raw": " 4. Ground Station Match"
+    },
+    {
+      "text": "Corroborated with active IMD Doppler weather radar &amp; regional automated weather stations (AWS) telemetry.",
+      "index": 146274,
+      "raw": "\n              Corroborated with active IMD Doppler weather radar &amp; regional automated weather stations (AWS) telemetry.\n            "
+    },
+    {
+      "text": "AI Verification Reasoning &amp; Decision Trail (Explainable AI):",
+      "index": 146684,
+      "raw": "AI Verification Reasoning &amp; Decision Trail (Explainable AI):"
+    },
+    {
+      "text": "Emergency Weather Desk: Warning Dispatcher",
+      "index": 148415,
+      "raw": "Emergency Weather Desk: Warning Dispatcher"
+    },
+    {
+      "text": "National Early Warning Network · Multi-Agency Broadcast",
+      "index": 148525,
+      "raw": "National Early Warning Network · Multi-Agency Broadcast"
+    },
+    {
+      "text": "Emergency Warning Headline",
+      "index": 149293,
+      "raw": "\n            Emergency Warning Headline\n          "
+    },
+    {
+      "text": "Hazard Event",
+      "index": 149915,
+      "raw": "Hazard Event"
+    },
+    {
+      "text": "Tropical Cyclone",
+      "index": 150176,
+      "raw": "Tropical Cyclone"
+    },
+    {
+      "text": "Severe Monsoon Downpour",
+      "index": 150252,
+      "raw": "Severe Monsoon Downpour"
+    },
+    {
+      "text": "Flash Flood / Inundation",
+      "index": 150327,
+      "raw": "Flash Flood / Inundation"
+    },
+    {
+      "text": "Extreme Heatwave (Loo)",
+      "index": 150400,
+      "raw": "Extreme Heatwave (Loo)"
+    },
+    {
+      "text": "Thunderstorm &amp; Lightning",
+      "index": 150475,
+      "raw": "Thunderstorm &amp; Lightning"
+    },
+    {
+      "text": "Cloudburst",
+      "index": 150583,
+      "raw": "Cloudburst"
+    },
+    {
+      "text": "Severity Tier",
+      "index": 150778,
+      "raw": "Severity Tier"
+    },
+    {
+      "text": "Red Alert (Take Action)",
+      "index": 151047,
+      "raw": "Red Alert (Take Action)"
+    },
+    {
+      "text": "Orange Alert (Be Prepared)",
+      "index": 151117,
+      "raw": "Orange Alert (Be Prepared)"
+    },
+    {
+      "text": "Yellow Warning (Be Aware)",
+      "index": 151190,
+      "raw": "Yellow Warning (Be Aware)"
+    },
+    {
+      "text": "Target District / Coastal Belt",
+      "index": 151441,
+      "raw": "Target District / Coastal Belt"
+    },
+    {
+      "text": "Advisory &amp; Protective Action Instructions",
+      "index": 151954,
+      "raw": "Advisory &amp; Protective Action Instructions"
+    },
+    {
+      "text": "Automated Emergency Broadcast Channels:",
+      "index": 152692,
+      "raw": "\n            Automated Emergency Broadcast Channels:\n          "
+    },
+    {
+      "text": "State Disaster Management Authority (SDMA) Emergency Desk",
+      "index": 153046,
+      "raw": "State Disaster Management Authority (SDMA) Emergency Desk"
+    },
+    {
+      "text": "National Disaster Response Force (NDRF) Quick Reaction Cell",
+      "index": 153303,
+      "raw": "National Disaster Response Force (NDRF) Quick Reaction Cell"
+    },
+    {
+      "text": "Citizen Emergency SMS Gateway &amp; Cell Broadcast Simulation",
+      "index": 153562,
+      "raw": "Citizen Emergency SMS Gateway &amp; Cell Broadcast Simulation"
+    },
+    {
+      "text": "Live NWA Operational Stream Broadcast (SSE Push)",
+      "index": 153823,
+      "raw": "Live NWA Operational Stream Broadcast (SSE Push)"
+    },
+    {
+      "text": "Dispatch Emergency Multi-Agency Alert",
+      "index": 154333,
+      "raw": " Dispatch Emergency Multi-Agency Alert\n        "
+    },
+    {
+      "text": "Big Data Pipeline &amp; OSS Architecture",
+      "index": 155849,
+      "raw": "Big Data Pipeline &amp; OSS Architecture"
+    },
+    {
+      "text": "Live SQLite WAL Engine | Streaming Ingestion | Open-Source Toolchain",
+      "index": 155957,
+      "raw": "Live SQLite WAL Engine | Streaming Ingestion | Open-Source Toolchain"
+    },
+    {
+      "text": "Database Engine",
+      "index": 157047,
+      "raw": " Database Engine\n        "
+    },
+    {
+      "text": "Stream Pipeline",
+      "index": 157515,
+      "raw": " Stream Pipeline\n        "
+    },
+    {
+      "text": "Open-Source Tools",
+      "index": 157976,
+      "raw": " Open-Source Tools\n        "
+    },
+    {
+      "text": "ACID Benchmark",
+      "index": 158451,
+      "raw": " ACID Benchmark\n        "
+    },
+    {
+      "text": "Cluster &amp; K8s",
+      "index": 158945,
+      "raw": " Cluster &amp; K8s\n        "
+    },
+    {
+      "text": "Storage Engine",
+      "index": 159592,
+      "raw": " Storage Engine"
+    },
+    {
+      "text": "SQLite 3 WAL",
+      "index": 159706,
+      "raw": "SQLite 3 WAL"
+    },
+    {
+      "text": "Journal Mode",
+      "index": 160060,
+      "raw": " Journal Mode"
+    },
+    {
+      "text": "WAL",
+      "index": 160173,
+      "raw": "WAL"
+    },
+    {
+      "text": "DB Size",
+      "index": 160526,
+      "raw": " DB Size"
+    },
+    {
+      "text": "Total Records",
+      "index": 160976,
+      "raw": " Total Records"
+    },
+    {
+      "text": "Citizen Reports",
+      "index": 161518,
+      "raw": " Citizen Reports"
+    },
+    {
+      "text": "Weather Alerts",
+      "index": 161958,
+      "raw": " Weather Alerts"
+    },
+    {
+      "text": "Social Stream",
+      "index": 162393,
+      "raw": " Social Stream"
+    },
+    {
+      "text": "ACID Compliance Properties",
+      "index": 162845,
+      "raw": " ACID Compliance Properties"
+    },
+    {
+      "text": "Atomicity",
+      "index": 163084,
+      "raw": "Atomicity"
+    },
+    {
+      "text": ": Transactions commit as a whole or roll back entirely",
+      "index": 163102,
+      "raw": ": Transactions commit as a whole or roll back entirely"
+    },
+    {
+      "text": "Consistency",
+      "index": 163255,
+      "raw": "Consistency"
+    },
+    {
+      "text": ": Foreign key constraints and typed schema enforced",
+      "index": 163275,
+      "raw": ": Foreign key constraints and typed schema enforced"
+    },
+    {
+      "text": "Isolation",
+      "index": 163425,
+      "raw": "Isolation"
+    },
+    {
+      "text": ": WAL mode provides concurrent read/write isolation",
+      "index": 163443,
+      "raw": ": WAL mode provides concurrent read/write isolation"
+    },
+    {
+      "text": "Durability",
+      "index": 163593,
+      "raw": "Durability"
+    },
+    {
+      "text": ": Writes flushed to WAL file and persisted on disk",
+      "index": 163612,
+      "raw": ": Writes flushed to WAL file and persisted on disk"
+    },
+    {
+      "text": "Queue Depth",
+      "index": 164294,
+      "raw": " Queue Depth"
+    },
+    {
+      "text": "Pipeline Status",
+      "index": 164762,
+      "raw": " Pipeline Status"
+    },
+    {
+      "text": "NOMINAL_STREAMING",
+      "index": 164883,
+      "raw": "NOMINAL_STREAMING"
+    },
+    {
+      "text": "Throughput",
+      "index": 165248,
+      "raw": " Throughput"
+    },
+    {
+      "text": "-- events/min",
+      "index": 165368,
+      "raw": "-- events/min"
+    },
+    {
+      "text": "Ingestion Architecture",
+      "index": 165702,
+      "raw": " Ingestion Architecture"
+    },
+    {
+      "text": "Google News RSS",
+      "index": 166055,
+      "raw": " Google News RSS"
+    },
+    {
+      "text": "UN GDACS API",
+      "index": 166367,
+      "raw": " UN GDACS API"
+    },
+    {
+      "text": "Twitter API v2",
+      "index": 166647,
+      "raw": " Twitter API v2"
+    },
+    {
+      "text": "StreamIngestionBuffer",
+      "index": 166947,
+      "raw": " StreamIngestionBuffer"
+    },
+    {
+      "text": "SQLite WAL",
+      "index": 167255,
+      "raw": " SQLite WAL"
+    },
+    {
+      "text": "Buffer capacity:",
+      "index": 167447,
+      "raw": " Buffer capacity: "
+    },
+    {
+      "text": "5,000 events",
+      "index": 167496,
+      "raw": "5,000 events"
+    },
+    {
+      "text": "| Flush interval:",
+      "index": 167517,
+      "raw": " | Flush interval: "
+    },
+    {
+      "text": "4 seconds",
+      "index": 167567,
+      "raw": "4 seconds"
+    },
+    {
+      "text": "| Batch size:",
+      "index": 167585,
+      "raw": " | Batch size: "
+    },
+    {
+      "text": "25 events",
+      "index": 167631,
+      "raw": "25 events"
+    },
+    {
+      "text": "| WAL concurrency:",
+      "index": 167649,
+      "raw": " | WAL concurrency: "
+    },
+    {
+      "text": "Unlimited reads",
+      "index": 167700,
+      "raw": "Unlimited reads"
+    },
+    {
+      "text": "NWA is built entirely on open-source and open-standard technologies certified by international meteorological bodies.",
+      "index": 168007,
+      "raw": " NWA is built entirely on open-source and open-standard technologies certified by international meteorological bodies."
+    },
+    {
+      "text": "RUNTIME",
+      "index": 168623,
+      "raw": "RUNTIME"
+    },
+    {
+      "text": "Node.js 24 (LTS)",
+      "index": 168706,
+      "raw": "Node.js 24 (LTS)"
+    },
+    {
+      "text": "Event-driven, non-blocking JavaScript runtime for high-throughput async I/O. Built-in",
+      "index": 168834,
+      "raw": "Event-driven, non-blocking JavaScript runtime for high-throughput async I/O. Built-in "
+    },
+    {
+      "text": "node:sqlite",
+      "index": 168949,
+      "raw": "node:sqlite"
+    },
+    {
+      "text": "module.",
+      "index": 168967,
+      "raw": " module."
+    },
+    {
+      "text": "nodejs.org",
+      "index": 169193,
+      "raw": " nodejs.org"
+    },
+    {
+      "text": "DATABASE",
+      "index": 169605,
+      "raw": "DATABASE"
+    },
+    {
+      "text": "SQLite 3 (WAL Mode)",
+      "index": 169689,
+      "raw": "SQLite 3 (WAL Mode)"
+    },
+    {
+      "text": "ACID-compliant embedded relational database with Write-Ahead Logging for concurrent reads and atomic write transactions.",
+      "index": 169820,
+      "raw": "ACID-compliant embedded relational database with Write-Ahead Logging for concurrent reads and atomic write transactions."
+    },
+    {
+      "text": "sqlite.org",
+      "index": 170158,
+      "raw": " sqlite.org"
+    },
+    {
+      "text": "WEATHER API",
+      "index": 170570,
+      "raw": "WEATHER API"
+    },
+    {
+      "text": "Open-Meteo",
+      "index": 170657,
+      "raw": "Open-Meteo"
+    },
+    {
+      "text": "Free, open-source, WMO-standard weather API. 16-day forecasts, hourly models, historical archive. No API key required.",
+      "index": 170779,
+      "raw": "Free, open-source, WMO-standard weather API. 16-day forecasts, hourly models, historical archive. No API key required."
+    },
+    {
+      "text": "open-meteo.com",
+      "index": 171119,
+      "raw": " open-meteo.com"
+    },
+    {
+      "text": "MAPS",
+      "index": 171537,
+      "raw": "MAPS"
+    },
+    {
+      "text": "Leaflet.js 1.9",
+      "index": 171617,
+      "raw": "Leaflet.js 1.9"
+    },
+    {
+      "text": "Open-source interactive mapping library. Tile layers from OpenStreetMap (ODbL). Used for real-time geolocation and station markers.",
+      "index": 171743,
+      "raw": "Open-source interactive mapping library. Tile layers from OpenStreetMap (ODbL). Used for real-time geolocation and station markers."
+    },
+    {
+      "text": "leafletjs.com",
+      "index": 172095,
+      "raw": " leafletjs.com"
+    },
+    {
+      "text": "DISASTER API",
+      "index": 172508,
+      "raw": "DISASTER API"
+    },
+    {
+      "text": "UN GDACS",
+      "index": 172596,
+      "raw": "UN GDACS"
+    },
+    {
+      "text": "Global Disaster Alert and Coordination System by the United Nations and European Commission. Real-time cyclone, flood, and storm RSS feeds.",
+      "index": 172716,
+      "raw": "Global Disaster Alert and Coordination System by the United Nations and European Commission. Real-time cyclone, flood, and storm RSS feeds."
+    },
+    {
+      "text": "gdacs.org",
+      "index": 173072,
+      "raw": " gdacs.org"
+    },
+    {
+      "text": "CHARTS",
+      "index": 173486,
+      "raw": "CHARTS"
+    },
+    {
+      "text": "Chart.js 4",
+      "index": 173568,
+      "raw": "Chart.js 4"
+    },
+    {
+      "text": "MIT-licensed responsive chart library used for category distribution, trend analysis, and state-wise event frequency plots.",
+      "index": 173690,
+      "raw": "MIT-licensed responsive chart library used for category distribution, trend analysis, and state-wise event frequency plots."
+    },
+    {
+      "text": "chartjs.org",
+      "index": 174032,
+      "raw": " chartjs.org"
+    },
+    {
+      "text": "EXPORT",
+      "index": 174445,
+      "raw": "EXPORT"
+    },
+    {
+      "text": "SheetJS (xlsx) + jsPDF",
+      "index": 174527,
+      "raw": "SheetJS (xlsx) + jsPDF"
+    },
+    {
+      "text": "Open-source spreadsheet (SheetJS) and PDF generation (jsPDF) for downloadable official meteorological reports.",
+      "index": 174661,
+      "raw": "Open-source spreadsheet (SheetJS) and PDF generation (jsPDF) for downloadable official meteorological reports."
+    },
+    {
+      "text": "sheetjs.com",
+      "index": 174990,
+      "raw": " sheetjs.com"
+    },
+    {
+      "text": "AI/NLP",
+      "index": 175403,
+      "raw": "AI/NLP"
+    },
+    {
+      "text": "TF-IDF + Naive Bayes",
+      "index": 175485,
+      "raw": "TF-IDF + Naive Bayes"
+    },
+    {
+      "text": "Custom NLP credibility engine built in pure Node.js. TF-IDF vectorization + Multinomial Naive Bayes classifier for report authenticity scoring.",
+      "index": 175617,
+      "raw": "Custom NLP credibility engine built in pure Node.js. TF-IDF vectorization + Multinomial Naive Bayes classifier for report authenticity scoring."
+    },
+    {
+      "text": "ai_classifier.js (custom built)",
+      "index": 175895,
+      "raw": " ai_classifier.js (custom built)"
+    },
+    {
+      "text": "STANDARD",
+      "index": 176331,
+      "raw": "STANDARD"
+    },
+    {
+      "text": "WMO BUFR/SYNOP",
+      "index": 176415,
+      "raw": "WMO BUFR/SYNOP"
+    },
+    {
+      "text": "World Meteorological Organization code standards. Open-Meteo weather codes mapped to WMO BUFR present weather descriptions.",
+      "index": 176541,
+      "raw": "World Meteorological Organization code standards. Open-Meteo weather codes mapped to WMO BUFR present weather descriptions."
+    },
+    {
+      "text": "wmo.int",
+      "index": 176879,
+      "raw": " wmo.int"
+    },
+    {
+      "text": "Concurrent ACID Performance Test",
+      "index": 177349,
+      "raw": " Concurrent ACID Performance Test"
+    },
+    {
+      "text": "This benchmark fires 10 concurrent HTTP requests to the SQLite database stats endpoint, measuring the total round-trip latency and demonstrating WAL-mode concurrent read throughput.",
+      "index": 177489,
+      "raw": "This benchmark fires 10 concurrent HTTP requests to the SQLite database stats endpoint, measuring the total round-trip latency and demonstrating WAL-mode concurrent read throughput."
+    },
+    {
+      "text": "Run Storage Latency Benchmark",
+      "index": 178118,
+      "raw": " Run Storage Latency Benchmark\n            "
+    },
+    {
+      "text": "SQLite WAL mode allows",
+      "index": 178360,
+      "raw": " SQLite WAL mode allows "
+    },
+    {
+      "text": "unlimited concurrent readers",
+      "index": 178415,
+      "raw": "unlimited concurrent readers"
+    },
+    {
+      "text": "without blocking writes. This is critical for a real-time weather monitoring platform receiving simultaneous API requests from multiple users and sensors.",
+      "index": 178452,
+      "raw": " without blocking writes. This is critical for a real-time weather monitoring platform receiving simultaneous API requests from multiple users and sensors.\n          "
+    },
+    {
+      "text": "Multi-Worker Nodes",
+      "index": 179207,
+      "raw": " Multi-Worker Nodes"
+    },
+    {
+      "text": "4 Active Workers",
+      "index": 179355,
+      "raw": "4 Active Workers"
+    },
+    {
+      "text": "Load Balancing",
+      "index": 179673,
+      "raw": " Load Balancing"
+    },
+    {
+      "text": "NGINX Least-Conn",
+      "index": 179793,
+      "raw": "NGINX Least-Conn"
+    },
+    {
+      "text": "K8s HPA Scaling",
+      "index": 180107,
+      "raw": " K8s HPA Scaling"
+    },
+    {
+      "text": "3 &rarr; 50 Pods",
+      "index": 180228,
+      "raw": "3 &rarr; 50 Pods"
+    },
+    {
+      "text": "High Availability",
+      "index": 180550,
+      "raw": " High Availability"
+    },
+    {
+      "text": "Zero Downtime",
+      "index": 180673,
+      "raw": "Zero Downtime"
+    },
+    {
+      "text": "Microservices Mesh Architecture",
+      "index": 181022,
+      "raw": " Microservices Mesh Architecture"
+    },
+    {
+      "text": "Layer-7 NGINX gateway routes traffic with",
+      "index": 181164,
+      "raw": "\n              Layer-7 NGINX gateway routes traffic with "
+    },
+    {
+      "text": "least_conn",
+      "index": 181227,
+      "raw": "least_conn"
+    },
+    {
+      "text": "distribution to multi-core Node.js cluster workers, with Redis distributed caching, Apache Kafka event ingestion, and ClickHouse OLAP warehouse.",
+      "index": 181244,
+      "raw": " distribution to multi-core Node.js cluster workers, with Redis distributed caching, Apache Kafka event ingestion, and ClickHouse OLAP warehouse.\n            "
+    },
+    {
+      "text": "Dockerfile Multi-Stage",
+      "index": 181663,
+      "raw": "Dockerfile Multi-Stage"
+    },
+    {
+      "text": "docker-compose.yml (5 Services)",
+      "index": 181856,
+      "raw": "docker-compose.yml (5 Services)"
+    },
+    {
+      "text": "k8s/deployment.yaml",
+      "index": 182058,
+      "raw": "k8s/deployment.yaml"
+    },
+    {
+      "text": "k8s/hpa.yaml (Autoscaler)",
+      "index": 182248,
+      "raw": "k8s/hpa.yaml (Autoscaler)"
+    },
+    {
+      "text": "Emergency Agency Weather Dispatch",
+      "index": 183331,
+      "raw": "Emergency Agency Weather Dispatch"
+    },
+    {
+      "text": "&times;",
+      "index": 183589,
+      "raw": "&times;"
+    },
+    {
+      "text": "Emergency Warning Headline",
+      "index": 184002,
+      "raw": " Emergency Warning Headline\n          "
+    },
+    {
+      "text": "Meteorological Hazard",
+      "index": 184597,
+      "raw": " Meteorological Hazard\n            "
+    },
+    {
+      "text": "Heavy Rainfall",
+      "index": 184765,
+      "raw": "Heavy Rainfall"
+    },
+    {
+      "text": "Cyclonic Storm",
+      "index": 184836,
+      "raw": "Cyclonic Storm"
+    },
+    {
+      "text": "Severe Heatwave",
+      "index": 184899,
+      "raw": "Severe Heatwave"
+    },
+    {
+      "text": "Flash Flood / Inundation",
+      "index": 184960,
+      "raw": "Flash Flood / Inundation"
+    },
+    {
+      "text": "Severe Thunderstorm & Gale",
+      "index": 185037,
+      "raw": "Severe Thunderstorm & Gale"
+    },
+    {
+      "text": "Extreme Cold Wave",
+      "index": 185113,
+      "raw": "Extreme Cold Wave"
+    },
+    {
+      "text": "Warning Severity Level",
+      "index": 185442,
+      "raw": " Warning Severity Level\n            "
+    },
+    {
+      "text": "Red Warning (Take Action)",
+      "index": 185615,
+      "raw": "Red Warning (Take Action)"
+    },
+    {
+      "text": "Orange Alert (Be Prepared)",
+      "index": 185687,
+      "raw": "Orange Alert (Be Prepared)"
+    },
+    {
+      "text": "Yellow Watch (Be Updated)",
+      "index": 185760,
+      "raw": "Yellow Watch (Be Updated)"
+    },
+    {
+      "text": "Targeted Impact Zone / State / District",
+      "index": 186125,
+      "raw": " Targeted Impact Zone / State / District\n          "
+    },
+    {
+      "text": "Public Safety Advisory & Instructions",
+      "index": 186644,
+      "raw": " Public Safety Advisory & Instructions\n          "
+    },
+    {
+      "text": "Cancel",
+      "index": 187147,
+      "raw": "Cancel"
+    },
+    {
+      "text": "Dispatch Broadcast & Siren",
+      "index": 187368,
+      "raw": " Dispatch Broadcast & Siren\n          "
+    },
+    {
+      "text": "&times;",
+      "index": 188686,
+      "raw": "&times;"
+    }
+  ],
+  "placeholders": [
+    "Search city, district, or Indian state...",
+    "searchPlaceholder",
+    "e.g., Mumbai, New Delhi, Kolkata...",
+    "your.email@example.com (optional)",
+    "Enter password (default: admin@imd2026)",
+    "adminPasswordPh",
+    "Filter by City or Landmark...",
+    "Search report text, reporter name, ID, or coordinates...",
+    "e.g., Chennai, Coastal Tamil Nadu",
+    "e.g., Tamil Nadu",
+    "13.0827",
+    "80.2707",
+    "e.g., Extremely intense rainfall exceeding 150mm forecast in next 18 hours",
+    "e.g., Avoid waterlogged underpasses, keep emergency numbers active, follow civil instructions.",
+    "e.g., Marine Drive, Churchgate",
+    "locationPh",
+    "19.0760",
+    "72.8777",
+    "Describe water levels, road blocks, tree falls, wind damage, or severe conditions...",
+    "descPh",
+    "e.g., Rohit Verma",
+    "reporterNamePh",
+    "e.g., https://youtu.be/... or video stream URL",
+    "videoUrlPh",
+    "e.g., RED ALERT: Severe Flash Flood &amp; Cloudburst Inundation Warning",
+    "e.g., Coastal Odisha (Puri, Jagatsinghpur) or Greater Mumbai",
+    "Evacuation shelters opened. Fishermen advised not to venture into sea. Avoid low-lying subways.",
+    "e.g., Red Alert: Severe Monsoon Inundation & Flash Flood Risk",
+    "e.g., Coastal Konkan & Mumbai Metropolitan Region",
+    "Specify evacuations, shelter guidelines, road closures, or safety steps...",
+    "advisoryPh"
+  ],
+  "titles": [
+    "National Weather Big Data Analytics Platform",
+    "Expand Sidebar",
+    "Close Navigation Menu",
+    "Live Forecast & Map",
+    "Early Warning & Severe Weather Alerts",
+    "Citizen Reports",
+    "Social Intelligence",
+    "Analytics & Trends",
+    "Supervisory Admin & AI Moderation Panel",
+    "Report Severe Event",
+    "Download Official Reports",
+    "Open Navigation Menu",
+    "Use current GPS location",
+    "Select State / UT",
+    "Select District / City",
+    "Select Platform Language",
+    "Fetch fresh weather data",
+    "Submit Citizen Weather Report",
+    "Open Admin Portal",
+    "Indian Standard Time (UTC+05:30)",
+    "Listen to weather summary",
+    "Atmospheric Dew Point",
+    "Precipitation Probability",
+    "Air Quality Index Status",
+    "Observational Data Feed",
+    "Big Data Spatial Deduplication Clusters",
+    "Toggle Severe Weather Density Heatmap",
+    "Toggle Fullscreen",
+    "View Today's 24-Hour Forecast",
+    "View Tomorrow's 24-Hour Forecast",
+    "View Day After Tomorrow's 24-Hour Forecast",
+    "Choose date within 16-day forecast or observational range",
+    "Export forecast data to CSV",
+    "NWA Machine Learning NWP-MOS Model calibrated with localized station telemetry",
+    "Emergency Weather Desk: Dispatch National Weather Warning",
+    "Simulate alert with sound siren and push notification",
+    "Refresh national weather warnings",
+    "Use Current Device GPS Location",
+    "Preview selected audio tone",
+    "Test Alert Audio and System Notification",
+    "Trigger Live Ingestion from Google News, GDACS & Social API",
+    "Refresh analytics data",
+    "Show/Hide Password",
+    "Log out from admin session",
+    "Scan and consolidate duplicate event clusters",
+    "Export filtered audit table as CSV",
+    "Real-Time Server-Sent Events Push Stream Connected",
+    "Open Big Data Pipeline & OSS Architecture",
+    "Refresh admin queue",
+    "From Date",
+    "To Date",
+    "Detect Current Device GPS and Auto-fill Form",
+    "Fill from Device GPS",
+    "Refresh alerts list",
+    "Remove photo",
+    "Close"
+  ],
+  "alts": [
+    "NWA Logo",
+    "Attached weather photo preview"
+  ]
+}

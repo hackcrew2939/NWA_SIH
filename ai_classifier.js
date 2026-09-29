@@ -65,12 +65,37 @@ const TRAINING_CORPUS = {
   ]
 };
 
-// 1. Text Preprocessing & Tokenization
+// Indic Multi-Lingual Weather Dictionary (Hindi, Marathi, Bengali, Tamil, Telugu)
+const INDIC_WEATHER_MAP = {
+  'बारिश': 'rain', 'भारी बारिश': 'heavy_rain', 'बाढ़': 'flood', 'पानी भरा': 'waterlogging', 'जलभराव': 'waterlogging',
+  'तूफान': 'thunderstorm', 'बिजली': 'lightning', 'लू': 'heatwave', 'भीषण गर्मी': 'heatwave', 'ओले': 'hailstorm',
+  'चक्रवात': 'cyclone', 'कोहरा': 'fog', 'धुंध': 'fog', 'आंधी': 'dust_storm',
+  'पाऊस': 'rain', 'मुसळधार पाऊस': 'heavy_rain', 'पूर': 'flood', 'पाणी साचले': 'waterlogging',
+  'वादळ': 'thunderstorm', 'वीज': 'lightning', 'उकाडा': 'heatwave', 'चक्रीवादळ': 'cyclone',
+  'বৃষ্টি': 'rain', 'ভারী বৃষ্টি': 'heavy_rain', 'বন্যা': 'flood', 'ঝড়': 'thunderstorm', 'বিদ্যুৎ': 'lightning',
+  'তাপপ্রবাহ': 'heatwave', 'ঘূর্ণিঝড়': 'cyclone', 'কুয়াশা': 'fog',
+  'மழை': 'rain', 'கனமழை': 'heavy_rain', 'வெள்ளம்': 'flood', 'புயல்': 'cyclone', 'இடி': 'thunderstorm',
+  'மின்னல்': 'lightning', 'வெப்ப அலை': 'heatwave', 'பனிமூட்டம்': 'fog',
+  'వర్షం': 'rain', 'భారీ వర్షం': 'heavy_rain', 'వరదలు': 'flood', 'తుఫాను': 'cyclone', 'మెరుపులు': 'lightning',
+  'ఎండ తీవ్రత': 'heatwave', 'మంచు': 'fog'
+};
+
+// 1. Text Preprocessing & Tokenization (Multi-Lingual Indic Support)
 function tokenize(text) {
   if (!text || typeof text !== 'string') return [];
-  const cleaned = text.toLowerCase().replace(/[^a-z0-9\s]/g, ' ');
+
+  let normalized = text.toLowerCase();
+
+  // Normalize multi-lingual Indic weather terms to canonical tokens
+  for (const [indicTerm, canonical] of Object.entries(INDIC_WEATHER_MAP)) {
+    if (normalized.includes(indicTerm)) {
+      normalized += ` ${canonical} ${canonical}_indic`;
+    }
+  }
+
+  const cleaned = normalized.replace(/[^a-z0-9\s]/g, ' ');
   const words = cleaned.split(/\s+/).filter(w => w.length > 2 && !STOP_WORDS.has(w));
-  
+
   // Extract Bigrams for rich context
   const tokens = [...words];
   for (let i = 0; i < words.length - 1; i++) {

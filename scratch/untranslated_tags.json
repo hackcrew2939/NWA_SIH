@@ -1,0 +1,2858 @@
+[
+  {
+    "tag": "title",
+    "text": "National Weather Analytics | National Weather Big Data Analytics Platform",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "h1",
+    "text": "NWA",
+    "hasI18n": false,
+    "attrs": "class=\"brand-name\""
+  },
+  {
+    "tag": "div",
+    "text": "National Weather Big Data Platform",
+    "hasI18n": false,
+    "attrs": "class=\"brand-tagline\""
+  },
+  {
+    "tag": "a",
+    "text": "Privacy",
+    "hasI18n": false,
+    "attrs": "href=\"/privacy.html\" style=\"color: var(--sidebar-text-muted); text-decoration: none;\""
+  },
+  {
+    "tag": "a",
+    "text": "Terms",
+    "hasI18n": false,
+    "attrs": "href=\"/terms.html\" style=\"color: var(--sidebar-text-muted); text-decoration: none;\""
+  },
+  {
+    "tag": "a",
+    "text": "Archive",
+    "hasI18n": false,
+    "attrs": "href=\"/empty.html\" style=\"color: var(--sidebar-text-muted); text-decoration: none;\""
+  },
+  {
+    "tag": "option",
+    "text": "State / UT",
+    "hasI18n": false,
+    "attrs": "value=\"\""
+  },
+  {
+    "tag": "option",
+    "text": "City",
+    "hasI18n": false,
+    "attrs": "value=\"\""
+  },
+  {
+    "tag": "span",
+    "text": "English",
+    "hasI18n": false,
+    "attrs": "class=\"lang-name\" id=\"currentLangName\""
+  },
+  {
+    "tag": "span",
+    "text": "Regional Languages",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "6 Languages",
+    "hasI18n": false,
+    "attrs": "class=\"lang-count-badge\""
+  },
+  {
+    "tag": "span",
+    "text": "English",
+    "hasI18n": false,
+    "attrs": "class=\"opt-name\""
+  },
+  {
+    "tag": "span",
+    "text": "Global Default",
+    "hasI18n": false,
+    "attrs": "class=\"opt-sub\""
+  },
+  {
+    "tag": "span",
+    "text": "हिन्दी",
+    "hasI18n": false,
+    "attrs": "class=\"opt-name\""
+  },
+  {
+    "tag": "span",
+    "text": "Hindi",
+    "hasI18n": false,
+    "attrs": "class=\"opt-sub\""
+  },
+  {
+    "tag": "span",
+    "text": "मराठी",
+    "hasI18n": false,
+    "attrs": "class=\"opt-name\""
+  },
+  {
+    "tag": "span",
+    "text": "Marathi",
+    "hasI18n": false,
+    "attrs": "class=\"opt-sub\""
+  },
+  {
+    "tag": "span",
+    "text": "বাংলা",
+    "hasI18n": false,
+    "attrs": "class=\"opt-name\""
+  },
+  {
+    "tag": "span",
+    "text": "Bengali",
+    "hasI18n": false,
+    "attrs": "class=\"opt-sub\""
+  },
+  {
+    "tag": "span",
+    "text": "தமிழ்",
+    "hasI18n": false,
+    "attrs": "class=\"opt-name\""
+  },
+  {
+    "tag": "span",
+    "text": "Tamil",
+    "hasI18n": false,
+    "attrs": "class=\"opt-sub\""
+  },
+  {
+    "tag": "span",
+    "text": "తెలుగు",
+    "hasI18n": false,
+    "attrs": "class=\"opt-name\""
+  },
+  {
+    "tag": "span",
+    "text": "Telugu",
+    "hasI18n": false,
+    "attrs": "class=\"opt-sub\""
+  },
+  {
+    "tag": "option",
+    "text": "English",
+    "hasI18n": false,
+    "attrs": "value=\"en\""
+  },
+  {
+    "tag": "option",
+    "text": "हिन्दी",
+    "hasI18n": false,
+    "attrs": "value=\"hi\""
+  },
+  {
+    "tag": "option",
+    "text": "मराठी",
+    "hasI18n": false,
+    "attrs": "value=\"mr\""
+  },
+  {
+    "tag": "option",
+    "text": "বাংলা",
+    "hasI18n": false,
+    "attrs": "value=\"bn\""
+  },
+  {
+    "tag": "option",
+    "text": "தமிழ்",
+    "hasI18n": false,
+    "attrs": "value=\"ta\""
+  },
+  {
+    "tag": "option",
+    "text": "తెలుగు",
+    "hasI18n": false,
+    "attrs": "value=\"te\""
+  },
+  {
+    "tag": "span",
+    "text": "New Delhi",
+    "hasI18n": false,
+    "attrs": "id=\"currentLocationTitle\""
+  },
+  {
+    "tag": "span",
+    "text": "Cached",
+    "hasI18n": false,
+    "attrs": "id=\"cachedStatusBadge\" class=\"cached-tag\" style=\"display: none;\""
+  },
+  {
+    "tag": "div",
+    "text": "Delhi, India",
+    "hasI18n": false,
+    "attrs": "id=\"currentLocationState\" class=\"location-state\""
+  },
+  {
+    "tag": "span",
+    "text": "--:--:-- IST",
+    "hasI18n": false,
+    "attrs": "id=\"istClockText\""
+  },
+  {
+    "tag": "span",
+    "text": "IST",
+    "hasI18n": false,
+    "attrs": "class=\"ist-tag\""
+  },
+  {
+    "tag": "span",
+    "text": "°C",
+    "hasI18n": false,
+    "attrs": "class=\"hero-temp-unit\""
+  },
+  {
+    "tag": "span",
+    "text": "--°C",
+    "hasI18n": false,
+    "attrs": "id=\"heroFeelsLike\""
+  },
+  {
+    "tag": "div",
+    "text": "Loading Weather...",
+    "hasI18n": false,
+    "attrs": "id=\"heroConditionDesc\" class=\"hero-condition-text\""
+  },
+  {
+    "tag": "strong",
+    "text": "23°C",
+    "hasI18n": false,
+    "attrs": "id=\"heroDewPoint\""
+  },
+  {
+    "tag": "span",
+    "text": "IMD Radar Feed",
+    "hasI18n": false,
+    "attrs": "id=\"heroFeedSource\""
+  },
+  {
+    "tag": "span",
+    "text": "Now",
+    "hasI18n": false,
+    "attrs": "class=\"hourly-mini-time\""
+  },
+  {
+    "tag": "span",
+    "text": "01:00 AM",
+    "hasI18n": false,
+    "attrs": "class=\"hourly-mini-time\""
+  },
+  {
+    "tag": "span",
+    "text": "02:00 AM",
+    "hasI18n": false,
+    "attrs": "class=\"hourly-mini-time\""
+  },
+  {
+    "tag": "span",
+    "text": "03:00 AM",
+    "hasI18n": false,
+    "attrs": "class=\"hourly-mini-time\""
+  },
+  {
+    "tag": "span",
+    "text": "04:00 AM",
+    "hasI18n": false,
+    "attrs": "class=\"hourly-mini-time\""
+  },
+  {
+    "tag": "div",
+    "text": "-- mm",
+    "hasI18n": false,
+    "attrs": "id=\"metricPrecipitation\" class=\"metric-value\""
+  },
+  {
+    "tag": "div",
+    "text": "Current precip",
+    "hasI18n": false,
+    "attrs": "class=\"metric-sub\""
+  },
+  {
+    "tag": "div",
+    "text": "Rel moisture",
+    "hasI18n": false,
+    "attrs": "class=\"metric-sub\""
+  },
+  {
+    "tag": "div",
+    "text": "-- km/h",
+    "hasI18n": false,
+    "attrs": "id=\"metricWind\" class=\"metric-value\""
+  },
+  {
+    "tag": "div",
+    "text": "-- hPa",
+    "hasI18n": false,
+    "attrs": "id=\"metricPressure\" class=\"metric-value\""
+  },
+  {
+    "tag": "div",
+    "text": "Barometric",
+    "hasI18n": false,
+    "attrs": "class=\"metric-sub\""
+  },
+  {
+    "tag": "span",
+    "text": "Moderate",
+    "hasI18n": false,
+    "attrs": "class=\"uv-badge uv-mod\""
+  },
+  {
+    "tag": "div",
+    "text": "10 km",
+    "hasI18n": false,
+    "attrs": "id=\"metricVisibility\" class=\"metric-value\""
+  },
+  {
+    "tag": "div",
+    "text": "Clarity",
+    "hasI18n": false,
+    "attrs": "class=\"metric-sub\""
+  },
+  {
+    "tag": "div",
+    "text": "Dawn (IST)",
+    "hasI18n": false,
+    "attrs": "class=\"metric-sub\""
+  },
+  {
+    "tag": "div",
+    "text": "Dusk (IST)",
+    "hasI18n": false,
+    "attrs": "class=\"metric-sub\""
+  },
+  {
+    "tag": "strong",
+    "text": "Tip:",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "India",
+    "hasI18n": false,
+    "attrs": "id=\"mapHoverStateName\""
+  },
+  {
+    "tag": "span",
+    "text": "Lat: 22.8000° N,",
+    "hasI18n": false,
+    "attrs": "id=\"mapHoverLat\""
+  },
+  {
+    "tag": "span",
+    "text": "Lng: 82.5000° E",
+    "hasI18n": false,
+    "attrs": "id=\"mapHoverLng\""
+  },
+  {
+    "tag": "span",
+    "text": "Today's 24-Hour Report",
+    "hasI18n": false,
+    "attrs": "id=\"diurnalDateBadgeText\""
+  },
+  {
+    "tag": "span",
+    "text": "Click any hour for detailed conditions",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "Retrieving meteorological telemetry for selected date...",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "button",
+    "text": "Today (24h)",
+    "hasI18n": false,
+    "attrs": "class=\"forecast-range-pill\" data-days=\"1\" onclick=\"NWAApp.setForecastRange(1)\""
+  },
+  {
+    "tag": "button",
+    "text": "3 Days",
+    "hasI18n": false,
+    "attrs": "class=\"forecast-range-pill\" data-days=\"3\" onclick=\"NWAApp.setForecastRange(3)\""
+  },
+  {
+    "tag": "button",
+    "text": "7 Days",
+    "hasI18n": false,
+    "attrs": "class=\"forecast-range-pill\" data-days=\"7\" onclick=\"NWAApp.setForecastRange(7)\""
+  },
+  {
+    "tag": "button",
+    "text": "10 Days",
+    "hasI18n": false,
+    "attrs": "class=\"forecast-range-pill active\" data-days=\"10\" onclick=\"NWAApp.setForecastRange(10)\""
+  },
+  {
+    "tag": "span",
+    "text": "10-Day Forecast Table View",
+    "hasI18n": false,
+    "attrs": "id=\"forecastModeText\""
+  },
+  {
+    "tag": "span",
+    "text": "Delhi",
+    "hasI18n": false,
+    "attrs": "class=\"forecast-badge forecast-badge-primary\" id=\"forecastContextLocation\""
+  },
+  {
+    "tag": "span",
+    "text": "State Overview",
+    "hasI18n": false,
+    "attrs": "class=\"forecast-badge forecast-badge-accent\" id=\"forecastContextRegion\""
+  },
+  {
+    "tag": "span",
+    "text": "28.6139° N, 77.2090° E",
+    "hasI18n": false,
+    "attrs": "class=\"forecast-badge forecast-badge-coords\" id=\"forecastContextCoords\""
+  },
+  {
+    "tag": "span",
+    "text": "10-Day Extended Weather Forecast",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "p",
+    "text": "Daily meteorological forecast, expected temperature ranges, and rain probabilities",
+    "hasI18n": false,
+    "attrs": "class=\"forecast-table-subtitle\""
+  },
+  {
+    "tag": "span",
+    "text": "Download CSV",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "10-Day Temperature & Rain Forecast Trend",
+    "hasI18n": false,
+    "attrs": "id=\"trajectoryChartTitleText\""
+  },
+  {
+    "tag": "span",
+    "text": "Max Temp (°C)",
+    "hasI18n": false,
+    "attrs": "id=\"legText1\""
+  },
+  {
+    "tag": "span",
+    "text": "Min Temp (°C)",
+    "hasI18n": false,
+    "attrs": "id=\"legText2\""
+  },
+  {
+    "tag": "span",
+    "text": "ML Trend (°C)",
+    "hasI18n": false,
+    "attrs": "id=\"legTextML\""
+  },
+  {
+    "tag": "span",
+    "text": "Rain Probability (%)",
+    "hasI18n": false,
+    "attrs": "id=\"legText3\""
+  },
+  {
+    "tag": "th",
+    "text": "DATE & DAY",
+    "hasI18n": false,
+    "attrs": "id=\"thDateCol\""
+  },
+  {
+    "tag": "th",
+    "text": "CONDITION",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "MAX TEMP",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "MIN TEMP",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "FEELS LIKE",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "HUMIDITY",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "WIND SPEED",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "WIND DIR",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "RAIN PROBABILITY",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "TEMP RANGE",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "4-Day Extended Forecast Outlook",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "h4",
+    "text": "Download Weather Intelligence Report",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "p",
+    "text": "Export current meteorological observations, 4-day forecast data, and station records.",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "NATIONAL WEATHER SURVEILLANCE & EARLY WARNING",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "h2",
+    "text": "Active Severe Weather Warnings & Personal Alert Hub",
+    "hasI18n": false,
+    "attrs": "class=\"alerts-main-title\""
+  },
+  {
+    "tag": "p",
+    "text": "Surveillance of all geographical areas highly affected by intense monsoon downpours, severe heatwaves, cyclonic depressions, and flash floods across India. Set personalized early-warning alerts for your region.",
+    "hasI18n": false,
+    "attrs": "class=\"alerts-subtitle\""
+  },
+  {
+    "tag": "h3",
+    "text": "Set Personal Weather Alert",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "Automated Monitor",
+    "hasI18n": false,
+    "attrs": "class=\"badge badge-accent\""
+  },
+  {
+    "tag": "p",
+    "text": "Configure an automated trigger for your area. The platform monitors real-time telemetry and sends instant browser notifications and audio sirens when dangerous weather thresholds are reached.",
+    "hasI18n": false,
+    "attrs": "class=\"alert-config-desc\""
+  },
+  {
+    "tag": "option",
+    "text": "Torrential / Heavy Rain (mm/h)",
+    "hasI18n": false,
+    "attrs": "value=\"heavy_rain\" selected"
+  },
+  {
+    "tag": "option",
+    "text": "Extreme Heatwave (°C)",
+    "hasI18n": false,
+    "attrs": "value=\"heatwave\""
+  },
+  {
+    "tag": "option",
+    "text": "Severe Thunderstorm / Gale (km/h)",
+    "hasI18n": false,
+    "attrs": "value=\"thunderstorm\""
+  },
+  {
+    "tag": "option",
+    "text": "Severe Cold Wave (°C)",
+    "hasI18n": false,
+    "attrs": "value=\"cold_wave\""
+  },
+  {
+    "tag": "span",
+    "text": "mm/h",
+    "hasI18n": false,
+    "attrs": "id=\"alertThresholdUnitLabel\""
+  },
+  {
+    "tag": "div",
+    "text": "IMD criterion: Moderate (5-15mm/h), Heavy (15-64mm/h), Very Heavy (>64mm/h)",
+    "hasI18n": false,
+    "attrs": "id=\"alertThresholdHelpText\" class=\"alert-threshold-help\""
+  },
+  {
+    "tag": "option",
+    "text": "Emergency Broadcast Siren (EAS 853/960Hz)",
+    "hasI18n": false,
+    "attrs": "value=\"eas_broadcast\" selected"
+  },
+  {
+    "tag": "option",
+    "text": "Municipal Disaster Alarm (Wailing Siren)",
+    "hasI18n": false,
+    "attrs": "value=\"disaster_siren\""
+  },
+  {
+    "tag": "option",
+    "text": "High-Alert Pulse Staccato",
+    "hasI18n": false,
+    "attrs": "value=\"pulse_staccato\""
+  },
+  {
+    "tag": "option",
+    "text": "Radar Sonar Ping",
+    "hasI18n": false,
+    "attrs": "value=\"sonar_ping\""
+  },
+  {
+    "tag": "option",
+    "text": "Melodic Advisory Bell",
+    "hasI18n": false,
+    "attrs": "value=\"advisory_bell\""
+  },
+  {
+    "tag": "div",
+    "text": "Notification Channels:",
+    "hasI18n": false,
+    "attrs": "class=\"channels-title\""
+  },
+  {
+    "tag": "h3",
+    "text": "My Active Alerts",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "p",
+    "text": "Your active early-warning subscriptions. Alerts are continuously cross-checked against incoming Open-Meteo satellite feeds and numerical prediction models.",
+    "hasI18n": false,
+    "attrs": "class=\"alert-config-desc\""
+  },
+  {
+    "tag": "p",
+    "text": "Real-time radar tracking of regions currently under Red Warnings, Orange Alerts, or Yellow Watches for heavy rain, heatwaves, cyclones, or floods.",
+    "hasI18n": false,
+    "attrs": "class=\"section-subtext\""
+  },
+  {
+    "tag": "span",
+    "text": "Hazard:",
+    "hasI18n": false,
+    "attrs": "class=\"filter-label\""
+  },
+  {
+    "tag": "button",
+    "text": "All",
+    "hasI18n": false,
+    "attrs": "type=\"button\" class=\"hazard-filter-pill active\" data-category=\"all\" onclick=\"NWAAlerts.setHazardFilter('all')\""
+  },
+  {
+    "tag": "span",
+    "text": "Severity:",
+    "hasI18n": false,
+    "attrs": "class=\"filter-label\""
+  },
+  {
+    "tag": "button",
+    "text": "All",
+    "hasI18n": false,
+    "attrs": "type=\"button\" class=\"severity-filter-pill active\" data-severity=\"all\" onclick=\"NWAAlerts.setSeverityFilter('all')\""
+  },
+  {
+    "tag": "button",
+    "text": "Red (Warning)",
+    "hasI18n": false,
+    "attrs": "type=\"button\" class=\"severity-filter-pill severity-red\" data-severity=\"red\" onclick=\"NWAAlerts.setSeverityFilter('red')\""
+  },
+  {
+    "tag": "button",
+    "text": "Orange (Alert)",
+    "hasI18n": false,
+    "attrs": "type=\"button\" class=\"severity-filter-pill severity-orange\" data-severity=\"orange\" onclick=\"NWAAlerts.setSeverityFilter('orange')\""
+  },
+  {
+    "tag": "button",
+    "text": "Yellow (Watch)",
+    "hasI18n": false,
+    "attrs": "type=\"button\" class=\"severity-filter-pill severity-yellow\" data-severity=\"yellow\" onclick=\"NWAAlerts.setSeverityFilter('yellow')\""
+  },
+  {
+    "tag": "span",
+    "text": "National Disaster Guidelines",
+    "hasI18n": false,
+    "attrs": "class=\"protocols-tag\""
+  },
+  {
+    "tag": "div",
+    "text": "RED WARNING",
+    "hasI18n": false,
+    "attrs": "class=\"protocol-badge red\""
+  },
+  {
+    "tag": "strong",
+    "text": "Take Action:",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "div",
+    "text": "ORANGE ALERT",
+    "hasI18n": false,
+    "attrs": "class=\"protocol-badge orange\""
+  },
+  {
+    "tag": "strong",
+    "text": "Be Prepared:",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "div",
+    "text": "YELLOW WATCH",
+    "hasI18n": false,
+    "attrs": "class=\"protocol-badge yellow\""
+  },
+  {
+    "tag": "strong",
+    "text": "Be Updated:",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "div",
+    "text": "GREEN STATUS",
+    "hasI18n": false,
+    "attrs": "class=\"protocol-badge green\""
+  },
+  {
+    "tag": "strong",
+    "text": "No Warning:",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "strong",
+    "text": "NDRF National Disaster Helpline:",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "strong",
+    "text": "National All-Emergency Helpline:",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "strong",
+    "text": "IMD Weather Service Cell:",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "Registered Community Incident Reports & Ground Bulletins",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "p",
+    "text": "Real-time ground incident reports registered by citizens nationwide. Synchronized across all users in real time.",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.82rem; color: var(--text-secondary); margin: 0;\""
+  },
+  {
+    "tag": "button",
+    "text": "All",
+    "hasI18n": false,
+    "attrs": "type=\"button\" class=\"alert-rep-filter-pill active\" data-status=\"all\" onclick=\"NWAAlerts.setAlertsReportsFilter('all')\""
+  },
+  {
+    "tag": "button",
+    "text": "Verified",
+    "hasI18n": false,
+    "attrs": "type=\"button\" class=\"alert-rep-filter-pill\" data-status=\"verified\" onclick=\"NWAAlerts.setAlertsReportsFilter('verified')\""
+  },
+  {
+    "tag": "button",
+    "text": "Pending",
+    "hasI18n": false,
+    "attrs": "type=\"button\" class=\"alert-rep-filter-pill\" data-status=\"unverified\" onclick=\"NWAAlerts.setAlertsReportsFilter('unverified')\""
+  },
+  {
+    "tag": "span",
+    "text": "Crowd Reports & Verification Queue",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "button",
+    "text": "All Reports",
+    "hasI18n": false,
+    "attrs": "class=\"filter-pill active\" data-status=\"all\" onclick=\"NWAReports.filterReports('all')\""
+  },
+  {
+    "tag": "button",
+    "text": "Pending Verification",
+    "hasI18n": false,
+    "attrs": "class=\"filter-pill\" data-status=\"unverified\" onclick=\"NWAReports.filterReports('unverified')\""
+  },
+  {
+    "tag": "button",
+    "text": "Verified",
+    "hasI18n": false,
+    "attrs": "class=\"filter-pill\" data-status=\"verified\" onclick=\"NWAReports.filterReports('verified')\""
+  },
+  {
+    "tag": "span",
+    "text": "Multi-Platform Weather Intelligence Stream",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "strong",
+    "text": "UN GDACS Disaster Alerting",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "strong",
+    "text": "Google News RSS",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "strong",
+    "text": "X / Twitter (API v2)",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "strong",
+    "text": "Instagram (Graph API)",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "strong",
+    "text": "IMD Feeds",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "#IMD",
+    "hasI18n": false,
+    "attrs": "class=\"trending-tag\" data-tag=\"#IMD\" onclick=\"NWASocial.filterSocialByHashtag('#IMD')\""
+  },
+  {
+    "tag": "span",
+    "text": "#CycloneAlert",
+    "hasI18n": false,
+    "attrs": "class=\"trending-tag\" data-tag=\"#CycloneAlert\" onclick=\"NWASocial.filterSocialByHashtag('#CycloneAlert')\""
+  },
+  {
+    "tag": "span",
+    "text": "#MumbaiRains",
+    "hasI18n": false,
+    "attrs": "class=\"trending-tag\" data-tag=\"#MumbaiRains\" onclick=\"NWASocial.filterSocialByHashtag('#MumbaiRains')\""
+  },
+  {
+    "tag": "span",
+    "text": "#DelhiWeather",
+    "hasI18n": false,
+    "attrs": "class=\"trending-tag\" data-tag=\"#DelhiWeather\" onclick=\"NWASocial.filterSocialByHashtag('#DelhiWeather')\""
+  },
+  {
+    "tag": "span",
+    "text": "#FogAlert",
+    "hasI18n": false,
+    "attrs": "class=\"trending-tag\" data-tag=\"#FogAlert\" onclick=\"NWASocial.filterSocialByHashtag('#FogAlert')\""
+  },
+  {
+    "tag": "span",
+    "text": "#DustStorm",
+    "hasI18n": false,
+    "attrs": "class=\"trending-tag\" data-tag=\"#DustStorm\" onclick=\"NWASocial.filterSocialByHashtag('#DustStorm')\""
+  },
+  {
+    "tag": "span",
+    "text": "#HighWinds",
+    "hasI18n": false,
+    "attrs": "class=\"trending-tag\" data-tag=\"#HighWinds\" onclick=\"NWASocial.filterSocialByHashtag('#HighWinds')\""
+  },
+  {
+    "tag": "span",
+    "text": "#ChennaiRains",
+    "hasI18n": false,
+    "attrs": "class=\"trending-tag\" data-tag=\"#ChennaiRains\" onclick=\"NWASocial.filterSocialByHashtag('#ChennaiRains')\""
+  },
+  {
+    "tag": "span",
+    "text": "#Monsoon",
+    "hasI18n": false,
+    "attrs": "class=\"trending-tag\" data-tag=\"#Monsoon\" onclick=\"NWASocial.filterSocialByHashtag('#Monsoon')\""
+  },
+  {
+    "tag": "span",
+    "text": "Show All",
+    "hasI18n": false,
+    "attrs": "class=\"trending-tag\" data-tag=\"all\" onclick=\"NWASocial.filterSocialByHashtag('all')\""
+  },
+  {
+    "tag": "strong",
+    "text": "Sources:",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "strong",
+    "text": "Classification:",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "strong",
+    "text": "Geotargeting:",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "strong",
+    "text": "Update Cadence:",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "a",
+    "text": "Privacy Policy",
+    "hasI18n": false,
+    "attrs": "href=\"/privacy.html\" style=\"color: var(--accent-primary); text-decoration: none; font-weight: 600;\""
+  },
+  {
+    "tag": "a",
+    "text": "Terms & Conditions",
+    "hasI18n": false,
+    "attrs": "href=\"/terms.html\" style=\"color: var(--accent-primary); text-decoration: none; font-weight: 600;\""
+  },
+  {
+    "tag": "p",
+    "text": "Real-time meteorological intelligence from citizen reports, social streams & national stations",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.82rem; color: var(--text-secondary); margin: 0;\""
+  },
+  {
+    "tag": "div",
+    "text": "Total Monitored Events",
+    "hasI18n": false,
+    "attrs": "class=\"kpi-label\""
+  },
+  {
+    "tag": "div",
+    "text": "Citizen Field Reports",
+    "hasI18n": false,
+    "attrs": "class=\"kpi-label\""
+  },
+  {
+    "tag": "div",
+    "text": "Social Advisory Signals",
+    "hasI18n": false,
+    "attrs": "class=\"kpi-label\""
+  },
+  {
+    "tag": "div",
+    "text": "Data Verification Rate",
+    "hasI18n": false,
+    "attrs": "class=\"kpi-label\""
+  },
+  {
+    "tag": "p",
+    "text": "Verified atmospheric snapshot, 4-day predictive window, and station telemetry formatted for administrative documentation, engineering, and civil preparedness.",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "div",
+    "text": "New Delhi, Delhi",
+    "hasI18n": false,
+    "attrs": "id=\"reportPreviewLocation\" class=\"report-location-title\""
+  },
+  {
+    "tag": "div",
+    "text": "Coordinates: Lat 28.6139, Lon 77.2090 | Sync: Live Open-Meteo & IMD Models",
+    "hasI18n": false,
+    "attrs": "id=\"reportPreviewMeta\" class=\"report-meta-sub\""
+  },
+  {
+    "tag": "span",
+    "text": "1. Current Surface Meteorological Observations",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "Meteorological Parameter",
+    "hasI18n": false,
+    "attrs": "style=\"width: 35%;\""
+  },
+  {
+    "tag": "th",
+    "text": "Recorded Value",
+    "hasI18n": false,
+    "attrs": "style=\"width: 25%;\""
+  },
+  {
+    "tag": "th",
+    "text": "Sensor & Observation Remarks",
+    "hasI18n": false,
+    "attrs": "style=\"width: 40%;\""
+  },
+  {
+    "tag": "span",
+    "text": "2. 4-Day Forward Forecast Outlook",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "Day / Date",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "Forecast Condition",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "High / Low Temp",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "Rainfall (mm)",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "Peak Wind (km/h)",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "Max UV Index",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "p",
+    "text": "This report compiles sensor feeds calibrated against standard World Meteorological Organization (WMO) benchmarks. Numerical forecasts are synthesized from open observational models. Data is provided for public interest and situational awareness.",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "Official Distribution • National Weather Analytics",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "a",
+    "text": "Privacy Policy",
+    "hasI18n": false,
+    "attrs": "href=\"/privacy.html\" style=\"color: var(--accent-primary); text-decoration: none; font-weight: 600;\""
+  },
+  {
+    "tag": "a",
+    "text": "Terms of Use",
+    "hasI18n": false,
+    "attrs": "href=\"/terms.html\" style=\"color: var(--accent-primary); text-decoration: none; font-weight: 600;\""
+  },
+  {
+    "tag": "h3",
+    "text": "Admin Portal Login",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "p",
+    "text": "Please enter your administrative credentials to access the moderation queue, verification controls, and AI audit telemetry.",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "Log In to Admin Portal",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "Admin Portal",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "| Weather Intelligence & Incident Moderation",
+    "hasI18n": false,
+    "attrs": "class=\"admin-title-sub\""
+  },
+  {
+    "tag": "p",
+    "text": "Central operational dashboard to review incoming citizen weather reports, analyze AI credibility scores, resolve duplicate clusters, and verify official meteorological observations.",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "Master Admin",
+    "hasI18n": false,
+    "attrs": "class=\"admin-user-name\""
+  },
+  {
+    "tag": "span",
+    "text": "Logout",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "LIVE SYNC ACTIVE",
+    "hasI18n": false,
+    "attrs": "class=\"live-sync-text\""
+  },
+  {
+    "tag": "span",
+    "text": "Big Data Pipeline",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "Refresh Queue",
+    "hasI18n": false,
+    "attrs": "id=\"adminRefreshText\""
+  },
+  {
+    "tag": "div",
+    "text": "Across All States & UTs",
+    "hasI18n": false,
+    "attrs": "class=\"admin-stat-card-sub\" id=\"adminStatFiltered\""
+  },
+  {
+    "tag": "div",
+    "text": "Verified Observations",
+    "hasI18n": false,
+    "attrs": "class=\"admin-stat-card-sub\" id=\"adminStatVerifiedCount\""
+  },
+  {
+    "tag": "div",
+    "text": "Credibility Flags & Discrepancies",
+    "hasI18n": false,
+    "attrs": "class=\"admin-stat-card-sub\""
+  },
+  {
+    "tag": "div",
+    "text": "Location & Time Clusters",
+    "hasI18n": false,
+    "attrs": "class=\"admin-stat-card-sub\""
+  },
+  {
+    "tag": "span",
+    "text": "Incident Filters & Spatial Search",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "to",
+    "hasI18n": false,
+    "attrs": "class=\"admin-date-sep\""
+  },
+  {
+    "tag": "button",
+    "text": "All Time",
+    "hasI18n": false,
+    "attrs": "type=\"button\" class=\"admin-date-preset-btn active\" data-range=\"all\" onclick=\"NWAAdmin.setDateRange('all', this)\""
+  },
+  {
+    "tag": "button",
+    "text": "Today (24h)",
+    "hasI18n": false,
+    "attrs": "type=\"button\" class=\"admin-date-preset-btn\" data-range=\"today\" onclick=\"NWAAdmin.setDateRange('today', this)\""
+  },
+  {
+    "tag": "button",
+    "text": "7 Days",
+    "hasI18n": false,
+    "attrs": "type=\"button\" class=\"admin-date-preset-btn\" data-range=\"7days\" onclick=\"NWAAdmin.setDateRange('7days', this)\""
+  },
+  {
+    "tag": "button",
+    "text": "30 Days",
+    "hasI18n": false,
+    "attrs": "type=\"button\" class=\"admin-date-preset-btn\" data-range=\"30days\" onclick=\"NWAAdmin.setDateRange('30days', this)\""
+  },
+  {
+    "tag": "option",
+    "text": "All Weather Event Types",
+    "hasI18n": false,
+    "attrs": "value=\"all\""
+  },
+  {
+    "tag": "option",
+    "text": "Heavy Rain / Downpour",
+    "hasI18n": false,
+    "attrs": "value=\"heavy_rain\""
+  },
+  {
+    "tag": "option",
+    "text": "Thunderstorm & Lightning",
+    "hasI18n": false,
+    "attrs": "value=\"thunderstorm\""
+  },
+  {
+    "tag": "option",
+    "text": "Flash Flood / Waterlogging",
+    "hasI18n": false,
+    "attrs": "value=\"flood\""
+  },
+  {
+    "tag": "option",
+    "text": "Heatwave / Extreme Heat",
+    "hasI18n": false,
+    "attrs": "value=\"heatwave\""
+  },
+  {
+    "tag": "option",
+    "text": "Dense Fog / Low Visibility",
+    "hasI18n": false,
+    "attrs": "value=\"fog\""
+  },
+  {
+    "tag": "option",
+    "text": "Dust Storm / Sandstorm",
+    "hasI18n": false,
+    "attrs": "value=\"dust_storm\""
+  },
+  {
+    "tag": "option",
+    "text": "Strong Winds / Gale",
+    "hasI18n": false,
+    "attrs": "value=\"strong_winds\""
+  },
+  {
+    "tag": "option",
+    "text": "Hailstorm",
+    "hasI18n": false,
+    "attrs": "value=\"hailstorm\""
+  },
+  {
+    "tag": "option",
+    "text": "Cyclone / Deep Depression",
+    "hasI18n": false,
+    "attrs": "value=\"cyclone\""
+  },
+  {
+    "tag": "option",
+    "text": "Other Severe Phenomenon",
+    "hasI18n": false,
+    "attrs": "value=\"other\""
+  },
+  {
+    "tag": "option",
+    "text": "All States & Union Territories",
+    "hasI18n": false,
+    "attrs": "value=\"all\""
+  },
+  {
+    "tag": "option",
+    "text": "All Statuses",
+    "hasI18n": false,
+    "attrs": "value=\"all\""
+  },
+  {
+    "tag": "option",
+    "text": "Pending Verification",
+    "hasI18n": false,
+    "attrs": "value=\"unverified\""
+  },
+  {
+    "tag": "option",
+    "text": "Verified Observations",
+    "hasI18n": false,
+    "attrs": "value=\"verified\""
+  },
+  {
+    "tag": "option",
+    "text": "Flagged Fake / Misleading",
+    "hasI18n": false,
+    "attrs": "value=\"flagged_fake\""
+  },
+  {
+    "tag": "option",
+    "text": "Duplicate Detected",
+    "hasI18n": false,
+    "attrs": "value=\"duplicate\""
+  },
+  {
+    "tag": "option",
+    "text": "Rejected Submissions",
+    "hasI18n": false,
+    "attrs": "value=\"rejected\""
+  },
+  {
+    "tag": "option",
+    "text": "All AI Risk Levels",
+    "hasI18n": false,
+    "attrs": "value=\"all\""
+  },
+  {
+    "tag": "option",
+    "text": "Low Risk (Credible)",
+    "hasI18n": false,
+    "attrs": "value=\"low\""
+  },
+  {
+    "tag": "option",
+    "text": "Medium Risk (Review Needed)",
+    "hasI18n": false,
+    "attrs": "value=\"medium\""
+  },
+  {
+    "tag": "option",
+    "text": "High Risk (Discrepancy)",
+    "hasI18n": false,
+    "attrs": "value=\"high\""
+  },
+  {
+    "tag": "span",
+    "text": "All Reports",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "Pending Verification",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "Verified",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "Flagged Fake",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "0 Records",
+    "hasI18n": false,
+    "attrs": "id=\"adminTableBadge\""
+  },
+  {
+    "tag": "th",
+    "text": "Timestamp (IST)",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "Source & Trust",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "Event Category",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "Location & GPS",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "Observation & Evidence",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "Credibility Score",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "Verification Status",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "Actions",
+    "hasI18n": false,
+    "attrs": "style=\"text-align: right;\""
+  },
+  {
+    "tag": "div",
+    "text": "Monitored Hazard Zones",
+    "hasI18n": false,
+    "attrs": "class=\"admin-stat-card-sub\""
+  },
+  {
+    "tag": "div",
+    "text": "Highest Hazard Priority",
+    "hasI18n": false,
+    "attrs": "class=\"admin-stat-card-sub\""
+  },
+  {
+    "tag": "div",
+    "text": "Preparedness Horizon",
+    "hasI18n": false,
+    "attrs": "class=\"admin-stat-card-sub\""
+  },
+  {
+    "tag": "div",
+    "text": "Active Subscriptions",
+    "hasI18n": false,
+    "attrs": "class=\"admin-stat-card-sub\""
+  },
+  {
+    "tag": "span",
+    "text": "Broadcast Official Emergency Weather Warning",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "p",
+    "text": "Dispatches an immediate authoritative warning across the national alerts network and alerts all connected users.",
+    "hasI18n": false,
+    "attrs": "style=\"margin: 0.25rem 0 0; font-size: 0.82rem; color: var(--text-secondary);\""
+  },
+  {
+    "tag": "span",
+    "text": "Detect Device GPS",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "label",
+    "text": "Latitude",
+    "hasI18n": false,
+    "attrs": "class=\"form-label\" for=\"adminAlertLat\""
+  },
+  {
+    "tag": "label",
+    "text": "Longitude",
+    "hasI18n": false,
+    "attrs": "class=\"form-label\" for=\"adminAlertLon\""
+  },
+  {
+    "tag": "label",
+    "text": "Hazard Category *",
+    "hasI18n": false,
+    "attrs": "class=\"form-label\" for=\"adminAlertHazard\""
+  },
+  {
+    "tag": "option",
+    "text": "Heavy Rain / Inundation",
+    "hasI18n": false,
+    "attrs": "value=\"heavy_rain\" selected"
+  },
+  {
+    "tag": "option",
+    "text": "Extreme Heatwave",
+    "hasI18n": false,
+    "attrs": "value=\"heatwave\""
+  },
+  {
+    "tag": "option",
+    "text": "Cyclone / Storm",
+    "hasI18n": false,
+    "attrs": "value=\"cyclone\""
+  },
+  {
+    "tag": "option",
+    "text": "Flash Flood",
+    "hasI18n": false,
+    "attrs": "value=\"flood\""
+  },
+  {
+    "tag": "option",
+    "text": "Severe Thunderstorm & Gale",
+    "hasI18n": false,
+    "attrs": "value=\"thunderstorm\""
+  },
+  {
+    "tag": "option",
+    "text": "Severe Cold Wave",
+    "hasI18n": false,
+    "attrs": "value=\"cold_wave\""
+  },
+  {
+    "tag": "label",
+    "text": "Warning Level *",
+    "hasI18n": false,
+    "attrs": "class=\"form-label\" for=\"adminAlertSeverity\""
+  },
+  {
+    "tag": "option",
+    "text": "RED (Take Action)",
+    "hasI18n": false,
+    "attrs": "value=\"red\" selected"
+  },
+  {
+    "tag": "option",
+    "text": "ORANGE (Be Prepared)",
+    "hasI18n": false,
+    "attrs": "value=\"orange\""
+  },
+  {
+    "tag": "option",
+    "text": "YELLOW (Be Updated)",
+    "hasI18n": false,
+    "attrs": "value=\"yellow\""
+  },
+  {
+    "tag": "label",
+    "text": "Warning Headline *",
+    "hasI18n": false,
+    "attrs": "class=\"form-label\" for=\"adminAlertHeadline\""
+  },
+  {
+    "tag": "label",
+    "text": "Public Safety Advisory",
+    "hasI18n": false,
+    "attrs": "class=\"form-label\" for=\"adminAlertAdvisory\""
+  },
+  {
+    "tag": "label",
+    "text": "Validity Horizon",
+    "hasI18n": false,
+    "attrs": "class=\"form-label\" for=\"adminAlertValid\""
+  },
+  {
+    "tag": "option",
+    "text": "Next 12 Hours",
+    "hasI18n": false,
+    "attrs": "value=\"Next 12 Hours\""
+  },
+  {
+    "tag": "option",
+    "text": "Next 24 Hours",
+    "hasI18n": false,
+    "attrs": "value=\"Next 24 Hours\" selected"
+  },
+  {
+    "tag": "option",
+    "text": "Next 48 Hours",
+    "hasI18n": false,
+    "attrs": "value=\"Next 48 Hours\""
+  },
+  {
+    "tag": "option",
+    "text": "Next 72 Hours",
+    "hasI18n": false,
+    "attrs": "value=\"Next 72 Hours\""
+  },
+  {
+    "tag": "h4",
+    "text": "Active National Severe Weather Alerts",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "Refresh Alerts",
+    "hasI18n": false,
+    "attrs": "id=\"adminRefreshAlertsText\""
+  },
+  {
+    "tag": "th",
+    "text": "Location / GPS",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "Hazard",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "Severity",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "Headline & Advisory",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "Validity",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "Authority",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "th",
+    "text": "Actions",
+    "hasI18n": false,
+    "attrs": "style=\"text-align: right;\""
+  },
+  {
+    "tag": "div",
+    "text": "-- rec/s",
+    "hasI18n": false,
+    "attrs": "class=\"admin-stat-card-val\" id=\"bigDataThroughputVal\" style=\"color: #38bdf8;\""
+  },
+  {
+    "tag": "div",
+    "text": "Engine: Apache Kafka Partition Buffer",
+    "hasI18n": false,
+    "attrs": "class=\"admin-stat-card-sub\" id=\"bigDataConnectorName\""
+  },
+  {
+    "tag": "div",
+    "text": "Capacity: 10,000 in-memory",
+    "hasI18n": false,
+    "attrs": "class=\"admin-stat-card-sub\" id=\"bigDataCapacitySub\""
+  },
+  {
+    "tag": "div",
+    "text": "0 Dropped Packets (100% QoS)",
+    "hasI18n": false,
+    "attrs": "class=\"admin-stat-card-sub\" id=\"bigDataProcessedSub\""
+  },
+  {
+    "tag": "div",
+    "text": "&lt; 15 ms",
+    "hasI18n": false,
+    "attrs": "class=\"admin-stat-card-val\" id=\"bigDataLatencyVal\" style=\"color: #6366f1;\""
+  },
+  {
+    "tag": "div",
+    "text": "AI Feature Vectorization + DB Sync",
+    "hasI18n": false,
+    "attrs": "class=\"admin-stat-card-sub\""
+  },
+  {
+    "tag": "h4",
+    "text": "Live Streaming Pipeline Architecture Topology",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "label",
+    "text": "Active Ingestion Engine:",
+    "hasI18n": false,
+    "attrs": "for=\"bigDataConnectorSelect\" style=\"font-size: 0.78rem; font-weight: 600; color: var(--text-muted);\""
+  },
+  {
+    "tag": "option",
+    "text": "Apache Kafka (4 Partitions)",
+    "hasI18n": false,
+    "attrs": "value=\"KAFKA\""
+  },
+  {
+    "tag": "option",
+    "text": "ClickHouse Columnar Buffer",
+    "hasI18n": false,
+    "attrs": "value=\"CLICKHOUSE\""
+  },
+  {
+    "tag": "option",
+    "text": "Apache Spark Structured Streaming",
+    "hasI18n": false,
+    "attrs": "value=\"SPARK\""
+  },
+  {
+    "tag": "option",
+    "text": "Google BigQuery Real-Time Stream",
+    "hasI18n": false,
+    "attrs": "value=\"BIGQUERY\""
+  },
+  {
+    "tag": "div",
+    "text": "Edge Ingestion",
+    "hasI18n": false,
+    "attrs": "class=\"node-title\""
+  },
+  {
+    "tag": "div",
+    "text": "IMD Radars &bull; Citizen Web &bull; Social RSS",
+    "hasI18n": false,
+    "attrs": "class=\"node-desc\""
+  },
+  {
+    "tag": "div",
+    "text": "HTTP / SSE / REST",
+    "hasI18n": false,
+    "attrs": "class=\"node-badge\""
+  },
+  {
+    "tag": "div",
+    "text": "Kafka Buffer",
+    "hasI18n": false,
+    "attrs": "class=\"node-title\" id=\"topologyBufferTitle\""
+  },
+  {
+    "tag": "div",
+    "text": "4 Ingestion Partitions (Snappy Comp.)",
+    "hasI18n": false,
+    "attrs": "class=\"node-desc\""
+  },
+  {
+    "tag": "div",
+    "text": "nwa-meteorological-stream",
+    "hasI18n": false,
+    "attrs": "class=\"node-badge\" id=\"topologyBufferBadge\""
+  },
+  {
+    "tag": "div",
+    "text": "AI NLP &amp; CV Worker",
+    "hasI18n": false,
+    "attrs": "class=\"node-title\""
+  },
+  {
+    "tag": "div",
+    "text": "TF-IDF Vectorizer &bull; Naive Bayes &bull; EXIF Forensics",
+    "hasI18n": false,
+    "attrs": "class=\"node-desc\""
+  },
+  {
+    "tag": "div",
+    "text": "Multiprocess Async",
+    "hasI18n": false,
+    "attrs": "class=\"node-badge\""
+  },
+  {
+    "tag": "div",
+    "text": "Storage Warehouse",
+    "hasI18n": false,
+    "attrs": "class=\"node-title\""
+  },
+  {
+    "tag": "div",
+    "text": "SQLite WAL + Partitioned GIS Analytics",
+    "hasI18n": false,
+    "attrs": "class=\"node-desc\""
+  },
+  {
+    "tag": "div",
+    "text": "ACID WAL High-QoS",
+    "hasI18n": false,
+    "attrs": "class=\"node-badge\""
+  },
+  {
+    "tag": "span",
+    "text": "Partition 0 (North)",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "Lag: 4ms",
+    "hasI18n": false,
+    "attrs": "class=\"part-lag\""
+  },
+  {
+    "tag": "span",
+    "text": "Partition 1 (South)",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "Lag: 6ms",
+    "hasI18n": false,
+    "attrs": "class=\"part-lag\""
+  },
+  {
+    "tag": "span",
+    "text": "Partition 2 (East)",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "Lag: 5ms",
+    "hasI18n": false,
+    "attrs": "class=\"part-lag\""
+  },
+  {
+    "tag": "span",
+    "text": "Partition 3 (West)",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "Lag: 3ms",
+    "hasI18n": false,
+    "attrs": "class=\"part-lag\""
+  },
+  {
+    "tag": "h4",
+    "text": "High-Volume Stream Ingestion Scalability Benchmark",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "p",
+    "text": "Simulate high-velocity severe meteorological storm telemetry by blasting 1,000 continuous synthetic weather stream records across 4 message buffer partitions in under 2 seconds. Demonstrates asynchronous queuing, zero dropped packets, and real-time database batch commit.",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.84rem; color: var(--text-muted); margin-bottom: 1rem;\""
+  },
+  {
+    "tag": "span",
+    "text": "Ingesting Synthetic Meteorological Stream...",
+    "hasI18n": false,
+    "attrs": "id=\"benchmarkProgressLabel\""
+  },
+  {
+    "tag": "strong",
+    "text": "806 records/sec",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "div",
+    "text": "4 / 4 Nodes",
+    "hasI18n": false,
+    "attrs": "class=\"admin-stat-card-val\" id=\"clusterActiveNodesVal\" style=\"color: #10b981;\""
+  },
+  {
+    "tag": "div",
+    "text": "Supervisor: Self-Healing Active",
+    "hasI18n": false,
+    "attrs": "class=\"admin-stat-card-sub\" id=\"clusterSupervisorState\""
+  },
+  {
+    "tag": "div",
+    "text": "-- Cores",
+    "hasI18n": false,
+    "attrs": "class=\"admin-stat-card-val\" id=\"clusterHostCoresVal\" style=\"color: #38bdf8;\""
+  },
+  {
+    "tag": "div",
+    "text": "CPU Load: Nominal",
+    "hasI18n": false,
+    "attrs": "class=\"admin-stat-card-sub\" id=\"clusterHostCpuUsage\""
+  },
+  {
+    "tag": "div",
+    "text": "3 &rarr; 50 Pods",
+    "hasI18n": false,
+    "attrs": "class=\"admin-stat-card-val\" id=\"clusterK8sHpaVal\" style=\"color: #8b5cf6;\""
+  },
+  {
+    "tag": "div",
+    "text": "Target: 70% CPU / 80% Mem",
+    "hasI18n": false,
+    "attrs": "class=\"admin-stat-card-sub\" id=\"clusterK8sTarget\""
+  },
+  {
+    "tag": "div",
+    "text": "NGINX Least-Conn",
+    "hasI18n": false,
+    "attrs": "class=\"admin-stat-card-val\" id=\"clusterLbAlgorithmVal\" style=\"color: #f59e0b;\""
+  },
+  {
+    "tag": "div",
+    "text": "Zero-Downtime Rolling Reload",
+    "hasI18n": false,
+    "attrs": "class=\"admin-stat-card-sub\""
+  },
+  {
+    "tag": "div",
+    "text": "Simulate worker crash and observe instant zero-downtime revival",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.72rem; color: var(--text-muted);\""
+  },
+  {
+    "tag": "span",
+    "text": "v2.4.0-cloud-native",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.7rem; background: rgba(56,189,248,0.2); padding: 0.1rem 0.4rem; border-radius: 4px;\""
+  },
+  {
+    "tag": "div",
+    "text": "Execute parallel stress traffic across worker pool and verify horizontal speedup vs single-node architecture",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.75rem; color: var(--text-muted); margin-top: 0.2rem;\""
+  },
+  {
+    "tag": "label",
+    "text": "Concurrency Load:",
+    "hasI18n": false,
+    "attrs": "for=\"clusterBenchConcurrencySelect\" style=\"font-size: 0.78rem; font-weight: 600; color: var(--text-muted);\""
+  },
+  {
+    "tag": "option",
+    "text": "500 Concurrent Requests",
+    "hasI18n": false,
+    "attrs": "value=\"500\""
+  },
+  {
+    "tag": "option",
+    "text": "1,000 Concurrent Requests (Standard)",
+    "hasI18n": false,
+    "attrs": "value=\"1000\" selected"
+  },
+  {
+    "tag": "option",
+    "text": "2,500 Concurrent Requests (Heavy Load)",
+    "hasI18n": false,
+    "attrs": "value=\"2500\""
+  },
+  {
+    "tag": "option",
+    "text": "5,000 Concurrent Requests (National Surge)",
+    "hasI18n": false,
+    "attrs": "value=\"5000\""
+  },
+  {
+    "tag": "div",
+    "text": "Processed 1,000 concurrent requests across 4 workers in 74ms",
+    "hasI18n": false,
+    "attrs": "id=\"clusterBenchSubtitle\" style=\"font-size: 0.78rem; color: var(--text-muted); margin-top: 0.15rem;\""
+  },
+  {
+    "tag": "div",
+    "text": "Throughput",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase;\""
+  },
+  {
+    "tag": "div",
+    "text": "-- req/s",
+    "hasI18n": false,
+    "attrs": "id=\"clusterBenchThroughputVal\" style=\"font-size: 1.3rem; font-weight: 700; color: #38bdf8; margin-top: 0.2rem;\""
+  },
+  {
+    "tag": "div",
+    "text": "P50 Median Latency",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase;\""
+  },
+  {
+    "tag": "div",
+    "text": "-- ms",
+    "hasI18n": false,
+    "attrs": "id=\"clusterBenchP50Val\" style=\"font-size: 1.3rem; font-weight: 700; color: #10b981; margin-top: 0.2rem;\""
+  },
+  {
+    "tag": "div",
+    "text": "Sub-10ms response",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.68rem; color: var(--text-muted); margin-top: 0.2rem;\""
+  },
+  {
+    "tag": "div",
+    "text": "P95 Latency (SLA)",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase;\""
+  },
+  {
+    "tag": "div",
+    "text": "-- ms",
+    "hasI18n": false,
+    "attrs": "id=\"clusterBenchP95Val\" style=\"font-size: 1.3rem; font-weight: 700; color: #f59e0b; margin-top: 0.2rem;\""
+  },
+  {
+    "tag": "div",
+    "text": "P99 Tail Latency",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase;\""
+  },
+  {
+    "tag": "div",
+    "text": "-- ms",
+    "hasI18n": false,
+    "attrs": "id=\"clusterBenchP99Val\" style=\"font-size: 1.3rem; font-weight: 700; color: #a78bfa; margin-top: 0.2rem;\""
+  },
+  {
+    "tag": "div",
+    "text": "Zero queue starvation",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.68rem; color: var(--text-muted); margin-top: 0.2rem;\""
+  },
+  {
+    "tag": "strong",
+    "text": "100% Operational",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "strong",
+    "text": "70% CPU / 15s window",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "div",
+    "text": "Scalability Stress Testing Engine Ready",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.9rem; font-weight: 600; color: var(--text-primary);\""
+  },
+  {
+    "tag": "strong",
+    "text": "Run Scalability Benchmark",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "p",
+    "text": "Authoritative meteorological monitoring, real-time severe weather intelligence, and community incident verification across Indian states and union territories.",
+    "hasI18n": false,
+    "attrs": "class=\"footer-brand-desc\""
+  },
+  {
+    "tag": "strong",
+    "text": "weatheranalytics.in",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "div",
+    "text": "Emergency & Meteorological Desk",
+    "hasI18n": false,
+    "attrs": "class=\"footer-heading\""
+  },
+  {
+    "tag": "div",
+    "text": "Legal & Operational Policies",
+    "hasI18n": false,
+    "attrs": "class=\"footer-heading\""
+  },
+  {
+    "tag": "div",
+    "text": "&copy; 2026 National Weather Analytics (NWA). All rights reserved. Operating under WMO open observational data standards.",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "a",
+    "text": "Privacy Policy",
+    "hasI18n": false,
+    "attrs": "href=\"/privacy.html\""
+  },
+  {
+    "tag": "a",
+    "text": "Terms of Use",
+    "hasI18n": false,
+    "attrs": "href=\"/terms.html\""
+  },
+  {
+    "tag": "a",
+    "text": "Help Desk",
+    "hasI18n": false,
+    "attrs": "href=\"mailto:support@weatheranalytics.in\""
+  },
+  {
+    "tag": "span",
+    "text": "Report Local Weather Event",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "button",
+    "text": "&times;",
+    "hasI18n": false,
+    "attrs": "id=\"closeReportModalBtn\" class=\"close-btn\" aria-label=\"Close modal\""
+  },
+  {
+    "tag": "span",
+    "text": "Auto-Fill from Active Location / GPS",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "label",
+    "text": "Event Category *",
+    "hasI18n": false,
+    "attrs": "class=\"form-label\" for=\"reportCategory\""
+  },
+  {
+    "tag": "option",
+    "text": "Heavy Rain / Downpour",
+    "hasI18n": false,
+    "attrs": "value=\"heavy_rain\""
+  },
+  {
+    "tag": "option",
+    "text": "Thunderstorm & Lightning",
+    "hasI18n": false,
+    "attrs": "value=\"thunderstorm\""
+  },
+  {
+    "tag": "option",
+    "text": "Flash Flood / Waterlogging",
+    "hasI18n": false,
+    "attrs": "value=\"flood\""
+  },
+  {
+    "tag": "option",
+    "text": "Heatwave / Extreme Heat",
+    "hasI18n": false,
+    "attrs": "value=\"heatwave\""
+  },
+  {
+    "tag": "option",
+    "text": "Dense Fog / Low Visibility",
+    "hasI18n": false,
+    "attrs": "value=\"fog\""
+  },
+  {
+    "tag": "option",
+    "text": "Dust Storm / Sandstorm",
+    "hasI18n": false,
+    "attrs": "value=\"dust_storm\""
+  },
+  {
+    "tag": "option",
+    "text": "Strong Winds / Gale",
+    "hasI18n": false,
+    "attrs": "value=\"strong_winds\""
+  },
+  {
+    "tag": "option",
+    "text": "Hailstorm",
+    "hasI18n": false,
+    "attrs": "value=\"hailstorm\""
+  },
+  {
+    "tag": "option",
+    "text": "Cyclone / Deep Depression",
+    "hasI18n": false,
+    "attrs": "value=\"cyclone\""
+  },
+  {
+    "tag": "option",
+    "text": "Other Severe Phenomenon",
+    "hasI18n": false,
+    "attrs": "value=\"other\""
+  },
+  {
+    "tag": "label",
+    "text": "State / UT *",
+    "hasI18n": false,
+    "attrs": "class=\"form-label\" for=\"reportState\""
+  },
+  {
+    "tag": "option",
+    "text": "Select State",
+    "hasI18n": false,
+    "attrs": "value=\"\""
+  },
+  {
+    "tag": "label",
+    "text": "City / District",
+    "hasI18n": false,
+    "attrs": "class=\"form-label\" for=\"reportCitySelect\""
+  },
+  {
+    "tag": "option",
+    "text": "Select City / District",
+    "hasI18n": false,
+    "attrs": "value=\"\""
+  },
+  {
+    "tag": "label",
+    "text": "Location / Landmark *",
+    "hasI18n": false,
+    "attrs": "class=\"form-label\" for=\"reportLocation\""
+  },
+  {
+    "tag": "label",
+    "text": "Latitude *",
+    "hasI18n": false,
+    "attrs": "class=\"form-label\" for=\"reportLat\""
+  },
+  {
+    "tag": "label",
+    "text": "Longitude *",
+    "hasI18n": false,
+    "attrs": "class=\"form-label\" for=\"reportLon\""
+  },
+  {
+    "tag": "label",
+    "text": "Description & Impact",
+    "hasI18n": false,
+    "attrs": "class=\"form-label\" for=\"reportDescription\""
+  },
+  {
+    "tag": "label",
+    "text": "Your Name / Organization",
+    "hasI18n": false,
+    "attrs": "class=\"form-label\" for=\"reportReporterName\""
+  },
+  {
+    "tag": "label",
+    "text": "Attach Photo (Optional)",
+    "hasI18n": false,
+    "attrs": "class=\"form-label\" for=\"reportPhoto\""
+  },
+  {
+    "tag": "div",
+    "text": "Click or drag image to attach photo",
+    "hasI18n": false,
+    "attrs": "class=\"upload-title\""
+  },
+  {
+    "tag": "div",
+    "text": "Supports JPG, PNG, WebP (Max 4MB)",
+    "hasI18n": false,
+    "attrs": "class=\"upload-subtitle\""
+  },
+  {
+    "tag": "div",
+    "text": "Photo Attached",
+    "hasI18n": false,
+    "attrs": "class=\"preview-name\" id=\"previewFileName\""
+  },
+  {
+    "tag": "span",
+    "text": "AI Multi-Modal Credibility &amp; Forensics Inspector",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "Grade A",
+    "hasI18n": false,
+    "attrs": "id=\"forensicsGradeBadge\" class=\"ai-trust-grade grade-a\""
+  },
+  {
+    "tag": "div",
+    "text": "TF-IDF NLP Vectorizer · GIS Boundary Corroboration · Visual Forensics v2.5",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.76rem; color: #94a3b8;\""
+  },
+  {
+    "tag": "div",
+    "text": "Observation Telemetry &amp; Location",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.72rem; color: #94a3b8; text-transform: uppercase;\""
+  },
+  {
+    "tag": "div",
+    "text": "Marine Drive, Mumbai (Maharashtra)",
+    "hasI18n": false,
+    "attrs": "id=\"forensicsRepLoc\" style=\"font-size: 0.95rem; font-weight: 700; color: #38bdf8;\""
+  },
+  {
+    "tag": "div",
+    "text": "\"Waterlogging up to 1.5 ft near Churchgate station.\"",
+    "hasI18n": false,
+    "attrs": "id=\"forensicsRepDesc\" style=\"font-size: 0.8rem; color: #cbd5e1; margin-top: 0.25rem; font-style: italic;\""
+  },
+  {
+    "tag": "div",
+    "text": "Composite Trust Score",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.72rem; color: #94a3b8; text-transform: uppercase;\""
+  },
+  {
+    "tag": "div",
+    "text": "Low False-Positive Risk",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.72rem; color: #94a3b8;\""
+  },
+  {
+    "tag": "div",
+    "text": "TF-IDF Term Frequency matched against official IMD meteorological taxonomy. Anti-spam cosine distance verified.",
+    "hasI18n": false,
+    "attrs": "class=\"forensics-card-detail\""
+  },
+  {
+    "tag": "div",
+    "text": "GPS coordinates verified inside Indian sovereign land boundaries. Anomaly check: Inland cyclone probability cleared.",
+    "hasI18n": false,
+    "attrs": "class=\"forensics-card-detail\""
+  },
+  {
+    "tag": "div",
+    "text": "Visual scene corroboration confirmed weather phenomenon (convective cloud / waterlogging). Deepfake &amp; stock photo manipulation test passed.",
+    "hasI18n": false,
+    "attrs": "class=\"forensics-card-detail\""
+  },
+  {
+    "tag": "div",
+    "text": "Corroborated with active IMD Doppler weather radar &amp; regional automated weather stations (AWS) telemetry.",
+    "hasI18n": false,
+    "attrs": "class=\"forensics-card-detail\""
+  },
+  {
+    "tag": "span",
+    "text": "AI Verification Reasoning &amp; Decision Trail (Explainable AI):",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "div",
+    "text": "Emergency Weather Desk: Warning Dispatcher",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 1.1rem; font-weight: 800; color: #fca5a5;\""
+  },
+  {
+    "tag": "div",
+    "text": "National Early Warning Network · Multi-Agency Broadcast",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.75rem; color: #cbd5e1;\""
+  },
+  {
+    "tag": "label",
+    "text": "Emergency Warning Headline",
+    "hasI18n": false,
+    "attrs": "style=\"display: block; font-size: 0.8rem; font-weight: 600; color: #cbd5e1; margin-bottom: 0.35rem;\""
+  },
+  {
+    "tag": "label",
+    "text": "Hazard Event",
+    "hasI18n": false,
+    "attrs": "style=\"display: block; font-size: 0.8rem; font-weight: 600; color: #cbd5e1; margin-bottom: 0.35rem;\""
+  },
+  {
+    "tag": "option",
+    "text": "Tropical Cyclone",
+    "hasI18n": false,
+    "attrs": "value=\"Cyclone\""
+  },
+  {
+    "tag": "option",
+    "text": "Severe Monsoon Downpour",
+    "hasI18n": false,
+    "attrs": "value=\"Heavy Rain\" selected"
+  },
+  {
+    "tag": "option",
+    "text": "Flash Flood / Inundation",
+    "hasI18n": false,
+    "attrs": "value=\"Flash Flood\""
+  },
+  {
+    "tag": "option",
+    "text": "Extreme Heatwave (Loo)",
+    "hasI18n": false,
+    "attrs": "value=\"Heatwave\""
+  },
+  {
+    "tag": "option",
+    "text": "Thunderstorm &amp; Lightning",
+    "hasI18n": false,
+    "attrs": "value=\"Thunderstorm\""
+  },
+  {
+    "tag": "option",
+    "text": "Cloudburst",
+    "hasI18n": false,
+    "attrs": "value=\"Cloudburst\""
+  },
+  {
+    "tag": "label",
+    "text": "Severity Tier",
+    "hasI18n": false,
+    "attrs": "style=\"display: block; font-size: 0.8rem; font-weight: 600; color: #cbd5e1; margin-bottom: 0.35rem;\""
+  },
+  {
+    "tag": "option",
+    "text": "Red Alert (Take Action)",
+    "hasI18n": false,
+    "attrs": "value=\"Red\" selected"
+  },
+  {
+    "tag": "option",
+    "text": "Orange Alert (Be Prepared)",
+    "hasI18n": false,
+    "attrs": "value=\"Orange\""
+  },
+  {
+    "tag": "option",
+    "text": "Yellow Warning (Be Aware)",
+    "hasI18n": false,
+    "attrs": "value=\"Yellow\""
+  },
+  {
+    "tag": "label",
+    "text": "Target District / Coastal Belt",
+    "hasI18n": false,
+    "attrs": "style=\"display: block; font-size: 0.8rem; font-weight: 600; color: #cbd5e1; margin-bottom: 0.35rem;\""
+  },
+  {
+    "tag": "label",
+    "text": "Advisory &amp; Protective Action Instructions",
+    "hasI18n": false,
+    "attrs": "style=\"display: block; font-size: 0.8rem; font-weight: 600; color: #cbd5e1; margin-bottom: 0.35rem;\""
+  },
+  {
+    "tag": "div",
+    "text": "Automated Emergency Broadcast Channels:",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.75rem; font-weight: 700; color: #94a3b8; text-transform: uppercase; margin-bottom: 0.4rem;\""
+  },
+  {
+    "tag": "span",
+    "text": "State Disaster Management Authority (SDMA) Emergency Desk",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "National Disaster Response Force (NDRF) Quick Reaction Cell",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "Citizen Emergency SMS Gateway &amp; Cell Broadcast Simulation",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "span",
+    "text": "Live NWA Operational Stream Broadcast (SSE Push)",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "div",
+    "text": "Big Data Pipeline &amp; OSS Architecture",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 1.1rem; font-weight: 700; color: #f1f5f9;\""
+  },
+  {
+    "tag": "div",
+    "text": "Live SQLite WAL Engine | Streaming Ingestion | Open-Source Toolchain",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.77rem; color: #94a3b8;\""
+  },
+  {
+    "tag": "div",
+    "text": "SQLite 3 WAL",
+    "hasI18n": false,
+    "attrs": "id=\"bdEngine\" style=\"font-size: 1rem; font-weight: 700; color: #38bdf8;\""
+  },
+  {
+    "tag": "div",
+    "text": "WAL",
+    "hasI18n": false,
+    "attrs": "id=\"bdJournal\" style=\"font-size: 1rem; font-weight: 700; color: #10b981;\""
+  },
+  {
+    "tag": "strong",
+    "text": "Atomicity",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "strong",
+    "text": "Consistency",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "strong",
+    "text": "Isolation",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "strong",
+    "text": "Durability",
+    "hasI18n": false,
+    "attrs": ""
+  },
+  {
+    "tag": "div",
+    "text": "NOMINAL_STREAMING",
+    "hasI18n": false,
+    "attrs": "id=\"bdStreamStatus\" style=\"font-size: 1rem; font-weight: 700; color: #10b981;\""
+  },
+  {
+    "tag": "div",
+    "text": "-- events/min",
+    "hasI18n": false,
+    "attrs": "id=\"bdStreamThroughput\" style=\"font-size: 1rem; font-weight: 700; color: #38bdf8;\""
+  },
+  {
+    "tag": "strong",
+    "text": "5,000 events",
+    "hasI18n": false,
+    "attrs": "style=\"color:#94a3b8;\""
+  },
+  {
+    "tag": "strong",
+    "text": "4 seconds",
+    "hasI18n": false,
+    "attrs": "style=\"color:#94a3b8;\""
+  },
+  {
+    "tag": "strong",
+    "text": "25 events",
+    "hasI18n": false,
+    "attrs": "style=\"color:#94a3b8;\""
+  },
+  {
+    "tag": "strong",
+    "text": "Unlimited reads",
+    "hasI18n": false,
+    "attrs": "style=\"color:#94a3b8;\""
+  },
+  {
+    "tag": "span",
+    "text": "RUNTIME",
+    "hasI18n": false,
+    "attrs": "style=\"background:#10b981; color:#fff; border-radius:5px; padding:0.2rem 0.5rem; font-size:0.65rem; font-weight:700;\""
+  },
+  {
+    "tag": "strong",
+    "text": "Node.js 24 (LTS)",
+    "hasI18n": false,
+    "attrs": "style=\"color: #e2e8f0; font-size: 0.85rem;\""
+  },
+  {
+    "tag": "span",
+    "text": "DATABASE",
+    "hasI18n": false,
+    "attrs": "style=\"background:#0ea5e9; color:#fff; border-radius:5px; padding:0.2rem 0.5rem; font-size:0.65rem; font-weight:700;\""
+  },
+  {
+    "tag": "strong",
+    "text": "SQLite 3 (WAL Mode)",
+    "hasI18n": false,
+    "attrs": "style=\"color: #e2e8f0; font-size: 0.85rem;\""
+  },
+  {
+    "tag": "div",
+    "text": "ACID-compliant embedded relational database with Write-Ahead Logging for concurrent reads and atomic write transactions.",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.75rem; color: #94a3b8; line-height: 1.5;\""
+  },
+  {
+    "tag": "span",
+    "text": "WEATHER API",
+    "hasI18n": false,
+    "attrs": "style=\"background:#f59e0b; color:#fff; border-radius:5px; padding:0.2rem 0.5rem; font-size:0.65rem; font-weight:700;\""
+  },
+  {
+    "tag": "strong",
+    "text": "Open-Meteo",
+    "hasI18n": false,
+    "attrs": "style=\"color: #e2e8f0; font-size: 0.85rem;\""
+  },
+  {
+    "tag": "div",
+    "text": "Free, open-source, WMO-standard weather API. 16-day forecasts, hourly models, historical archive. No API key required.",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.75rem; color: #94a3b8; line-height: 1.5;\""
+  },
+  {
+    "tag": "span",
+    "text": "MAPS",
+    "hasI18n": false,
+    "attrs": "style=\"background:#8b5cf6; color:#fff; border-radius:5px; padding:0.2rem 0.5rem; font-size:0.65rem; font-weight:700;\""
+  },
+  {
+    "tag": "strong",
+    "text": "Leaflet.js 1.9",
+    "hasI18n": false,
+    "attrs": "style=\"color: #e2e8f0; font-size: 0.85rem;\""
+  },
+  {
+    "tag": "div",
+    "text": "Open-source interactive mapping library. Tile layers from OpenStreetMap (ODbL). Used for real-time geolocation and station markers.",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.75rem; color: #94a3b8; line-height: 1.5;\""
+  },
+  {
+    "tag": "span",
+    "text": "DISASTER API",
+    "hasI18n": false,
+    "attrs": "style=\"background:#ef4444; color:#fff; border-radius:5px; padding:0.2rem 0.5rem; font-size:0.65rem; font-weight:700;\""
+  },
+  {
+    "tag": "strong",
+    "text": "UN GDACS",
+    "hasI18n": false,
+    "attrs": "style=\"color: #e2e8f0; font-size: 0.85rem;\""
+  },
+  {
+    "tag": "div",
+    "text": "Global Disaster Alert and Coordination System by the United Nations and European Commission. Real-time cyclone, flood, and storm RSS feeds.",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.75rem; color: #94a3b8; line-height: 1.5;\""
+  },
+  {
+    "tag": "span",
+    "text": "CHARTS",
+    "hasI18n": false,
+    "attrs": "style=\"background:#38bdf8; color:#0f172a; border-radius:5px; padding:0.2rem 0.5rem; font-size:0.65rem; font-weight:700;\""
+  },
+  {
+    "tag": "strong",
+    "text": "Chart.js 4",
+    "hasI18n": false,
+    "attrs": "style=\"color: #e2e8f0; font-size: 0.85rem;\""
+  },
+  {
+    "tag": "div",
+    "text": "MIT-licensed responsive chart library used for category distribution, trend analysis, and state-wise event frequency plots.",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.75rem; color: #94a3b8; line-height: 1.5;\""
+  },
+  {
+    "tag": "span",
+    "text": "EXPORT",
+    "hasI18n": false,
+    "attrs": "style=\"background:#10b981; color:#fff; border-radius:5px; padding:0.2rem 0.5rem; font-size:0.65rem; font-weight:700;\""
+  },
+  {
+    "tag": "strong",
+    "text": "SheetJS (xlsx) + jsPDF",
+    "hasI18n": false,
+    "attrs": "style=\"color: #e2e8f0; font-size: 0.85rem;\""
+  },
+  {
+    "tag": "div",
+    "text": "Open-source spreadsheet (SheetJS) and PDF generation (jsPDF) for downloadable official meteorological reports.",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.75rem; color: #94a3b8; line-height: 1.5;\""
+  },
+  {
+    "tag": "span",
+    "text": "AI/NLP",
+    "hasI18n": false,
+    "attrs": "style=\"background:#f59e0b; color:#fff; border-radius:5px; padding:0.2rem 0.5rem; font-size:0.65rem; font-weight:700;\""
+  },
+  {
+    "tag": "strong",
+    "text": "TF-IDF + Naive Bayes",
+    "hasI18n": false,
+    "attrs": "style=\"color: #e2e8f0; font-size: 0.85rem;\""
+  },
+  {
+    "tag": "div",
+    "text": "Custom NLP credibility engine built in pure Node.js. TF-IDF vectorization + Multinomial Naive Bayes classifier for report authenticity scoring.",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.75rem; color: #94a3b8; line-height: 1.5;\""
+  },
+  {
+    "tag": "span",
+    "text": "STANDARD",
+    "hasI18n": false,
+    "attrs": "style=\"background:#0ea5e9; color:#fff; border-radius:5px; padding:0.2rem 0.5rem; font-size:0.65rem; font-weight:700;\""
+  },
+  {
+    "tag": "strong",
+    "text": "WMO BUFR/SYNOP",
+    "hasI18n": false,
+    "attrs": "style=\"color: #e2e8f0; font-size: 0.85rem;\""
+  },
+  {
+    "tag": "div",
+    "text": "World Meteorological Organization code standards. Open-Meteo weather codes mapped to WMO BUFR present weather descriptions.",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.75rem; color: #94a3b8; line-height: 1.5;\""
+  },
+  {
+    "tag": "div",
+    "text": "This benchmark fires 10 concurrent HTTP requests to the SQLite database stats endpoint, measuring the total round-trip latency and demonstrating WAL-mode concurrent read throughput.",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 0.78rem; color: #94a3b8; line-height: 1.5; margin-bottom: 1rem;\""
+  },
+  {
+    "tag": "strong",
+    "text": "unlimited concurrent readers",
+    "hasI18n": false,
+    "attrs": "style=\"color:#94a3b8;\""
+  },
+  {
+    "tag": "div",
+    "text": "4 Active Workers",
+    "hasI18n": false,
+    "attrs": "id=\"bdModalActiveNodes\" style=\"font-size: 1rem; font-weight: 700; color: #10b981; margin-top: 0.2rem;\""
+  },
+  {
+    "tag": "div",
+    "text": "NGINX Least-Conn",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 1rem; font-weight: 700; color: #38bdf8; margin-top: 0.2rem;\""
+  },
+  {
+    "tag": "div",
+    "text": "3 &rarr; 50 Pods",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 1rem; font-weight: 700; color: #8b5cf6; margin-top: 0.2rem;\""
+  },
+  {
+    "tag": "div",
+    "text": "Zero Downtime",
+    "hasI18n": false,
+    "attrs": "style=\"font-size: 1rem; font-weight: 700; color: #f59e0b; margin-top: 0.2rem;\""
+  },
+  {
+    "tag": "span",
+    "text": "Dockerfile Multi-Stage",
+    "hasI18n": false,
+    "attrs": "style=\"background: rgba(16,185,129,0.15); border: 1px solid rgba(16,185,129,0.3); color: #34d399; padding: 0.2rem 0.5rem; border-radius: 4px;\""
+  },
+  {
+    "tag": "span",
+    "text": "docker-compose.yml (5 Services)",
+    "hasI18n": false,
+    "attrs": "style=\"background: rgba(56,189,248,0.15); border: 1px solid rgba(56,189,248,0.3); color: #38bdf8; padding: 0.2rem 0.5rem; border-radius: 4px;\""
+  },
+  {
+    "tag": "span",
+    "text": "k8s/deployment.yaml",
+    "hasI18n": false,
+    "attrs": "style=\"background: rgba(139,92,246,0.15); border: 1px solid rgba(139,92,246,0.3); color: #a78bfa; padding: 0.2rem 0.5rem; border-radius: 4px;\""
+  },
+  {
+    "tag": "span",
+    "text": "k8s/hpa.yaml (Autoscaler)",
+    "hasI18n": false,
+    "attrs": "style=\"background: rgba(245,158,11,0.15); border: 1px solid rgba(245,158,11,0.3); color: #fbbf24; padding: 0.2rem 0.5rem; border-radius: 4px;\""
+  },
+  {
+    "tag": "h3",
+    "text": "Emergency Agency Weather Dispatch",
+    "hasI18n": false,
+    "attrs": "style=\"margin: 0; font-size: 1.15rem; color: var(--text-primary, #ffffff);\""
+  },
+  {
+    "tag": "button",
+    "text": "&times;",
+    "hasI18n": false,
+    "attrs": "type=\"button\" class=\"close-btn\" onclick=\"NWAAlerts.closeDispatchModal()\" style=\"background: none; border: none; font-size: 1.4rem; color: var(--text-secondary, #94a3b8); cursor: pointer;\""
+  },
+  {
+    "tag": "option",
+    "text": "Heavy Rainfall",
+    "hasI18n": false,
+    "attrs": "value=\"heavy_rain\""
+  },
+  {
+    "tag": "option",
+    "text": "Cyclonic Storm",
+    "hasI18n": false,
+    "attrs": "value=\"cyclone\" selected"
+  },
+  {
+    "tag": "option",
+    "text": "Severe Heatwave",
+    "hasI18n": false,
+    "attrs": "value=\"heatwave\""
+  },
+  {
+    "tag": "option",
+    "text": "Flash Flood / Inundation",
+    "hasI18n": false,
+    "attrs": "value=\"flood\""
+  },
+  {
+    "tag": "option",
+    "text": "Severe Thunderstorm & Gale",
+    "hasI18n": false,
+    "attrs": "value=\"thunderstorm\""
+  },
+  {
+    "tag": "option",
+    "text": "Extreme Cold Wave",
+    "hasI18n": false,
+    "attrs": "value=\"cold_wave\""
+  },
+  {
+    "tag": "option",
+    "text": "Red Warning (Take Action)",
+    "hasI18n": false,
+    "attrs": "value=\"red\" selected"
+  },
+  {
+    "tag": "option",
+    "text": "Orange Alert (Be Prepared)",
+    "hasI18n": false,
+    "attrs": "value=\"orange\""
+  },
+  {
+    "tag": "option",
+    "text": "Yellow Watch (Be Updated)",
+    "hasI18n": false,
+    "attrs": "value=\"yellow\""
+  },
+  {
+    "tag": "button",
+    "text": "Cancel",
+    "hasI18n": false,
+    "attrs": "type=\"button\" class=\"btn btn-secondary\" onclick=\"NWAAlerts.closeDispatchModal()\""
+  },
+  {
+    "tag": "button",
+    "text": "&times;",
+    "hasI18n": false,
+    "attrs": "onclick=\"document.getElementById('imageEnlargeModal').style.display='none'\" style=\"position: absolute; top: -15px; right: -15px; width: 32px; height: 32px; border-radius: 50%; background: #ffffff; color: #1e293b; border: 1px solid #cbd5e1; font-size: 20px; font-weight: bold; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.4); z-index: 10001; line-height: 1;\" title=\"Close\""
+  }
+]

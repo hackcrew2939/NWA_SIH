@@ -1,0 +1,1183 @@
+{
+  "buttons": [
+    {
+      "text": "Live Forecast & Map",
+      "hasI18n": true,
+      "tag": "<button class=\"tab-btn active\" data-tab=\"live-weather-view\" title=\"Live Forecast & Map\">\n           "
+    },
+    {
+      "text": "Weather Alerts",
+      "hasI18n": true,
+      "tag": "<button class=\"tab-btn\" data-tab=\"weather-alerts-view\" id=\"navWeatherAlertsBtn\" title=\"Early Warning"
+    },
+    {
+      "text": "Citizen Reports",
+      "hasI18n": true,
+      "tag": "<button class=\"tab-btn\" data-tab=\"citizen-reports-view\" title=\"Citizen Reports\">\n            <i clas"
+    },
+    {
+      "text": "Social Intelligence",
+      "hasI18n": true,
+      "tag": "<button class=\"tab-btn\" data-tab=\"social-stream-view\" title=\"Social Intelligence\">\n            <i cl"
+    },
+    {
+      "text": "Analytics & Trends",
+      "hasI18n": true,
+      "tag": "<button class=\"tab-btn\" data-tab=\"analytics-view\" title=\"Analytics & Trends\">\n            <i class=\""
+    },
+    {
+      "text": "Admin Panel",
+      "hasI18n": true,
+      "tag": "<button class=\"tab-btn\" data-tab=\"admin-panel-view\" id=\"navAdminPanelBtn\" title=\"Supervisory Admin &"
+    },
+    {
+      "text": "Report Severe Event",
+      "hasI18n": true,
+      "tag": "<button class=\"quick-action-btn\" type=\"button\" title=\"Report Severe Event\" onclick=\"if(window.NWARep"
+    },
+    {
+      "text": "Download Official Reports",
+      "hasI18n": true,
+      "tag": "<button class=\"tab-btn\" data-tab=\"official-reports-view\" title=\"Download Official Reports\">\n        "
+    },
+    {
+      "text": "English",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"modern-lang-btn\" id=\"modernLangBtn\" aria-expanded=\"false\" aria-haspopup"
+    },
+    {
+      "text": "Refresh",
+      "hasI18n": true,
+      "tag": "<button id=\"refreshWeatherBtn\" class=\"btn btn-outline\" title=\"Fetch fresh weather data\">\n           "
+    },
+    {
+      "text": "Report Incident",
+      "hasI18n": true,
+      "tag": "<button id=\"openReportModalBtn\" class=\"btn btn-accent\" title=\"Submit Citizen Weather Report\">\n      "
+    },
+    {
+      "text": "Admin Portal",
+      "hasI18n": true,
+      "tag": "<button id=\"topNavAdminBtn\" class=\"btn btn-outline header-admin-btn\" title=\"Open Admin Portal\" oncli"
+    },
+    {
+      "text": "Audio Summary",
+      "hasI18n": true,
+      "tag": "<button type=\"button\" id=\"voiceBriefBtn\" class=\"btn-voice-brief\" onclick=\"NWAApp.toggleVoiceBrief()\""
+    },
+    {
+      "text": "Weather Stations",
+      "hasI18n": true,
+      "tag": "<button class=\"layer-btn active\" data-layer=\"weather\" data-i18n=\"mapStations\">Weather Stations</butt"
+    },
+    {
+      "text": "Citizen Reports",
+      "hasI18n": true,
+      "tag": "<button class=\"layer-btn active\" data-layer=\"citizen\" data-i18n=\"mapCitizenReports\">Citizen Reports<"
+    },
+    {
+      "text": "Public Notices",
+      "hasI18n": true,
+      "tag": "<button class=\"layer-btn active\" data-layer=\"social\" data-i18n=\"mapSocialFeed\">Public Notices</butto"
+    },
+    {
+      "text": "Dedup. Clusters",
+      "hasI18n": true,
+      "tag": "<button class=\"layer-btn active\" data-layer=\"clusters\" id=\"layerBtnClusters\" title=\"Big Data Spatial"
+    },
+    {
+      "text": "Heatmap",
+      "hasI18n": true,
+      "tag": "<button class=\"layer-btn\" data-layer=\"heatmap\" id=\"layerBtnHeatmap\" title=\"Toggle Severe Weather Den"
+    },
+    {
+      "text": "Today",
+      "hasI18n": true,
+      "tag": "<button type=\"button\" class=\"diurnal-date-pill active\" id=\"diurnalBtnToday\" onclick=\"NWACharts.switc"
+    },
+    {
+      "text": "Tomorrow",
+      "hasI18n": true,
+      "tag": "<button type=\"button\" class=\"diurnal-date-pill\" id=\"diurnalBtnTomorrow\" onclick=\"NWACharts.switchDiu"
+    },
+    {
+      "text": "Day After Tomorrow",
+      "hasI18n": true,
+      "tag": "<button type=\"button\" class=\"diurnal-date-pill\" id=\"diurnalBtnDayAfter\" onclick=\"NWACharts.switchDiu"
+    },
+    {
+      "text": "Pick Custom Date",
+      "hasI18n": true,
+      "tag": "<button type=\"button\" class=\"diurnal-date-pill diurnal-date-pill-custom\" id=\"diurnalBtnCustom\" oncli"
+    },
+    {
+      "text": "Today (24h)",
+      "hasI18n": false,
+      "tag": "<button class=\"forecast-range-pill\" data-days=\"1\" onclick=\"NWAApp.setForecastRange(1)\">Today (24h)</"
+    },
+    {
+      "text": "3 Days",
+      "hasI18n": false,
+      "tag": "<button class=\"forecast-range-pill\" data-days=\"3\" onclick=\"NWAApp.setForecastRange(3)\">3 Days</butto"
+    },
+    {
+      "text": "7 Days",
+      "hasI18n": false,
+      "tag": "<button class=\"forecast-range-pill\" data-days=\"7\" onclick=\"NWAApp.setForecastRange(7)\">7 Days</butto"
+    },
+    {
+      "text": "10 Days",
+      "hasI18n": false,
+      "tag": "<button class=\"forecast-range-pill active\" data-days=\"10\" onclick=\"NWAApp.setForecastRange(10)\">10 D"
+    },
+    {
+      "text": "Download CSV",
+      "hasI18n": false,
+      "tag": "<button class=\"btn btn-outline download-csv-btn\" onclick=\"NWAApp.downloadForecastCsv()\" title=\"Expor"
+    },
+    {
+      "text": "Download Excel (.xlsx)",
+      "hasI18n": false,
+      "tag": "<button class=\"btn btn-outline\" onclick=\"NWAExport.exportToExcel()\">\n            <i class=\"fa-solid "
+    },
+    {
+      "text": "Download PDF (.pdf)",
+      "hasI18n": false,
+      "tag": "<button class=\"btn btn-primary\" onclick=\"NWAExport.exportToPDF()\">\n            <i class=\"fa-solid fa"
+    },
+    {
+      "text": "Dispatch Agency Alert",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"btn btn-accent\" onclick=\"NWAAlerts.openDispatchModal()\" title=\"Emergenc"
+    },
+    {
+      "text": "Test Alert Audio & Push",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"btn btn-primary\" onclick=\"NWAAlerts.testAlertNotification()\" title=\"Sim"
+    },
+    {
+      "text": "Refresh Warnings",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"btn btn-outline\" onclick=\"NWAAlerts.loadNationalAlerts()\" title=\"Refres"
+    },
+    {
+      "text": "Current GPS",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"btn-input-action\" id=\"alertCurrentGpsBtn\" onclick=\"NWAAlerts.useCurrent"
+    },
+    {
+      "text": "Preview",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"btn-input-action\" onclick=\"NWAAlerts.previewAlertSound()\" title=\"Previe"
+    },
+    {
+      "text": "Activate Weather Alert",
+      "hasI18n": false,
+      "tag": "<button type=\"submit\" class=\"btn btn-primary\" id=\"btnActivateAlert\" style=\"flex: 1; justify-content:"
+    },
+    {
+      "text": "Test Notification",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"btn btn-secondary\" onclick=\"NWAAlerts.testAlertNotification()\" title=\"T"
+    },
+    {
+      "text": "All",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"hazard-filter-pill active\" data-category=\"all\" onclick=\"NWAAlerts.setHa"
+    },
+    {
+      "text": "Heavy Rain",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"hazard-filter-pill\" data-category=\"heavy_rain\" onclick=\"NWAAlerts.setHa"
+    },
+    {
+      "text": "Heatwave",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"hazard-filter-pill\" data-category=\"heatwave\" onclick=\"NWAAlerts.setHaza"
+    },
+    {
+      "text": "Cyclone/Wind",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"hazard-filter-pill\" data-category=\"cyclone\" onclick=\"NWAAlerts.setHazar"
+    },
+    {
+      "text": "Flood",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"hazard-filter-pill\" data-category=\"flood\" onclick=\"NWAAlerts.setHazardF"
+    },
+    {
+      "text": "All",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"severity-filter-pill active\" data-severity=\"all\" onclick=\"NWAAlerts.set"
+    },
+    {
+      "text": "Red (Warning)",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"severity-filter-pill severity-red\" data-severity=\"red\" onclick=\"NWAAler"
+    },
+    {
+      "text": "Orange (Alert)",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"severity-filter-pill severity-orange\" data-severity=\"orange\" onclick=\"N"
+    },
+    {
+      "text": "Yellow (Watch)",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"severity-filter-pill severity-yellow\" data-severity=\"yellow\" onclick=\"N"
+    },
+    {
+      "text": "Submit Ground Report",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"btn btn-accent btn-sm\" onclick=\"if(window.NWAReports) { NWAReports.open"
+    },
+    {
+      "text": "All",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"alert-rep-filter-pill active\" data-status=\"all\" onclick=\"NWAAlerts.setA"
+    },
+    {
+      "text": "Verified",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"alert-rep-filter-pill\" data-status=\"verified\" onclick=\"NWAAlerts.setAle"
+    },
+    {
+      "text": "Pending",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"alert-rep-filter-pill\" data-status=\"unverified\" onclick=\"NWAAlerts.setA"
+    },
+    {
+      "text": "Report Severe Event",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"btn btn-accent btn-sm\" onclick=\"NWAReports.openReportModal()\" style=\"fo"
+    },
+    {
+      "text": "All Reports",
+      "hasI18n": false,
+      "tag": "<button class=\"filter-pill active\" data-status=\"all\" onclick=\"NWAReports.filterReports('all')\">All R"
+    },
+    {
+      "text": "Pending Verification",
+      "hasI18n": false,
+      "tag": "<button class=\"filter-pill\" data-status=\"unverified\" onclick=\"NWAReports.filterReports('unverified')"
+    },
+    {
+      "text": "Verified",
+      "hasI18n": false,
+      "tag": "<button class=\"filter-pill\" data-status=\"verified\" onclick=\"NWAReports.filterReports('verified')\">Ve"
+    },
+    {
+      "text": "Fetch Live Signals",
+      "hasI18n": false,
+      "tag": "<button id=\"fetchLiveSignalsBtn\" class=\"btn btn-sm btn-outline\" onclick=\"NWASocial.fetchLiveSignals("
+    },
+    {
+      "text": "All Platforms",
+      "hasI18n": false,
+      "tag": "<button class=\"filter-pill active\" data-platform=\"all\" onclick=\"NWASocial.filterSocialByPlatform('al"
+    },
+    {
+      "text": "UN GDACS Disaster Alerts",
+      "hasI18n": false,
+      "tag": "<button class=\"filter-pill\" data-platform=\"gdacs\" onclick=\"NWASocial.filterSocialByPlatform('gdacs')"
+    },
+    {
+      "text": "Google News RSS",
+      "hasI18n": false,
+      "tag": "<button class=\"filter-pill\" data-platform=\"google\" onclick=\"NWASocial.filterSocialByPlatform('google"
+    },
+    {
+      "text": "X / Twitter (API v2)",
+      "hasI18n": false,
+      "tag": "<button class=\"filter-pill\" data-platform=\"twitter\" onclick=\"NWASocial.filterSocialByPlatform('twitt"
+    },
+    {
+      "text": "IMD Official",
+      "hasI18n": false,
+      "tag": "<button class=\"filter-pill\" data-platform=\"imd\" onclick=\"NWASocial.filterSocialByPlatform('imd')\">\n "
+    },
+    {
+      "text": "Instagram",
+      "hasI18n": false,
+      "tag": "<button class=\"filter-pill\" data-platform=\"instagram\" onclick=\"NWASocial.filterSocialByPlatform('ins"
+    },
+    {
+      "text": "Refresh Data",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" onclick=\"window.NWASocial && window.NWASocial.loadAnalyticsData()\" style=\"disp"
+    },
+    {
+      "text": "Download Excel (.xlsx)",
+      "hasI18n": false,
+      "tag": "<button class=\"btn btn-outline\" onclick=\"NWAExport.exportToExcel()\">\n            <i class=\"fa-solid "
+    },
+    {
+      "text": "Download PDF (.pdf)",
+      "hasI18n": false,
+      "tag": "<button class=\"btn btn-primary\" onclick=\"NWAExport.exportToPDF()\">\n            <i class=\"fa-solid fa"
+    },
+    {
+      "text": "Print Report",
+      "hasI18n": false,
+      "tag": "<button class=\"btn btn-outline\" onclick=\"window.print()\">\n            <i class=\"fa-solid fa-print\"><"
+    },
+    {
+      "text": "Log In to Admin Portal",
+      "hasI18n": false,
+      "tag": "<button type=\"submit\" class=\"btn btn-primary admin-login-submit-btn\" id=\"adminLoginSubmitBtn\">\n     "
+    },
+    {
+      "text": "Logout",
+      "hasI18n": false,
+      "tag": "<button class=\"btn btn-logout-danger\" id=\"adminLogoutBtn\" onclick=\"NWAAdmin.handleLogout()\" title=\"L"
+    },
+    {
+      "text": "Deduplicate Reports",
+      "hasI18n": false,
+      "tag": "<button class=\"btn btn-sm btn-outline\" id=\"adminDeduplicateBtn\" onclick=\"NWAAdmin.runDeduplication()"
+    },
+    {
+      "text": "Export CSV",
+      "hasI18n": false,
+      "tag": "<button class=\"btn btn-sm btn-outline\" id=\"adminExportCsvBtn\" onclick=\"NWAAdmin.exportAuditCSV()\" ti"
+    },
+    {
+      "text": "Big Data Pipeline",
+      "hasI18n": false,
+      "tag": "<button id=\"topNavBigDataBtn\" class=\"btn btn-sm btn-outline\" title=\"Open Big Data Pipeline & OSS Arc"
+    },
+    {
+      "text": "Refresh Queue",
+      "hasI18n": false,
+      "tag": "<button class=\"btn btn-sm btn-primary\" id=\"adminRefreshBtn\" onclick=\"NWAAdmin.handleRefreshQueue()\" "
+    },
+    {
+      "text": "Citizen Incident Moderation",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"admin-main-tab-btn active\" data-admin-tab=\"moderation\" onclick=\"NWAAdmi"
+    },
+    {
+      "text": "Weather Alerts & Warnings Management",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"admin-main-tab-btn\" data-admin-tab=\"weather-alerts\" onclick=\"NWAAdmin.s"
+    },
+    {
+      "text": "Big Data Pipeline & Ingestion Architecture",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"admin-main-tab-btn\" data-admin-tab=\"bigdata-pipeline\" onclick=\"NWAAdmin"
+    },
+    {
+      "text": "Horizontal Cluster &amp; K8s Scalability",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"admin-main-tab-btn\" data-admin-tab=\"cluster-scalability\" onclick=\"NWAAd"
+    },
+    {
+      "text": "Reset Filters",
+      "hasI18n": false,
+      "tag": "<button class=\"btn btn-sm btn-outline\" onclick=\"NWAAdmin.resetFilters()\">\n                <i class=\""
+    },
+    {
+      "text": "All Time",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"admin-date-preset-btn active\" data-range=\"all\" onclick=\"NWAAdmin.setDat"
+    },
+    {
+      "text": "Today (24h)",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"admin-date-preset-btn\" data-range=\"today\" onclick=\"NWAAdmin.setDateRang"
+    },
+    {
+      "text": "7 Days",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"admin-date-preset-btn\" data-range=\"7days\" onclick=\"NWAAdmin.setDateRang"
+    },
+    {
+      "text": "30 Days",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"admin-date-preset-btn\" data-range=\"30days\" onclick=\"NWAAdmin.setDateRan"
+    },
+    {
+      "text": "All Reports 0",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"admin-tab-pill active\" data-status=\"all\" onclick=\"NWAAdmin.setStatusFil"
+    },
+    {
+      "text": "Pending Verification 0",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"admin-tab-pill\" data-status=\"unverified\" onclick=\"NWAAdmin.setStatusFil"
+    },
+    {
+      "text": "Verified 0",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"admin-tab-pill\" data-status=\"verified\" onclick=\"NWAAdmin.setStatusFilte"
+    },
+    {
+      "text": "Flagged Fake 0",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"admin-tab-pill\" data-status=\"flagged_fake\" onclick=\"NWAAdmin.setStatusF"
+    },
+    {
+      "text": "Detect Device GPS",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"btn btn-sm btn-outline\" id=\"adminBroadcastGpsBtn\" onclick=\"NWAAdmin.use"
+    },
+    {
+      "text": "Use GPS",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"btn-input-action\" onclick=\"NWAAdmin.useDeviceLocationForBroadcast()\" st"
+    },
+    {
+      "text": "Broadcast Emergency Warning",
+      "hasI18n": false,
+      "tag": "<button type=\"submit\" class=\"btn btn-primary\" id=\"adminBroadcastSubmitBtn\" style=\"font-weight: 600;\""
+    },
+    {
+      "text": "Refresh Alerts",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"btn btn-sm btn-outline\" id=\"adminRefreshAlertsBtn\" onclick=\"NWAAdmin.ha"
+    },
+    {
+      "text": "Trigger 1,000 Event Benchmark",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"btn btn-sm btn-primary\" id=\"runBenchmarkBtn\" onclick=\"NWAAdmin.runInges"
+    },
+    {
+      "text": "Refresh",
+      "hasI18n": false,
+      "tag": "<button class=\"btn btn-sm btn-outline\" onclick=\"NWAAdmin.loadClusterTelemetry()\" style=\"padding: 0.2"
+    },
+    {
+      "text": "Test Self-Healing",
+      "hasI18n": false,
+      "tag": "<button id=\"clusterSimFailoverBtn\" class=\"btn btn-sm btn-outline\" onclick=\"NWAAdmin.simulateClusterF"
+    },
+    {
+      "text": "Run Scalability Benchmark",
+      "hasI18n": false,
+      "tag": "<button id=\"clusterRunBenchBtn\" class=\"btn btn-sm btn-primary\" onclick=\"NWAAdmin.runClusterBenchmark"
+    },
+    {
+      "text": "&times;",
+      "hasI18n": false,
+      "tag": "<button id=\"closeReportModalBtn\" class=\"close-btn\" aria-label=\"Close modal\">&times;</button>"
+    },
+    {
+      "text": "Auto-Fill from Active Location / GPS",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"btn btn-outline\" id=\"reportUseActiveLocationBtn\" style=\"width: 100%; ju"
+    },
+    {
+      "text": "Submit Weather Report",
+      "hasI18n": false,
+      "tag": "<button type=\"submit\" class=\"btn btn-primary\" id=\"reportSubmitBtn\" style=\"width: 100%; justify-conte"
+    },
+    {
+      "text": "Dispatch Emergency Multi-Agency Alert",
+      "hasI18n": false,
+      "tag": "<button type=\"submit\" style=\"width: 100%; padding: 0.8rem; background: linear-gradient(135deg, #ef44"
+    },
+    {
+      "text": "Database Engine",
+      "hasI18n": false,
+      "tag": "<button class=\"bd-tab-btn active\" data-bd-tab=\"bdTabDatabase\" onclick=\"window.NWABigData && window.N"
+    },
+    {
+      "text": "Stream Pipeline",
+      "hasI18n": false,
+      "tag": "<button class=\"bd-tab-btn\" data-bd-tab=\"bdTabStream\" onclick=\"window.NWABigData && window.NWABigData"
+    },
+    {
+      "text": "Open-Source Tools",
+      "hasI18n": false,
+      "tag": "<button class=\"bd-tab-btn\" data-bd-tab=\"bdTabOSS\" onclick=\"window.NWABigData && window.NWABigData.sw"
+    },
+    {
+      "text": "ACID Benchmark",
+      "hasI18n": false,
+      "tag": "<button class=\"bd-tab-btn\" data-bd-tab=\"bdTabBenchmark\" onclick=\"window.NWABigData && window.NWABigD"
+    },
+    {
+      "text": "Cluster &amp; K8s",
+      "hasI18n": false,
+      "tag": "<button class=\"bd-tab-btn\" data-bd-tab=\"bdTabCluster\" onclick=\"window.NWABigData && window.NWABigDat"
+    },
+    {
+      "text": "Run Storage Latency Benchmark",
+      "hasI18n": false,
+      "tag": "<button id=\"bdRunBenchBtn\" onclick=\"window.NWABigData && window.NWABigData.runBenchmark()\" style=\"di"
+    },
+    {
+      "text": "&times;",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"close-btn\" onclick=\"NWAAlerts.closeDispatchModal()\" style=\"background: "
+    },
+    {
+      "text": "Cancel",
+      "hasI18n": false,
+      "tag": "<button type=\"button\" class=\"btn btn-secondary\" onclick=\"NWAAlerts.closeDispatchModal()\">Cancel</but"
+    },
+    {
+      "text": "Dispatch Broadcast & Siren",
+      "hasI18n": false,
+      "tag": "<button type=\"submit\" class=\"btn btn-accent\" style=\"background: linear-gradient(135deg, #ef4444, #b9"
+    },
+    {
+      "text": "&times;",
+      "hasI18n": false,
+      "tag": "<button onclick=\"document.getElementById('imageEnlargeModal').style.display='none'\" style=\"position:"
+    }
+  ],
+  "headings": [
+    {
+      "text": "NWA",
+      "level": "1",
+      "hasI18n": false,
+      "full": "<h1 class=\"brand-name\">NWA</h1>"
+    },
+    {
+      "text": "10-Day Extended Weather Forecast",
+      "level": "3",
+      "hasI18n": false,
+      "full": "<h3 class=\"forecast-table-title\" id=\"forecastTableTitle\">\n              <i class=\"fa-regular fa-cale"
+    },
+    {
+      "text": "Download Weather Intelligence Report",
+      "level": "4",
+      "hasI18n": false,
+      "full": "<h4>Download Weather Intelligence Report</h4>"
+    },
+    {
+      "text": "Active Severe Weather Warnings & Personal Alert Hub",
+      "level": "2",
+      "hasI18n": false,
+      "full": "<h2 class=\"alerts-main-title\">Active Severe Weather Warnings & Personal Alert Hub</h2>"
+    },
+    {
+      "text": "Set Personal Weather Alert",
+      "level": "3",
+      "hasI18n": false,
+      "full": "<h3>Set Personal Weather Alert</h3>"
+    },
+    {
+      "text": "My Active Alerts",
+      "level": "3",
+      "hasI18n": false,
+      "full": "<h3>My Active Alerts</h3>"
+    },
+    {
+      "text": "Areas Highly Affected by Extreme Weather",
+      "level": "3",
+      "hasI18n": false,
+      "full": "<h3 class=\"section-heading\">\n              <i class=\"fa-solid fa-triangle-exclamation\" style=\"color:"
+    },
+    {
+      "text": "Authoritative Warning Standards & Emergency Helplines",
+      "level": "4",
+      "hasI18n": false,
+      "full": "<h4><i class=\"fa-solid fa-shield-halved\" style=\"color: var(--accent-primary);\"></i> Authoritative Wa"
+    },
+    {
+      "text": "Registered Community Incident Reports & Ground Bulletins",
+      "level": "3",
+      "hasI18n": false,
+      "full": "<h3 style=\"font-size: 1.25rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.25rem;"
+    },
+    {
+      "text": "Multi-Platform Weather Intelligence Stream",
+      "level": "3",
+      "hasI18n": false,
+      "full": "<h3 style=\"font-size: 1.1rem; margin-bottom: 0.2rem; font-weight: 700; display: flex; align-items: c"
+    },
+    {
+      "text": "Monitored Weather Tags",
+      "level": "4",
+      "hasI18n": false,
+      "full": "<h4><i class=\"fa-solid fa-hashtag\" style=\"color: var(--accent-primary);\"></i> Monitored Weather Tags"
+    },
+    {
+      "text": "Ingestion Overview",
+      "level": "4",
+      "hasI18n": false,
+      "full": "<h4><i class=\"fa-solid fa-circle-info\" style=\"color: var(--accent-primary);\"></i> Ingestion Overview"
+    },
+    {
+      "text": "Privacy Notice",
+      "level": "4",
+      "hasI18n": false,
+      "full": "<h4><i class=\"fa-solid fa-shield-halved\" style=\"color: var(--text-secondary);\"></i> Privacy Notice</"
+    },
+    {
+      "text": "National Weather Analytics",
+      "level": "2",
+      "hasI18n": false,
+      "full": "<h2 style=\"font-size: 1.25rem; font-weight: 700; color: var(--text-primary); margin: 0 0 0.2rem 0; d"
+    },
+    {
+      "text": "Weather Event Breakdown by Category",
+      "level": "3",
+      "hasI18n": false,
+      "full": "<h3>\n            <i class=\"fa-solid fa-chart-pie\" style=\"color: var(--accent-primary);\"></i>\n       "
+    },
+    {
+      "text": "Event Frequency by Indian State",
+      "level": "3",
+      "hasI18n": false,
+      "full": "<h3>\n            <i class=\"fa-solid fa-chart-column\" style=\"color: var(--accent-success);\"></i>\n    "
+    },
+    {
+      "text": "Regional Weather Station Observations",
+      "level": "3",
+      "hasI18n": false,
+      "full": "<h3 style=\"margin: 0; font-size: 1.05rem;\">\n            <i class=\"fa-solid fa-tower-broadcast\" style"
+    },
+    {
+      "text": "Official Meteorological Intelligence Report",
+      "level": "2",
+      "hasI18n": false,
+      "full": "<h2><i class=\"fa-solid fa-file-shield\" style=\"color: var(--accent-primary);\"></i> Official Meteorolo"
+    },
+    {
+      "text": "Data Provenance & Accreditation",
+      "level": "4",
+      "hasI18n": false,
+      "full": "<h4><i class=\"fa-solid fa-shield-halved\" style=\"color: var(--accent-primary);\"></i> Data Provenance "
+    },
+    {
+      "text": "Admin Portal Login",
+      "level": "3",
+      "hasI18n": false,
+      "full": "<h3>Admin Portal Login</h3>"
+    },
+    {
+      "text": "Admin Portal | Weather Intelligence & Incident Moderation",
+      "level": "2",
+      "hasI18n": false,
+      "full": "<h2>\n                  <i class=\"fa-solid fa-user-shield\" style=\"color: var(--accent-primary);\"></i>"
+    },
+    {
+      "text": "Broadcast Official Emergency Weather Warning",
+      "level": "3",
+      "hasI18n": false,
+      "full": "<h3 style=\"margin: 0; font-size: 1.15rem; color: var(--text-primary); display: flex; align-items: ce"
+    },
+    {
+      "text": "Active National Severe Weather Alerts",
+      "level": "4",
+      "hasI18n": false,
+      "full": "<h4>Active National Severe Weather Alerts</h4>"
+    },
+    {
+      "text": "Live Streaming Pipeline Architecture Topology",
+      "level": "4",
+      "hasI18n": false,
+      "full": "<h4>Live Streaming Pipeline Architecture Topology</h4>"
+    },
+    {
+      "text": "High-Volume Stream Ingestion Scalability Benchmark",
+      "level": "4",
+      "hasI18n": false,
+      "full": "<h4>High-Volume Stream Ingestion Scalability Benchmark</h4>"
+    },
+    {
+      "text": "Benchmark Ingestion Test Passed",
+      "level": "5",
+      "hasI18n": false,
+      "full": "<h5 style=\"margin: 0 0 0.25rem 0; color: #10b981; font-size: 0.95rem;\">\n                        <i c"
+    },
+    {
+      "text": "Multi-Worker Node Pool (IPC Mesh)",
+      "level": "3",
+      "hasI18n": false,
+      "full": "<h3 class=\"admin-panel-title\" style=\"margin: 0; font-size: 0.92rem; display: flex; align-items: cent"
+    },
+    {
+      "text": "Microservices Architecture & Gateway Mesh",
+      "level": "3",
+      "hasI18n": false,
+      "full": "<h3 class=\"admin-panel-title\" style=\"margin: 0; font-size: 0.92rem; display: flex; align-items: cent"
+    },
+    {
+      "text": "High-Concurrency Multi-Node Scalability Benchmark",
+      "level": "3",
+      "hasI18n": false,
+      "full": "<h3 class=\"admin-panel-title\" style=\"margin: 0; font-size: 0.95rem; display: flex; align-items: cent"
+    },
+    {
+      "text": "Report Local Weather Event",
+      "level": "3",
+      "hasI18n": false,
+      "full": "<h3 style=\"display: flex; align-items: center; gap: 0.5rem; margin: 0; font-size: 1.15rem;\">\n       "
+    },
+    {
+      "text": "Emergency Agency Weather Dispatch",
+      "level": "3",
+      "hasI18n": false,
+      "full": "<h3 style=\"margin: 0; font-size: 1.15rem; color: var(--text-primary, #ffffff);\">Emergency Agency Wea"
+    }
+  ],
+  "labels": [
+    {
+      "text": "Monitored Location / City",
+      "hasI18n": false,
+      "full": "<label for=\"alertCityInput\">\n                <i class=\"fa-solid fa-location-dot\"></i> Monitored Loca"
+    },
+    {
+      "text": "Weather Hazard Trigger",
+      "hasI18n": false,
+      "full": "<label for=\"alertHazardType\">\n                  <i class=\"fa-solid fa-cloud-bolt\"></i> Weather Hazar"
+    },
+    {
+      "text": "Alert Threshold ( mm/h )",
+      "hasI18n": false,
+      "full": "<label for=\"alertThresholdInput\">\n                  <i class=\"fa-solid fa-gauge-high\"></i> Alert Thr"
+    },
+    {
+      "text": "Alert Audio Tone",
+      "hasI18n": false,
+      "full": "<label for=\"alertSoundSelect\">\n                <i class=\"fa-solid fa-volume-high\"></i> Alert Audio T"
+    },
+    {
+      "text": "Browser Push Notification",
+      "hasI18n": false,
+      "full": "<label class=\"channel-toggle-label\">\n                  <input type=\"checkbox\" id=\"alertNotifyBrowser"
+    },
+    {
+      "text": "Acoustic Siren / Chime",
+      "hasI18n": false,
+      "full": "<label class=\"channel-toggle-label\">\n                  <input type=\"checkbox\" id=\"alertNotifyAudio\" "
+    },
+    {
+      "text": "Email Alert Dispatch (Optional)",
+      "hasI18n": false,
+      "full": "<label for=\"alertEmailInput\">\n                <i class=\"fa-solid fa-envelope\"></i> Email Alert Dispa"
+    },
+    {
+      "text": "Admin Password",
+      "hasI18n": false,
+      "full": "<label class=\"form-label\" for=\"adminPasswordInput\">\n                  <i class=\"fa-solid fa-key\" sty"
+    },
+    {
+      "text": "Date Range",
+      "hasI18n": false,
+      "full": "<label for=\"adminDateFrom\"><i class=\"fa-solid fa-calendar-day\"></i> Date Range</label>"
+    },
+    {
+      "text": "Event Category",
+      "hasI18n": false,
+      "full": "<label for=\"adminFilterCategory\"><i class=\"fa-solid fa-cloud-bolt\"></i> Event Category</label>"
+    },
+    {
+      "text": "State / UT",
+      "hasI18n": false,
+      "full": "<label for=\"adminFilterState\"><i class=\"fa-solid fa-location-dot\"></i> State / UT</label>"
+    },
+    {
+      "text": "City / Landmark",
+      "hasI18n": false,
+      "full": "<label for=\"adminFilterCity\"><i class=\"fa-solid fa-city\"></i> City / Landmark</label>"
+    },
+    {
+      "text": "Verification Status",
+      "hasI18n": false,
+      "full": "<label for=\"adminFilterStatus\"><i class=\"fa-solid fa-list-check\"></i> Verification Status</label>"
+    },
+    {
+      "text": "AI Credibility Risk",
+      "hasI18n": false,
+      "full": "<label for=\"adminFilterFakeRisk\"><i class=\"fa-solid fa-brain\"></i> AI Credibility Risk</label>"
+    },
+    {
+      "text": "Search Reports",
+      "hasI18n": false,
+      "full": "<label for=\"adminSearchInput\"><i class=\"fa-solid fa-search\"></i> Search Reports</label>"
+    },
+    {
+      "text": "City / Region *",
+      "hasI18n": false,
+      "full": "<label class=\"form-label\" for=\"adminAlertCity\" style=\"margin: 0;\"><i class=\"fa-solid fa-city\"></i> C"
+    },
+    {
+      "text": "State / UT *",
+      "hasI18n": false,
+      "full": "<label class=\"form-label\" for=\"adminAlertState\"><i class=\"fa-solid fa-map\"></i> State / UT *</label>"
+    },
+    {
+      "text": "Latitude",
+      "hasI18n": false,
+      "full": "<label class=\"form-label\" for=\"adminAlertLat\">Latitude</label>"
+    },
+    {
+      "text": "Longitude",
+      "hasI18n": false,
+      "full": "<label class=\"form-label\" for=\"adminAlertLon\">Longitude</label>"
+    },
+    {
+      "text": "Hazard Category *",
+      "hasI18n": false,
+      "full": "<label class=\"form-label\" for=\"adminAlertHazard\">Hazard Category *</label>"
+    },
+    {
+      "text": "Warning Level *",
+      "hasI18n": false,
+      "full": "<label class=\"form-label\" for=\"adminAlertSeverity\">Warning Level *</label>"
+    },
+    {
+      "text": "Warning Headline *",
+      "hasI18n": false,
+      "full": "<label class=\"form-label\" for=\"adminAlertHeadline\">Warning Headline *</label>"
+    },
+    {
+      "text": "Public Safety Advisory",
+      "hasI18n": false,
+      "full": "<label class=\"form-label\" for=\"adminAlertAdvisory\">Public Safety Advisory</label>"
+    },
+    {
+      "text": "Validity Horizon",
+      "hasI18n": false,
+      "full": "<label class=\"form-label\" for=\"adminAlertValid\">Validity Horizon</label>"
+    },
+    {
+      "text": "Active Ingestion Engine:",
+      "hasI18n": false,
+      "full": "<label for=\"bigDataConnectorSelect\" style=\"font-size: 0.78rem; font-weight: 600; color: var(--text-m"
+    },
+    {
+      "text": "Concurrency Load:",
+      "hasI18n": false,
+      "full": "<label for=\"clusterBenchConcurrencySelect\" style=\"font-size: 0.78rem; font-weight: 600; color: var(-"
+    },
+    {
+      "text": "Event Category *",
+      "hasI18n": false,
+      "full": "<label class=\"form-label\" for=\"reportCategory\">Event Category *</label>"
+    },
+    {
+      "text": "State / UT *",
+      "hasI18n": false,
+      "full": "<label class=\"form-label\" for=\"reportState\">State / UT *</label>"
+    },
+    {
+      "text": "City / District",
+      "hasI18n": false,
+      "full": "<label class=\"form-label\" for=\"reportCitySelect\">City / District</label>"
+    },
+    {
+      "text": "Location / Landmark *",
+      "hasI18n": false,
+      "full": "<label class=\"form-label\" for=\"reportLocation\">Location / Landmark *</label>"
+    },
+    {
+      "text": "Latitude *",
+      "hasI18n": false,
+      "full": "<label class=\"form-label\" for=\"reportLat\">Latitude *</label>"
+    },
+    {
+      "text": "Longitude *",
+      "hasI18n": false,
+      "full": "<label class=\"form-label\" for=\"reportLon\">Longitude *</label>"
+    },
+    {
+      "text": "Description & Impact",
+      "hasI18n": false,
+      "full": "<label class=\"form-label\" for=\"reportDescription\">Description & Impact</label>"
+    },
+    {
+      "text": "Your Name / Organization",
+      "hasI18n": false,
+      "full": "<label class=\"form-label\" for=\"reportReporterName\">Your Name / Organization</label>"
+    },
+    {
+      "text": "Video Telemetry Link (Optional)",
+      "hasI18n": false,
+      "full": "<label class=\"form-label\" for=\"reportVideo\">\n              <i class=\"fa-solid fa-video\" style=\"color"
+    },
+    {
+      "text": "Attach Photo (Optional)",
+      "hasI18n": false,
+      "full": "<label class=\"form-label\" for=\"reportPhoto\">Attach Photo (Optional)</label>"
+    },
+    {
+      "text": "Click or drag image to attach photo Supports JPG, PNG, WebP (Max 4MB) Browse Photo",
+      "hasI18n": false,
+      "full": "<label class=\"photo-upload-box\" for=\"reportPhoto\" id=\"photoUploadLabel\">\n                <div class="
+    },
+    {
+      "text": "Emergency Warning Headline",
+      "hasI18n": false,
+      "full": "<label style=\"display: block; font-size: 0.8rem; font-weight: 600; color: #cbd5e1; margin-bottom: 0."
+    },
+    {
+      "text": "Hazard Event",
+      "hasI18n": false,
+      "full": "<label style=\"display: block; font-size: 0.8rem; font-weight: 600; color: #cbd5e1; margin-bottom: 0."
+    },
+    {
+      "text": "Severity Tier",
+      "hasI18n": false,
+      "full": "<label style=\"display: block; font-size: 0.8rem; font-weight: 600; color: #cbd5e1; margin-bottom: 0."
+    },
+    {
+      "text": "Target District / Coastal Belt",
+      "hasI18n": false,
+      "full": "<label style=\"display: block; font-size: 0.8rem; font-weight: 600; color: #cbd5e1; margin-bottom: 0."
+    },
+    {
+      "text": "Advisory &amp; Protective Action Instructions",
+      "hasI18n": false,
+      "full": "<label style=\"display: block; font-size: 0.8rem; font-weight: 600; color: #cbd5e1; margin-bottom: 0."
+    },
+    {
+      "text": "State Disaster Management Authority (SDMA) Emergency Desk",
+      "hasI18n": false,
+      "full": "<label style=\"display: flex; align-items: center; gap: 0.5rem; cursor: pointer;\">\n              <inp"
+    },
+    {
+      "text": "National Disaster Response Force (NDRF) Quick Reaction Cell",
+      "hasI18n": false,
+      "full": "<label style=\"display: flex; align-items: center; gap: 0.5rem; cursor: pointer;\">\n              <inp"
+    },
+    {
+      "text": "Citizen Emergency SMS Gateway &amp; Cell Broadcast Simulation",
+      "hasI18n": false,
+      "full": "<label style=\"display: flex; align-items: center; gap: 0.5rem; cursor: pointer;\">\n              <inp"
+    },
+    {
+      "text": "Live NWA Operational Stream Broadcast (SSE Push)",
+      "hasI18n": false,
+      "full": "<label style=\"display: flex; align-items: center; gap: 0.5rem; cursor: pointer;\">\n              <inp"
+    },
+    {
+      "text": "Emergency Warning Headline",
+      "hasI18n": false,
+      "full": "<label for=\"dispatchHeadline\" style=\"font-weight: 600; font-size: 0.85rem; display: block; margin-bo"
+    },
+    {
+      "text": "Meteorological Hazard",
+      "hasI18n": false,
+      "full": "<label for=\"dispatchHazard\" style=\"font-weight: 600; font-size: 0.85rem; display: block; margin-bott"
+    },
+    {
+      "text": "Warning Severity Level",
+      "hasI18n": false,
+      "full": "<label for=\"dispatchSeverity\" style=\"font-weight: 600; font-size: 0.85rem; display: block; margin-bo"
+    },
+    {
+      "text": "Targeted Impact Zone / State / District",
+      "hasI18n": false,
+      "full": "<label for=\"dispatchRegion\" style=\"font-weight: 600; font-size: 0.85rem; display: block; margin-bott"
+    },
+    {
+      "text": "Public Safety Advisory & Instructions",
+      "hasI18n": false,
+      "full": "<label for=\"dispatchDesc\" style=\"font-weight: 600; font-size: 0.85rem; display: block; margin-bottom"
+    }
+  ],
+  "links": [
+    {
+      "text": "NWA National Weather Big Data Platform METEOROLOGY Live Forecast & Map Weather Alerts Citizen Reports Social Intelligence Analytics & Trends Admin Panel QUICK ACTIONS Report Severe Event Download Official Reports Privacy",
+      "hasI18n": true,
+      "full": "<aside class=\"app-sidebar\" id=\"appSidebar\">\n      <!-- Authoritative Brand Header -->\n      <div cla"
+    },
+    {
+      "text": "Terms",
+      "hasI18n": false,
+      "full": "<a href=\"/terms.html\" style=\"color: var(--sidebar-text-muted); text-decoration: none;\">Terms</a>"
+    },
+    {
+      "text": "Archive",
+      "hasI18n": false,
+      "full": "<a href=\"/empty.html\" style=\"color: var(--sidebar-text-muted); text-decoration: none;\">Archive</a>"
+    },
+    {
+      "text": "Privacy Policy",
+      "hasI18n": false,
+      "full": "<a href=\"/privacy.html\" style=\"color: var(--accent-primary); text-decoration: none; font-weight: 600"
+    },
+    {
+      "text": "Terms & Conditions",
+      "hasI18n": false,
+      "full": "<a href=\"/terms.html\" style=\"color: var(--accent-primary); text-decoration: none; font-weight: 600;\""
+    },
+    {
+      "text": "Privacy Policy",
+      "hasI18n": false,
+      "full": "<a href=\"/privacy.html\" style=\"color: var(--accent-primary); text-decoration: none; font-weight: 600"
+    },
+    {
+      "text": "Terms of Use",
+      "hasI18n": false,
+      "full": "<a href=\"/terms.html\" style=\"color: var(--accent-primary); text-decoration: none; font-weight: 600;\""
+    },
+    {
+      "text": "+91 11 2461 1792 (Control Room)",
+      "hasI18n": false,
+      "full": "<a href=\"tel:+911124611792\" class=\"footer-link\">\n                <i class=\"fa-solid fa-phone\"></i> +"
+    },
+    {
+      "text": "support@weatheranalytics.in",
+      "hasI18n": false,
+      "full": "<a href=\"mailto:support@weatheranalytics.in\" class=\"footer-link\">\n                <i class=\"fa-solid"
+    },
+    {
+      "text": "Privacy Policy",
+      "hasI18n": false,
+      "full": "<a href=\"/privacy.html\" class=\"footer-link\"><i class=\"fa-solid fa-shield-halved\"></i> Privacy Policy"
+    },
+    {
+      "text": "Terms of Service",
+      "hasI18n": false,
+      "full": "<a href=\"/terms.html\" class=\"footer-link\"><i class=\"fa-solid fa-scale-balanced\"></i> Terms of Servic"
+    },
+    {
+      "text": "Historical Observation Archive",
+      "hasI18n": false,
+      "full": "<a href=\"/empty.html\" class=\"footer-link\"><i class=\"fa-solid fa-database\"></i> Historical Observatio"
+    },
+    {
+      "text": "System Telemetry & Health Status",
+      "hasI18n": false,
+      "full": "<a href=\"/api/v1/health\" class=\"footer-link\" target=\"_blank\"><i class=\"fa-solid fa-server\"></i> Syst"
+    },
+    {
+      "text": "Privacy Policy",
+      "hasI18n": false,
+      "full": "<a href=\"/privacy.html\">Privacy Policy</a>"
+    },
+    {
+      "text": "Terms of Use",
+      "hasI18n": false,
+      "full": "<a href=\"/terms.html\">Terms of Use</a>"
+    },
+    {
+      "text": "Help Desk",
+      "hasI18n": false,
+      "full": "<a href=\"mailto:support@weatheranalytics.in\">Help Desk</a>"
+    },
+    {
+      "text": "nodejs.org",
+      "hasI18n": false,
+      "full": "<a href=\"https://nodejs.org\" target=\"_blank\" style=\"font-size:0.72rem; color:#10b981; text-decoratio"
+    },
+    {
+      "text": "sqlite.org",
+      "hasI18n": false,
+      "full": "<a href=\"https://sqlite.org\" target=\"_blank\" style=\"font-size:0.72rem; color:#0ea5e9; text-decoratio"
+    },
+    {
+      "text": "open-meteo.com",
+      "hasI18n": false,
+      "full": "<a href=\"https://open-meteo.com\" target=\"_blank\" style=\"font-size:0.72rem; color:#f59e0b; text-decor"
+    },
+    {
+      "text": "leafletjs.com",
+      "hasI18n": false,
+      "full": "<a href=\"https://leafletjs.com\" target=\"_blank\" style=\"font-size:0.72rem; color:#8b5cf6; text-decora"
+    },
+    {
+      "text": "gdacs.org",
+      "hasI18n": false,
+      "full": "<a href=\"https://gdacs.org\" target=\"_blank\" style=\"font-size:0.72rem; color:#ef4444; text-decoration"
+    },
+    {
+      "text": "chartjs.org",
+      "hasI18n": false,
+      "full": "<a href=\"https://chartjs.org\" target=\"_blank\" style=\"font-size:0.72rem; color:#38bdf8; text-decorati"
+    },
+    {
+      "text": "sheetjs.com",
+      "hasI18n": false,
+      "full": "<a href=\"https://sheetjs.com\" target=\"_blank\" style=\"font-size:0.72rem; color:#10b981; text-decorati"
+    },
+    {
+      "text": "wmo.int",
+      "hasI18n": false,
+      "full": "<a href=\"https://wmo.int\" target=\"_blank\" style=\"font-size:0.72rem; color:#0ea5e9; text-decoration:n"
+    }
+  ],
+  "placeholders": [
+    "Search city, district, or Indian state...",
+    "e.g., Mumbai, New Delhi, Kolkata...",
+    "your.email@example.com (optional)",
+    "Enter password (default: admin@imd2026)",
+    "Filter by City or Landmark...",
+    "Search report text, reporter name, ID, or coordinates...",
+    "e.g., Chennai, Coastal Tamil Nadu",
+    "e.g., Tamil Nadu",
+    "13.0827",
+    "80.2707",
+    "e.g., Extremely intense rainfall exceeding 150mm forecast in next 18 hours",
+    "e.g., Avoid waterlogged underpasses, keep emergency numbers active, follow civil instructions.",
+    "e.g., Marine Drive, Churchgate",
+    "19.0760",
+    "72.8777",
+    "Describe water levels, road blocks, tree falls, wind damage, or severe conditions...",
+    "e.g., Rohit Verma",
+    "e.g., https://youtu.be/... or video stream URL",
+    "e.g., RED ALERT: Severe Flash Flood &amp; Cloudburst Inundation Warning",
+    "e.g., Coastal Odisha (Puri, Jagatsinghpur) or Greater Mumbai",
+    "Evacuation shelters opened. Fishermen advised not to venture into sea. Avoid low-lying subways.",
+    "e.g., Red Alert: Severe Monsoon Inundation & Flash Flood Risk",
+    "e.g., Coastal Konkan & Mumbai Metropolitan Region",
+    "Specify evacuations, shelter guidelines, road closures, or safety steps..."
+  ],
+  "titles": [
+    "National Weather Big Data Analytics Platform",
+    "Expand Sidebar",
+    "Close Navigation Menu",
+    "Live Forecast & Map",
+    "Early Warning & Severe Weather Alerts",
+    "Citizen Reports",
+    "Social Intelligence",
+    "Analytics & Trends",
+    "Supervisory Admin & AI Moderation Panel",
+    "Report Severe Event",
+    "Download Official Reports",
+    "Open Navigation Menu",
+    "Use current GPS location",
+    "Select State / UT",
+    "Select District / City",
+    "Select Platform Language",
+    "Fetch fresh weather data",
+    "Submit Citizen Weather Report",
+    "Open Admin Portal",
+    "Indian Standard Time (UTC+05:30)",
+    "Listen to weather summary",
+    "Atmospheric Dew Point",
+    "Precipitation Probability",
+    "Air Quality Index Status",
+    "Observational Data Feed",
+    "Big Data Spatial Deduplication Clusters",
+    "Toggle Severe Weather Density Heatmap",
+    "Toggle Fullscreen",
+    "View Today's 24-Hour Forecast",
+    "View Tomorrow's 24-Hour Forecast",
+    "View Day After Tomorrow's 24-Hour Forecast",
+    "Choose date within 16-day forecast or observational range",
+    "Export forecast data to CSV",
+    "NWA Machine Learning NWP-MOS Model calibrated with localized station telemetry",
+    "Emergency Weather Desk: Dispatch National Weather Warning",
+    "Simulate alert with sound siren and push notification",
+    "Refresh national weather warnings",
+    "Use Current Device GPS Location",
+    "Preview selected audio tone",
+    "Test Alert Audio and System Notification",
+    "Trigger Live Ingestion from Google News, GDACS & Social API",
+    "Refresh analytics data",
+    "Show/Hide Password",
+    "Log out from admin session",
+    "Scan and consolidate duplicate event clusters",
+    "Export filtered audit table as CSV",
+    "Real-Time Server-Sent Events Push Stream Connected",
+    "Open Big Data Pipeline & OSS Architecture",
+    "Refresh admin queue",
+    "From Date",
+    "To Date",
+    "Detect Current Device GPS and Auto-fill Form",
+    "Fill from Device GPS",
+    "Refresh alerts list",
+    "Remove photo",
+    "Close",
+    "Close",
+    "Close",
+    "Close"
+  ]
+}

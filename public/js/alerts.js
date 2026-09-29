@@ -289,19 +289,19 @@
         ticker.innerHTML = `
           <div class="alert-stat-capsule red">
             <span class="stat-dot pulse-red"></span>
-            <strong>${s.redCount}</strong> Red Warnings (Take Action)
+            <strong>${s.redCount}</strong> ${window.NWAI18n ? window.NWAI18n.t('alertRedTitle', 'Red Warnings (Take Action)') : 'Red Warnings (Take Action)'}
           </div>
           <div class="alert-stat-capsule orange">
             <span class="stat-dot pulse-orange"></span>
-            <strong>${s.orangeCount}</strong> Orange Alerts (Be Prepared)
+            <strong>${s.orangeCount}</strong> ${window.NWAI18n ? window.NWAI18n.t('alertOrangeTitle', 'Orange Alerts (Be Prepared)') : 'Orange Alerts (Be Prepared)'}
           </div>
           <div class="alert-stat-capsule yellow">
             <span class="stat-dot pulse-yellow"></span>
-            <strong>${s.yellowCount}</strong> Yellow Watches (Be Updated)
+            <strong>${s.yellowCount}</strong> ${window.NWAI18n ? window.NWAI18n.t('alertYellowTitle', 'Yellow Watches (Be Updated)') : 'Yellow Watches (Be Updated)'}
           </div>
           <div class="alert-stat-capsule neutral">
             <i class="fa-solid fa-map-location-dot"></i>
-            <strong>${s.affectedStates}</strong> Impacted States / UTs
+            <strong>${s.affectedStates}</strong> ${window.NWAI18n ? window.NWAI18n.t('alertImpactedStates', 'Impacted States / UTs') : 'Impacted States / UTs'}
           </div>
         `;
       }
@@ -449,7 +449,13 @@
     grid.innerHTML = alerts.map(a => {
       const icon = hazardIconMap[a.hazard] || 'fa-triangle-exclamation';
       const severityClass = a.severity || 'orange';
-      const severityBadgeLabel = a.severity === 'red' ? 'RED WARNING' : (a.severity === 'orange' ? 'ORANGE ALERT' : 'YELLOW WATCH');
+      const sev = a.severity || 'orange';
+      const severityBadgeLabel = window.NWAI18n ? window.NWAI18n.translateSeverity(sev) : (sev === 'red' ? 'RED WARNING' : (sev === 'orange' ? 'ORANGE ALERT' : 'YELLOW WATCH'));
+      const translatedCity = window.NWAI18n ? window.NWAI18n.translateLocation(a.city) : a.city;
+      const translatedState = window.NWAI18n ? window.NWAI18n.translateLocation(a.state) : a.state;
+      const translatedCategory = window.NWAI18n ? window.NWAI18n.translateCategory(a.hazard) : (a.hazard_label || a.hazard);
+      const publicSafetyTxt = window.NWAI18n ? window.NWAI18n.t('alertPublicSafety', 'Public Safety Advisory:') : 'Public Safety Advisory:';
+      const viewMapTxt = window.NWAI18n ? window.NWAI18n.t('alertViewAreaMap', 'View Area Map') : 'View Area Map';
 
       return `
         <article class="severe-alert-card severity-${severityClass}">
@@ -468,21 +474,21 @@
               <i class="fa-solid ${icon}"></i>
             </div>
             <div class="alert-hazard-meta">
-              <h4 class="alert-location-title">${escapeHtml(a.city)}</h4>
-              <div class="alert-state-subtitle">${escapeHtml(a.state)}</div>
+              <h4 class="alert-location-title">${escapeHtml(translatedCity)}</h4>
+              <div class="alert-state-subtitle">${escapeHtml(translatedState)}</div>
             </div>
           </div>
 
           <div class="alert-metric-strip">
             <span class="metric-highlight"><i class="fa-solid fa-gauge-high"></i> ${escapeHtml(a.metric_label || 'Severe Condition')}</span>
-            <span class="hazard-tag">${escapeHtml(a.hazard_label || a.hazard)}</span>
+            <span class="hazard-tag">${escapeHtml(translatedCategory)}</span>
           </div>
 
           <p class="alert-headline">${escapeHtml(a.headline)}</p>
 
           <div class="alert-advisory-box">
             <div class="advisory-title">
-              <i class="fa-solid fa-shield-heart" style="color: #0284c7;"></i> Public Safety Advisory:
+              <i class="fa-solid fa-shield-heart" style="color: #0284c7;"></i> ${publicSafetyTxt}
             </div>
             <p class="advisory-text">${escapeHtml(a.advisory)}</p>
           </div>
@@ -492,7 +498,7 @@
               <i class="fa-solid fa-building-shield"></i> ${escapeHtml(a.authority || 'IMD Regional Meteorological Division')}
             </div>
             <button type="button" class="alert-map-jump-btn" onclick="NWAAlerts.jumpToAlertOnMap('${escapeHtml(a.city)}', '${escapeHtml(a.state)}', ${a.lat}, ${a.lon})" title="View forecast for this area">
-              <i class="fa-solid fa-location-crosshairs"></i> View Area Map
+              <i class="fa-solid fa-location-crosshairs"></i> ${viewMapTxt}
             </button>
           </div>
         </article>
@@ -1153,6 +1159,13 @@
    * Init
    */
   function init() {
+    window.addEventListener('nwa_language_changed', () => {
+      renderUserSubscriptions();
+      if (activeAlertsCache && activeAlertsCache.length > 0) {
+        renderAlertCards(activeAlertsCache);
+      }
+      loadAlertsRegisteredReports();
+    });
     renderUserSubscriptions();
     loadNationalAlerts();
     loadAlertsRegisteredReports();

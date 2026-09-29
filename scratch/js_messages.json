@@ -1,0 +1,258 @@
+[
+  {
+    "file": "admin.js",
+    "toast": "Admin session authenticated successfully."
+  },
+  {
+    "file": "admin.js",
+    "toast": "Admin authenticated (offline mode)"
+  },
+  {
+    "file": "admin.js",
+    "toast": "Logged out of admin console."
+  },
+  {
+    "file": "admin.js",
+    "toast": "Admin portal data refreshed successfully (${timeStr})"
+  },
+  {
+    "file": "admin.js",
+    "toast": "Could not refresh admin queue: "
+  },
+  {
+    "file": "admin.js",
+    "toast": "Active severe weather alerts refreshed successfully"
+  },
+  {
+    "file": "admin.js",
+    "toast": "Failed to refresh alerts: "
+  },
+  {
+    "file": "admin.js",
+    "toast": "No records available to export"
+  },
+  {
+    "file": "admin.js",
+    "toast": "Active Big Data Ingestion Connector switched to ${newConnector}"
+  },
+  {
+    "file": "admin.js",
+    "toast": "Could not change connector adapter"
+  },
+  {
+    "file": "admin.js",
+    "toast": "Benchmark completed: ${bm.throughput_eps || 3125} records/sec across 4 partitions!"
+  },
+  {
+    "file": "admin.js",
+    "toast": "Benchmark run error"
+  },
+  {
+    "file": "admin.js",
+    "toast": "Please enter both City and Headline for the alert."
+  },
+  {
+    "file": "admin.js",
+    "toast": "🚨 ${data.message || 'Official Emergency Alert Broadcasted!'}"
+  },
+  {
+    "file": "admin.js",
+    "toast": "Weather alert revoked and removed from national network."
+  },
+  {
+    "file": "admin.js",
+    "toast": "Geolocation is not supported on this device/browser."
+  },
+  {
+    "file": "admin.js",
+    "toast": "Device location captured: ${label}"
+  },
+  {
+    "file": "admin.js",
+    "toast": "Scalability Benchmark Passed: ${b.throughputReqPerSec.toLocaleString()} req/s throughput"
+  },
+  {
+    "file": "admin.js",
+    "toast": "Scalability benchmark error: ${err.message}"
+  },
+  {
+    "file": "admin.js",
+    "toast": "Self-healing test succeeded: Worker automatically recovered in <200ms"
+  },
+  {
+    "file": "admin.js",
+    "toast": "Failover test error: ${err.message}"
+  },
+  {
+    "file": "admin.js",
+    "alert": "Geolocation is not supported on this device/browser."
+  },
+  {
+    "file": "admin.js",
+    "alert": "Scalability benchmark error: ${err.message}"
+  },
+  {
+    "file": "alerts.js",
+    "toast": "Browser notifications are blocked in your site settings. In-app and sound alerts will still function."
+  },
+  {
+    "file": "alerts.js",
+    "toast": "✅ Alert activated for ${city}! Threshold: ${hazardNames[hazardType]} ≥ ${threshold} ${unitMap[hazardType]}."
+  },
+  {
+    "file": "alerts.js",
+    "toast": "Alert removed from monitoring."
+  },
+  {
+    "file": "alerts.js",
+    "toast": "Alert for ${item.city} is now ${item.status}."
+  },
+  {
+    "file": "alerts.js",
+    "toast": "🔔 Alert test complete! Audio siren and notifications verified."
+  },
+  {
+    "file": "alerts.js",
+    "toast": "Geolocation is not supported on this device/browser."
+  },
+  {
+    "file": "alerts.js",
+    "toast": "📍 Device GPS Location captured: ${label}"
+  },
+  {
+    "file": "alerts.js",
+    "toast": "🚨 ${severity.toUpperCase()} ALERT: Dispatched to SDMA, NDRF & SMS gateways for ${region}!"
+  },
+  {
+    "file": "app.js",
+    "toast": "GPS Location captured: ${lat.toFixed(4)}° N, ${lon.toFixed(4)}° E"
+  },
+  {
+    "file": "app.js",
+    "toast": "Coordinates auto-filled from active station: ${loc.name} (${Number(loc.lat).toFixed(2)}, ${Number(loc.lon).toFixed(2)})"
+  },
+  {
+    "file": "app.js",
+    "toast": "Geolocation is not supported by your browser."
+  },
+  {
+    "file": "app.js",
+    "toast": "Location detected via GPS!"
+  },
+  {
+    "file": "app.js",
+    "toast": "Could not acquire GPS position. Please enter city manually."
+  },
+  {
+    "file": "app.js",
+    "toast": "Failed to load weather: "
+  },
+  {
+    "file": "app.js",
+    "toast": "No forecast data available to export."
+  },
+  {
+    "file": "app.js",
+    "toast": "Downloaded ${currentForecastRange}-day meteorological forecast CSV."
+  },
+  {
+    "file": "app.js",
+    "toast": "Connected to ${d.service}! (Uptime: ${d.uptime}s)"
+  },
+  {
+    "file": "app.js",
+    "toast": "Open-Meteo Direct API is Online & Active!"
+  },
+  {
+    "file": "app.js",
+    "toast": "Network issue: could not reach API servers. Check internet connection."
+  },
+  {
+    "file": "app.js",
+    "toast": "Voice Briefing is not supported on this browser."
+  },
+  {
+    "file": "app.js",
+    "toast": "Voice briefing stopped."
+  },
+  {
+    "file": "app.js",
+    "toast": "Playing Voice Weather Briefing for ${loc.name}..."
+  },
+  {
+    "file": "app.js",
+    "toast": "Live Alert: New citizen report in ${payload.location} (${payload.category || 'Incident'})"
+  },
+  {
+    "file": "app.js",
+    "toast": "Severe Weather Alert: ${payload.headline || payload.hazard} for ${payload.city || 'Region'}"
+  },
+  {
+    "file": "export.js",
+    "toast": "Please wait for weather data to load before exporting."
+  },
+  {
+    "file": "export.js",
+    "toast": "Excel report downloaded successfully!"
+  },
+  {
+    "file": "export.js",
+    "toast": "Could not generate Excel report: "
+  },
+  {
+    "file": "export.js",
+    "toast": "Please wait for weather data to load before exporting."
+  },
+  {
+    "file": "export.js",
+    "toast": "PDF generator library not loaded."
+  },
+  {
+    "file": "export.js",
+    "toast": "PDF report downloaded successfully!"
+  },
+  {
+    "file": "export.js",
+    "toast": "Could not generate PDF report: "
+  },
+  {
+    "file": "map.js",
+    "toast": "Location is outside India. Please select a point within Indian territory."
+  },
+  {
+    "file": "map.js",
+    "toast": "Selected location: ${resolvedName}, ${resolvedState}"
+  },
+  {
+    "file": "map.js",
+    "toast": "🔥 Severe Weather Density Heatmap Active (${points.length} disaster telemetry points loaded)"
+  },
+  {
+    "file": "map.js",
+    "toast": "Severe Weather Density Heatmap hidden"
+  },
+  {
+    "file": "reports.js",
+    "toast": "Please fill out all required fields and ensure valid coordinates."
+  },
+  {
+    "file": "reports.js",
+    "toast": "Weather report submitted! Queued in Verification Portal."
+  },
+  {
+    "file": "reports.js",
+    "toast": "Report marked as ${action === 'verify' ? 'verified' : action}!"
+  },
+  {
+    "file": "reports.js",
+    "toast": "Photo must be under 4MB"
+  },
+  {
+    "file": "reports.js",
+    "alert": "Please fill out all required fields and ensure valid coordinates."
+  },
+  {
+    "file": "reports.js",
+    "alert": "Photo must be under 4MB"
+  }
+]

@@ -56,6 +56,23 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   }
 
+  // Listen for language changes and refresh all active UI components dynamically without reload
+  window.addEventListener('nwa_language_changed', (e) => {
+    if (window.NWAI18n) window.NWAI18n.applyTranslations();
+    if (appState.weatherData) renderCurrentWeather(appState.weatherData);
+    if (appState.forecastData) {
+      renderForecastOutlook(appState.forecastData);
+      renderForecastTable(appState.forecastData, currentForecastRange);
+    }
+    if (window.NWACharts && window.NWACharts.renderForecastTrajectoryChart && appState.forecastData) {
+      window.NWACharts.renderForecastTrajectoryChart(appState.forecastData, currentForecastRange, appState.hourlyData);
+    }
+    if (window.NWAAlerts && window.NWAAlerts.loadNationalAlerts) window.NWAAlerts.loadNationalAlerts();
+    if (window.NWAReports && window.NWAReports.renderReports) window.NWAReports.renderReports();
+    if (window.NWASocial && window.NWASocial.renderSocialFeed) window.NWASocial.renderSocialFeed();
+    if (window.NWAAdmin && window.NWAAdmin.loadAdminReports) window.NWAAdmin.loadAdminReports();
+  });
+
   // Restore active view across page refreshes (e.g., if refreshed while in Admin Portal)
   try {
     const savedTab = sessionStorage.getItem('nwa_active_tab');
@@ -768,8 +785,8 @@ async function loadLocationWeather(name, state, lat, lon) {
   // Update Location Banner
   const locTitleEl = document.getElementById('currentLocationTitle');
   const locStateEl = document.getElementById('currentLocationState');
-  if (locTitleEl) locTitleEl.textContent = name;
-  if (locStateEl) locStateEl.textContent = state ? `${state}, India` : 'India';
+  if (locTitleEl) locTitleEl.textContent = window.NWAI18n ? window.NWAI18n.translateLocation(name) : name;
+  if (locStateEl) locStateEl.textContent = window.NWAI18n ? (state ? window.NWAI18n.translateLocation(state) + ', India' : 'India') : (state ? `${state}, India` : 'India');
 
   // If name contains raw coordinates or fallback keywords, refine to real place name
   if (name && (name.includes('(') || name.startsWith('Locat') || name.includes('Point')) && window.NWAWeather && window.NWAWeather.reverseGeocode) {
@@ -789,6 +806,12 @@ async function loadLocationWeather(name, state, lat, lon) {
   // Show loading indicator in refresh button
   const refreshIcon = document.querySelector('.refresh-btn i');
   if (refreshIcon) refreshIcon.classList.add('fa-spin');
+
+  // Trigger loading skeletons for chart and table
+  if (window.NWACharts && window.NWACharts.setForecastTrajectoryLoading) {
+    window.NWACharts.setForecastTrajectoryLoading(true);
+  }
+  renderForecastTableSkeleton();
 
   try {
     // Consolidated high-performance fetch with zero-failure fallback
@@ -832,10 +855,25 @@ async function loadLocationWeather(name, state, lat, lon) {
     }
   } catch (err) {
     console.error('Error loading location weather:', err);
+    if (window.NWACharts && window.NWACharts.showForecastTrajectoryFallback) {
+      window.NWACharts.showForecastTrajectoryFallback('Weather telemetry could not be synchronized.');
+    }
     showToast('Failed to load weather: ' + err.message, 'error');
   } finally {
     if (refreshIcon) refreshIcon.classList.remove('fa-spin');
   }
+}
+
+function renderForecastTableSkeleton() {
+  const tbody = document.getElementById('forecastTableBody');
+  if (!tbody) return;
+  tbody.innerHTML = Array(6).fill(0).map(() => `
+    <tr class="skeleton-table-row">
+      <td colspan="10" style="padding: 0.85rem 1rem;">
+        <div class="skeleton-shimmer" style="height: 18px; width: 100%; border-radius: 4px;"></div>
+      </td>
+    </tr>
+  `).join('');
 }
 
 function renderCurrentWeather(data, forecast = null) {
@@ -900,7 +938,7 @@ function renderCurrentWeather(data, forecast = null) {
     glassOrb.style.boxShadow = `0 10px 28px -4px ${wmo.color}35, inset 0 1px 2px rgba(255, 255, 255, 0.35)`;
     glassOrb.style.borderColor = `${wmo.color}45`;
   }
-  if (descEl) descEl.textContent = wmo.desc;
+  if (descEl) descEl.textContent = (window.NWAI18n ? window.NWAI18n.translateCondition(wmo.desc) : wmo.desc);
 
   if (forecast && forecast[0]) {
     if (maxTodayEl) maxTodayEl.textContent = `${Math.round(forecast[0].temp_max)}°`;
@@ -1045,9 +1083,14 @@ function renderForecastOutlook(forecast) {
 
   container.innerHTML = fourDays.map((f, idx) => {
     const dateObj = new Date(f.date);
-    const dayName = idx === 0 ? 'Today' : dateObj.toLocaleDateString('en-IN', { weekday: 'short' });
-    const formattedDate = dateObj.toLocaleDateString('en-IN', { month: 'short', day: 'numeric' });
+    const lang = window.NWAI18n ? window.NWAI18n.getLanguage() : 'en';
+    const locale = lang !== 'en' ? `${lang}-IN` : 'en-IN';
+    const dayName = idx === 0 
+      ? (window.NWAI18n ? window.NWAI18n.t('diurnalBtnToday', 'Today') : 'Today') 
+      : dateObj.toLocaleDateString(locale, { weekday: 'short' });
+    const formattedDate = dateObj.toLocaleDateString(locale, { month: 'short', day: 'numeric' });
     const wmo = window.NWAWeather.getWmoInfo(f.weathercode);
+    const condText = window.NWAI18n ? window.NWAI18n.translateCondition(wmo.desc) : wmo.desc;
     const precipStr = Number(f.precipitation_sum || 0).toFixed(1);
     const windStr = Math.round(f.wind_speed_max || 0);
 
@@ -1060,7 +1103,7 @@ function renderForecastOutlook(forecast) {
         <div class="forecast-icon-wrap">
           <i class="fa-solid ${wmo.icon} forecast-icon" style="color: ${wmo.color};"></i>
         </div>
-        <div class="forecast-condition-desc">${wmo.desc}</div>
+        <div class="forecast-condition-desc">${condText}</div>
         <div class="forecast-temp-range">
           <span class="temp-max">${Math.round(f.temp_max)}°</span>
           <span class="temp-min">${Math.round(f.temp_min)}°</span>
@@ -1496,10 +1539,12 @@ function showToast(message, type = 'info') {
   const container = document.getElementById('toastContainer');
   if (!container) return;
 
+  const translatedMessage = window.NWAI18n ? window.NWAI18n.t(message, message) : message;
+
   const toast = document.createElement('div');
   toast.className = `toast ${type}`;
   const icon = type === 'success' ? 'fa-circle-check' : (type === 'error' ? 'fa-circle-exclamation' : 'fa-info-circle');
-  toast.innerHTML = `<i class="fa-solid ${icon}"></i><span>${escapeHtml(message)}</span>`;
+  toast.innerHTML = `<i class="fa-solid ${icon}"></i><span>${escapeHtml(translatedMessage)}</span>`;
 
   container.appendChild(toast);
   setTimeout(() => {
@@ -1815,3 +1860,21 @@ window.NWAApp = {
   toggleVoiceBrief,
   initLiveStreamSSE
 };
+
+
+// I18N SYNC LISTENER - Instantly update all live forecast and location components
+window.addEventListener('nwa_language_changed', () => {
+  if (appState.currentLocation) {
+    const locTitleEl = document.getElementById('currentLocationTitle');
+    const locStateEl = document.getElementById('currentLocationState');
+    if (locTitleEl) locTitleEl.textContent = window.NWAI18n.translateLocation(appState.currentLocation.name);
+    if (locStateEl) locStateEl.textContent = appState.currentLocation.state ? `${window.NWAI18n.translateLocation(appState.currentLocation.state)}, India` : 'India';
+  }
+  if (appState.currentData) {
+    renderCurrentWeather({ current: appState.currentData, cached: false, retrieved_at: new Date() }, appState.forecastData);
+  }
+  if (appState.forecastData) {
+    renderForecastOutlook(appState.forecastData);
+    renderForecastTable(appState.forecastData, currentForecastRange);
+  }
+});

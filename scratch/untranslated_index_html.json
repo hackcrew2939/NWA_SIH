@@ -1,0 +1,497 @@
+[
+  {
+    "line": 33,
+    "text": "NWA",
+    "fullLine": "<h1 class=\"brand-name\">NWA</h1>"
+  },
+  {
+    "line": 284,
+    "text": "--:--:-- IST",
+    "fullLine": "<span id=\"istClockText\">--:--:-- IST</span>"
+  },
+  {
+    "line": 285,
+    "text": "IST",
+    "fullLine": "<span class=\"ist-tag\">IST</span>"
+  },
+  {
+    "line": 330,
+    "text": "Max:",
+    "fullLine": "<span><i class=\"fa-solid fa-arrow-up\" style=\"color: #ef4444;\"></i> Max: <strong id=\"heroMaxToday\">--°</strong></span>"
+  },
+  {
+    "line": 331,
+    "text": "Min:",
+    "fullLine": "<span><i class=\"fa-solid fa-arrow-down\" style=\"color: #38bdf8;\"></i> Min: <strong id=\"heroMinToday\">--°</strong></span>"
+  },
+  {
+    "line": 343,
+    "text": "Dew Point:",
+    "fullLine": "<span>Dew Point: <strong id=\"heroDewPoint\">23°C</strong></span>"
+  },
+  {
+    "line": 347,
+    "text": "Rain Chance:",
+    "fullLine": "<span>Rain Chance: <strong id=\"heroRainProb\">15%</strong></span>"
+  },
+  {
+    "line": 351,
+    "text": "AQI:",
+    "fullLine": "<span>AQI: <strong id=\"heroAqiLevel\">--</strong></span>"
+  },
+  {
+    "line": 367,
+    "text": "01:00 AM",
+    "fullLine": "<span class=\"hourly-mini-time\">01:00 AM</span>"
+  },
+  {
+    "line": 372,
+    "text": "02:00 AM",
+    "fullLine": "<span class=\"hourly-mini-time\">02:00 AM</span>"
+  },
+  {
+    "line": 377,
+    "text": "03:00 AM",
+    "fullLine": "<span class=\"hourly-mini-time\">03:00 AM</span>"
+  },
+  {
+    "line": 382,
+    "text": "04:00 AM",
+    "fullLine": "<span class=\"hourly-mini-time\">04:00 AM</span>"
+  },
+  {
+    "line": 399,
+    "text": "-- mm",
+    "fullLine": "<div id=\"metricPrecipitation\" class=\"metric-value\">-- mm</div>"
+  },
+  {
+    "line": 437,
+    "text": "-- hPa",
+    "fullLine": "<div id=\"metricPressure\" class=\"metric-value\">-- hPa</div>"
+  },
+  {
+    "line": 856,
+    "text": "Browser Push Notification",
+    "fullLine": "<span><i class=\"fa-solid fa-globe\"></i> Browser Push Notification</span>"
+  },
+  {
+    "line": 860,
+    "text": "Acoustic Siren / Chime",
+    "fullLine": "<span><i class=\"fa-solid fa-volume-high\"></i> Acoustic Siren / Chime</span>"
+  },
+  {
+    "line": 895,
+    "text": "Active Guard",
+    "fullLine": "<span class=\"badge badge-success\"><i class=\"fa-solid fa-circle-check\"></i> Active Guard</span>"
+  },
+  {
+    "line": 954,
+    "text": "Authoritative Warning Standards & Emergency Helplines",
+    "fullLine": "<h4><i class=\"fa-solid fa-shield-halved\" style=\"color: var(--accent-primary);\"></i> Authoritative Warning Standards & Emergency Helplines</h4>"
+  },
+  {
+    "line": 1122,
+    "text": "Monitored Weather Tags",
+    "fullLine": "<h4><i class=\"fa-solid fa-hashtag\" style=\"color: var(--accent-primary);\"></i> Monitored Weather Tags</h4>"
+  },
+  {
+    "line": 1138,
+    "text": "Ingestion Overview",
+    "fullLine": "<h4><i class=\"fa-solid fa-circle-info\" style=\"color: var(--accent-primary);\"></i> Ingestion Overview</h4>"
+  },
+  {
+    "line": 1148,
+    "text": "Privacy Notice",
+    "fullLine": "<h4><i class=\"fa-solid fa-shield-halved\" style=\"color: var(--text-secondary);\"></i> Privacy Notice</h4>"
+  },
+  {
+    "line": 1360,
+    "text": "Data Provenance & Accreditation",
+    "fullLine": "<h4><i class=\"fa-solid fa-shield-halved\" style=\"color: var(--accent-primary);\"></i> Data Provenance & Accreditation</h4>"
+  },
+  {
+    "line": 1417,
+    "text": "Authorized Console",
+    "fullLine": "<span class=\"admin-portal-badge\"><i class=\"fa-solid fa-shield-halved\"></i> Authorized Console</span>"
+  },
+  {
+    "line": 1418,
+    "text": "Live Moderation Active",
+    "fullLine": "<span class=\"admin-live-pulse\"><span class=\"pulse-dot\"></span> Live Moderation Active</span>"
+  },
+  {
+    "line": 1444,
+    "text": "Tools:",
+    "fullLine": "<span class=\"admin-toolbar-label\"><i class=\"fa-solid fa-screwdriver-wrench\"></i> Tools:</span>"
+  },
+  {
+    "line": 1534,
+    "text": "Date Range",
+    "fullLine": "<label for=\"adminDateFrom\"><i class=\"fa-solid fa-calendar-day\"></i> Date Range</label>"
+  },
+  {
+    "line": 1550,
+    "text": "Event Category",
+    "fullLine": "<label for=\"adminFilterCategory\"><i class=\"fa-solid fa-cloud-bolt\"></i> Event Category</label>"
+  },
+  {
+    "line": 1568,
+    "text": "State / UT",
+    "fullLine": "<label for=\"adminFilterState\"><i class=\"fa-solid fa-location-dot\"></i> State / UT</label>"
+  },
+  {
+    "line": 1576,
+    "text": "City / Landmark",
+    "fullLine": "<label for=\"adminFilterCity\"><i class=\"fa-solid fa-city\"></i> City / Landmark</label>"
+  },
+  {
+    "line": 1585,
+    "text": "Verification Status",
+    "fullLine": "<label for=\"adminFilterStatus\"><i class=\"fa-solid fa-list-check\"></i> Verification Status</label>"
+  },
+  {
+    "line": 1598,
+    "text": "AI Credibility Risk",
+    "fullLine": "<label for=\"adminFilterFakeRisk\"><i class=\"fa-solid fa-brain\"></i> AI Credibility Risk</label>"
+  },
+  {
+    "line": 1609,
+    "text": "Search Reports",
+    "fullLine": "<label for=\"adminSearchInput\"><i class=\"fa-solid fa-search\"></i> Search Reports</label>"
+  },
+  {
+    "line": 1727,
+    "text": "City / Region *",
+    "fullLine": "<label class=\"form-label\" for=\"adminAlertCity\" style=\"margin: 0;\"><i class=\"fa-solid fa-city\"></i> City / Region *</label>"
+  },
+  {
+    "line": 1735,
+    "text": "State / UT *",
+    "fullLine": "<label class=\"form-label\" for=\"adminAlertState\"><i class=\"fa-solid fa-map\"></i> State / UT *</label>"
+  },
+  {
+    "line": 1988,
+    "text": "Buffer: 100% QoS",
+    "fullLine": "<span class=\"telemetry-pill\"><i class=\"fa-solid fa-microchip\"></i> Buffer: 100% QoS</span>"
+  },
+  {
+    "line": 1989,
+    "text": "SQLite WAL Synchronized",
+    "fullLine": "<span class=\"telemetry-pill\"><i class=\"fa-solid fa-database\"></i> SQLite WAL Synchronized</span>"
+  },
+  {
+    "line": 2016,
+    "text": "-- Cores",
+    "fullLine": "<div class=\"admin-stat-card-val\" id=\"clusterHostCoresVal\" style=\"color: #38bdf8;\">-- Cores</div>"
+  },
+  {
+    "line": 2063,
+    "text": "Fault-Tolerance & Self-Healing",
+    "fullLine": "<div style=\"font-size: 0.8rem; font-weight: 700; color: #10b981;\"><i class=\"fa-solid fa-shield-halved\"></i> Fault-Tolerance & Self-Healing</div>"
+  },
+  {
+    "line": 2094,
+    "text": "Container & K8s Manifests Ready",
+    "fullLine": "<span><i class=\"fa-brands fa-docker\"></i> Container & K8s Manifests Ready</span>"
+  },
+  {
+    "line": 2098,
+    "text": "Dockerfile",
+    "fullLine": "Production <code>Dockerfile</code>, <code>docker-compose.yml</code> (NGINX LB + 3 Nodes + Redis + Kafka + ClickHouse), and Kubernetes <code>k8s/hpa.yaml</code> autoscaler enabled."
+  },
+  {
+    "line": 2098,
+    "text": "docker-compose.yml",
+    "fullLine": "Production <code>Dockerfile</code>, <code>docker-compose.yml</code> (NGINX LB + 3 Nodes + Redis + Kafka + ClickHouse), and Kubernetes <code>k8s/hpa.yaml</code> autoscaler enabled."
+  },
+  {
+    "line": 2098,
+    "text": "(NGINX LB + 3 Nodes + Redis + Kafka + ClickHouse), and Kubernetes",
+    "fullLine": "Production <code>Dockerfile</code>, <code>docker-compose.yml</code> (NGINX LB + 3 Nodes + Redis + Kafka + ClickHouse), and Kubernetes <code>k8s/hpa.yaml</code> autoscaler enabled."
+  },
+  {
+    "line": 2098,
+    "text": "k8s/hpa.yaml",
+    "fullLine": "Production <code>Dockerfile</code>, <code>docker-compose.yml</code> (NGINX LB + 3 Nodes + Redis + Kafka + ClickHouse), and Kubernetes <code>k8s/hpa.yaml</code> autoscaler enabled."
+  },
+  {
+    "line": 2153,
+    "text": "High Concurrency",
+    "fullLine": "<div style=\"font-size: 0.68rem; color: #10b981; margin-top: 0.2rem;\"><i class=\"fa-solid fa-check\"></i> High Concurrency</div>"
+  },
+  {
+    "line": 2158,
+    "text": "-- ms",
+    "fullLine": "<div id=\"clusterBenchP50Val\" style=\"font-size: 1.3rem; font-weight: 700; color: #10b981; margin-top: 0.2rem;\">-- ms</div>"
+  },
+  {
+    "line": 2164,
+    "text": "-- ms",
+    "fullLine": "<div id=\"clusterBenchP95Val\" style=\"font-size: 1.3rem; font-weight: 700; color: #f59e0b; margin-top: 0.2rem;\">-- ms</div>"
+  },
+  {
+    "line": 2165,
+    "text": "100% SLA Compliant",
+    "fullLine": "<div style=\"font-size: 0.68rem; color: #10b981; margin-top: 0.2rem;\"><i class=\"fa-solid fa-check\"></i> 100% SLA Compliant</div>"
+  },
+  {
+    "line": 2170,
+    "text": "-- ms",
+    "fullLine": "<div id=\"clusterBenchP99Val\" style=\"font-size: 1.3rem; font-weight: 700; color: #a78bfa; margin-top: 0.2rem;\">-- ms</div>"
+  },
+  {
+    "line": 2193,
+    "text": "Pod autoscaling scale-up triggered automatically for &gt; 5,000 req/s national emergency alerts.",
+    "fullLine": "<div style=\"margin-top: 0.4rem; color: #34d399;\"><i class=\"fa-solid fa-circle-check\"></i> Pod autoscaling scale-up triggered automatically for &gt; 5,000 req/s national emergency alerts.</div>"
+  },
+  {
+    "line": 2244,
+    "text": "Lodhi Road Meteorological Complex, New Delhi 110003",
+    "fullLine": "<span class=\"footer-text\"><i class=\"fa-solid fa-location-dot\"></i> Lodhi Road Meteorological Complex, New Delhi 110003</span>"
+  },
+  {
+    "line": 2252,
+    "text": "Privacy Policy",
+    "fullLine": "<li><a href=\"/privacy.html\" class=\"footer-link\"><i class=\"fa-solid fa-shield-halved\"></i> Privacy Policy</a></li>"
+  },
+  {
+    "line": 2253,
+    "text": "Terms of Service",
+    "fullLine": "<li><a href=\"/terms.html\" class=\"footer-link\"><i class=\"fa-solid fa-scale-balanced\"></i> Terms of Service</a></li>"
+  },
+  {
+    "line": 2254,
+    "text": "Historical Observation Archive",
+    "fullLine": "<li><a href=\"/empty.html\" class=\"footer-link\"><i class=\"fa-solid fa-database\"></i> Historical Observation Archive</a></li>"
+  },
+  {
+    "line": 2255,
+    "text": "System Telemetry & Health Status",
+    "fullLine": "<li><a href=\"/api/v1/health\" class=\"footer-link\" target=\"_blank\"><i class=\"fa-solid fa-server\"></i> System Telemetry & Health Status</a></li>"
+  },
+  {
+    "line": 2285,
+    "text": "&times;",
+    "fullLine": "<button id=\"closeReportModalBtn\" class=\"close-btn\" aria-label=\"Close modal\">&times;</button>"
+  },
+  {
+    "line": 2381,
+    "text": "Ready for submission",
+    "fullLine": "<div class=\"preview-status\"><i class=\"fa-solid fa-circle-check\" style=\"color: #10b981;\"></i> Ready for submission</div>"
+  },
+  {
+    "line": 2447,
+    "text": "1. NLP &amp; Sentiment",
+    "fullLine": "<span><i class=\"fa-solid fa-file-lines\" style=\"color: #38bdf8;\"></i> 1. NLP &amp; Sentiment</span>"
+  },
+  {
+    "line": 2462,
+    "text": "2. Geospatial Validation",
+    "fullLine": "<span><i class=\"fa-solid fa-map-pin\" style=\"color: #10b981;\"></i> 2. Geospatial Validation</span>"
+  },
+  {
+    "line": 2477,
+    "text": "3. Visual Media Forensic",
+    "fullLine": "<span><i class=\"fa-solid fa-camera\" style=\"color: #a855f7;\"></i> 3. Visual Media Forensic</span>"
+  },
+  {
+    "line": 2492,
+    "text": "4. Ground Station Match",
+    "fullLine": "<span><i class=\"fa-solid fa-tower-observation\" style=\"color: #f59e0b;\"></i> 4. Ground Station Match</span>"
+  },
+  {
+    "line": 2657,
+    "text": "Storage Engine",
+    "fullLine": "<div style=\"font-size: 0.72rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.4rem;\"><i class=\"fa-solid fa-microchip\"></i> Storage Engine</div>"
+  },
+  {
+    "line": 2661,
+    "text": "Journal Mode",
+    "fullLine": "<div style=\"font-size: 0.72rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.4rem;\"><i class=\"fa-solid fa-book\"></i> Journal Mode</div>"
+  },
+  {
+    "line": 2665,
+    "text": "DB Size",
+    "fullLine": "<div style=\"font-size: 0.72rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.4rem;\"><i class=\"fa-solid fa-weight-scale\"></i> DB Size</div>"
+  },
+  {
+    "line": 2669,
+    "text": "Total Records",
+    "fullLine": "<div style=\"font-size: 0.72rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.4rem;\"><i class=\"fa-solid fa-table\"></i> Total Records</div>"
+  },
+  {
+    "line": 2675,
+    "text": "Citizen Reports",
+    "fullLine": "<div style=\"font-size: 0.7rem; color: #94a3b8; margin-bottom: 0.3rem;\"><i class=\"fa-solid fa-clipboard-list\"></i> Citizen Reports</div>"
+  },
+  {
+    "line": 2679,
+    "text": "Weather Alerts",
+    "fullLine": "<div style=\"font-size: 0.7rem; color: #94a3b8; margin-bottom: 0.3rem;\"><i class=\"fa-solid fa-triangle-exclamation\"></i> Weather Alerts</div>"
+  },
+  {
+    "line": 2683,
+    "text": "Social Stream",
+    "fullLine": "<div style=\"font-size: 0.7rem; color: #94a3b8; margin-bottom: 0.3rem;\"><i class=\"fa-brands fa-x-twitter\"></i> Social Stream</div>"
+  },
+  {
+    "line": 2688,
+    "text": "ACID Compliance Properties",
+    "fullLine": "<div style=\"font-size: 0.78rem; font-weight: 700; color: #94a3b8; margin-bottom: 0.5rem;\"><i class=\"fa-solid fa-list-check\"></i> ACID Compliance Properties</div>"
+  },
+  {
+    "line": 2702,
+    "text": "Queue Depth",
+    "fullLine": "<div style=\"font-size: 0.72rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.4rem;\"><i class=\"fa-solid fa-wave-square\"></i> Queue Depth</div>"
+  },
+  {
+    "line": 2706,
+    "text": "Pipeline Status",
+    "fullLine": "<div style=\"font-size: 0.72rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.4rem;\"><i class=\"fa-solid fa-signal\"></i> Pipeline Status</div>"
+  },
+  {
+    "line": 2710,
+    "text": "Throughput",
+    "fullLine": "<div style=\"font-size: 0.72rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.4rem;\"><i class=\"fa-solid fa-gauge-high\"></i> Throughput</div>"
+  },
+  {
+    "line": 2715,
+    "text": "Ingestion Architecture",
+    "fullLine": "<div style=\"font-size: 0.85rem; font-weight: 700; color: #e2e8f0; margin-bottom: 0.75rem;\"><i class=\"fa-solid fa-diagram-project\"></i> Ingestion Architecture</div>"
+  },
+  {
+    "line": 2717,
+    "text": "Google News RSS",
+    "fullLine": "<span style=\"background: rgba(14,165,233,0.15); border: 1px solid rgba(14,165,233,0.3); border-radius: 5px; padding: 0.3rem 0.65rem; color: #38bdf8;\"><i class=\"fa-solid fa-rss\"></i> Google News RSS</span>"
+  },
+  {
+    "line": 2719,
+    "text": "UN GDACS API",
+    "fullLine": "<span style=\"background: rgba(239,68,68,0.15); border: 1px solid rgba(239,68,68,0.3); border-radius: 5px; padding: 0.3rem 0.65rem; color: #f87171;\"><i class=\"fa-solid fa-triangle-exclamation\"></i> UN GDACS API</span>"
+  },
+  {
+    "line": 2721,
+    "text": "Twitter API v2",
+    "fullLine": "<span style=\"background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); border-radius: 5px; padding: 0.3rem 0.65rem;\"><i class=\"fa-brands fa-x-twitter\"></i> Twitter API v2</span>"
+  },
+  {
+    "line": 2723,
+    "text": "StreamIngestionBuffer",
+    "fullLine": "<span style=\"background: rgba(167,139,250,0.15); border: 1px solid rgba(167,139,250,0.3); border-radius: 5px; padding: 0.3rem 0.65rem; color: #a78bfa;\"><i class=\"fa-solid fa-water\"></i> StreamIngestionBuffer</span>"
+  },
+  {
+    "line": 2725,
+    "text": "SQLite WAL",
+    "fullLine": "<span style=\"background: rgba(16,185,129,0.15); border: 1px solid rgba(16,185,129,0.3); border-radius: 5px; padding: 0.3rem 0.65rem; color: #10b981;\"><i class=\"fa-solid fa-database\"></i> SQLite WAL</span>"
+  },
+  {
+    "line": 2735,
+    "text": "NWA is built entirely on open-source and open-standard technologies certified by international meteorological bodies.",
+    "fullLine": "<div style=\"margin-bottom: 0.75rem; font-size: 0.82rem; color: #94a3b8;\"><i class=\"fa-brands fa-osi\"></i> NWA is built entirely on open-source and open-standard technologies certified by international meteorological bodies.</div>"
+  },
+  {
+    "line": 2742,
+    "text": "Event-driven, non-blocking JavaScript runtime for high-throughput async I/O. Built-in",
+    "fullLine": "<div style=\"font-size: 0.75rem; color: #94a3b8; line-height: 1.5;\">Event-driven, non-blocking JavaScript runtime for high-throughput async I/O. Built-in <code style=\"color:#38bdf8;\">node:sqlite</code> module.</div>"
+  },
+  {
+    "line": 2742,
+    "text": "node:sqlite",
+    "fullLine": "<div style=\"font-size: 0.75rem; color: #94a3b8; line-height: 1.5;\">Event-driven, non-blocking JavaScript runtime for high-throughput async I/O. Built-in <code style=\"color:#38bdf8;\">node:sqlite</code> module.</div>"
+  },
+  {
+    "line": 2742,
+    "text": "module.",
+    "fullLine": "<div style=\"font-size: 0.75rem; color: #94a3b8; line-height: 1.5;\">Event-driven, non-blocking JavaScript runtime for high-throughput async I/O. Built-in <code style=\"color:#38bdf8;\">node:sqlite</code> module.</div>"
+  },
+  {
+    "line": 2743,
+    "text": "nodejs.org",
+    "fullLine": "<a href=\"https://nodejs.org\" target=\"_blank\" style=\"font-size:0.72rem; color:#10b981; text-decoration:none; margin-top:0.4rem; display:block;\"><i class=\"fa-solid fa-arrow-up-right-from-square\"></i> nodejs.org</a>"
+  },
+  {
+    "line": 2751,
+    "text": "sqlite.org",
+    "fullLine": "<a href=\"https://sqlite.org\" target=\"_blank\" style=\"font-size:0.72rem; color:#0ea5e9; text-decoration:none; margin-top:0.4rem; display:block;\"><i class=\"fa-solid fa-arrow-up-right-from-square\"></i> sqlite.org</a>"
+  },
+  {
+    "line": 2759,
+    "text": "open-meteo.com",
+    "fullLine": "<a href=\"https://open-meteo.com\" target=\"_blank\" style=\"font-size:0.72rem; color:#f59e0b; text-decoration:none; margin-top:0.4rem; display:block;\"><i class=\"fa-solid fa-arrow-up-right-from-square\"></i> open-meteo.com</a>"
+  },
+  {
+    "line": 2767,
+    "text": "leafletjs.com",
+    "fullLine": "<a href=\"https://leafletjs.com\" target=\"_blank\" style=\"font-size:0.72rem; color:#8b5cf6; text-decoration:none; margin-top:0.4rem; display:block;\"><i class=\"fa-solid fa-arrow-up-right-from-square\"></i> leafletjs.com</a>"
+  },
+  {
+    "line": 2775,
+    "text": "gdacs.org",
+    "fullLine": "<a href=\"https://gdacs.org\" target=\"_blank\" style=\"font-size:0.72rem; color:#ef4444; text-decoration:none; margin-top:0.4rem; display:block;\"><i class=\"fa-solid fa-arrow-up-right-from-square\"></i> gdacs.org</a>"
+  },
+  {
+    "line": 2783,
+    "text": "chartjs.org",
+    "fullLine": "<a href=\"https://chartjs.org\" target=\"_blank\" style=\"font-size:0.72rem; color:#38bdf8; text-decoration:none; margin-top:0.4rem; display:block;\"><i class=\"fa-solid fa-arrow-up-right-from-square\"></i> chartjs.org</a>"
+  },
+  {
+    "line": 2791,
+    "text": "sheetjs.com",
+    "fullLine": "<a href=\"https://sheetjs.com\" target=\"_blank\" style=\"font-size:0.72rem; color:#10b981; text-decoration:none; margin-top:0.4rem; display:block;\"><i class=\"fa-solid fa-arrow-up-right-from-square\"></i> sheetjs.com</a>"
+  },
+  {
+    "line": 2799,
+    "text": "ai_classifier.js (custom built)",
+    "fullLine": "<span style=\"font-size:0.72rem; color:#94a3b8; margin-top:0.4rem; display:block;\"><i class=\"fa-solid fa-code\"></i> ai_classifier.js (custom built)</span>"
+  },
+  {
+    "line": 2807,
+    "text": "wmo.int",
+    "fullLine": "<a href=\"https://wmo.int\" target=\"_blank\" style=\"font-size:0.72rem; color:#0ea5e9; text-decoration:none; margin-top:0.4rem; display:block;\"><i class=\"fa-solid fa-arrow-up-right-from-square\"></i> wmo.int</a>"
+  },
+  {
+    "line": 2815,
+    "text": "Concurrent ACID Performance Test",
+    "fullLine": "<div style=\"font-size: 0.85rem; font-weight: 700; color: #e2e8f0; margin-bottom: 0.5rem;\"><i class=\"fa-solid fa-bolt\"></i> Concurrent ACID Performance Test</div>"
+  },
+  {
+    "line": 2831,
+    "text": "Multi-Worker Nodes",
+    "fullLine": "<div style=\"font-size: 0.68rem; color: #94a3b8; text-transform: uppercase;\"><i class=\"fa-solid fa-server\"></i> Multi-Worker Nodes</div>"
+  },
+  {
+    "line": 2835,
+    "text": "Load Balancing",
+    "fullLine": "<div style=\"font-size: 0.68rem; color: #94a3b8; text-transform: uppercase;\"><i class=\"fa-solid fa-microchip\"></i> Load Balancing</div>"
+  },
+  {
+    "line": 2839,
+    "text": "K8s HPA Scaling",
+    "fullLine": "<div style=\"font-size: 0.68rem; color: #94a3b8; text-transform: uppercase;\"><i class=\"fa-solid fa-cubes\"></i> K8s HPA Scaling</div>"
+  },
+  {
+    "line": 2843,
+    "text": "High Availability",
+    "fullLine": "<div style=\"font-size: 0.68rem; color: #94a3b8; text-transform: uppercase;\"><i class=\"fa-solid fa-shield-halved\"></i> High Availability</div>"
+  },
+  {
+    "line": 2849,
+    "text": "Microservices Mesh Architecture",
+    "fullLine": "<div style=\"font-size: 0.82rem; font-weight: 700; color: #e2e8f0; margin-bottom: 0.5rem;\"><i class=\"fa-solid fa-layer-group\"></i> Microservices Mesh Architecture</div>"
+  },
+  {
+    "line": 2851,
+    "text": "least_conn",
+    "fullLine": "Layer-7 NGINX gateway routes traffic with <code>least_conn</code> distribution to multi-core Node.js cluster workers, with Redis distributed caching, Apache Kafka event ingestion, and ClickHouse OLAP warehouse."
+  },
+  {
+    "line": 2874,
+    "text": "&times;",
+    "fullLine": "<button type=\"button\" class=\"close-btn\" onclick=\"NWAAlerts.closeDispatchModal()\" style=\"background: none; border: none; font-size: 1.4rem; color: var(--text-secondary, #94a3b8); cursor: pointer;\">&times;</button>"
+  },
+  {
+    "line": 2958,
+    "text": "&times;",
+    "fullLine": "<button onclick=\"document.getElementById('imageEnlargeModal').style.display='none'\" style=\"position: absolute; top: -15px; right: -15px; width: 32px; height: 32px; border-radius: 50%; background: #ffffff; color: #1e293b; border: 1px solid #cbd5e1; font-size: 20px; font-weight: bold; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.4); z-index: 10001; line-height: 1;\" title=\"Close\" data-i18n-title=\"btnClose\">&times;</button>"
+  }
+]

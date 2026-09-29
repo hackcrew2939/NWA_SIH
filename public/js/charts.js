@@ -919,6 +919,37 @@ window.NWAMLEngine = NWAMLEngine;
 
 let forecastTrajectoryChartInstance = null;
 
+function setForecastTrajectoryLoading(isLoading) {
+  const skeleton = document.getElementById('trajectoryChartSkeleton');
+  const fallback = document.getElementById('trajectoryChartFallback');
+  const canvas = document.getElementById('forecastTrajectoryChart');
+  if (skeleton) skeleton.style.display = isLoading ? 'flex' : 'none';
+  if (fallback) fallback.style.display = 'none';
+  if (canvas) canvas.style.display = isLoading ? 'none' : 'block';
+}
+
+function showForecastTrajectoryFallback(message) {
+  const skeleton = document.getElementById('trajectoryChartSkeleton');
+  const fallback = document.getElementById('trajectoryChartFallback');
+  const canvas = document.getElementById('forecastTrajectoryChart');
+  if (skeleton) skeleton.style.display = 'none';
+  if (fallback) {
+    fallback.style.display = 'flex';
+    const msgEl = fallback.querySelector('.trajectory-fallback-msg');
+    if (msgEl && message) msgEl.textContent = message;
+  }
+  if (canvas) canvas.style.display = 'none';
+}
+
+function hideForecastTrajectoryPlaceholders() {
+  const skeleton = document.getElementById('trajectoryChartSkeleton');
+  const fallback = document.getElementById('trajectoryChartFallback');
+  const canvas = document.getElementById('forecastTrajectoryChart');
+  if (skeleton) skeleton.style.display = 'none';
+  if (fallback) fallback.style.display = 'none';
+  if (canvas) canvas.style.display = 'block';
+}
+
 function renderHourlyChart(hourlyData) {
   // Direct delegation to unified trajectory chart
   if (window.NWACharts && window.NWACharts.renderForecastTrajectoryChart) {
@@ -931,367 +962,419 @@ function renderForecastTrajectoryChart(forecastData, rangeCount = 10, hourlyData
   const canvas = document.getElementById('forecastTrajectoryChart');
   if (!canvas) return;
 
-  const isLight = document.documentElement.getAttribute('data-theme') === 'light';
-  const textColor = isLight ? '#475569' : '#94a3b8';
-  const gridColor = isLight ? 'rgba(0, 0, 0, 0.05)' : 'rgba(255, 255, 255, 0.05)';
+  try {
+    const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+    const textColor = isLight ? '#475569' : '#94a3b8';
+    const gridColor = isLight ? 'rgba(0, 0, 0, 0.05)' : 'rgba(255, 255, 255, 0.05)';
 
-  const titleTextEl = document.getElementById('trajectoryChartTitleText');
-  const legText1 = document.getElementById('legText1');
-  const legText2 = document.getElementById('legText2');
-  const legTextML = document.getElementById('legTextML');
-  const legText3 = document.getElementById('legText3');
+    const titleTextEl = document.getElementById('trajectoryChartTitleText');
+    const legText1 = document.getElementById('legText1');
+    const legText2 = document.getElementById('legText2');
+    const legTextML = document.getElementById('legTextML');
+    const legText3 = document.getElementById('legText3');
 
-  // Location context from appState
-  const currentLoc = window.NWAApp && window.NWAApp.getCurrentLocation ? window.NWAApp.getCurrentLocation() : null;
-  const locationName = currentLoc && currentLoc.name ? `${currentLoc.name}${currentLoc.state ? ', ' + currentLoc.state : ''}` : 'Local Station';
+    // Location context from appState
+    const currentLoc = window.NWAApp && window.NWAApp.getCurrentLocation ? window.NWAApp.getCurrentLocation() : null;
+    const locationName = currentLoc && currentLoc.name ? `${currentLoc.name}${currentLoc.state ? ', ' + currentLoc.state : ''}` : 'Local Station';
 
-  let labels = [];
-  let datasets = [];
-  let metaList = [];
-  let allTemps = [];
+    let labels = [];
+    let datasets = [];
+    let metaList = [];
+    let allTemps = [];
 
-  const hData = hourlyData || (window.NWAApp && window.NWAApp.getHourlyData ? window.NWAApp.getHourlyData() : null);
+    const hData = hourlyData || (window.NWAApp && window.NWAApp.getHourlyData ? window.NWAApp.getHourlyData() : null);
 
-  if (rangeCount === 1 && hData && hData.times && hData.times.length > 0) {
-    // ----------------------------------------------------
-    // 1. TODAY (24-HOUR HOURLY) TRAJECTORY VIEW
-    // ----------------------------------------------------
-    if (titleTextEl) titleTextEl.textContent = "Today's 24-Hour Temperature & Rain Forecast";
-    if (legText1) legText1.textContent = 'Temperature (°C)';
-    if (legText2) legText2.textContent = 'Wind Speed (km/h)';
-    if (legTextML) legTextML.textContent = 'ML Trend (°C)';
-    if (legText3) legText3.textContent = 'Rainfall / Rain %';
-
-    const count = Math.min(hData.times.length, 24);
-    const tempVals = [];
-    const windVals = [];
-    const rainVals = [];
-
-    for (let i = 0; i < count; i++) {
-      const d = new Date(hData.times[i]);
-      const timeStr = !isNaN(d.getTime()) ? d.toLocaleTimeString('en-IN', { hour: 'numeric', hour12: true }) : `H+${i}`;
-      labels.push(timeStr);
-
-      const t = Math.round(hData.temperatures ? hData.temperatures[i] : 28);
-      tempVals.push(t);
-      allTemps.push(t);
-
-      const w = Math.round(hData.wind ? hData.wind[i] : 10);
-      windVals.push(w);
-
-      const r = hData.rain ? (hData.rain[i] || 0) : 0;
-      const rainProb = Math.min(100, Math.max(0, Math.round(r > 0 ? (r * 22 + 25) : 5)));
-      rainVals.push(rainProb);
-
-      metaList.push({
-        label: timeStr,
-        temp: t,
-        wind: w,
-        rainProb,
-        confidence: Math.max(88, 99 - i),
-        regime: r > 0.5 ? 'Active Precipitation Cell' : (t >= 38 ? 'High Solar Insolation' : 'Stable Boundary Layer')
-      });
+    // Verify Chart.js readiness
+    if (typeof Chart === 'undefined') {
+      console.warn('Chart.js library is not yet initialized. Displaying loading state.');
+      setForecastTrajectoryLoading(true);
+      setTimeout(() => {
+        if (typeof Chart !== 'undefined') {
+          renderForecastTrajectoryChart(forecastData, rangeCount, hourlyData);
+        } else {
+          showForecastTrajectoryFallback('Chart rendering library could not be loaded. Please verify your connection.');
+        }
+      }, 600);
+      return;
     }
 
-    // Compute ML smoothed thermal curve for hourly
-    const hourlyMLTrend = NWAMLEngine.computeThermalTrend(
-      tempVals.map(t => ({ temp_max: t, temp_min: t })),
-      1
-    );
+    if (rangeCount === 1 && hData && hData.times && hData.times.length > 0) {
+      // ----------------------------------------------------
+      // 1. TODAY (24-HOUR HOURLY) TRAJECTORY VIEW
+      // ----------------------------------------------------
+      if (titleTextEl) titleTextEl.textContent = "Today's 24-Hour Temperature & Rain Forecast";
+      if (legText1) legText1.textContent = 'Temperature (°C)';
+      if (legText2) legText2.textContent = 'Wind Speed (km/h)';
+      if (legTextML) legTextML.textContent = 'ML Trend (°C)';
+      if (legText3) legText3.textContent = 'Rainfall / Rain %';
 
-    datasets = [
-      {
-        label: 'Temperature (°C)',
-        data: tempVals,
-        borderColor: '#0284c7',
-        backgroundColor: isLight ? 'rgba(2, 132, 199, 0.10)' : 'rgba(2, 132, 199, 0.20)',
-        borderWidth: 2.5,
-        tension: 0.35,
-        fill: true,
-        pointRadius: 3,
-        pointHoverRadius: 6,
-        pointBackgroundColor: '#0284c7',
-        pointBorderColor: '#ffffff',
-        pointBorderWidth: 1.5,
-        yAxisID: 'yTemp'
-      },
-      {
-        label: 'ML Trend (°C)',
-        data: hourlyMLTrend,
-        borderColor: '#f59e0b',
-        borderDash: [4, 3],
-        backgroundColor: 'transparent',
-        borderWidth: 2,
-        tension: 0.4,
-        fill: false,
-        pointRadius: 2.5,
-        pointHoverRadius: 5,
-        pointBackgroundColor: '#f59e0b',
-        pointBorderColor: '#ffffff',
-        pointBorderWidth: 1.5,
-        yAxisID: 'yTemp'
-      },
-      {
-        label: 'Wind Speed (km/h)',
-        data: windVals,
-        borderColor: '#06b6d4',
-        borderDash: [5, 4],
-        backgroundColor: 'transparent',
-        borderWidth: 1.8,
-        tension: 0.3,
-        fill: false,
-        pointRadius: 2,
-        pointHoverRadius: 5,
-        pointBackgroundColor: '#06b6d4',
-        pointBorderColor: '#ffffff',
-        pointBorderWidth: 1.5,
-        yAxisID: 'yWind'
-      },
-      {
-        label: 'Rain %',
-        data: rainVals,
-        borderColor: '#10b981',
-        backgroundColor: isLight ? 'rgba(16, 185, 129, 0.08)' : 'rgba(16, 185, 129, 0.15)',
-        borderWidth: 2,
-        tension: 0.25,
-        fill: true,
-        pointRadius: 2.5,
-        pointHoverRadius: 5.5,
-        pointBackgroundColor: '#10b981',
-        pointBorderColor: '#ffffff',
-        pointBorderWidth: 1.5,
-        yAxisID: 'yRain'
+      const count = Math.min(hData.times.length, 24);
+      const tempVals = [];
+      const windVals = [];
+      const rainVals = [];
+
+      for (let i = 0; i < count; i++) {
+        const d = new Date(hData.times[i]);
+        const timeStr = !isNaN(d.getTime()) ? d.toLocaleTimeString('en-IN', { hour: 'numeric', hour12: true }) : `H+${i}`;
+        labels.push(timeStr);
+
+        const t = Math.round(hData.temperatures ? (hData.temperatures[i] ?? 28) : 28);
+        tempVals.push(t);
+        allTemps.push(t);
+
+        const w = Math.round(hData.wind ? (hData.wind[i] ?? 10) : 10);
+        windVals.push(w);
+
+        const r = hData.rain ? (hData.rain[i] || 0) : 0;
+        const rainProb = Math.min(100, Math.max(0, Math.round(r > 0 ? (r * 22 + 25) : 5)));
+        rainVals.push(rainProb);
+
+        metaList.push({
+          label: timeStr,
+          temp: t,
+          wind: w,
+          rainProb,
+          confidence: Math.max(88, 99 - i),
+          regime: r > 0.5 ? 'Active Precipitation Cell' : (t >= 38 ? 'High Solar Insolation' : 'Stable Boundary Layer')
+        });
       }
-    ];
 
-  } else if (forecastData && forecastData.length > 0) {
-    // ----------------------------------------------------
-    // 2. MULTI-DAY EXTENDED FORECAST (3, 7, 10 DAYS)
-    // ----------------------------------------------------
-    const count = Math.min(forecastData.length, rangeCount);
-    const slice = forecastData.slice(0, count);
+      // Compute ML smoothed thermal curve for hourly
+      const hourlyMLTrend = (NWAMLEngine && NWAMLEngine.computeThermalTrend)
+        ? NWAMLEngine.computeThermalTrend(tempVals.map(t => ({ temp_max: t, temp_min: t })), 1)
+        : tempVals;
 
-    if (titleTextEl) titleTextEl.textContent = `${count}-Day Temperature & Rain Forecast Trend`;
-    if (legText1) legText1.textContent = 'Max Temp (°C)';
-    if (legText2) legText2.textContent = 'Min Temp (°C)';
-    if (legTextML) legTextML.textContent = 'ML Trend (°C)';
-    if (legText3) legText3.textContent = 'Rain Probability (%)';
-
-    labels = slice.map((f, idx) => {
-      const d = new Date(f.date);
-      if (isNaN(d.getTime())) return f.date || `Day ${idx + 1}`;
-      if (idx === 0) return 'Today';
-      return d.toLocaleDateString('en-IN', { weekday: 'short', day: 'numeric' });
-    });
-
-    const maxTemps = slice.map(f => Math.round(f.temp_max ?? 30));
-    const minTemps = slice.map(f => Math.round(f.temp_min ?? 24));
-    allTemps = [...maxTemps, ...minTemps];
-
-    // Compute ML Calibrated Thermal Trend via Gaussian Kernel MOS
-    const mlThermalTrend = NWAMLEngine.computeThermalTrend(slice, count);
-
-    // Compute ML Calibrated Precipitation Probability
-    const rainProbs = slice.map(f => NWAMLEngine.calibratePrecipitation(f));
-
-    // Compile detailed telemetry for tooltip
-    metaList = slice.map((f, idx) => {
-      const d = new Date(f.date);
-      const fullDate = !isNaN(d.getTime()) ? d.toLocaleDateString('en-IN', { weekday: 'long', day: 'numeric', month: 'short' }) : labels[idx];
-      const maxT = maxTemps[idx];
-      const minT = minTemps[idx];
-      const rainP = rainProbs[idx];
-      const hum = f.humidity || 65;
-      return {
-        fullDate,
-        maxTemp: maxT,
-        minTemp: minT,
-        mlTrend: mlThermalTrend[idx],
-        rainProb: rainP,
-        humidity: hum,
-        confidence: NWAMLEngine.computeConfidence(idx),
-        regime: NWAMLEngine.diagnoseRegime(maxT, minT, rainP, hum)
-      };
-    });
-
-    datasets = [
-      {
-        label: 'Max Temp (°C)',
-        data: maxTemps,
-        borderColor: '#0284c7',
-        backgroundColor: isLight ? 'rgba(2, 132, 199, 0.12)' : 'rgba(2, 132, 199, 0.22)',
-        borderWidth: 2.5,
-        tension: 0.28,
-        fill: true,
-        pointRadius: count <= 3 ? 5 : (count <= 7 ? 4.5 : 4),
-        pointHoverRadius: 6.5,
-        pointBackgroundColor: '#0284c7',
-        pointBorderColor: '#ffffff',
-        pointBorderWidth: 1.5,
-        yAxisID: 'yTemp'
-      },
-      {
-        label: 'Min Temp (°C)',
-        data: minTemps,
-        borderColor: '#38bdf8',
-        borderDash: [5, 4],
-        backgroundColor: 'transparent',
-        borderWidth: 2,
-        tension: 0.28,
-        fill: false,
-        pointRadius: count <= 3 ? 4.5 : (count <= 7 ? 4 : 3.5),
-        pointHoverRadius: 6,
-        pointBackgroundColor: '#38bdf8',
-        pointBorderColor: '#ffffff',
-        pointBorderWidth: 1.5,
-        yAxisID: 'yTemp'
-      },
-      {
-        label: 'ML Trend (°C)',
-        data: mlThermalTrend,
-        borderColor: '#f59e0b',
-        borderDash: [3, 3],
-        backgroundColor: 'transparent',
-        borderWidth: 2,
-        tension: 0.35,
-        fill: false,
-        pointRadius: count <= 3 ? 4 : (count <= 7 ? 3.5 : 3),
-        pointHoverRadius: 5.5,
-        pointBackgroundColor: '#f59e0b',
-        pointBorderColor: '#ffffff',
-        pointBorderWidth: 1.5,
-        yAxisID: 'yTemp'
-      },
-      {
-        label: 'Rain Probability (%)',
-        data: rainProbs,
-        borderColor: '#10b981',
-        backgroundColor: isLight ? 'rgba(16, 185, 129, 0.08)' : 'rgba(16, 185, 129, 0.14)',
-        borderWidth: 2,
-        tension: 0.25,
-        fill: true,
-        pointRadius: count <= 3 ? 4.5 : (count <= 7 ? 4 : 3.5),
-        pointHoverRadius: 6,
-        pointBackgroundColor: '#10b981',
-        pointBorderColor: '#ffffff',
-        pointBorderWidth: 1.5,
-        yAxisID: 'yRain'
-      }
-    ];
-
-  } else {
-    // If neither hourly nor forecast is ready, return safely
-    return;
-  }
-
-  // Calculate dynamic Left Temperature Y-Axis range
-  const validTemps = allTemps.filter(v => typeof v === 'number' && !isNaN(v));
-  const minT = validTemps.length > 0 ? Math.min(...validTemps) : 20;
-  const maxT = validTemps.length > 0 ? Math.max(...validTemps) : 35;
-  const yMin = Math.max(0, Math.floor((minT - 3) / 5) * 5);
-  const yMax = Math.ceil((maxT + 3) / 5) * 5;
-
-  // Cleanly destroy existing instance before recreation
-  if (forecastTrajectoryChartInstance) {
-    forecastTrajectoryChartInstance.destroy();
-    forecastTrajectoryChartInstance = null;
-  }
-
-  const ctx = canvas.getContext('2d');
-  forecastTrajectoryChartInstance = new Chart(ctx, {
-    type: 'line',
-    data: {
-      labels,
-      datasets
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      interaction: {
-        mode: 'index',
-        intersect: false
-      },
-      plugins: {
-        legend: {
-          display: false // Driven by header HTML legend
+      datasets = [
+        {
+          label: 'Temperature (°C)',
+          data: tempVals,
+          borderColor: '#0284c7',
+          backgroundColor: isLight ? 'rgba(2, 132, 199, 0.10)' : 'rgba(2, 132, 199, 0.20)',
+          borderWidth: 2.5,
+          tension: 0.35,
+          fill: true,
+          pointRadius: 3,
+          pointHoverRadius: 6,
+          pointBackgroundColor: '#0284c7',
+          pointBorderColor: '#ffffff',
+          pointBorderWidth: 1.5,
+          yAxisID: 'yTemp'
         },
-        tooltip: {
-          backgroundColor: isLight ? 'rgba(255, 255, 255, 0.96)' : 'rgba(13, 21, 28, 0.96)',
-          titleColor: isLight ? '#0f172a' : '#f8fafc',
-          bodyColor: isLight ? '#334155' : '#cbd5e1',
-          borderColor: isLight ? '#e2e8f0' : 'rgba(255, 255, 255, 0.12)',
-          borderWidth: 1,
-          padding: 10,
-          boxPadding: 4,
-          usePointStyle: true,
-          callbacks: {
-            title: function (items) {
-              if (!items || items.length === 0) return '';
-              const idx = items[0].dataIndex;
-              const meta = metaList[idx];
-              return meta && meta.fullDate ? `${locationName} • ${meta.fullDate}` : `${locationName} • ${labels[idx]}`;
-            },
-            label: function (ctx) {
-              const lbl = ctx.dataset.label || '';
-              if (ctx.dataset.yAxisID === 'yRain') {
-                return ` ${lbl}: ${ctx.parsed.y}%`;
+        {
+          label: 'ML Trend (°C)',
+          data: hourlyMLTrend,
+          borderColor: '#f59e0b',
+          borderDash: [4, 3],
+          backgroundColor: 'transparent',
+          borderWidth: 2,
+          tension: 0.4,
+          fill: false,
+          pointRadius: 2.5,
+          pointHoverRadius: 5,
+          pointBackgroundColor: '#f59e0b',
+          pointBorderColor: '#ffffff',
+          pointBorderWidth: 1.5,
+          yAxisID: 'yTemp'
+        },
+        {
+          label: 'Wind Speed (km/h)',
+          data: windVals,
+          borderColor: '#06b6d4',
+          borderDash: [5, 4],
+          backgroundColor: 'transparent',
+          borderWidth: 1.8,
+          tension: 0.3,
+          fill: false,
+          pointRadius: 2,
+          pointHoverRadius: 5,
+          pointBackgroundColor: '#06b6d4',
+          pointBorderColor: '#ffffff',
+          pointBorderWidth: 1.5,
+          yAxisID: 'yWind'
+        },
+        {
+          label: 'Rain %',
+          data: rainVals,
+          borderColor: '#10b981',
+          backgroundColor: isLight ? 'rgba(16, 185, 129, 0.08)' : 'rgba(16, 185, 129, 0.15)',
+          borderWidth: 2,
+          tension: 0.25,
+          fill: true,
+          pointRadius: 2.5,
+          pointHoverRadius: 5.5,
+          pointBackgroundColor: '#10b981',
+          pointBorderColor: '#ffffff',
+          pointBorderWidth: 1.5,
+          yAxisID: 'yRain'
+        }
+      ];
+
+    } else if (forecastData && Array.isArray(forecastData) && forecastData.length > 0) {
+      // ----------------------------------------------------
+      // 2. MULTI-DAY EXTENDED FORECAST (3, 7, 10 DAYS)
+      // ----------------------------------------------------
+      const count = Math.min(forecastData.length, rangeCount);
+      const slice = forecastData.slice(0, count);
+
+      if (titleTextEl) titleTextEl.textContent = `${count}-Day Temperature & Rain Forecast Trend`;
+      if (legText1) legText1.textContent = 'Max Temp (°C)';
+      if (legText2) legText2.textContent = 'Min Temp (°C)';
+      if (legTextML) legTextML.textContent = 'ML Trend (°C)';
+      if (legText3) legText3.textContent = 'Rain Probability (%)';
+
+      labels = slice.map((f, idx) => {
+        if (!f.date) return `Day ${idx + 1}`;
+        const d = new Date(f.date);
+        if (isNaN(d.getTime())) return f.date || `Day ${idx + 1}`;
+        if (idx === 0) return 'Today';
+        return d.toLocaleDateString('en-IN', { weekday: 'short', day: 'numeric' });
+      });
+
+      const maxTemps = slice.map(f => {
+        const val = f.temp_max != null ? Number(f.temp_max) : (f.temperature != null ? Number(f.temperature) : 30);
+        return isNaN(val) ? 30 : Math.round(val);
+      });
+      const minTemps = slice.map(f => {
+        const val = f.temp_min != null ? Number(f.temp_min) : (f.temperature != null ? Number(f.temperature) - 6 : 24);
+        return isNaN(val) ? 24 : Math.round(val);
+      });
+      allTemps = [...maxTemps, ...minTemps];
+
+      // Compute ML Calibrated Thermal Trend via Gaussian Kernel MOS
+      let mlThermalTrend = [];
+      try {
+        if (NWAMLEngine && NWAMLEngine.computeThermalTrend) {
+          mlThermalTrend = NWAMLEngine.computeThermalTrend(slice, count);
+        }
+      } catch (_) {
+        mlThermalTrend = maxTemps.map((max, idx) => Math.round(((max + minTemps[idx]) / 2) * 10) / 10);
+      }
+
+      // Compute ML Calibrated Precipitation Probability
+      const rainProbs = slice.map(f => {
+        try {
+          return NWAMLEngine ? NWAMLEngine.calibratePrecipitation(f) : (f.precipitation_probability != null ? Number(f.precipitation_probability) : 20);
+        } catch (_) {
+          return 20;
+        }
+      });
+
+      // Compile detailed telemetry for tooltip
+      metaList = slice.map((f, idx) => {
+        const d = new Date(f.date);
+        const fullDate = !isNaN(d.getTime()) ? d.toLocaleDateString('en-IN', { weekday: 'long', day: 'numeric', month: 'short' }) : labels[idx];
+        const maxT = maxTemps[idx];
+        const minT = minTemps[idx];
+        const rainP = rainProbs[idx];
+        const hum = f.humidity || 65;
+        return {
+          fullDate,
+          maxTemp: maxT,
+          minTemp: minT,
+          mlTrend: mlThermalTrend[idx] || Math.round((maxT + minT) / 2),
+          rainProb: rainP,
+          humidity: hum,
+          confidence: NWAMLEngine ? NWAMLEngine.computeConfidence(idx) : 90,
+          regime: NWAMLEngine ? NWAMLEngine.diagnoseRegime(maxT, minT, rainP, hum) : 'Standard'
+        };
+      });
+
+      datasets = [
+        {
+          label: 'Max Temp (°C)',
+          data: maxTemps,
+          borderColor: '#0284c7',
+          backgroundColor: isLight ? 'rgba(2, 132, 199, 0.12)' : 'rgba(2, 132, 199, 0.22)',
+          borderWidth: 2.5,
+          tension: 0.28,
+          fill: true,
+          pointRadius: count <= 3 ? 5 : (count <= 7 ? 4.5 : 4),
+          pointHoverRadius: 6.5,
+          pointBackgroundColor: '#0284c7',
+          pointBorderColor: '#ffffff',
+          pointBorderWidth: 1.5,
+          yAxisID: 'yTemp'
+        },
+        {
+          label: 'Min Temp (°C)',
+          data: minTemps,
+          borderColor: '#38bdf8',
+          borderDash: [5, 4],
+          backgroundColor: 'transparent',
+          borderWidth: 2,
+          tension: 0.28,
+          fill: false,
+          pointRadius: count <= 3 ? 4.5 : (count <= 7 ? 4 : 3.5),
+          pointHoverRadius: 6,
+          pointBackgroundColor: '#38bdf8',
+          pointBorderColor: '#ffffff',
+          pointBorderWidth: 1.5,
+          yAxisID: 'yTemp'
+        },
+        {
+          label: 'ML Trend (°C)',
+          data: mlThermalTrend,
+          borderColor: '#f59e0b',
+          borderDash: [3, 3],
+          backgroundColor: 'transparent',
+          borderWidth: 2,
+          tension: 0.35,
+          fill: false,
+          pointRadius: count <= 3 ? 4 : (count <= 7 ? 3.5 : 3),
+          pointHoverRadius: 5.5,
+          pointBackgroundColor: '#f59e0b',
+          pointBorderColor: '#ffffff',
+          pointBorderWidth: 1.5,
+          yAxisID: 'yTemp'
+        },
+        {
+          label: 'Rain Probability (%)',
+          data: rainProbs,
+          borderColor: '#10b981',
+          backgroundColor: isLight ? 'rgba(16, 185, 129, 0.08)' : 'rgba(16, 185, 129, 0.14)',
+          borderWidth: 2,
+          tension: 0.25,
+          fill: true,
+          pointRadius: count <= 3 ? 4.5 : (count <= 7 ? 4 : 3.5),
+          pointHoverRadius: 6,
+          pointBackgroundColor: '#10b981',
+          pointBorderColor: '#ffffff',
+          pointBorderWidth: 1.5,
+          yAxisID: 'yRain'
+        }
+      ];
+
+    } else {
+      // Data unavailable fallback
+      showForecastTrajectoryFallback('Forecast data is currently syncing for this station coordinates.');
+      return;
+    }
+
+    // Hide any fallback or skeleton overlays now that data is verified
+    hideForecastTrajectoryPlaceholders();
+
+    // Calculate dynamic Left Temperature Y-Axis range
+    const validTemps = allTemps.filter(v => typeof v === 'number' && !isNaN(v));
+    const minT = validTemps.length > 0 ? Math.min(...validTemps) : 20;
+    const maxT = validTemps.length > 0 ? Math.max(...validTemps) : 35;
+    const yMin = Math.max(0, Math.floor((minT - 3) / 5) * 5);
+    const yMax = Math.ceil((maxT + 3) / 5) * 5;
+
+    // Cleanly destroy existing instance before recreation
+    if (forecastTrajectoryChartInstance) {
+      try { forecastTrajectoryChartInstance.destroy(); } catch (_) {}
+      forecastTrajectoryChartInstance = null;
+    }
+    if (typeof Chart !== 'undefined' && Chart.getChart) {
+      try {
+        const existing = Chart.getChart(canvas);
+        if (existing) existing.destroy();
+      } catch (_) {}
+    }
+
+    const ctx = canvas.getContext('2d');
+    forecastTrajectoryChartInstance = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels,
+        datasets
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        animation: {
+          duration: 600,
+          easing: 'easeOutQuart'
+        },
+        interaction: {
+          mode: 'index',
+          intersect: false
+        },
+        plugins: {
+          legend: {
+            display: false // Driven by header HTML legend
+          },
+          tooltip: {
+            backgroundColor: isLight ? 'rgba(255, 255, 255, 0.96)' : 'rgba(13, 21, 28, 0.96)',
+            titleColor: isLight ? '#0f172a' : '#f8fafc',
+            bodyColor: isLight ? '#334155' : '#cbd5e1',
+            borderColor: isLight ? '#e2e8f0' : 'rgba(255, 255, 255, 0.12)',
+            borderWidth: 1,
+            padding: 10,
+            boxPadding: 4,
+            usePointStyle: true,
+            callbacks: {
+              title: function (items) {
+                if (!items || items.length === 0) return '';
+                const idx = items[0].dataIndex;
+                const meta = metaList[idx];
+                return meta && meta.fullDate ? `${locationName} • ${meta.fullDate}` : `${locationName} • ${labels[idx]}`;
+              },
+              label: function (ctx) {
+                const lbl = ctx.dataset.label || '';
+                if (ctx.dataset.yAxisID === 'yRain') {
+                  return ` ${lbl}: ${ctx.parsed.y}%`;
+                }
+                if (ctx.dataset.yAxisID === 'yWind') {
+                  return ` ${lbl}: ${ctx.parsed.y} km/h`;
+                }
+                return ` ${lbl}: ${ctx.parsed.y}°C`;
+              },
+              afterBody: function (items) {
+                if (!items || items.length === 0) return [];
+                const idx = items[0].dataIndex;
+                const meta = metaList[idx];
+                if (!meta) return [];
+                return [
+                  ` ML Model Skill: ${meta.confidence}% Confidence`,
+                  ` Atmospheric Pattern: ${meta.regime}`
+                ];
               }
-              if (ctx.dataset.yAxisID === 'yWind') {
-                return ` ${lbl}: ${ctx.parsed.y} km/h`;
-              }
-              return ` ${lbl}: ${ctx.parsed.y}°C`;
-            },
-            afterBody: function (items) {
-              if (!items || items.length === 0) return [];
-              const idx = items[0].dataIndex;
-              const meta = metaList[idx];
-              if (!meta) return [];
-              return [
-                ` ML Model Skill: ${meta.confidence}% Confidence`,
-                ` Atmospheric Pattern: ${meta.regime}`
-              ];
             }
           }
-        }
-      },
-      scales: {
-        x: {
-          grid: { color: gridColor },
-          ticks: { color: textColor, font: { size: 11, family: 'Plus Jakarta Sans' } }
         },
-        yTemp: {
-          type: 'linear',
-          position: 'left',
-          min: yMin,
-          max: yMax,
-          grid: { color: gridColor },
-          ticks: {
-            color: textColor,
-            stepSize: (yMax - yMin) <= 15 ? 2 : 5,
-            font: { size: 10, family: 'Plus Jakarta Sans' },
-            callback: v => `${v}°C`
+        scales: {
+          x: {
+            grid: { color: gridColor },
+            ticks: { color: textColor, font: { size: 11, family: 'Plus Jakarta Sans' } }
+          },
+          yTemp: {
+            type: 'linear',
+            position: 'left',
+            min: yMin,
+            max: yMax,
+            grid: { color: gridColor },
+            ticks: {
+              color: textColor,
+              stepSize: (yMax - yMin) <= 15 ? 2 : 5,
+              font: { size: 10, family: 'Plus Jakarta Sans' },
+              callback: v => `${v}°C`
+            }
+          },
+          yRain: {
+            type: 'linear',
+            position: 'right',
+            min: 0,
+            max: 100,
+            grid: { drawOnChartArea: false },
+            ticks: {
+              color: '#10b981',
+              stepSize: 25,
+              font: { size: 10, family: 'Plus Jakarta Sans' },
+              callback: v => `${v}%`
+            }
+          },
+          yWind: {
+            display: false,
+            min: 0
           }
-        },
-        yRain: {
-          type: 'linear',
-          position: 'right',
-          min: 0,
-          max: 100,
-          grid: { drawOnChartArea: false },
-          ticks: {
-            color: '#10b981',
-            stepSize: 25,
-            font: { size: 10, family: 'Plus Jakarta Sans' },
-            callback: v => `${v}%`
-          }
-        },
-        yWind: {
-          display: false,
-          min: 0
         }
       }
-    }
-  });
+    });
+  } catch (chartErr) {
+    console.error('Fatal error initializing forecast trajectory chart:', chartErr);
+    showForecastTrajectoryFallback('Unable to initialize chart display: ' + (chartErr.message || 'Error'));
+  }
 }
 
 window.NWACharts = {
@@ -1303,5 +1386,8 @@ window.NWACharts = {
   switchDiurnalDate,
   switchDiurnalCustomDate,
   openCustomDatePicker,
-  renderForecastTrajectoryChart
+  renderForecastTrajectoryChart,
+  setForecastTrajectoryLoading,
+  showForecastTrajectoryFallback,
+  hideForecastTrajectoryPlaceholders
 };

@@ -8,6 +8,7 @@ let activeHashtagFilter = 'all';
 let activeCategoryFilter = 'all';
 let activePlatformFilter = 'all';
 let socialAutoStreamTimer = null;
+let lastSocialPostsCache = [];
 
 // No mock or simulated demo data - live intelligence feed is populated directly from genuine multi-source backend
 const DEFAULT_SOCIAL_FEED = [];
@@ -57,6 +58,7 @@ async function loadSocialStream() {
 }
 
 function renderSocialFeed(posts) {
+  lastSocialPostsCache = posts || [];
   const container = document.getElementById('socialPostsList');
   if (!container) return;
 
@@ -102,6 +104,12 @@ function renderSocialFeed(posts) {
 
   container.innerHTML = posts.map(p => {
     const timeAgo = formatSocialTime(p.timestamp);
+    const catLabel = window.NWAI18n ? window.NWAI18n.translateCategory(p.category) : (catLabels[p.category] || p.category);
+    const inferredCity = window.NWAI18n ? window.NWAI18n.translateLocation(p.city || 'National') : (p.city || 'National');
+    const inferredState = window.NWAI18n ? window.NWAI18n.translateLocation(p.state || 'India') : (p.state || 'India');
+    const urgencyLabel = window.NWAI18n ? window.NWAI18n.t('socialUrgency', 'Urgency:') : 'Urgency:';
+    const inferredLabel = window.NWAI18n ? window.NWAI18n.t('socialInferred', 'Inferred:') : 'Inferred:';
+    const viewStationTxt = window.NWAI18n ? window.NWAI18n.t('socialViewStation', 'View Station') : 'View Station';
     const urgencyClass = `urgency-${p.urgency || 'medium'}`;
 
     // Platform-specific icon, styling and metadata
@@ -183,18 +191,18 @@ function renderSocialFeed(posts) {
                 <span style="font-size: 0.7rem; padding: 1px 6px; border-radius: 4px; background: ${sourceBadgeBg}; color: ${sourceBadgeColor}; border: 1px solid var(--border-color); font-weight: 600;">${platformName}</span>
                 ${sevBadge}
               </div>
-              <div class="post-time" style="font-size: 0.75rem; color: var(--text-muted);">${timeAgo} • Inferred: ${escapeHtml(p.city || 'National')}, ${escapeHtml(p.state || 'India')}</div>
+              <div class="post-time" style="font-size: 0.75rem; color: var(--text-muted);">${timeAgo} • ${inferredLabel} ${escapeHtml(inferredCity)}, ${escapeHtml(inferredState)}</div>
             </div>
           </div>
-          <span class="category-tag cat-${p.category}">${catLabels[p.category] || p.category}</span>
+          <span class="category-tag cat-${p.category}">${catLabel}</span>
         </div>
         <p class="post-content" style="line-height: 1.5; margin: 0.6rem 0;">${highlightHashtags(escapeHtml(p.description))}</p>
         <div class="post-badges" style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
-          <span class="category-meta-badge"><i class="fa-solid fa-tag"></i> ${catLabels[p.category]}</span>
-          <span class="urgency-tag ${urgencyClass}">Urgency: ${(p.urgency || 'Medium').toUpperCase()}</span>
+          <span class="category-meta-badge"><i class="fa-solid fa-tag"></i> ${catLabel}</span>
+          <span class="urgency-tag ${urgencyClass}">${urgencyLabel} ${(p.urgency || 'Medium').toUpperCase()}</span>
           ${linkBtn}
           <button onclick="window.NWAApp.loadLocationWeather('${p.city}', '${p.state}', ${p.lat}, ${p.lon})" style="margin-left: auto; background: transparent; border: 1px solid var(--border-color); color: var(--accent-primary); border-radius: 4px; padding: 2px 8px; font-size: 11px; cursor: pointer;">
-            <i class="fa-solid fa-compass"></i> View Station
+            <i class="fa-solid fa-compass"></i> ${viewStationTxt}
           </button>
         </div>
       </div>
@@ -259,9 +267,14 @@ async function loadAnalyticsData() {
     accuracyEl.textContent = `${rate}%`;
   }
 
-  // Render Charts
+  // Render Charts and hide skeleton overlays once rendered
   if (window.NWACharts && window.NWACharts.renderAnalyticsCharts) {
     window.NWACharts.renderAnalyticsCharts(data);
+    // Hide skeleton overlays now that Chart.js has painted
+    const catSkel = document.getElementById('analyticsCategoryChartSkeleton');
+    const stateSkel = document.getElementById('analyticsStatesChartSkeleton');
+    if (catSkel) catSkel.style.display = 'none';
+    if (stateSkel) stateSkel.style.display = 'none';
   }
 
   // Poll and render live station telemetry grid
@@ -271,6 +284,17 @@ async function loadAnalyticsData() {
 async function loadLiveStationMatrix() {
   const matrixContainer = document.getElementById('analyticsStationMatrix');
   if (!matrixContainer) return;
+
+  // Show skeleton shimmer cards while data fetches (only if container is empty)
+  if (!matrixContainer.children.length) {
+    matrixContainer.innerHTML = Array(8).fill(0).map(() => `
+      <div class="metric-card" style="padding: 1.25rem;">
+        <div class="skeleton-shimmer" style="height: 16px; width: 50%; margin-bottom: 0.75rem; border-radius: 4px;"></div>
+        <div class="skeleton-shimmer" style="height: 28px; width: 70%; margin-bottom: 0.5rem; border-radius: 4px;"></div>
+        <div class="skeleton-shimmer" style="height: 12px; width: 90%; border-radius: 4px;"></div>
+      </div>
+    `).join('');
+  }
 
   const stations = [
     { name: 'New Delhi', zone: 'Northern Zone', lat: 28.6139, lon: 77.2090 },
@@ -466,5 +490,15 @@ window.NWASocial = {
   filterSocialByCategory,
   filterSocialByPlatform,
   fetchLiveSignals,
-  resetSocialFilters
+  resetSocialFilters,
+  renderSocialFeed: loadSocialStream
 };
+
+
+// Synchronize dynamically on language change
+window.addEventListener('nwa_language_changed', () => {
+  if (lastSocialPostsCache && lastSocialPostsCache.length > 0) {
+    renderSocialFeed(lastSocialPostsCache);
+  }
+  loadLiveStationMatrix();
+});
