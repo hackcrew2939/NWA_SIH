@@ -6,6 +6,7 @@
 > An enterprise-grade, high-throughput meteorological intelligence system designed to collect, process, analyze, deduplicate, and visualize real-time weather observations and public incident telemetry across India.
 
 ---
+🔗 Live Deploy Link: https://nwa-weather.vercel.app/
 
 ## 🏗️ System Architecture & Data Pipeline
 
